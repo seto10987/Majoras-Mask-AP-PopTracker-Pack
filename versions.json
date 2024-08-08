@@ -1,0 +1,10 @@
+{
+	"versions": [
+		{
+			"package_version": "0.1.0",
+			"download_url": "https://github.com/seto10987/Majoras-Mask-AP-PopTracker-Pack/archive/refs/tags/v.0.1.0.zip",
+			"sha256": "d2d1acace15cb9f430ed9593a4c8441db3f16449cad32d50376853345b349915",
+			"changelog": ["Official Support Release"]
+		}
+	]
+}

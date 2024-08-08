@@ -1,0 +1,136 @@
+[
+    {
+      "name": "Dungeons",
+      "chest_unopened_img": "images/icons/chest_unopened.png",
+      "chest_opened_img": "images/icons/chest_opened.png",
+      "children": [
+        {
+          "name": "Woodfall Temple",
+          "access_rules": ["ocarina,sonata,deku"],
+          "sections": [
+            {
+              "name": "Woodfall Temple Entrance Chest",
+              "access_rules": [""]
+            },
+            {
+              "name": "Woodfall Temple Wooden Flower Switch Chest",
+              "access_rules": ["bow"]
+            },
+            {
+              "name": "Woodfall Temple Moving Flower Platform Room Chest",
+              "access_rules": [""]
+            },
+            {
+              "name": "Woodfall Temple Gagwab Chest",
+              "access_rules": [""]
+            },
+            {
+              "name": "Woodfall Temple Dinofols Chest",
+              "access_rules": ["bow, $smack_hard"]
+            },
+            {
+              "name": "Woodfall Temple Boss Key Chest",
+              "access_rules": ["bow"]
+            },
+            {
+              "name": "Woodfall Temple Dragonfly Chest",
+              "access_rules": ["sk_wf"]
+            },
+            {
+              "name": "Woodfall Temple Black Boe Room Chest",
+              "access_rules": ["sk_wf"]
+            },
+            {
+              "name": "Woodfall Temple Entrance Freestanding SF",
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png",
+              "access_rules": [""]
+            },
+            {
+              "name": "Woodfall Temple Wooden Flower Deku Baba SF",
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png",
+              "access_rules": [""]
+            },
+            {
+              "name": "Woodfall Temple Wooden Flower Bubble SF",
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png",
+              "access_rules": ["bow"]
+            },
+            {
+              "name": "Woodfall Temple Wooden Flower Pot SF",
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png",
+              "access_rules": [""]
+            },
+            {
+              "name": "Woodfall Temple Moving Flower Platform Room Beehive SF",
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png",
+              "access_rules": ["fairymask, $projectiles"]
+            },
+            {
+              "name": "Woodfall Temple Push Block Skulltula SF",
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png",
+              "access_rules": ["sk_wf, $smack_hard"]
+            },
+            {
+              "name": "Woodfall Temple Push Block Bubble SF",
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png",
+              "access_rules": ["sk_wf, fairymask, $projectiles"]
+            },
+            {
+              "name": "Woodfall Temple Push Block Beehive SF",
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png",
+              "access_rules": ["sk_wf, fairymask, $projectiles"]
+            },
+            {
+              "name": "Woodfall Temple Final Room Right Upper Platform SF",
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png",
+              "access_rules": ["bow"]
+            },
+            {
+              "name": "Woodfall Temple Final Room Right Lower Platform SF",
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png",
+              "access_rules": ["bow"]
+            },
+            {
+              "name": "Woodfall Temple Final Room Left Upper Platform SF",
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png",
+              "access_rules": ["bow"]
+            },
+            {
+              "name": "Woodfall Temple Final Room Bubble SF",
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png",
+              "access_rules": ["bow, fairymask"]
+            },
+            {
+              "name": "Woodfall Temple Heart Container",
+              "access_rules": ["bk_wf, bow","odolwa, bow"]
+            },
+            {
+              "name": "Woodfall Temple Odolwa's Remains",
+              "access_rules": ["bk_wf, bow","odolwa, bow"],
+              "hosted_item": "boss_odolwa_hosted"
+            }
+      
+          ],
+          "map_locations": [
+            {
+              "map": "termina",
+              "x": 542,
+              "y": 478
+            }
+          ]
+        }
+      ]
+    }
+]

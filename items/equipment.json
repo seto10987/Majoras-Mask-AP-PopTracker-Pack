@@ -1,0 +1,475 @@
+[
+  {
+    "name": "Sword",
+    "type": "progressive",
+    "loop": true,
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/equipment/sword1.png",
+        "codes": "sword,kokirisword,ksword"
+      },
+      {
+        "img": "images/equipment/sword2.png",
+        "codes": "sword2,razorsword,rsword"
+      },
+      {
+        "img": "images/equipment/sword3.png",
+        "codes": "sword3,gildedsword,gsword"
+      }
+    ]
+  },
+  {
+    "name": "Spin Attack",
+    "type": "static",
+    "img": "images/equipment/spin_attack.png",
+    "codes": "spin_attack"
+  },
+  {
+    "name": "Shield",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/equipment/shield1.png",
+        "codes": "shield1,heroshield,hshield"
+      },
+      {
+        "img": "images/equipment/shield2.png",
+        "codes": "shield2,mirrorshield,mshield"
+      }
+    ]
+  },
+  {
+    "name": "Wallet Upgrades",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/equipment/wallet.png",
+        "codes": "childswallet,wallet0"
+      },
+      {
+        "img": "images/equipment/wallet1.png",
+        "codes": "adultswallet,wallet1,wallet"
+      },
+      {
+        "img": "images/equipment/wallet2.png",
+        "codes": "giantswallet,wallet2"
+      }
+    ]
+  },
+  {
+    "name": "Magic Meter",
+    "type": "progressive",
+    "allow_disabled": true,
+    "stages": [
+      {
+        "img": "images/equipment/magic1.png",
+        "codes": "magic,magic1"
+      },
+      {
+        "img": "images/equipment/magic2.png",
+        "codes": "magic2"
+      }
+    ]
+  },
+  {
+    "name": "Song of Time",
+    "type": "static",
+    "img": "images/equipment/time_colored.png",
+    "codes": "time,sot"
+  },
+  {
+    "name": "Song of Time Check",
+    "type": "toggle_badged",
+    "base_item": "time",
+    "img": "images/icons/check.png",
+    "codes": "timecheck,sotcheck"
+  },
+  {
+    "name": "Song of Healing",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/equipment/healing_colored.png",
+    "codes": "healing,soh"
+  },
+  {
+    "name": "Song of Healing Check",
+    "type": "toggle_badged",
+    "base_item": "healing",
+    "img": "images/icons/check.png",
+    "codes": "healingcheck,sohcheck"
+  },
+  {
+    "name": "Epona's Song",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/equipment/epona_colored.png",
+    "codes": "epona"
+  },
+  {
+    "name": "Epona's Song Check",
+    "type": "toggle_badged",
+    "base_item": "epona",
+    "img": "images/icons/check.png",
+    "codes": "eponacheck"
+  },
+  {
+    "name": "Song of Soaring",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/equipment/soaring_colored.png",
+    "codes": "soaring"
+  },
+  {
+    "name": "Song of Soaring Check",
+    "type": "toggle_badged",
+    "base_item": "soaring",
+    "img": "images/icons/check.png",
+    "codes": "soaringcheck"
+  },
+  {
+    "name": "Song of Storms",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/equipment/storms_colored.png",
+    "codes": "storm"
+  },
+  {
+    "name": "Song of Storms Check",
+    "type": "toggle_badged",
+    "base_item": "storm",
+    "img": "images/icons/check.png",
+    "codes": "stormcheck"
+  },
+  {
+    "name": "Sonata of Awakening",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/equipment/sonata_colored.png",
+    "codes": "sonata,soa"
+  },
+  {
+    "name": "Sonata of Awakening Check",
+    "type": "toggle_badged",
+    "base_item": "sonata",
+    "img": "images/icons/check.png",
+    "codes": "sonatacheck,soacheck"
+  },
+  {
+    "name": "Goron's Lullaby",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/equipment/lullaby_colored.png",
+    "codes": "goronlullaby,lullaby"
+  },
+  {
+    "name": "Goron's Lullaby Check",
+    "type": "toggle_badged",
+    "base_item": "goronlullaby",
+    "img": "images/icons/check.png",
+    "codes": "lullabycheck"
+  },
+  {
+    "name": "New Wave Bossa Nova",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/equipment/newwave_colored.png",
+    "codes": "newwave,bossanova,nwbn"
+  },
+  {
+    "name": "New Bossa Nova Check",
+    "type": "toggle_badged",
+    "base_item": "newwave",
+    "img": "images/icons/check.png",
+    "codes": "newwavecheck,bossanovacheck,nwbn"
+  },
+  {
+    "name": "Elegy of Emptiness",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/equipment/elegy_colored.png",
+    "codes": "elegy,emptiness,eoe"
+  },
+  {
+    "name": "Elegy of Emptiness Check",
+    "type": "toggle_badged",
+    "base_item": "elegy",
+    "img": "images/icons/check.png",
+    "codes": "elegycheck,eoecheck"
+  },
+  {
+    "name": "Oath to Order",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/equipment/oath_colored.png",
+    "codes": "oathtoorder,oath,oto"
+  },
+  {
+    "name": "Oath to Order Check",
+    "type": "toggle_badged",
+    "base_item": "oathtoorder",
+    "img": "images/icons/check.png",
+    "codes": "oathcheck"
+  },
+  {
+    "name": "Odolwa's Remains",
+    "type": "toggle",
+    "img": "images/equipment/odolwa.png",
+    "codes": "odolwaremains,odolwa"
+  },
+  {
+    "name": "Goht's Remains",
+    "type": "toggle",
+    "img": "images/equipment/goht.png",
+    "codes": "gohtremains,goht"
+  },
+  {
+    "name": "Gyorg's Remains",
+    "type": "toggle",
+    "img": "images/equipment/gyorg.png",
+    "codes": "gyorgremains,gyorg"
+  },
+  {
+    "name": "Twinmold's Remains",
+    "type": "toggle",
+    "img": "images/equipment/twinmold.png",
+    "codes": "twinmoldremains,twinmold"
+  },
+  {
+    "name": "Woodfall Reward",
+    "type": "progressive_toggle",
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/equipment/unknown.png",
+        "codes": "wftreward"
+      },
+      {
+        "img": "images/equipment/odolwa.png",
+        "codes": "wftodolwa",
+      	"inherit_codes": false
+      },
+      {
+        "img": "images/equipment/goht.png",
+        "codes": "wftgoht",
+	      "inherit_codes": false
+      },
+      {
+        "img": "images/equipment/gyorg.png",
+        "codes": "wftgyorg",
+	      "inherit_codes": false
+      },
+      {
+        "img": "images/equipment/twinmold.png",
+        "codes": "wfttwinmold",
+	      "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Snowhead Reward",
+    "type": "progressive_toggle",
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/equipment/unknown.png",
+        "codes": "shtreward"
+      },
+      {
+        "img": "images/equipment/odolwa.png",
+        "codes": "shtodolwa",
+      	"inherit_codes": false
+      },
+      {
+        "img": "images/equipment/goht.png",
+        "codes": "shtgoht",
+	      "inherit_codes": false
+      },
+      {
+        "img": "images/equipment/gyorg.png",
+        "codes": "shtgyorg",
+	      "inherit_codes": false
+      },
+      {
+        "img": "images/equipment/twinmold.png",
+        "codes": "shttwinmold",
+	      "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Great Bay Reward",
+    "type": "progressive_toggle",
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/equipment/unknown.png",
+        "codes": "gbtreward"
+      },
+      {
+        "img": "images/equipment/odolwa.png",
+        "codes": "gbtodolwa",
+      	"inherit_codes": false
+      },
+      {
+        "img": "images/equipment/goht.png",
+        "codes": "gbtgoht",
+	      "inherit_codes": false
+      },
+      {
+        "img": "images/equipment/gyorg.png",
+        "codes": "gbtgyorg",
+	      "inherit_codes": false
+      },
+      {
+        "img": "images/equipment/twinmold.png",
+        "codes": "gbttwinmold",
+	      "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Stone Tower Reward",
+    "type": "progressive_toggle",
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/equipment/unknown.png",
+        "codes": "sttreward"
+      },
+      {
+        "img": "images/equipment/odolwa.png",
+        "codes": "sttodolwa",
+      	"inherit_codes": false
+      },
+      {
+        "img": "images/equipment/goht.png",
+        "codes": "sttgoht",
+	      "inherit_codes": false
+      },
+      {
+        "img": "images/equipment/gyorg.png",
+        "codes": "sttgyorg",
+	      "inherit_codes": false
+      },
+      {
+        "img": "images/equipment/twinmold.png",
+        "codes": "stttwinmold",
+	      "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Small Key Woodfall",
+    "type": "toggle",
+    "img": "images/equipment/small_key_wf.png",
+    "codes": "smallkey_wf,sk_wf"
+  },
+  {
+    "name": "Small Key Snowhead",
+    "type": "consumable",
+    "img": "images/equipment/small_key_sh.png",
+    "codes": "smallkey_sh,sk_sh",
+    "max_quantity": 3
+  },
+  {
+    "name": "Small Key Great Bay",
+    "type": "toggle",
+    "img": "images/equipment/small_key_gb.png",
+    "codes": "smallkey_gb,sk_gb"
+  },
+  {
+    "name": "Small Key Stone Tower",
+    "type": "consumable",
+    "img": "images/equipment/small_key_st.png",
+    "codes": "smallkey_st,sk_st",
+    "max_quantity": 4
+  },
+  {
+    "name": "Boss Key Woodfall",
+    "type": "toggle",
+    "img": "images/equipment/boss_key_wf.png",
+    "codes": "bosskey_wf,bk_wf"
+  },
+  {
+    "name": "Boss Key Snowhead",
+    "type": "toggle",
+    "img": "images/equipment/boss_key_sh.png",
+    "codes": "bosskey_sh,bk_sh"
+  },
+  {
+    "name": "Boss Key Great Bay",
+    "type": "toggle",
+    "img": "images/equipment/boss_key_gb.png",
+    "codes": "bosskey_gb,bk_gb"
+  },
+  {
+    "name": "Boss Key Stone Tower",
+    "type": "toggle",
+    "img": "images/equipment/boss_key_st.png",
+    "codes": "bosskey_st,bk_st"
+  },
+  {
+    "name":  "Clocktown Stray Fairy",
+    "type":  "toggle",
+    "img": "images/equipment/fairy_ct.png",
+    "codes": "fairy_ct"
+  },
+  {
+    "name":  "Swamp Stray Fairies",
+    "type":  "consumable",
+    "img": "images/equipment/fairy_wf.png",
+    "allow_disabled": false,
+    "codes": "fairy_wf",
+    "max_quantity": 15
+  },
+  {
+    "name":  "Snowhead Stray Fairies",
+    "type":  "consumable",
+    "img": "images/equipment/fairy_sh.png",
+    "allow_disabled": false,
+    "codes": "fairy_sh",
+    "max_quantity": 15
+  },
+  {
+    "name":  "Great Bay Stray Fairies",
+    "type":  "consumable",
+    "img": "images/equipment/fairy_gb.png",
+    "allow_disabled": false,
+    "codes": "fairy_gb",
+    "max_quantity": 15
+  },
+  {
+    "name":  "Stone Tower Stray Fairies",
+    "type":  "consumable",
+    "img": "images/equipment/fairy_st.png",
+    "allow_disabled": false,
+    "codes": "fairy_st",
+    "max_quantity": 15
+  },
+  {
+    "name":  "Swamp Skull Tokens",
+    "type":  "consumable",
+    "img": "images/equipment/skull_ss.png",
+    "allow_disabled": false,
+    "codes": "skull_ss",
+    "max_quantity": 30
+  },
+  {
+    "name":  "Ocean Skull Tokens",
+    "type":  "consumable",
+    "img": "images/equipment/skull_gb.png",
+    "allow_disabled": false,
+    "codes": "skull_gb",
+    "max_quantity": 30
+  },
+  {
+    "name": "Odolwa Boss Reward",
+    "type": "toggle",
+    "img": "images/equipment/odolwa.png",
+    "codes": "boss_odolwa"
+  }
+]

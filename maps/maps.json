@@ -1,0 +1,14 @@
+[
+    {
+        "name": "termina",
+        "location_size": 12,
+        "location_border_thickness": 4,
+        "img": "images/maps/termina.png"
+    },
+    {
+        "name": "woodfall_temple",
+        "location_size": 15,
+        "location_border_thickness": 4,
+        "img": "images/maps/woodfall_temple.png"
+    }
+]

@@ -1,0 +1,129 @@
+[
+  {
+    "name": "Termina Field",
+    "children": [
+      {
+        "name": "South East Termina Field",
+        "sections": [
+          {
+            "name": "Termina Tall Grass Chest"
+          },
+          {
+            "name": "Termina Stump Chest",
+            "access_rules": ["$plant_beans","hookshot"]
+          },
+          {
+            "name": "Termina Tall Grass Grotto Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 563,
+            "y": 352
+          }
+        ]
+      },
+
+      {
+        "name": "Termina Ikana Pillar Grotto Chest",
+        "sections": [
+          {
+            "name": "Termina Ikana Pillar Grotto Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 582,
+            "y": 302
+          }
+        ]
+      },
+
+      {
+        "name": "Termina Underwater Chest",
+        "sections": [
+          {
+            "name": "Termina Underwater Chest",
+            "access_rules": ["zora"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 507,
+            "y": 339
+          }
+        ]
+      },
+
+      {
+        "name": "Termina Peahat Grotto Chest",
+        "sections": [
+          {
+            "name": "Termina Peahat Grotto Chest (Daytime Only)",
+            "access_rules": ["sword"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 520,
+            "y": 355
+          }
+        ]
+      },
+
+      {
+        "name": "Termina Dodongo Grotto Chest",
+        "sections": [
+          {
+            "name": "Termina Dodongo Grotto Chest",
+            "access_rules": ["sword"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 525,
+            "y": 260
+          }
+        ]
+      },
+      {
+        "name": "Termina Kamaro",
+        "sections": [
+          {
+            "name": "Termina Kamaro (Midnight - 6 AM)",
+            "access_rules": ["ocarina,healing"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 513,
+            "y": 260
+          }
+        ]
+      },
+      {
+        "name": "Astral Observatory",
+        "sections": [
+          {
+            "name": "East Clock Town Astral Observatory",
+            "access_rules": ["$projectiles"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 590,
+            "y": 347
+          }
+        ]
+      }
+    ]
+  }
+]
+

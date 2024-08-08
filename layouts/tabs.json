@@ -1,0 +1,21 @@
+﻿{
+    "tabs": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Termina",
+                "content": {
+                    "type": "map",
+                    "maps": ["termina"]
+                }
+            },
+            {
+                "title": "Woodfall Temple",
+                "content": {
+                    "type": "map",
+                    "maps": ["woodfall_temple"]
+                }
+            }
+        ]
+    }
+}

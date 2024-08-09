@@ -289,7 +289,7 @@
           "sections": [
             {
               "name": "East Clock Town Sewer Chest",
-              "access_rules": ["$explosives"]
+              "access_rules": ["$explosives,$projectiles"]
             }
           ],
           "map_locations": [

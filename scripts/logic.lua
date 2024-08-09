@@ -29,7 +29,7 @@ function use_light_arrows()
 end
 
 function plant_beans()
-    return has("beans") and has("bottle")
+    return has("beans") and (has("bottle") or has("storms"))
 end
 
 function get_beans()

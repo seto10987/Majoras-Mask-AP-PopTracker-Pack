@@ -6,7 +6,7 @@
       "children": [
         {
           "name": "Woodfall Temple",
-          "access_rules": ["ocarina,sonata,deku"],
+          "access_rules": ["$play_sonata,deku"],
           "sections": [
             {
               "name": "Woodfall Temple Entrance Chest",

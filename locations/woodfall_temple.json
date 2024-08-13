@@ -1,7 +1,6 @@
 [
   {
     "name": "Woodfall Temple",
-    "access_rules": ["ocarina,sonata,deku"],
     "children": [
       {
         "name": "Entrance Chest",

@@ -96,7 +96,7 @@
         "sections": [
           {
             "name": "Termina Kamaro (Midnight - 6 AM)",
-            "access_rules": ["ocarina,healing"]
+            "access_rules": ["$play_healing"]
           }
         ],
         "map_locations": [

@@ -190,11 +190,6 @@
               "map": "termina",
               "x": 457,
               "y": 367
-            },
-            {
-              "map": "termina",
-              "x": 524,
-              "y": 446
             }
           ]
         },
@@ -245,6 +240,26 @@
               "map": "termina",
               "x": 214,
               "y": 41
+            }
+          ]
+        },
+        {
+          "name": "Honey and Darling (6 AM - 10 PM)",
+          "sections": [
+            {
+              "name": "East Clock Town Honey and Darling Any Day",
+              "access_rules": ["bow","bombs","bombchu"]
+            },
+            {
+              "name": "East Clock Town Honey and Darling All Days",
+              "access_rules": ["bow,bombs,bombchu"]
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "termina",
+              "x": 235,
+              "y": 157
             }
           ]
         },
@@ -351,7 +366,7 @@
             },
             {
               "name": "Milk Bar Priority Mail to Aroma (Final Night)",
-              "access_rules": ["kafeimask,express"]
+              "access_rules": ["kafeimask,express,romanimask"]
             }
           ],
           "map_locations": [
@@ -496,11 +511,11 @@
           "sections": [
             {
               "name": "Top of Clock Tower (Ocarina of Time)",
-              "access_rules": ["$projectiles, time"]
+              "access_rules": ["$projectiles"]
             },
             {
               "name": "Top of Clock Tower (Song of Time)",
-              "access_rules": ["$projectiles, time"]
+              "access_rules": ["$projectiles"]
             },
             {
               "name": "Clock Tower Happy Mask Salesman #1",

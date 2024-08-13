@@ -101,11 +101,11 @@
       },
       {
         "name": "Deku Palace Monkey Song",
-        "access_rules": ["deku"],
+        "access_rules": ["$deku_palace"],
         "sections": [
           {
             "name": "Deku Palace Monkey Song",
-            "access_rules": ["ocarina,$plant_beans"]
+            "access_rules": ["ocarina,$plant_beans,deku"]
           }
         ],
         "map_locations": [
@@ -118,7 +118,7 @@
       },
       {
         "name": "Deku Palace HP",
-        "access_rules": ["deku"],
+        "access_rules": ["$deku_palace"],
         "sections": [
           {
             "name": "Deku Palace HP"
@@ -134,7 +134,7 @@
       },
       {
         "name": "Deku Palace Bean Grotto Chest",
-        "access_rules": ["deku"],
+        "access_rules": ["$deku_palace"],
         "sections": [
           {
             "name": "Deku Palace Bean Grotto Chest",
@@ -151,10 +151,11 @@
       },
       {
         "name": "Southern Swamp Song Engraving",
-        "access_rules": ["deku"],
+        "access_rules": ["$swamp_deku_palace"],
         "sections": [
           {
-            "name": "Woodfall Song Engraving"
+            "name": "Woodfall Song Engraving",
+            "access_rules": ["deku"]
           }
         ],
         "map_locations": [
@@ -167,10 +168,11 @@
       },
       {
         "name": "Southern Swamp Near Swamphouse Grotto Chest",
-        "access_rules": ["deku"],
+        "access_rules": ["$swamp_deku_palace"],
         "sections": [
           {
-            "name": "Woodfall Near Swamphouse Grotto Chest"
+            "name": "Woodfall Near Swamphouse Grotto Chest",
+            "access_rules": ["deku"]
           }
         ],
         "map_locations": [
@@ -183,7 +185,7 @@
       },
       {
         "name": "Woodfall",
-        "access_rules": ["deku"],
+        "access_rules": ["$woodfall"],
         "sections": [
           {
             "name": "Woodfall Near Owl Statue Chest"
@@ -205,6 +207,7 @@
       },
       {
         "name": "Deku Shrine",
+        "access_rules": ["$deku_palace"],
         "sections": [
           {
             "name": "Deku Palace Butler Race",

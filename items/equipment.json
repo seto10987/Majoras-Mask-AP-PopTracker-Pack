@@ -2,9 +2,6 @@
   {
     "name": "Sword",
     "type": "progressive",
-    "loop": true,
-    "initial_stage_idx": 0,
-    "allow_disabled": false,
     "stages": [
       {
         "img": "images/equipment/sword1.png",

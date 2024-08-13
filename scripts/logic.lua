@@ -8,6 +8,29 @@ function has(item, amount)
     end
 end
 
+function smack()
+    return has("deku") or smack_hard()
+end
+
+function smack_hard()
+    return has("sword") or has("fairysword") or has("goron") or has("zora")
+end
+
+function get_beans()
+    return has("beans") or 
+    (has("deku") and (has("bottle")) or projectiles())
+end
+
+function plant_beans()
+    return has("beans") and (has("bottle") or has("storms"))
+end
+
+function projectiles()
+    return has("bow") or
+    (has("deku") and has("magic")) or
+    has("zora") or has("hookshot")
+end
+
 function explosives()
     return has("bombs") or has("bombchu")
 end
@@ -28,29 +51,20 @@ function use_light_arrows()
     return has("bow") and has("magic") and has("lightarrow")
 end
 
-function plant_beans()
-    return has("beans") and (has("bottle") or has("storms"))
+function use_lens()
+    return has("lens") and has("magic")
 end
 
-function get_beans()
-    return has("beans") or 
-    (has("deku") and has("magic")) or 
-    has("goron") or 
-    has("zora")
+function play_healing()
+    return has("ocarina") and has("healing")
 end
 
-function projectiles()
-    return has("bow") or 
-    (has("deku") and has("magic")) or 
-    has("zora")
+function play_eponas()
+    return has("ocarina") and has("epona")
 end
 
-function smack_hard()
-    return has("sword") or has("fairysword") or has("goron") or has("zora")
-end
-
-function smack()
-    return has("deku") or smack_hard()
+function play_sonata()
+    return has("ocarina") and has("sonata")
 end
 
 function enter_woodfall()
@@ -65,15 +79,34 @@ function paper()
     return has("landdeed") or has("swampdeed") or has("mountaindeed") or has("oceandeed") or has ("express") or has ("kafeiletter")
 end
 
-function deep_swamp()
-    return projectiles() and has("deku") or
-        has("bottle")
-end
-
 function anju_kafei()
     return has("kafeiletter") and has("pendant") and has("hookshot") and (has("garo") or has("gibdo"))
 end
 
+-----
+
+function moon()
+    return has("ocarina") and has("oath") and has("odolwa") and has("goht") and has("gyorg") and has("twinmold")
+end
+
+function swamp_deku_palace()
+    return projectiles() and has("deku") or
+        has("bottle")
+end
+
+function deku_palace()
+    return swamp_deku_palace() and has("deku")
+end
+
+function woodfall()
+    return swamp_deku_palace() and has("deku")
+end
+
+function woodfall_temple()
+    return woodfall() and has("sonata")
+end
+
+-----
 
 function bottle_count()
     if Tracker:FindObjectForCode("redpotion").Active then
@@ -92,9 +125,8 @@ function clear_wft()
         Tracker:FindObjectForCode("wftreward").Active = true
     end
     if Tracker:FindObjectForCode("boss_odolwa_hosted").Active == false then
-    Tracker:FindObjectForCode("wftreward").Active = false
-end
-
+        Tracker:FindObjectForCode("wftreward").Active = false
+    end
 end
 
 

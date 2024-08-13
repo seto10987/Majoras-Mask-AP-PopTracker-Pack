@@ -33,6 +33,22 @@
             "y": 300
           }
         ]
+      },
+      {
+        "name": "Road to Ikana Stone Soldier",
+        "sections": [
+          {
+            "name": "Road to Ikana Stone Soldier",
+            "access_rules": ["$play_epona,$use_lens,bottle"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 681,
+            "y": 312
+          }
+        ]
       }
     ]
   }

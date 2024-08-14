@@ -1,14 +1,13 @@
 [
     {
     "name": "Romani Ranch",
-    "color": "#e0ef0e",
     "children": [
       {
         "name": "Milk Road Gorman Ranch Race",
         "sections": [
           {
             "name": "Milk Road Gorman Ranch Race",
-            "access_rules": ["$play_epona"]
+            "access_rules": ["$play_eponas"]
           }
         ],
         "map_locations": [

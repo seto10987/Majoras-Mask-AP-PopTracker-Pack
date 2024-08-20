@@ -13,7 +13,7 @@ function smack()
 end
 
 function smack_hard()
-    return has("sword") or has("fairysword") or has("goron") or has("zora")
+    return has("sword") or has("fairysword") or has("goron") or has("zora") or has("fiercedeity")
 end
 
 function get_beans()
@@ -80,7 +80,7 @@ function paper()
 end
 
 function anju_kafei()
-    return has("kafeiletter") and has("pendant") and has("hookshot") and (has("garo") or has("gibdo"))
+    return has("kafeiletter") and has("pendant") and has("hookshot") and play_eponas() and (has("garo") or has("gibdo"))
 end
 
 -----

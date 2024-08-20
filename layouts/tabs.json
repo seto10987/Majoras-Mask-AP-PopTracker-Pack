@@ -10,6 +10,13 @@
                 }
             },
             {
+                "title": "Swamp Spider House",
+                "content": {
+                    "type": "map",
+                    "maps": ["swamp_spider_house"]
+                }
+            },
+            {
                 "title": "Woodfall Temple",
                 "content": {
                     "type": "map",

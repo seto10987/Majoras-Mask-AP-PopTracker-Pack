@@ -10,5 +10,11 @@
         "location_size": 15,
         "location_border_thickness": 4,
         "img": "images/maps/woodfall_temple.png"
+    },
+    {
+        "name": "swamp_spider_house",
+        "location_size": 15,
+        "location_border_thickness": 4,
+        "img": "images/maps/swamp_spider_house.png"
     }
 ]

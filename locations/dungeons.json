@@ -135,7 +135,7 @@
           "name": "Swamp Spider House",
           "chest_unopened_img": "images/equipment/skull_ss.png",
           "chest_opened_img": "images/equipment/skull_grey.png",
-          "access_rules": ["$swamp_deku_palace"],
+          "access_rules": ["$swamp_deku_palace, $use_fire_arrows"],
           "sections": [
             {
               "name": "Collect 30 Tokens",

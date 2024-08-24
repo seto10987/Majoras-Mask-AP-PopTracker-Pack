@@ -104,6 +104,7 @@ LOCATION_MAPPING = {
     [14767077353473538] = {"@Southern Swamp/Woodfall/Woodfall Near Owl Statue Chest"},
     [14767077353473537] = {"@Southern Swamp/Woodfall/Woodfall After Great Fairy Cave Chest"},
     [14767077353473536] = {"@Southern Swamp/Woodfall/Woodfall Near Swamp Entrance Chest"},
+    [14767077353259009] = {"@Southern Swamp/Woodfall/Woodfall Great Fairy Reward"},
     [14767077353462552] = {"@Dungeons/Woodfall Temple/Woodfall Temple Entrance Chest"},
     [14767077353462529] = {"@Dungeons/Woodfall Temple/Woodfall Temple Moving Flower Platform Room Chest"},
     [14767077353462557] = {"@Dungeons/Woodfall Temple/Woodfall Temple Gagwab Chest"},

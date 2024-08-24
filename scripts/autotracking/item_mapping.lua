@@ -65,5 +65,6 @@ ITEM_MAPPING = {
 [14767077353062454] = {"bombchu","toggle"},
 [14767077353062458] = {"bombchu","toggle"},
 [14767077353062426] = {"bombchu","toggle"},
-[0x34769420000052] = {"skull_ss","consumable"}
+[0x34769420000052] = {"skull_ss","consumable"},
+[14767077353193473] = {"spin_attack", "toggle"}
 }

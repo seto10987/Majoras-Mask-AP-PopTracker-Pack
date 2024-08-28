@@ -94,7 +94,7 @@ function swamp_deku_palace()
         has("bottle")
 end
 
-function deku_palace()
+function swamp_skull_house()
     return swamp_deku_palace() and has("deku")
 end
 

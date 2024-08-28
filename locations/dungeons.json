@@ -6,7 +6,7 @@
           "name": "Woodfall Temple",
           "chest_unopened_img": "images/icons/chest_unopened.png",
           "chest_opened_img": "images/icons/chest_opened.png",
-          "access_rules": ["$play_sonata,deku"],
+          "access_rules": ["$play_sonata,$woodfall_temple"],
           "sections": [
             {
               "name": "Woodfall Temple Entrance Chest",
@@ -135,7 +135,7 @@
           "name": "Swamp Spider House",
           "chest_unopened_img": "images/equipment/skull_ss.png",
           "chest_opened_img": "images/equipment/skull_grey.png",
-          "access_rules": ["$swamp_deku_palace, $use_fire_arrows"],
+          "access_rules": ["$swamp_skull_house,$use_fire_arrows"],
           "sections": [
             {
               "name": "Collect 30 Tokens",

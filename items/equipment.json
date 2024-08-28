@@ -19,7 +19,7 @@
   },
   {
     "name": "Spin Attack",
-    "type": "static",
+    "type": "toggle",
     "img": "images/equipment/spin_attack.png",
     "codes": "spin_attack"
   },

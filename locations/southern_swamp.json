@@ -195,6 +195,10 @@
           },
           {
             "name": "Woodfall Near Swamp Entrance Chest"
+          },
+          {
+            "name": "Woodfall Great Fairy Reward",
+            "access_rules": ["$has|fairy_wf|15"]
           }
         ],
         "map_locations": [

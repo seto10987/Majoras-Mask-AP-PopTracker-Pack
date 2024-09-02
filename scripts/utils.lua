@@ -1,3 +1,9 @@
+
+function has(item)
+  return Tracker:ProviderCountForCode(item) == 1
+end
+
+
 function has(item, amount)
 	local count = Tracker:ProviderCountForCode(item)
 	amount = tonumber(amount)
@@ -6,6 +12,30 @@ function has(item, amount)
 	else
 		return count >= amount
 	end
+end
+
+function checkRequirements(reference, check_count)
+  local reqCount = Tracker:ProviderCountForCode(reference)
+  local count = Tracker:ProviderCountForCode(check_count)
+
+  if count >= reqCount then
+      return true
+  else
+      return false
+  end
+end
+
+function toggle_item(code)
+  local active = Tracker:FindObjectForCode(code).Active
+  code = code.."_hosted"
+  local object = Tracker:FindObjectForCode(code)
+  if object then
+    object.Active = active
+  else
+    if ENABLE_DEBUG_LOG then
+      print(string.format("toggle_item: could not find object for code %s", code))
+    end
+  end
 end
 
 function tableContains(table, element)
@@ -35,19 +65,6 @@ function dump_table(o, depth)
 	else
 		return tostring(o)
 	end
-end
-
-function toggle_item(code)
-  local active = Tracker:FindObjectForCode(code).Active
-  code = code.."_hosted"
-  local object = Tracker:FindObjectForCode(code)
-  if object then
-    object.Active = active
-  else
-    if ENABLE_DEBUG_LOG then
-      print(string.format("toggle_item: could not find object for code %s", code))
-    end
-  end
 end
 
 function toggle_hosted_item(code)

@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Romani Ranch Hints",
+    "access_rules": ["{}"],
+    "children": [
+      {
+        "name": "Milk Road Gorman Ranch Race Hints",
+        "sections": [
+          {
+            "name": "Milk Road Gorman Ranch Race (Hint)",
+            "visibility_rules": ["milk_road_gorman_ranch_race"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 462,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Romani Ranch Grog Hints",
+        "sections": [
+          {
+            "name": "Romani Ranch Grog (Hint)",
+            "visibility_rules": ["romani_ranch_grog"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 361,
+            "y": 351
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,28 +1,21 @@
-function has(item, amount)
-    local count = Tracker:ProviderCountForCode(item)
-    amount = tonumber(amount)
-    if not amount then
-      return count > 0
-    else
-      return count == amount
-    end
+function play_healing()
+    return has("ocarina") and has("healing")
 end
 
-function smack()
-    return has("deku") or smack_hard()
+function play_eponas()
+    return has("ocarina") and has("epona")
 end
 
-function smack_hard()
-    return has("sword") or has("fairysword") or has("goron") or has("zora") or has("fiercedeity")
+function play_sonata()
+    return has("ocarina") and has("sonata")
 end
 
 function get_beans()
-    return has("beans") or 
-    (has("deku") and (has("bottle")) or projectiles())
+    return has("beans") or deku_palace()
 end
 
-function plant_beans()
-    return has("beans") and (has("bottle") or has("storms"))
+function explosives()
+    return has("bombs") or has("bombchu")
 end
 
 function projectiles()
@@ -31,8 +24,20 @@ function projectiles()
     has("zora") or has("hookshot")
 end
 
-function explosives()
-    return has("bombs") or has("bombchu")
+function smack_hard()
+    return has("sword") or has("fairysword") or has("goron") or has("zora") or has("fiercedeity")
+end
+
+function smack()
+    return has("deku") or smack_hard()
+end
+
+function paper()
+    return has("landdeed") or has("swampdeed") or has("mountaindeed") or has("oceandeed") or has ("express") or has ("kafeiletter")
+end
+
+function plant_beans()
+    return get_beans() and (has("bottle") or has("storms"))
 end
 
 function use_keg()
@@ -55,18 +60,6 @@ function use_lens()
     return has("lens") and has("magic")
 end
 
-function play_healing()
-    return has("ocarina") and has("healing")
-end
-
-function play_eponas()
-    return has("ocarina") and has("epona")
-end
-
-function play_sonata()
-    return has("ocarina") and has("sonata")
-end
-
 function enter_woodfall()
     return has("deku") and has("sonata") and has("ocarina")
 end
@@ -75,13 +68,11 @@ function clear_woodfall()
     return  (has("bk_wf") or has("odolwa")) and enter_woodfall() and has("bow")
 end
 
-function paper()
-    return has("landdeed") or has("swampdeed") or has("mountaindeed") or has("oceandeed") or has ("express") or has ("kafeiletter")
+function anju_kafei()
+    return has("kafeimask") and play_eponas() and has("kafeiletter") and has("pendant") and has("hookshot") and 
+    (has("garo") or has("gibdo"))
 end
 
-function anju_kafei()
-    return has("kafeiletter") and has("pendant") and has("hookshot") and play_eponas() and (has("garo") or has("gibdo"))
-end
 
 -----
 
@@ -89,21 +80,25 @@ function moon()
     return has("ocarina") and has("oath") and has("odolwa") and has("goht") and has("gyorg") and has("twinmold")
 end
 
-function swamp_deku_palace()
-    return projectiles() and has("deku") or
+function south_swamp()
+    return (projectiles() and has("deku")) or
         has("bottle")
 end
 
+function deku_palace()
+    return south_swamp() and has("deku")
+end
+
 function swamp_skull_house()
-    return swamp_deku_palace() and has("deku")
+    return south_swamp() and has("deku") and use_fire_arrows()
 end
 
 function woodfall()
-    return swamp_deku_palace() and has("deku")
+    return south_swamp() and has("deku")
 end
 
 function woodfall_temple()
-    return woodfall() and has("sonata")
+    return woodfall() and play_sonata()
 end
 
 -----

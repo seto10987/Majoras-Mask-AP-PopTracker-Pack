@@ -1,0 +1,39 @@
+[
+    {
+    "name": "Romani Ranch",
+    "children": [
+      {
+        "name": "Milk Road Gorman Ranch Race",
+        "sections": [
+          {
+            "name": "Milk Road Gorman Ranch Race",
+            "access_rules": ["$play_eponas"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 470,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Romani Ranch Grog",
+        "sections": [
+          {
+            "name": "Romani Ranch Grog",
+            "access_rules": ["bremenmask"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 369,
+            "y": 351
+          }
+        ]
+      }
+    ]
+  }
+]

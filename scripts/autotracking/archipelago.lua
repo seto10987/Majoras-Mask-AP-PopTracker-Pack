@@ -1,3 +1,4 @@
+ScriptHost:LoadScript("scripts/autotracking/hints_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 
@@ -13,20 +14,17 @@ function onClear(slot_data)
     SLOT_DATA = slot_data
     CUR_INDEX = -1
     -- reset locations
-    for _, v in pairs(LOCATION_MAPPING) do
-        if v[1] then
-            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                print(string.format("onClear: clearing location %s", v[1]))
-            end
-            local obj = Tracker:FindObjectForCode(v[1])
-            if obj then
-                if v[1]:sub(1, 1) == "@" then
-                    obj.AvailableChestCount = obj.ChestCount
-                else
-                    obj.Active = false
+    for _, location_array in pairs(LOCATION_MAPPING) do
+        for _, location in pairs(location_array) do
+            if location then
+                local obj = Tracker:FindObjectForCode(location)
+                if obj then
+                    if location:sub(1, 1) == "@" then
+                        obj.AvailableChestCount = obj.ChestCount
+                    else
+                        obj.Active = false
+                    end
                 end
-            elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                print(string.format("onClear: could not find object for code %s", v[1]))
             end
         end
     end
@@ -58,10 +56,19 @@ function onClear(slot_data)
     Tracker:FindObjectForCode("bottle_2").Active = false
     Tracker:FindObjectForCode("bottle_3").Active = false
 
-
+	PLAYER_NUMBER = Archipelago.PlayerNumber or -1
+	TEAM_NUMBER = Archipelago.TeamNumber or 0
 
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
+
+    
+    if Archipelago.PlayerNumber > -1 then
+    
+        HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_NUMBER
+        Archipelago:SetNotify({HINTS_ID})
+        Archipelago:Get({HINTS_ID})
+    end
 end
 
 -- called when an item gets collected
@@ -112,28 +119,83 @@ end
 
 -- called when a location gets cleared
 function onLocation(location_id, location_name)
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onLocation: %s, %s", location_id, location_name))
-    end
-    if not AUTOTRACKER_ENABLE_LOCATION_TRACKING then
-        return
-    end
-    local v = LOCATION_MAPPING[location_id]
-    if not v and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+    local location_array = LOCATION_MAPPING[location_id]
+    if not location_array or not location_array[1] then
         print(string.format("onLocation: could not find location mapping for id %s", location_id))
-    end
-    if not v[1] then
         return
     end
-    local obj = Tracker:FindObjectForCode(v[1])
-    if obj then
-        if v[1]:sub(1, 1) == "@" then
-            obj.AvailableChestCount = obj.AvailableChestCount - 1
+
+    for _, location in pairs(location_array) do
+        local obj = Tracker:FindObjectForCode(location)
+        -- print(location, obj)
+        if obj then
+            if location:sub(1, 1) == "@" then
+                obj.AvailableChestCount = obj.AvailableChestCount - 1
+            else
+                obj.Active = true
+            end
         else
-            obj.Active = true
+            print(string.format("onLocation: could not find object for code %s", location))
         end
-    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("onLocation: could not find object for code %s", v[1]))
+    end
+end
+
+
+function onNotify(key, value, old_value)
+
+    if value ~= old_value and key == HINTS_ID then
+        for _, hint in ipairs(value) do
+            if hint.finding_player == Archipelago.PlayerNumber then
+                if not hint.found then
+                    updateHints(hint.location)
+                else if hint.found then
+                    updateHints(hint.location)
+                    end
+                end
+            end
+        end
+    end
+end
+
+function onNotifyLaunch(key, value)
+    if key == HINTS_ID then
+        for _, hint in ipairs(value) do
+            if hint.finding_player == Archipelago.PlayerNumber then
+                if not hint.found then
+                    updateHints(hint.location)
+                elseif hint.found then
+                    updateHints(hint.location)
+                    
+                end
+            end
+        end
+    end
+end
+
+ 
+function updateHints(locationID)
+    local item_codes = HINTS_MAPPING[locationID]
+
+    for _, item_code in ipairs(item_codes) do
+        local obj = Tracker:FindObjectForCode(item_code)
+        if obj then
+            obj.Active = true
+        else
+            print(string.format("No object found for code: %s", item_code))
+        end
+    end
+end
+ 
+function updateHintsClear(locationID)
+    local item_codes = HINTS_MAPPING[locationID]
+
+    for _, item_code in ipairs(item_codes) do
+        local obj = Tracker:FindObjectForCode(item_code)
+        if obj then
+            obj.Active = false
+        else
+            print(string.format("No object found for code: %s", item_code))
+        end
     end
 end
 
@@ -154,14 +216,8 @@ function onBounce(json)
     -- your code goes here
 end
 
--- add AP callbacks
--- un-/comment as needed
 Archipelago:AddClearHandler("clear handler", onClear)
-if AUTOTRACKER_ENABLE_ITEM_TRACKING then
-    Archipelago:AddItemHandler("item handler", onItem)
-end
-if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
-    Archipelago:AddLocationHandler("location handler", onLocation)
-end
--- Archipelago:AddScoutHandler("scout handler", onScout)
--- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+Archipelago:AddItemHandler("item handler", onItem)
+Archipelago:AddLocationHandler("location handler", onLocation)
+Archipelago:AddSetReplyHandler("notify handler", onNotify)
+Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)

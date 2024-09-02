@@ -1,0 +1,232 @@
+[
+  {
+    "name": "Southern Swamp Hints",
+    "access_rules": ["{}"],
+    "children": [
+      {
+        "name": "Road to Swamp Tree HP Hints",
+        "sections": [
+          {
+            "name": "Road to Swamp Tree HP (Hint)",
+            "visibility_rules": ["road_to_swamp_tree_hp"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 529,
+            "y": 389
+          }
+        ]
+      },
+      {
+        "name": "Road to Swamp Grotto Chest Hints",
+        "sections": [
+          {
+            "name": "Road to Swamp Grotto Chest (Hint)",
+            "visibility_rules": ["road_to_swamp_grotto_chest"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 517,
+            "y": 389
+          }
+        ]
+      },
+      {
+        "name": "Swamp Business Scrub Hints",
+        "sections": [
+          {
+            "name": "Southern Swamp Deku Trade (Hint)",
+            "visibility_rules": ["southern_swamp_deku_trade"]
+          },
+          {
+            "name": "Southern Swamp Deku Trade Freestanding HP (Hint)",
+            "visibility_rules": ["southern_swamp_deku_trade_freestanding_hp"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 573,
+            "y": 438
+          }
+        ]
+      },
+      {
+        "name": "Swamp Tourist Center Hints",
+        "sections": [
+          {
+            "name": "Southern Swamp Koume Tour Gift (Hint)",
+            "visibility_rules": ["southern_swamp_koume_tour_gift"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 545,
+            "y": 438
+          }
+        ]
+      },
+      {
+        "name": "Southern Swamp Kotake Request Hints",
+        "sections": [
+          {
+            "name": "Southern Swamp Kotake Request (Hint)",
+            "visibility_rules": ["southern_swamp_kotake_request"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 637,
+            "y": 423
+          }
+        ]
+      },
+      {
+        "name": "Southern Swamp Mystery Woods Grotto Chest Hints",
+        "sections": [
+          {
+            "name": "Southern Swamp Mystery Woods Grotto Chest (Day 2) (Hint)",
+            "visibility_rules": ["southern_swamp_mystery_woods_grotto_chest_day_2"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 642,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Deku Palace Monkey Song Hints",
+        "sections": [
+          {
+            "name": "Deku Palace Monkey Song (Hint)",
+            "visibility_rules": ["deku_palace_monkey_song"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 480,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Deku Palace HP Hints",
+        "sections": [
+          {
+            "name": "Deku Palace HP (Hint)",
+            "visibility_rules": ["deku_palace_hp"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 506,
+            "y": 558
+          }
+        ]
+      },
+      {
+        "name": "Deku Palace Bean Grotto Chest Hints",
+        "sections": [
+          {
+            "name": "Deku Palace Bean Grotto Chest (Hint)",
+            "visibility_rules": ["deku_palace_bean_grotto_chest"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 473,
+            "y": 537
+          }
+        ]
+      },
+      {
+        "name": "Southern Swamp Song Tablet Hints",
+        "sections": [
+          {
+            "name": "Southern Swamp Song Tablet (Hint)",
+            "visibility_rules": ["southern_swamp_song_tablet"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 526,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Southern Swamp Near Swamphouse Grotto Chest Hints",
+        "sections": [
+          {
+            "name": "Southern Swamp Near Swamphouse Grotto Chest (Hint)",
+            "visibility_rules": ["southern_swamp_near_swamphouse_grotto_chest"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 474,
+            "y": 506
+          }
+        ]
+      },
+      {
+        "name": "Woodfall Hints",
+        "sections": [
+          {
+            "name": "Woodfall Near Owl Statue Chest (Hint)",
+            "visibility_rules": ["woodfall_near_owl_statue_chest"]
+          },
+          {
+            "name": "Woodfall After Great Fairy Cave Chest (Hint)",
+            "visibility_rules": ["woodfall_after_great_fairy_cave_chest"]
+          },
+          {
+            "name": "Woodfall Near Swamp Entrance Chest (Hint)",
+            "visibility_rules": ["woodfall_near_swamp_entrance_chest"]
+          },
+          {
+            "name": "Woodfall Great Fairy Reward (Hint)",
+            "visibility_rules": ["woodfall_great_fairy_reward"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 534,
+            "y": 466
+          }
+        ]
+      },
+      {
+        "name": "Deku Shrine Hints",
+        "sections": [
+          {
+            "name": "Deku Palace Butler Race (Hint)",
+            "visibility_rules": ["deku_palace_butler_race"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 534,
+            "y": 556
+          }
+        ]
+      }
+    ]      
+  }
+]

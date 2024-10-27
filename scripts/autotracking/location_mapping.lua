@@ -132,3 +132,4 @@ LOCATION_MAPPING = {
     [0x3469420060716] = {"@Ikana Canyon/Road to Ikana Stone Soldier/Road to Ikana Stone Soldier","@Ikana Canyon Hints/Road to Ikana Stone Soldier Hints/Road to Ikana Stone Soldier (Hint)"}
 }
 
+

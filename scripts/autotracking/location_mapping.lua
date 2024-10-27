@@ -131,3 +131,4 @@ LOCATION_MAPPING = {
     [0x3469420065300] = {"@Ikana Canyon/Road to Ikana Rock Grotto Chest/Road to Ikana Rock Grotto Chest","@Ikana Canyon Hints/Road to Ikana Rock Grotto Chest Hints/Road to Ikana Rock Grotto Chest (Hint)"},
     [0x3469420060716] = {"@Ikana Canyon/Road to Ikana Stone Soldier/Road to Ikana Stone Soldier","@Ikana Canyon Hints/Road to Ikana Stone Soldier Hints/Road to Ikana Stone Soldier (Hint)"}
 }
+

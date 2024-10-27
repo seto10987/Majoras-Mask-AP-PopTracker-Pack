@@ -133,3 +133,4 @@ HINTS_MAPPING = {
     [0x3469420060716] = {"road_to_ikana_stone_soldier"}
     
 }
+

@@ -1,3 +1,4 @@
+ITEM_MAPPING = {
 [0x346942001007F] = {"fairy_ct","toggle"},
 [0x3469420020000] = {"magic","progressive"},
 [0x3469420020001] = {"moontear","toggle"},
@@ -66,3 +67,4 @@
 [0x3469420000057] = {"bombchu","toggle"},
 [0x3469420000058] = {"skull_ss","consumable"},
 [0x346942000001B] = {"spin_attack", "toggle"}
+}

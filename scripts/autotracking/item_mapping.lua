@@ -66,5 +66,8 @@ ITEM_MAPPING = {
 [0x346942000003A] = {"bombchu","toggle"},
 [0x346942000001A] = {"bombchu","toggle"},
 [0x3469420000052] = {"skull_ss","consumable"},
-[0x3469420020001] = {"spin_attack", "toggle"}
+[0x3469420020001] = {"spin_attack", "toggle"},
+[0x3469420000033] = {"mirrorshield", "progressive"},
+[0x3469420040062] = {"goronlullaby", "toggle"},
+[0x3469420040063] = {"bossanova", "toggle"}
 }

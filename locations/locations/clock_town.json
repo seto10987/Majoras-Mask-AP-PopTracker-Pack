@@ -403,6 +403,10 @@
               "access_rules": ["sword,wallet"]
             },
             {
+              "name": "West Clock Town Bank 500 Rupees",
+              "access_rules": ["fiercedeitymask,fairysword,wallet1"]
+            },
+            {
               "name": "West Clock Town Bank 1000 Rupees",
               "access_rules": ["fiercedeitymask,fairysword,wallet2"]
             }

@@ -18,6 +18,7 @@
           }
         ]
       },
+
       {
         "name": "Road to Swamp Grotto Chest",
         "sections": [
@@ -33,6 +34,27 @@
           }
         ]
       },
+
+      {
+        "name": "Swamp Shooting Gallery",
+        "access_rules": ["bow"],
+        "sections": [
+          {
+            "name": "Swamp Shooting Gallery 2120 Points"
+          },
+          {
+            "name": "Swamp Shooting Gallery 2180 Points"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 571,
+            "y": 390
+          }
+        ]
+      },
+
       {
         "name": "Swamp Business Scrub",
         "sections": [
@@ -53,12 +75,17 @@
           }
         ]
       },
+
       {
         "name": "Swamp Tourist Center",
         "sections": [
           {
             "name": "Southern Swamp Koume Tour Gift",
-            "access_rules": ["bottle"]
+            "access_rules": ["redpotion"]
+          },
+          {
+            "name": "Tour Koume Target Shooting",
+            "access_rules": ["$clear_woodfall,redpotion,chateau,bow"]
           }
         ],
         "map_locations": [
@@ -69,6 +96,7 @@
           }
         ]
       },
+
       {
         "name": "Southern Swamp Kotake Request",
         "sections": [
@@ -84,6 +112,7 @@
           }
         ]
       },
+
       {
         "name": "Southern Swamp Mystery Woods Grotto Chest",
         "sections": [
@@ -99,6 +128,7 @@
           }
         ]
       },
+
       {
         "name": "Deku Palace Monkey Song",
         "access_rules": ["$deku_palace"],
@@ -116,6 +146,7 @@
           }
         ]
       },
+
       {
         "name": "Deku Palace HP",
         "access_rules": ["$deku_palace"],
@@ -132,13 +163,18 @@
           }
         ]
       },
+
       {
-        "name": "Deku Palace Bean Grotto Chest",
+        "name": "Deku Palace Bean Grotto",
         "access_rules": ["$deku_palace"],
         "sections": [
           {
             "name": "Deku Palace Bean Grotto Chest",
-            "access_rules": ["$plant_beans","hookshot"]
+            "access_rules": ["$plant_beans,hookshot"]
+          },
+          {
+            "name": "Deku Palace Bean Seller",
+            "access_rules": ["deku"]
           }
         ],
         "map_locations": [
@@ -149,6 +185,7 @@
           }
         ]
       },
+
       {
         "name": "Southern Swamp Song Tablet",
         "access_rules": ["$south_swamp"],
@@ -166,6 +203,7 @@
           }
         ]
       },
+
       {
         "name": "Southern Swamp Near Swamphouse Grotto Chest",
         "access_rules": ["$south_swamp"],
@@ -183,6 +221,7 @@
           }
         ]
       },
+
       {
         "name": "Woodfall",
         "access_rules": ["$woodfall"],
@@ -209,6 +248,7 @@
           }
         ]
       },
+
       {
         "name": "Deku Shrine",
         "access_rules": ["$deku_palace"],

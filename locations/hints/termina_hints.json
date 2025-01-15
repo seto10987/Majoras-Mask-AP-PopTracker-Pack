@@ -63,11 +63,15 @@
       },
 
       {
-        "name": "Termina Peahat Grotto Chest Hints",
+        "name": "South West Termina Field Hints",
         "sections": [
           {
             "name": "Termina Peahat Grotto Chest (Daytime Only) (Hint)",
             "visibility_rules":["termina_peahat_grotto_chest_daytime_only"]
+          },
+          {
+            "name": "Termina Gossip Stones HP (Hint)",
+            "visibility_rules":["termina_gossip_stones_hp"]
           }
         ],
         "map_locations": [
@@ -95,6 +99,7 @@
           }
         ]
       },
+
       {
         "name": "Termina Kamaro Hints",
         "sections": [
@@ -111,6 +116,51 @@
           }
         ]
       },
+
+      {
+        "name": "Termina Bio Baba Grotto Hints",
+        "sections": [
+          {
+            "name": "Termina Bio Baba Grotto HP (Hint)",
+            "visibility_rules":["termina_bio_baba_grotto_hp"]
+          }
+        ],
+        "map_locations":[
+          {
+            "map": "termina",
+            "x": 475,
+            "y": 328
+          }
+        ]
+      },
+
+      {
+        "name": "Termina Gossip Stones HP Hints",
+        "sections": [
+          {
+            "name": "Termina Gossip Stones HP (Hint)",
+            "visibility_rules":["termina_gossip_stones_hp"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 540,
+            "y": 273
+          },
+          {
+            "map": "termina",
+            "x": 591,
+            "y": 320
+          },
+          {
+            "map": "termina",
+            "x": 490,
+            "y": 299
+          }
+        ]
+      },
+
       {
         "name": "East Clock Town Astral Observatory Hints",
         "sections": [
@@ -126,8 +176,24 @@
             "y": 347
           }
         ]
+      },
+
+      {
+        "name": "Termina Business Scrub Grotto Hints",
+        "sections": [
+          {
+            "name": "Termina Business Scrub Grotto HP (Hint)",
+            "visibility_rules": ["termina_business_scrub_grotto_hp_hint"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 575,
+            "y": 328
+          }
+        ]
       }
     ]
   }
 ]
-

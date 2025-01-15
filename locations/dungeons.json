@@ -6,7 +6,7 @@
           "name": "Woodfall Temple",
           "chest_unopened_img": "images/icons/chest_unopened.png",
           "chest_opened_img": "images/icons/chest_opened.png",
-          "access_rules": ["$play_sonata,$woodfall_temple"],
+          "access_rules": ["$woodfall_temple"],
           "sections": [
             {
               "name": "Woodfall Temple Entrance Chest",
@@ -68,7 +68,7 @@
               "name": "Woodfall Temple Moving Flower Platform Room Beehive SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
               "chest_opened_img": "images/equipment/fairy_grey.png",
-              "access_rules": ["fairymask, $projectiles"]
+              "access_rules": ["$projectiles, fairymask"]
             },
             {
               "name": "Woodfall Temple Push Block Skulltula SF",
@@ -135,7 +135,7 @@
           "name": "Swamp Spider House",
           "chest_unopened_img": "images/equipment/skull_ss.png",
           "chest_opened_img": "images/equipment/skull_grey.png",
-          "access_rules": ["$swamp_skull_house,$use_fire_arrows"],
+          "access_rules": ["$swamp_skull_house"],
           "sections": [
             {
               "name": "Collect 30 Tokens",

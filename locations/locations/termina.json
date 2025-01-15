@@ -52,18 +52,21 @@
         "map_locations": [
           {
             "map": "termina",
-            "x": 507,
-            "y": 339
+            "x": 478,
+            "y": 329
           }
         ]
       },
 
       {
-        "name": "Termina Peahat Grotto Chest",
+        "name": "South West Termina Field",
         "sections": [
           {
             "name": "Termina Peahat Grotto Chest (Daytime Only)",
             "access_rules": ["sword"]
+          },
+          {
+            "ref": "Termina Field/Termina Gossip Stones HP/Termina Gossip Stones HP"
           }
         ],
         "map_locations": [
@@ -91,6 +94,7 @@
           }
         ]
       },
+
       {
         "name": "Termina Kamaro",
         "sections": [
@@ -107,6 +111,24 @@
           }
         ]
       },
+
+      {
+        "name": "Termina Bio Baba Grotto HP",
+        "sections": [
+          {
+            "name": "Termina Bio Baba Grotto HP",
+            "access_rules": ["$explosives,goron,zora,$projectiles"]
+          }
+        ],
+        "map_locations":[
+          {
+            "map": "termina",
+            "x": 475,
+            "y": 309
+          }
+        ]
+      },
+      
       {
         "name": "East Clock Town Astral Observatory",
         "sections": [
@@ -122,8 +144,51 @@
             "y": 347
           }
         ]
+      },
+
+      {
+        "name": "Termina Business Scrub Grotto",
+        "sections": [
+          {
+            "name": "Termina Business Scrub Grotto HP",
+            "access_rules": ["$projectiles,wallet"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 583,
+            "y": 328
+          }
+        ]
+      },
+
+      {
+        "name": "Termina Gossip Stones HP",
+        "sections": [
+          {
+            "name": "Termina Gossip Stones HP",
+            "access_rules": ["deku,sonata,goron,lullaby,zora,bossanova"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 548,
+            "y": 273
+          },
+          {
+            "map": "termina",
+            "x": 599,
+            "y": 320
+          },
+          {
+            "map": "termina",
+            "x": 498,
+            "y": 299
+          }
+        ]
       }
     ]
   }
 ]
-

@@ -408,6 +408,10 @@
               "visibility_rules": ["west_clock_town_bank_200_rupees"]
             },
             {
+              "name": "West Clock Town Bank 500 Rupees (Hint)",
+              "visibility_rules": ["west_clock_town_bank_500_rupees"]
+            },
+            {
               "name": "West Clock Town Bank 1000 Rupees (Hint)",
               "visibility_rules": ["west_clock_town_bank_1000_rupees"]
             }

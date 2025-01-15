@@ -11,21 +11,23 @@ function play_sonata()
 end
 
 function get_beans()
-    return has("beans") or deku_palace()
+    return has("beans") and has("deku") and deku_palace()
 end
 
 function explosives()
     return has("bombs") or has("bombchu")
 end
 
+function projectiles_hard()
+    return has("bow") or has("zora") or has("hookshot")
+end
+
 function projectiles()
-    return has("bow") or
-    (has("deku") and has("magic")) or
-    has("zora") or has("hookshot")
+    return has("deku") and has("magic") or projectiles_hard()
 end
 
 function smack_hard()
-    return has("sword") or has("fairysword") or has("goron") or has("zora") or has("fiercedeity")
+    return has("sword") or has("fiercedeity") or has("fairysword") or has("goron") or has("zora")
 end
 
 function smack()
@@ -81,8 +83,7 @@ function moon()
 end
 
 function south_swamp()
-    return (projectiles() and has("deku")) or
-        has("bottle")
+    return projectiles_hard() and has("deku") and has("redpotion")
 end
 
 function deku_palace()

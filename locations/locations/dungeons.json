@@ -68,7 +68,7 @@
               "name": "Woodfall Temple Moving Flower Platform Room Beehive SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
               "chest_opened_img": "images/equipment/fairy_grey.png",
-              "access_rules": ["fairymask, $projectiles"]
+              "access_rules": ["$projectiles, fairymask"]
             },
             {
               "name": "Woodfall Temple Push Block Skulltula SF",

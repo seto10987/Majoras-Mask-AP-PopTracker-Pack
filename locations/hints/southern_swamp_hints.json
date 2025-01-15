@@ -19,6 +19,7 @@
           }
         ]
       },
+
       {
         "name": "Road to Swamp Grotto Chest Hints",
         "sections": [
@@ -35,6 +36,28 @@
           }
         ]
       },
+
+      {
+        "name": "Swamp Shooting Gallery Hints",
+        "sections": [
+          {
+            "name": "Swamp Shooting Gallery 2120 Points (Hint)",
+            "visibility_rules": ["swamp_shooting_gallery_2120_points"]
+          },
+          {
+            "name": "Swamp Shooting Gallery 2180 Points (Hint)",
+            "visibility_rules": ["swamp_shooting_gallery_2180_points"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 563,
+            "y": 390
+          }
+        ]
+      },
+
       {
         "name": "Swamp Business Scrub Hints",
         "sections": [
@@ -55,12 +78,17 @@
           }
         ]
       },
+
       {
         "name": "Swamp Tourist Center Hints",
         "sections": [
           {
             "name": "Southern Swamp Koume Tour Gift (Hint)",
             "visibility_rules": ["southern_swamp_koume_tour_gift"]
+          },
+          {
+            "name": "Tour Koume Target Shooting (Hint)",
+            "visibility_rules": ["tour_koume_target_shooting"]
           }
         ],
         "map_locations": [
@@ -71,6 +99,7 @@
           }
         ]
       },
+
       {
         "name": "Southern Swamp Kotake Request Hints",
         "sections": [
@@ -87,6 +116,7 @@
           }
         ]
       },
+
       {
         "name": "Southern Swamp Mystery Woods Grotto Chest Hints",
         "sections": [
@@ -103,6 +133,7 @@
           }
         ]
       },
+
       {
         "name": "Deku Palace Monkey Song Hints",
         "sections": [
@@ -119,6 +150,7 @@
           }
         ]
       },
+
       {
         "name": "Deku Palace HP Hints",
         "sections": [
@@ -135,12 +167,17 @@
           }
         ]
       },
+
       {
-        "name": "Deku Palace Bean Grotto Chest Hints",
+        "name": "Deku Palace Bean Grotto Hints",
         "sections": [
           {
             "name": "Deku Palace Bean Grotto Chest (Hint)",
             "visibility_rules": ["deku_palace_bean_grotto_chest"]
+          },
+          {
+            "name": "Deku Palace Bean Seller (Hint)",
+            "visibility_rules": ["deku_palace_bean_seller"]
           }
         ],
         "map_locations": [
@@ -151,6 +188,7 @@
           }
         ]
       },
+
       {
         "name": "Southern Swamp Song Tablet Hints",
         "sections": [
@@ -167,6 +205,7 @@
           }
         ]
       },
+
       {
         "name": "Southern Swamp Near Swamphouse Grotto Chest Hints",
         "sections": [
@@ -183,6 +222,7 @@
           }
         ]
       },
+
       {
         "name": "Woodfall Hints",
         "sections": [
@@ -211,6 +251,7 @@
           }
         ]
       },
+      
       {
         "name": "Deku Shrine Hints",
         "sections": [

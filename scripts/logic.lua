@@ -23,7 +23,7 @@ function projectiles_hard()
 end
 
 function projectiles()
-    return has("deku") and has("magic") or projectiles_hard()
+    return (has("deku") and has("magic")) or projectiles_hard()
 end
 
 function smack_hard()

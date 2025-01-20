@@ -1,5 +1,7 @@
 Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/dungeons.json")
 Tracker:AddLayouts("layouts/items.json")
+Tracker:AddLayouts("layouts/settings_popup.jsonc")
+Tracker:AddLayouts("layouts/settings.jsonc")
 Tracker:AddLayouts("layouts/tabs.json")
 Tracker:AddLayouts("layouts/tracker.json")

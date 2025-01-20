@@ -69,6 +69,39 @@ function onClear(slot_data)
         Archipelago:SetNotify({HINTS_ID})
         Archipelago:Get({HINTS_ID})
     end
+
+    -- read YAML settings
+    local function setFromSlotData(slot_data_key, item_code)
+        local v = slot_data[slot_data_key]
+        if not v then
+            print(string.format("Could not find key '%s' in slot data", slot_data_key))
+            return nil
+        end
+
+        local obj = Tracker:FindObjectForCode(item_code)
+        if not obj then
+            print(string.format("Could not find item for code '%s'", item_code))
+            return nil
+        end
+
+        if obj.Type == 'toggle' then
+            local active = v ~= 0
+            obj.Active = active
+            return v
+        elseif obj.Type == 'progressive' then
+            obj.CurrentStage = v
+            return v
+        else
+            print(string.format("Unsupported item type '%s' for item '%s'", tostring(obj.Type), item_code))
+            return nil
+        end
+    end
+    
+    setFromSlotData("swordless","swordless")
+    setFromSlotData("shuffle_swamphouse_reward","shuffle_swamphouse_reward")
+    setFromSlotData("shuffle_great_fairy_rewards","shuffle_great_fairy_rewards")
+    setFromSlotData("skullsanity","skullsanity")
+    setFromSlotData("fairysanity","fairysanity")
 end
 
 -- called when an item gets collected

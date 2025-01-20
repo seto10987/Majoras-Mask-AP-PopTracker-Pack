@@ -237,7 +237,8 @@
           },
           {
             "name": "Woodfall Great Fairy Reward",
-            "access_rules": ["$has|fairy_wf|15"]
+            "access_rules": ["$has|fairy_wf|15"],
+            "visibility_rules": ["shuffle_great_fairy_rewards"]
           }
         ],
         "map_locations": [

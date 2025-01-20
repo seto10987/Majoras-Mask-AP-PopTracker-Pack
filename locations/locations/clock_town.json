@@ -155,6 +155,7 @@
         {
           "name": "Clock Town Great Fairy",
           "access_rules": ["fairy_ct"],
+          "visibility_rules": ["shuffle_great_fairy_rewards"],
           "sections": [
             {
               "name": "North Clock Town Great Fairy Reward"
@@ -472,6 +473,7 @@
         },
         {
           "name": "Laundry Pool Stray Fairy (Clock Town)",
+          "visibility_rules": ["fairysanity"],
           "sections": [
             {
               "name": "Laundry Pool Stray Fairy (Clock Town)"

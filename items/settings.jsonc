@@ -1,0 +1,63 @@
+//Create items to display them in pack settings. Codes are used in /layouts/settings.jsonc for linking.
+[
+  //Shuffles
+  {
+    "name": "Swordless",
+    "type": "toggle",
+    "img": "/images/pack_settings/shuffles/shuffle_kokiri_sword_on.png",
+    "disabled_img": "/images/pack_settings/shuffles/shuffle_kokiri_sword_off.png",
+    "codes": "swordless"
+  },
+  {
+    "name": "Shuffle Swamphouse Reward",
+    "type": "toggle",
+    "img": "/images/pack_settings/shuffles/shuffle_swamphouse_reward_on.png",
+    "disabled_img": "/images/pack_settings/shuffles/shuffle_swamphouse_reward_off.png",
+    "codes": "shuffle_swamphouse_reward"
+  },
+  {
+    "name": "Shuffle Great Fairy Rewards",
+    "type": "toggle",
+    "img": "/images/pack_settings/shuffles/shuffle_great_fairy_rewards_on.png",
+    "disabled_img": "/images/pack_settings/shuffles/shuffle_great_fairy_rewards_off.png",
+    "codes": "shuffle_great_fairy_rewards"
+  },
+
+  //Sanities
+  {
+    "name": "Skullsanity",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "codes": "skullsanity",
+    "stages": [
+      {
+        "name": "Vanila",
+        "img": "/images/pack_settings/shuffles/skullsanity_vanilla.png",
+        "codes": "skullsanity_0",
+        "inherit_codes": false
+      },
+      {
+        "name": "Anything",
+        "img": "/images/pack_settings/shuffles/skullsanity_anything.png",
+        "codes": "skullsanity_1",
+        "inherit_codes": false
+      },
+      {
+        "name": "Ignore",
+        "img": "/images/pack_settings/shuffles/skullsanity_ignore.png",
+        "img_mods": "@disabled",
+        "codes": "skullsanity_2",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Fairysanity",
+    "type": "toggle",
+    "img": "/images/pack_settings/shuffles/fairysanity_on.png",
+    "disabled_img": "/images/pack_settings/shuffles/fairysanity_off.png",
+    "codes": "fairysanity,fairysanity_on"
+  }
+]

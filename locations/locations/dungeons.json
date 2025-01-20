@@ -44,73 +44,85 @@
               "name": "Woodfall Temple Entrance Freestanding SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
               "chest_opened_img": "images/equipment/fairy_grey.png",
-              "access_rules": [""]
+              "access_rules": [""],
+              "visibility_rules": ["fairysanity_on"]
             },
             {
               "name": "Woodfall Temple Wooden Flower Deku Baba SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
               "chest_opened_img": "images/equipment/fairy_grey.png",
-              "access_rules": [""]
+              "access_rules": [""],
+              "visibility_rules": ["fairysanity_on"]
             },
             {
               "name": "Woodfall Temple Wooden Flower Bubble SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
               "chest_opened_img": "images/equipment/fairy_grey.png",
-              "access_rules": ["bow"]
+              "access_rules": ["bow"],
+              "visibility_rules": ["fairysanity_on"]
             },
             {
               "name": "Woodfall Temple Wooden Flower Pot SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
               "chest_opened_img": "images/equipment/fairy_grey.png",
-              "access_rules": [""]
+              "access_rules": [""],
+              "visibility_rules": ["fairysanity_on"]
             },
             {
               "name": "Woodfall Temple Moving Flower Platform Room Beehive SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
               "chest_opened_img": "images/equipment/fairy_grey.png",
-              "access_rules": ["$projectiles, fairymask"]
+              "access_rules": ["$projectiles, fairymask"],
+              "visibility_rules": ["fairysanity_on"]
             },
             {
               "name": "Woodfall Temple Push Block Skulltula SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
               "chest_opened_img": "images/equipment/fairy_grey.png",
-              "access_rules": ["sk_wf, $smack_hard"]
+              "access_rules": ["sk_wf, $smack_hard"],
+              "visibility_rules": ["fairysanity_on"]
             },
             {
               "name": "Woodfall Temple Push Block Bubble SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
               "chest_opened_img": "images/equipment/fairy_grey.png",
-              "access_rules": ["sk_wf, fairymask, $projectiles"]
+              "access_rules": ["sk_wf, fairymask, $projectiles"],
+              "visibility_rules": ["fairysanity_on"]
             },
             {
               "name": "Woodfall Temple Push Block Beehive SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
               "chest_opened_img": "images/equipment/fairy_grey.png",
-              "access_rules": ["sk_wf, fairymask, $projectiles"]
+              "access_rules": ["sk_wf, fairymask, $projectiles"],
+              "visibility_rules": ["fairysanity_on"]
             },
             {
               "name": "Woodfall Temple Final Room Right Upper Platform SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
               "chest_opened_img": "images/equipment/fairy_grey.png",
-              "access_rules": ["bow"]
+              "access_rules": ["bow"],
+              "visibility_rules": ["fairysanity_on"]
             },
             {
               "name": "Woodfall Temple Final Room Right Lower Platform SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
               "chest_opened_img": "images/equipment/fairy_grey.png",
-              "access_rules": ["bow"]
+              "access_rules": ["bow"],
+              "visibility_rules": ["fairysanity_on"]
             },
             {
               "name": "Woodfall Temple Final Room Left Upper Platform SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
               "chest_opened_img": "images/equipment/fairy_grey.png",
-              "access_rules": ["bow"]
+              "access_rules": ["bow"],
+              "visibility_rules": ["fairysanity_on"]
             },
             {
               "name": "Woodfall Temple Final Room Bubble SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
               "chest_opened_img": "images/equipment/fairy_grey.png",
-              "access_rules": ["bow, fairymask"]
+              "access_rules": ["bow, fairymask"],
+              "visibility_rules": ["fairysanity_on"]
             },
             {
               "name": "Woodfall Temple Heart Container",
@@ -141,127 +153,158 @@
               "name": "Collect 30 Tokens",
               "chest_unopened_img": "images/masks/truth.png",
               "chest_opened_img": "images/masks/truth_checked.png",
-              "access_rules": ["$has|skull_ss|30"]
+              "access_rules": ["$has|skull_ss|30"],
+              "visibility_rules": ["shuffle_swamphouse_reward"]
             },
             {
               "name": "Swamphouse First Room Pot Near Entrance Token",
-              "access_rules": ["$smack"]
+              "access_rules": ["$smack"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse First Room Crawling In Water Token",
-              "access_rules": ["$smack"]
+              "access_rules": ["$smack"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse First Room Crawling Right Column Token",
-              "access_rules": ["$smack,hookshot"]
+              "access_rules": ["$smack,hookshot"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse First Room Crawling Left Column Token",
-              "access_rules": ["$smack,hookshot"]
+              "access_rules": ["$smack,hookshot"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse First Room Against Far Wall Token",
-              "access_rules": ["$smack,hookshot,$plant_beans"]
+              "access_rules": ["$smack,hookshot,$plant_beans"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse First Room Left Bugpatch Token",
-              "access_rules": ["$smack,bottle"]
+              "access_rules": ["$smack,bottle"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse First Room Right Bugpatch Token",
-              "access_rules": ["$smack,bottle"]
+              "access_rules": ["$smack,bottle"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse First Room Upper Right Bugpatch Token",
-              "access_rules": ["$smack,bottle"]
+              "access_rules": ["$smack,bottle"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse Monument Room Left Crate Token",
-              "access_rules": ["$smack"]
+              "access_rules": ["$smack"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse Monument Room Right Crate Token",
-              "access_rules": ["$smack"]
+              "access_rules": ["$smack"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse Monument Room Crawling Wall Token",
-              "access_rules": ["$smack,hookshot,$plant_beans"]
+              "access_rules": ["$smack,hookshot,$plant_beans"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse Monument Room Crawling On Monument Token",
-              "access_rules": ["$smack,hookshot,$plant_beans"]
+              "access_rules": ["$smack,hookshot,$plant_beans"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse Monument Room Behind Torch Token",
-              "access_rules": ["$smack"]
+              "access_rules": ["$smack"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse Pottery Room Beehive #1 Token",
-              "access_rules": ["$smack,$projectiles"]
+              "access_rules": ["$smack,$projectiles"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse Pottery Room Beehive #2 Token",
-              "access_rules": ["$smack,$projectiles"]
+              "access_rules": ["$smack,$projectiles"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse Pottery Room Small Pot Token",
-              "access_rules": ["$smack"]
+              "access_rules": ["$smack"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse Pottery Room Left Large Pot Token",
-              "access_rules": ["$smack"]
+              "access_rules": ["$smack"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse Pottery Room Right Large Pot Token",
-              "access_rules": ["$smack"]
+              "access_rules": ["$smack"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse Pottery Room Behind Vines Token",
-              "access_rules": ["$smack_hard"]
+              "access_rules": ["$smack_hard"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse Pottery Room Upper Wall Token",
-              "access_rules": ["$smack,$play_sonata,deku,hookshot"]
+              "access_rules": ["$smack,$play_sonata,deku,hookshot"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse Golden Room Crawling Left Wall Token",
-              "access_rules": ["$smack,$play_sonata,deku,hookshot"]
+              "access_rules": ["$smack,$play_sonata,deku,hookshot"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse Golden Room Crawling Right Column Token",
-              "access_rules": ["$smack,hookshot"]
+              "access_rules": ["$smack,hookshot"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse Golden Room Against Far Wall Token",
-              "access_rules": ["$smack,hookshot,$plant_beans"]
+              "access_rules": ["$smack,hookshot,$plant_beans"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse Golden Room Beehive Token",
-              "access_rules": ["$smack,$projectiles"]
+              "access_rules": ["$smack,$projectiles"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse Tree Room Tall Grass #1 Token",
-              "access_rules": ["$smack"]
+              "access_rules": ["$smack"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse Tree Room Tall Grass #2 Token",
-              "access_rules": ["$smack"]
+              "access_rules": ["$smack"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse Tree Room Tree #1 Token",
-              "access_rules": ["$smack"]
+              "access_rules": ["$smack"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse Tree Room Tree #2 Token",
-              "access_rules": ["$smack"]
+              "access_rules": ["$smack"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse Tree Room Tree #3 Token",
-              "access_rules": ["$smack"]
+              "access_rules": ["$smack"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
             {
               "name": "Swamphouse Tree Room Beehive Token",
-              "access_rules": ["$smack,$projectiles"]
+              "access_rules": ["$smack,$projectiles"],
+              "visibility_rules": ["skullsanity_0","skullsanity_1"]
             }
           ],
           "map_locations": [

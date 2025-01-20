@@ -132,7 +132,7 @@
     "type": "toggle",
     "loop": true,
     "img": "images/equipment/storms_colored.png",
-    "codes": "storm"
+    "codes": "storms"
   },
   {
     "name": "Song of Storms Check",

@@ -4,11 +4,15 @@
       "access_rules":["{}"],
       "children": [
         {
-          "name": "Moon's Tear Trade Freestanding HP Hints",
+          "name": "Spawn Area Hints",
           "sections": [
             {
               "name": "Moon's Tear Trade Freestanding HP (Hint)",
               "visibility_rules": ["moons_tear_trade_freestanding_hp"]
+            },
+            {
+              "name": "Link's Inventory (Kokiri Sword) (Hint)",
+              "visibility_rules": ["links_inventory_kokiri_sword"]
             }
           ],
           "map_locations": [
@@ -20,7 +24,7 @@
           ]
         },
         {
-          "name": "Moon's Tear Trade Hints",
+          "name": "South Clock Town Business Scrub Hints",
           "sections": [
             {
               "name": "Moon's Tear Trade (Hint)",

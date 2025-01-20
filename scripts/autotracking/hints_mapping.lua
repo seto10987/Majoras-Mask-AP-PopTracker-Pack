@@ -1,4 +1,5 @@
 HINTS_MAPPING = {
+    [0x3469420000037] = {"links_inventory_kokiri_sword"},
     [0x346942007028C] = {"keaton_quiz"},
     [0x3469420040068] = {"clock_tower_happy_mask_salesman_1"},
     [0x3469420000078] = {"clock_tower_happy_mask_salesman_2"},

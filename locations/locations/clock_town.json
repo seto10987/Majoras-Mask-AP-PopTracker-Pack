@@ -3,10 +3,14 @@
       "name": "Clock Town",
       "children": [
         {
-          "name": "Moon's Tear Trade Freestanding HP",
+          "name": "Spawn Area",
           "sections": [
             {
               "name": "Moon's Tear Trade Freestanding HP"
+            },
+            {
+              "name": "Link's Inventory (Kokiri Sword)",
+              "visibility_rules": ["swordless"]
             }
           ],
           "map_locations": [
@@ -18,7 +22,7 @@
           ]
         },
         {
-          "name": "Moon's Tear Trade",
+          "name": "South Clock Town Business Scrub",
           "sections": [
             {
               "name": "Moon's Tear Trade",
@@ -484,11 +488,6 @@
               "map": "termina",
               "x": 24,
               "y": 207
-            },
-            {
-              "map": "termina",
-              "x": 172,
-              "y": 155
             }
           ]
         },

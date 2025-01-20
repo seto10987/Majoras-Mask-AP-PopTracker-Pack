@@ -1,4 +1,7 @@
 LOCATION_MAPPING = {
+    -- Clock Town
+    [0x3469420000037] = {"@Clock Town/Spawn Area/Link's Inventory (Kokiri Sword)","@Clock Town Hints/Spawn Area Hints/Link's Inventory (Kokiri Sword) (Hint)"},
+    [0x3469420056F0A] = {"@Clock Town/Spawn Area/Moon's Tear Trade Freestanding HP","@Clock Town Hints/Spawn Area Hints/Moon's Tear Trade Freestanding HP (Hint)"},
     [0x346942007028C] = {"@Clock Town/Keaton Quiz/Keaton Quiz","@Clock Town Hints/Keaton Quiz Hints/Keaton Quiz (Hint)"},
     [0x3469420040068] = {"@Clock Town/Clock Tower/Clock Tower Happy Mask Salesman #1","@Clock Town Hints/Clock Tower Hints/Clock Tower Happy Mask Salesman #1 (Hint)"},
     [0x3469420000078] = {"@Clock Town/Clock Tower/Clock Tower Happy Mask Salesman #2","@Clock Town Hints/Clock Tower Hints/Clock Tower Happy Mask Salesman #2 (Hint)"},
@@ -34,8 +37,7 @@ LOCATION_MAPPING = {
     [0x3469420080177] = {"@Clock Town/Clock Town Bank/West Clock Town Bank 500 Rupees","@Clock Town Hints/Clock Town Bank Hints/West Clock Town Bank 500 Rupees (Hint)"},
     [0x3469420070177] = {"@Clock Town/Clock Town Bank/West Clock Town Bank 1000 Rupees","@Clock Town Hints/Clock Town Bank Hints/West Clock Town Bank 1000 Rupees (Hint)"},
     [0x3469420000084] = {"@Clock Town/Post Office/West Clock Town Priority Mail to Postman (Final Night)","@Clock Town Hints/Post Office Hints/West Clock Town Priority Mail to Postman (Final Night) (Hint)"},
-    [0x3469420000097] = {"@Clock Town/Moon's Tear Trade/Moon's Tear Trade","@Clock Town Hints/Moon's Tear Trade Hints/Moon's Tear Trade (Hint)"},
-    [0x3469420056F0A] = {"@Clock Town/Moon's Tear Trade Freestanding HP/Moon's Tear Trade Freestanding HP","@Clock Town Hints/Moon's Tear Trade Freestanding HP Hints/Moon's Tear Trade Freestanding HP (Hint)"},
+    [0x3469420000097] = {"@Clock Town/South Clock Town Business Scrub/Moon's Tear Trade","@Clock Town Hints/South Clock Town Business Scrub Hints/Moon's Tear Trade (Hint)"},
     [0x346942000004C] = {"@Clock Town/Clock Tower/Top of Clock Tower (Ocarina of Time)","@Clock Town Hints/Clock Tower Hints/Top of Clock Tower (Ocarina of Time) (Hint)"},
     [0x3469420040067] = {"@Clock Town/Clock Tower/Top of Clock Tower (Song of Time)","@Clock Town Hints/Clock Tower Hints/Top of Clock Tower (Song of Time) (Hint)"},
     [0x34694200000A0] = {"@Clock Town/Stock Pot Inn/Stock Pot Inn Reservation (Day 1: from 1 PM to 4 PM)","@Clock Town Hints/Stock Pot Inn Hints/Stock Pot Inn Reservation (Day 1: from 1 PM to 4 PM) (Hint)"},

@@ -12,7 +12,9 @@ ITEM_MAPPING = {
 [0x3469420040068] = {"healing","toggle"},
 [0x3469420040069] = {"epona","toggle"},
 [0x346942004006A] = {"soaring","toggle"},
-[0x346942004006B] = {"storm","toggle"},
+[0x346942004006B] = {"storms","toggle"},
+
+-- Masks
 [0x3469420000078] = {"deku","toggle"},
 [0x3469420000079] = {"goron","toggle"},
 [0x346942000007A] = {"zora","toggle"},
@@ -37,6 +39,7 @@ ITEM_MAPPING = {
 [0x346942000008D] = {"blast","toggle"},
 [0x346942000008E] = {"scents","toggle"},
 [0x346942000008F] = {"kafei","toggle"},
+
 [0x34694200000A0] = {"roomkey","toggle"},
 [0x34694200000AA] = {"kafeiletter","toggle"},
 [0x34694200000AB] = {"pendant","toggle"},
@@ -69,5 +72,6 @@ ITEM_MAPPING = {
 [0x3469420020001] = {"spin_attack", "toggle"},
 [0x3469420000033] = {"mirrorshield", "progressive"},
 [0x3469420040062] = {"goronlullaby", "toggle"},
-[0x3469420040063] = {"bossanova", "toggle"}
+[0x3469420040063] = {"bossanova", "toggle"},
+[0x3469420040064] = {"elegy", "toggle"}
 }

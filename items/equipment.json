@@ -26,11 +26,10 @@
   {
     "name": "Shield",
     "type": "progressive",
-    "allow_disabled": false,
     "stages": [
       {
         "img": "images/equipment/shield1.png",
-        "codes": "shield1,heroshield,hshield"
+        "codes": "shield,heroshield,hshield"
       },
       {
         "img": "images/equipment/shield2.png",
@@ -448,7 +447,7 @@
     "max_quantity": 15
   },
   {
-    "name":  "Swamp Skull Tokens",
+    "name":  "Swamp Skulltula Tokens",
     "type":  "consumable",
     "img": "images/equipment/skull_ss.png",
     "allow_disabled": false,
@@ -456,7 +455,7 @@
     "max_quantity": 30
   },
   {
-    "name":  "Ocean Skull Tokens",
+    "name":  "Ocean Skulltula Tokens",
     "type":  "consumable",
     "img": "images/equipment/skull_gb.png",
     "allow_disabled": false,

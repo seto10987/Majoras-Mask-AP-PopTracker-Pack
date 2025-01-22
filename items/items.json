@@ -108,7 +108,7 @@
     "name": "Bombchu",
     "type": "toggle",
     "img": "images/items/bombchu.png",
-    "codes": "bombchu,bombchus,chus"
+    "codes": "bombchu1,bombchu5,bombchu10,bombchu,bombchus,chus"
   },
   {
     "name": "Deku Sticks",
@@ -236,5 +236,89 @@
     "type": "toggle",
     "img": "images/items/chateau.png",
     "codes": "chateau"
+  },
+  {
+    "name": "Clock Town Map",
+    "type": "toggle",
+    "img": "images/equipment/rmap_clocktown.png",
+    "codes": "rmap_clocktown"
+  },
+  {
+    "name": "Woodfall Map",
+    "type": "toggle",
+    "img": "images/equipment/rmap_woodfall.png",
+    "codes": "rmap_woodfall"
+  },
+  {
+    "name": "Snowhead Map",
+    "type": "toggle",
+    "img": "images/equipment/rmap_snowhead.png",
+    "codes": "rmap_snowhead"
+  },
+  {
+    "name": "Romani Ranch Map",
+    "type": "toggle",
+    "img": "images/equipment/rmap_romani.png",
+    "codes": "rmap_romani"
+  },
+  {
+    "name": "Great Bay Map",
+    "type": "toggle",
+    "img": "images/equipment/rmap_greatbay.png",
+    "codes": "rmap_greatbay"
+  },
+  {
+    "name": "Stone Tower Map",
+    "type": "toggle",
+    "img": "images/equipment/rmap_stonetower.png",
+    "codes": "rmap_stonetower"
+  },
+  {
+    "name": "Dungeon Map (Woodfall)",
+    "type": "toggle",
+    "img": "images/equipment/map_wtt.png",
+    "codes": "map_wtt"
+  },
+  {
+    "name": "Dungeon Map (Snowhead)",
+    "type": "toggle",
+    "img": "images/equipment/map_sht.png",
+    "codes": "map_sht"
+  },
+  {
+    "name": "Dungeon Map (Great Bay)",
+    "type": "toggle",
+    "img": "images/equipment/map_gbt.png",
+    "codes": "map_gbt"
+  },
+  {
+    "name": "Dungeon Map (Stone Tower)",
+    "type": "toggle",
+    "img": "images/equipment/map_stt.png",
+    "codes": "map_stt"
+  },
+  {
+    "name": "Compass (Woodfall)",
+    "type": "toggle",
+    "img": "images/equipment/compass_wtt.png",
+    "codes": "compass_wtt"
+  },
+  {
+    "name": "Compass (Snowhead)",
+    "type": "toggle",
+    "img": "images/equipment/compass_sht.png",
+    "codes": "compass_sht"
+  },
+  {
+    "name": "Compass (Great Bay)",
+    "type": "toggle",
+    "img": "images/equipment/compass_gbt.png",
+    "codes": "compass_gbt"
+  },
+  {
+    "name": "Compass (Stone Tower)",
+    "type": "toggle",
+    "img": "images/equipment/compass_stt.png",
+    "codes": "compass_stt"
   }
 ]

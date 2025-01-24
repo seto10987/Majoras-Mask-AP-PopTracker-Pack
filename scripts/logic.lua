@@ -148,10 +148,6 @@ function can_purchase()
     end
 end]]
 
-function anju_kafei()
-    return has("kafei") and can_play_eponas() and has("kafeiletter") and has("pendant") and has("hookshot") and (has("garo") or has("gibdo"))
-end
-
 
 -- Region rules
 

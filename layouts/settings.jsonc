@@ -11,6 +11,17 @@
         "content": [
           {
             "type": "group",
+            "header": "Logic Difficulty",
+            "content": [
+              {
+                "type": "item",
+                "max_width": "260",
+                "item": "logic_difficulty"
+              }
+            ]
+          },
+          {
+            "type": "group",
             "header": "Shuffles",
             "content": [
               {

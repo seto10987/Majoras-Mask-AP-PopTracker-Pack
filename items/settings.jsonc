@@ -1,13 +1,28 @@
 //Create items to display them in pack settings. Codes are used in /layouts/settings.jsonc for linking.
 [
-  //{
-  //  "name": "Logic Difficulty",
-  //  "type": "progressive",
-  //  "loop": false,
-  //  "allow_disabled": false,
-  //  "initial_stage_idx": 0,
-  //  "codes": "logic_difficulty"
-  //},
+  //Logic Difficulty
+  {
+    "name": "Logic Difficulty",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "codes": "logic_difficulty",
+    "stages": [
+      {
+        "name": "Easy Logic",
+        "img": "/images/pack_settings/easy.png",
+        "codes": "easy_logic",
+        "inherit_codes": false
+      },
+      {
+        "name": "Normal Logic",
+        "img": "/images/pack_settings/normal.png",
+        "codes": "normal_logic",
+        "inherit_codes": false
+      }
+    ]
+  },
   //Shuffles
   {
     "name": "Swordless",

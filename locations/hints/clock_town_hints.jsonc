@@ -4,15 +4,11 @@
       "access_rules":["{}"],
       "children": [
         {
-          "name": "Spawn Area Hints",
+          "name": "South Clock Town Clock Tower Hints",
           "sections": [
             {
-              "name": "Moon's Tear Trade Freestanding HP (Hint)",
-              "visibility_rules": ["moons_tear_trade_freestanding_hp"]
-            },
-            {
-              "name": "Link's Inventory (Kokiri Sword) (Hint)",
-              "visibility_rules": ["links_inventory_kokiri_sword"]
+              "name": "Freestanding HP (Hint)",
+              "visibility_rules": ["south_clock_town_freestanding_hp"]
             }
           ],
           "map_locations": [
@@ -201,10 +197,10 @@
           ]
         },
         {
-          "name": "North Clock Town Old Lady Hints",
+          "name": "North Clock Town Save Old Lady Hints",
           "sections": [
             {
-              "name": "North Clock Town Old Lady (Night 1, 12:20 PM) (Hint)",
+              "name": "North Clock Town Save Old Lady (Night 1, 12:20 PM) (Hint)",
               "visibility_rules": ["north_clock_town_old_lady_night_1_1220_pm"]
             }
           ],
@@ -217,10 +213,10 @@
           ]
         },
         {
-          "name": "East Clock Town Chest Hints",
+          "name": "East Clock Town Archery Roof Chest (Hint)",
           "sections": [
             {
-              "name": "East Clock Town Chest (Hint)",
+              "name": "Jumping section starts near Bomber's Hideout entrance",
               "visibility_rules": ["east_clock_town_chest"]
             }
           ],
@@ -236,11 +232,11 @@
           "name": "Mayor's Residence (10 AM - 10 PM) Hints",
           "sections": [
             {
-              "name": "East Clock Town Madame Aroma (Hint)",
+              "name": "East Clock Town Mayors Wife (Hint)",
               "visibility_rules": ["east_clock_town_madame_aroma"]
             },
             {
-              "name": "East Clock Town Mayor Dotour (Hint)",
+              "name": "East Clock Town Couples Mask on Mayor (Hint)",
               "visibility_rules": ["east_clock_town_mayor_dotour"]
             }
           ],
@@ -312,8 +308,8 @@
           "name": "Bomber's Secret Hideout Hints",
           "sections": [
             {
-              "name": "East Clock Town Sewer Chest (Hint)",
-              "visibility_rules": ["east_clock_town_sewer_chest"]
+              "name": "Bomber's Hideout Chest (Hint)",
+              "visibility_rules": ["bombers_hideout_chest"]
             }
           ],
           "map_locations": [
@@ -336,7 +332,7 @@
               "visibility_rules": ["stock_pot_inn_employees_only_room_chest_final_night"]
             },
             {
-              "name": "Stock Pot Inn Knife Chamber Chest (Hint)",
+              "name": "Stock Pot Inn Upstairs Middle Room Chest (Hint)",
               "visibility_rules": ["stock_pot_inn_knife_chamber_chest"]
             },
             {
@@ -344,7 +340,7 @@
               "visibility_rules": ["stock_pot_inn_midnight_meeting_night_1_1130_pm"]
             },
             {
-              "name": "Stock Pot Inn ??? Hand (Midnight - 6 AM) (Hint)",
+              "name": "Stock Pot Inn Midnight Toilet Hand (Hint)",
               "visibility_rules": ["stock_pot_inn_hand_midnight_6_am"]
             },
             {
@@ -376,8 +372,16 @@
               "visibility_rules": ["milk_bar_show_night_1_2"]
             },
             {
-              "name": "Milk Bar Priority Mail to Aroma (Final Night) (Hint)",
+              "name": "Priority Mail to Aroma (Final Night) (Hint)",
               "visibility_rules": ["milk_bar_priority_mail_to_aroma_final_night"]
+            },
+            {
+              "name": "Milk Purchase (Hint)",
+              "visibility_rules": ["milk_bar_milk_purchase"]
+            },
+            {
+              "name": "Chateau Romani Purchase (Hint)",
+              "visibility_rules": ["milk_bar_chateau_romani_purchase"]
             }
           ],
           "map_locations": [
@@ -465,11 +469,11 @@
           ]
         },
         {
-          "name": "Laundry Pool Guru-Guru Hints",
+          "name": "Laundry Pool Musician Hints",
           "sections": [
             {
-              "name": "Laundry Pool Guru-Guru (Night 1 - 2) (Hint)",
-              "visibility_rules": ["laundry_pool_guru_guru_night_1_2"]
+              "name": "Laundry Pool Musician (Night 1 - 2) (Hint)",
+              "visibility_rules": ["laundry_pool_musician_night_1_2"]
             }
           ],
           "map_locations": [
@@ -493,11 +497,6 @@
               "map": "termina",
               "x": 16,
               "y": 207
-            },
-            {
-              "map": "termina",
-              "x": 164,
-              "y": 155
             }
           ]
         },
@@ -552,7 +551,163 @@
               "y": 95
             }
           ]
-        }        
+        },
+        {
+          "name": "Trading Post Hints",
+          "map_locations": [
+            {
+              "map": "termina",
+              "x": 25,
+              "y": 169
+            }
+          ],
+          "sections": [
+            {
+              "name": "Clock Town Trading Post Shop Item 1 (Hint)",
+              "visibility_rules": ["trading_post_shop_item_1"]
+            },
+            {
+              "name": "Clock Town Trading Post Shop Item 2 (Hint)",
+              "visibility_rules": ["trading_post_shop_item_2"]
+            },
+            {
+              "name": "Clock Town Trading Post Shop Item 3 (Hint)",
+              "visibility_rules": ["trading_post_shop_item_3"]
+            },
+            {
+              "name": "Clock Town Trading Post Shop Item 4 (Hint)",
+              "visibility_rules": ["trading_post_shop_item_4"]
+            },
+            {
+              "name": "Clock Town Trading Post Shop Item 5 (Hint)",
+              "visibility_rules": ["trading_post_shop_item_5"]
+            },
+            {
+              "name": "Clock Town Trading Post Shop Item 6 (Hint)",
+              "visibility_rules": ["trading_post_shop_item_6"]
+            },
+            {
+              "name": "Clock Town Trading Post Shop Item 7 (Hint)",
+              "visibility_rules": ["trading_post_shop_item_7"]
+            },
+            {
+              "name": "Clock Town Trading Post Shop Item 8 (Hint)",
+              "visibility_rules": ["trading_post_shop_item_8"]
+            },
+            {
+              "name": "Clock Town Trading Post Shop (Night) Item 1 (Hint)",
+              "visibility_rules": ["trading_post_shop_night_item_1"]
+            },
+            {
+              "name": "Clock Town Trading Post Shop (Night) Item 2 (Hint)",
+              "visibility_rules": ["trading_post_shop_night_item_2"]
+            },
+            {
+              "name": "Clock Town Trading Post Shop (Night) Item 3 (Hint)",
+              "visibility_rules": ["trading_post_shop_night_item_3"]
+            },
+            {
+              "name": "Clock Town Trading Post Shop (Night) Item 4 (Hint)",
+              "visibility_rules": ["trading_post_shop_night_item_4"]
+            },
+            {
+              "name": "Clock Town Trading Post Shop (Night) Item 5 (Hint)",
+              "visibility_rules": ["trading_post_shop_night_item_5"]
+            },
+            {
+              "name": "Clock Town Trading Post Shop (Night) Item 6 (Hint)",
+              "visibility_rules": ["trading_post_shop_night_item_6"]
+            },
+            {
+              "name": "Clock Town Trading Post Shop (Night) Item 7 (Hint)",
+              "visibility_rules": ["trading_post_shop_night_item_7"]
+            },
+            {
+              "name": "Clock Town Trading Post Shop (Night) Item 8 (Hint)",
+              "visibility_rules": ["trading_post_shop_night_item_8"]
+            }
+          ]
+        },
+        {
+          "name": "Bomb Shop Hints",
+          "map_locations": [
+            {
+              "map": "termina",
+              "x": 13,
+              "y": 148
+            }
+          ],
+          "sections": [
+            {
+              "name": "Item 1 (Hint)",
+              "visibility_rules": ["bomb_shop_item_1"]
+            },
+            {
+              "name": "Item 2 (Hint)",
+              "visibility_rules": ["bomb_shop_item_2"]
+            },
+            {
+              "name": "Item 3 (Hint)",
+              "visibility_rules": ["bomb_shop_item_3"]
+            },
+            {
+              "name": "Bomb Bag Purchase (Hint)",
+              "visibility_rules": ["bomb_shop_bomb_bag_purchase"]
+            }
+          ]
+        },
+        {
+          "name": "Curiosity Shop (10 PM - 6 AM) Hints",
+          "map_locations": [
+            {
+              "map": "termina",
+              "x": 42,
+              "y": 182
+            }
+          ],
+          "sections": [
+            {
+              "name": "Curiosity Shop Night 3 (Stop Thief) (Hint)",
+              "visibility_rules": ["curiosity_shop_stop_thief"]
+            },
+            {
+              "name": "Curiosity Shop Night 3 Thief Stolen Item (Hint)",
+              "visibility_rules": ["curiosity_shop_stolen_item"]
+            }
+          ]
+        },
+        {
+          "name": "Tingle Clock Town Hints",
+          "map_locations": [
+            {
+              "map": "termina",
+              "x": 113,
+              "y": 33
+            }
+          ],
+          "sections": [
+            {
+              "name": "Clock Town Map Purchase (Hint)",
+              "visibility_rules": ["clock_town_map_purchase"]
+            }
+          ]
+        },
+        {
+          "name": "West Clock Town Lottery Hints",
+          "map_locations": [
+            {
+              "map": "termina",
+              "x": 47,
+              "y": 129
+            }
+          ],
+          "sections": [
+            {
+              "name": "Win Any Day (Hint)",
+              "visibility_rules": ["lottery_win_any_day"]
+            }
+          ]
+        }
       ]
     }
 ]

@@ -1,0 +1,337 @@
+[
+  {
+    "name": "Woodfall Temple Hints",
+    "children": [
+      {
+        "name": "Entrance Chest Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Entrance Chest (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 382,
+            "y": 639
+          }
+        ]
+      },
+      {
+        "name": "Wooden Flower Switch Chest Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Wooden Flower Switch Chest (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 328,
+            "y": 471
+          }
+        ]
+      },
+      {
+        "name": "Moving Flower Platform Room Chest Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Moving Flower Platform Room Chest (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 465,
+            "y": 353
+          }
+        ]
+      },
+      {
+        "name": "Gagwab Chest Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Gagwab Chest (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 569,
+            "y": 426
+          }
+        ]
+      },
+      {
+        "name": "Dinofols Chest Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Dinofols Chest (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 463,
+            "y": 569
+          }
+        ]
+      },
+      {
+        "name": "Boss Key Chest Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Boss Key Chest (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 464,
+            "y": 212
+          }
+        ]
+      },
+      {
+        "name": "Dragonfly Chest Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Dragonfly Chest (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 202,
+            "y": 536
+          }
+        ]
+      },
+      {
+        "name": "Black Boe Room Chest Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Black Boe Room Chest (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 30,
+            "y": 210
+          }
+        ]
+      },
+      {
+        "name": "Entrance Freestanding SF Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Entrance Freestanding SF (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 328,
+            "y": 644
+          }
+        ]
+      },
+      {
+        "name": "Wooden Flower Deku Baba SF Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Wooden Flower Deku Baba SF (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 261,
+            "y": 435
+          }
+        ]
+      },
+      {
+        "name": "Wooden Flower Bubble SF Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Wooden Flower Bubble SF (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 305,
+            "y": 357
+          }
+        ]
+      },
+      {
+        "name": "Wooden Flower Pot SF Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Wooden Flower Pot SF (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 398,
+            "y": 499
+          }
+        ]
+      },
+      {
+        "name": "Moving Flower Platform Room Beehive SF Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Moving Flower Platform Room Beehive SF (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 430,
+            "y": 353
+          }
+        ]
+      },
+      {
+        "name": "Push Block Skulltula SF Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Push Block Skulltula SF (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 169,
+            "y": 353
+          }
+        ]
+      },
+      {
+        "name": "Push Block Bubble SF Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Push Block Bubble SF (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 202,
+            "y": 427
+          }
+        ]
+      },
+      {
+        "name": "Push Block Beehive SF Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Push Block Beehive SF (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 202,
+            "y": 410
+          }
+        ]
+      },
+      {
+        "name": "Final Room Right Upper Platform SF Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Final Room Right Upper Platform SF (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 355,
+            "y": 337
+          }
+        ]
+      },
+      {
+        "name": "Final Room Right Lower Platform SF Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Final Room Right Lower Platform SF (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 355,
+            "y": 317
+          }
+        ]
+      },
+      {
+        "name": "Final Room Left Upper Platform SF Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Final Room Left Upper Platform SF (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 250,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Final Room Bubble SF Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Final Room Bubble SF (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 303,
+            "y": 240
+          }
+        ]
+      },
+      {
+        "name": "Heart Container Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Heart Container (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 307,
+            "y": 77
+          }
+        ]
+      },
+      {
+        "name": "Odolwa's Remains Hints",
+        "sections": [
+          {
+            "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Odolwa's Remains (Hint)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 349,
+            "y": 77
+          }
+        ]
+      }
+    ]
+  }
+]

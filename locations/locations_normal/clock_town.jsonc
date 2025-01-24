@@ -1,16 +1,13 @@
 [
     {
       "name": "Clock Town",
+      "visibility_rules": ["normal_logic"],
       "children": [
         {
-          "name": "Spawn Area",
+          "name": "South Clock Town Clock Tower",
           "sections": [
             {
-              "name": "Moon's Tear Trade Freestanding HP"
-            },
-            {
-              "name": "Link's Inventory (Kokiri Sword)",
-              "visibility_rules": ["swordless"]
+              "name": "Freestanding HP"
             }
           ],
           "map_locations": [
@@ -42,7 +39,7 @@
           "sections": [
             {
               "name": "South Clock Town Final Day Tower Chest",
-              "access_rules": ["deku,moontear","hookshot"]
+              "access_rules": ["hookshot","deku,moontear"]
             }
           ],
           "map_locations": [
@@ -158,15 +155,19 @@
         },
         {
           "name": "Clock Town Great Fairy",
-          "access_rules": ["fairy_ct"],
           "visibility_rules": ["shuffle_great_fairy_rewards"],
           "sections": [
             {
-              "name": "North Clock Town Great Fairy Reward"
+              "name": "North Clock Town Great Fairy Reward",
+              "access_rules": ["fairy_ct"]
             },
             {
               "name": "North Clock Town Great Fairy Reward (Transformation Mask)",
-              "access_rules": ["deku","goron","zora"]
+              "access_rules": [
+                "fairy_ct,deku",
+                "fairy_ct,goron",
+                "fairy_ct,zora"
+              ]
             }
           ],
           "map_locations": [
@@ -199,11 +200,11 @@
           ]
         },
         {
-          "name": "North Clock Town Old Lady",
+          "name": "North Clock Town Save Old Lady",
           "sections": [
             {
-              "name": "North Clock Town Old Lady (Night 1, 12:20 PM)",
-              "access_rules": ["sword","fairysword"]
+              "name": "North Clock Town Save Old Lady (Night 1, 12 AM)",
+              "access_rules": ["sword","fairysword","zora","goron"]
             }
           ],
           "map_locations": [
@@ -215,10 +216,10 @@
           ]
         },
         {
-          "name": "East Clock Town Chest",
+          "name": "East Clock Town Archery Roof Chest",
           "sections": [
             {
-              "name": "East Clock Town Chest"
+              "name": "Jumping section starts near Bomber's Hideout entrance"
             }
           ],
           "map_locations": [
@@ -233,10 +234,10 @@
           "name": "Mayor's Residence (10 AM - 10 PM)",
           "sections": [
             {
-              "name": "East Clock Town Madame Aroma"
+              "name": "East Clock Town Mayors Wife"
             },
             {
-              "name": "East Clock Town Mayor Dotour",
+              "name": "East Clock Town Couples Mask on Mayor",
               "access_rules": ["couple"]
             }
           ],
@@ -253,11 +254,11 @@
           "sections": [
             {
               "name": "East Clock Town Honey and Darling Any Day",
-              "access_rules": ["bow","bombs","bombchu"]
+              "access_rules": ["bow","bombs","$has_bombchus","deku,magic"]
             },
             {
               "name": "East Clock Town Honey and Darling All Days",
-              "access_rules": ["bow,bombs,bombchu"]
+              "access_rules": ["bow,bombs,$has_bombchus"]
             }
           ],
           "map_locations": [
@@ -292,7 +293,7 @@
           "name": "Treasure Game (6 AM - 10 PM)",
           "sections": [
             {
-              "name": "East Clock Town Treasure Game Chest",
+              "name": "East Clock Town Treasure Game Chest (Goron)",
               "access_rules": ["goron"]
             }
           ],
@@ -308,7 +309,7 @@
           "name": "Bomber's Secret Hideout",
           "sections": [
             {
-              "name": "East Clock Town Sewer Chest",
+              "name": "Bomber's Hideout Chest",
               "access_rules": ["$has_explosives,$has_projectiles"]
             }
           ],
@@ -330,15 +331,18 @@
               "name": "Stock Pot Inn Employees Only Room Chest (Final Night)"
             },
             {
-              "name": "Stock Pot Inn Knife Chamber Chest",
+              "name": "Stock Pot Inn Upstairs Middle Room Chest",
               "access_rules": ["roomkey"]
             },
             {
               "name": "Stock Pot Inn Midnight Meeting (Night 1: 11:30 PM)",
-              "access_rules": ["kafeimask"]
+              "access_rules": [
+                "kafeimask,deku",
+                "kafeimask,roomkey"
+              ]
             },
             {
-              "name": "Stock Pot Inn ??? Hand (Midnight - 6 AM)",
+              "name": "Stock Pot Inn Midnight Toilet Hand",
               "access_rules": ["$has_paper"]
             },
             {
@@ -351,7 +355,10 @@
             },
             {
               "name": "Stock Pot Inn Anju and Kafei (Final Night 4:30 AM)",
-              "access_rules": ["$anju_kafei"]
+              "access_rules": [
+                "kafei,$can_play_eponas,kafeiletter,pendant,hookshot,garo",
+                "kafei,$can_play_eponas,kafeiletter,pendant,hookshot,gibdo"
+              ]
             }
           ],
           "map_locations": [
@@ -367,11 +374,19 @@
           "sections": [
             {
               "name": "Milk Bar Show (Night 1 - 2)",
-              "access_rules": ["ocarina,deku,goron,zora,romanimask"]
+              "access_rules": ["romani,deku,goron,zora,ocarina"]
             },
             {
-              "name": "Milk Bar Priority Mail to Aroma (Final Night)",
-              "access_rules": ["kafeimask,express,romanimask"]
+              "name": "Priority Mail to Aroma (Final Night)",
+              "access_rules": ["romani,kafei,express"]
+            },
+            {
+              "name": "Milk Purchase",
+              "access_rules": ["romani"]
+            },
+            {
+              "name": "Chateau Romani Purchase",
+              "access_rules": ["romani,adultswallet"]
             }
           ],
           "map_locations": [
@@ -382,8 +397,7 @@
             }
           ]
         },
-  
-  
+    
         {
           "name": "West Clock Town Rosa Sisters",
           "sections": [
@@ -404,16 +418,15 @@
           "name": "Clock Town Bank",
           "sections": [
             {
-              "name": "West Clock Town Bank 200 Rupees",
-              "access_rules": ["sword,wallet"]
+              "name": "West Clock Town Bank 200 Rupees"
             },
             {
               "name": "West Clock Town Bank 500 Rupees",
-              "access_rules": ["fiercedeitymask,fairysword,wallet1"]
+              "access_rules": ["adultswallet"]
             },
             {
               "name": "West Clock Town Bank 1000 Rupees",
-              "access_rules": ["fiercedeitymask,fairysword,wallet2"]
+              "access_rules": ["giantswallet"]
             }
           ],
           "map_locations": [
@@ -461,10 +474,10 @@
           ]
         },
         {
-          "name": "Laundry Pool Guru-Guru",
+          "name": "Laundry Pool Musician",
           "sections": [
             {
-              "name": "Laundry Pool Guru-Guru (Night 1 - 2)"
+              "name": "Laundry Pool Musician (Night 1 - 2)"
             }
           ],
           "map_locations": [
@@ -521,11 +534,11 @@
           "sections": [
             {
               "name": "Top of Clock Tower (Ocarina of Time)",
-              "access_rules": ["$has_projectiles"]
+              "access_rules": ["has_projectiles"]
             },
             {
               "name": "Top of Clock Tower (Song of Time)",
-              "access_rules": ["$has_projectiles"]
+              "access_rules": ["has_projectiles"]
             },
             {
               "name": "Clock Tower Happy Mask Salesman #1",
@@ -541,6 +554,148 @@
               "map": "termina",
               "x": 117,
               "y": 95
+            }
+          ]
+        },
+        {
+          "name": "Trading Post",
+          "map_locations": [
+            {
+              "map": "termina",
+              "x": 33,
+              "y": 169
+            }
+          ],
+          "sections": [
+            {
+              "name": "Clock Town Trading Post Shop Item 1"
+            },
+            {
+              "name": "Clock Town Trading Post Shop Item 2"
+            },
+            {
+              "name": "Clock Town Trading Post Shop Item 3"
+            },
+            {
+              "name": "Clock Town Trading Post Shop Item 4"
+            },
+            {
+              "name": "Clock Town Trading Post Shop Item 5"
+            },
+            {
+              "name": "Clock Town Trading Post Shop Item 6"
+            },
+            {
+              "name": "Clock Town Trading Post Shop Item 7"
+            },
+            {
+              "name": "Clock Town Trading Post Shop Item 8"
+            },
+            {
+              "name": "Clock Town Trading Post Shop (Night) Item 1"
+            },
+            {
+              "name": "Clock Town Trading Post Shop (Night) Item 2"
+            },
+            {
+              "name": "Clock Town Trading Post Shop (Night) Item 3"
+            },
+            {
+              "name": "Clock Town Trading Post Shop (Night) Item 4"
+            },
+            {
+              "name": "Clock Town Trading Post Shop (Night) Item 5"
+            },
+            {
+              "name": "Clock Town Trading Post Shop (Night) Item 6"
+            },
+            {
+              "name": "Clock Town Trading Post Shop (Night) Item 7"
+            },
+            {
+              "name": "Clock Town Trading Post Shop (Night) Item 8"
+            }
+          ]
+        },
+        {
+          "name": "Bomb Shop",
+          "map_locations": [
+            {
+              "map": "termina",
+              "x": 21,
+              "y": 148
+            }
+          ],
+          "sections": [
+            {
+              "name": "Item 1"
+            },
+            {
+              "name": "Item 2"
+            },
+            {
+              "name": "Item 3"
+            },
+            {
+              "name": "Bomb Bag Purchase",
+              "access_rules": ["sword","fairysword","zora","goron"]
+              //same requirements as North Clock Town Save Old Lady
+            }
+          ]
+        },
+        {
+          "name": "Curiosity Shop (10 PM - 6 AM)",
+          "map_locations": [
+            {
+              "map": "termina",
+              "x": 50,
+              "y": 182
+            }
+          ],
+          "sections": [
+            {
+              "name": "Curiosity Shop Night 3 (Stop Thief)",
+              "access_rules": [
+                "giantswallet,sword",
+                "giantswallet, fairysword",
+                "giantswallet, zora",
+                "giantswallet, goron"
+              ] //same requirements as Bomb Bag Purchase
+            },
+            {
+              "name": "Curiosity Shop Night 3 Thief Stolen Item",
+              "access_rules": ["adultswallet"]
+            }
+          ]
+        },
+        {
+          "name": "Tingle Clock Town",
+          "map_locations": [
+            {
+              "map": "termina",
+              "x": 121,
+              "y": 33
+            }
+          ],
+          "sections": [
+            {
+              "name": "Clock Town Map Purchase",
+              "access_rules": ["$has_projectiles"]
+            }
+          ]
+        },
+        {
+          "name": "West Clock Town Lottery",
+          "map_locations": [
+            {
+              "map": "termina",
+              "x": 55,
+              "y": 129
+            }
+          ],
+          "sections": [
+            {
+              "name": "Win Any Day"
             }
           ]
         }

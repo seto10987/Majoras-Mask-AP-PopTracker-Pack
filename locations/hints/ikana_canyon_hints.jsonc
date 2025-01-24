@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Ikana Canyon Hints",
+    "access_rules":["{}"],
+    "children": [
+      {
+        "name": "Road to Ikana Pillar Chest Hints",
+        "sections": [
+          {
+            "name": "Road to Ikana Pillar Chest (Hint)",
+            "visibility_rules": ["road_to_ikana_pillar_chest"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 612,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Road to Ikana Rock Grotto Chest Hints",
+        "sections": [
+          {
+            "name": "Road to Ikana Rock Grotto Chest (Hint)",
+            "visibility_rules": ["road_to_ikana_rock_grotto_chest"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 639,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Road to Ikana Stone Soldier Hints",
+        "sections": [
+          {
+            "name": "Road to Ikana Stone Soldier (Hint)",
+            "visibility_rules": ["road_to_ikana_stone_soldier"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 673,
+            "y": 312
+          }
+        ]
+      }      
+    ]
+  }
+]
+

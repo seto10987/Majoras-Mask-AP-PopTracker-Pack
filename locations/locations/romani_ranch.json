@@ -7,7 +7,7 @@
         "sections": [
           {
             "name": "Milk Road Gorman Ranch Race",
-            "access_rules": ["$play_eponas"]
+            "access_rules": ["$can_play_eponas"]
           }
         ],
         "map_locations": [

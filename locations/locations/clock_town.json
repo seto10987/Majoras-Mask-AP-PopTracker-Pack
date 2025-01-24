@@ -110,7 +110,7 @@
           "sections": [
             {
               "name": "Clock Town Hide-and-Seek",
-              "access_rules": ["$projectiles"]
+              "access_rules": ["$has_projectiles"]
             }
           ],
           "map_locations": [
@@ -309,7 +309,7 @@
           "sections": [
             {
               "name": "East Clock Town Sewer Chest",
-              "access_rules": ["$explosives,$projectiles"]
+              "access_rules": ["$has_explosives,$has_projectiles"]
             }
           ],
           "map_locations": [
@@ -339,7 +339,7 @@
             },
             {
               "name": "Stock Pot Inn ??? Hand (Midnight - 6 AM)",
-              "access_rules": ["$paper"]
+              "access_rules": ["$has_paper"]
             },
             {
               "name": "Stock Pot Inn Granny Story #1",
@@ -521,11 +521,11 @@
           "sections": [
             {
               "name": "Top of Clock Tower (Ocarina of Time)",
-              "access_rules": ["$projectiles"]
+              "access_rules": ["$has_projectiles"]
             },
             {
               "name": "Top of Clock Tower (Song of Time)",
-              "access_rules": ["$projectiles"]
+              "access_rules": ["$has_projectiles"]
             },
             {
               "name": "Clock Tower Happy Mask Salesman #1",

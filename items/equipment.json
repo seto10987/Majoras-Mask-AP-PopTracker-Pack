@@ -136,9 +136,9 @@
   {
     "name": "Song of Storms Check",
     "type": "toggle_badged",
-    "base_item": "storm",
+    "base_item": "storms",
     "img": "images/icons/check.png",
-    "codes": "stormcheck"
+    "codes": "stormscheck"
   },
   {
     "name": "Sonata of Awakening",

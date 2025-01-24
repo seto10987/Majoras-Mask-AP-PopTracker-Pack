@@ -3,7 +3,7 @@ function can_play_healing() -- was "play_healing"
     return has("healing") and has("ocarina")
 end
 
-function can_play_eponas() -- was "play_eponas"
+function can_play_eponas()
     return has("epona") and has("ocarina")
 end
 
@@ -56,8 +56,8 @@ function can_smack() -- was "smack"
     return can_smack_hard() or has("deku")
 end
 
-function has_paper() -- was "paper"
-    return has("landdeed") or has("swampdeed") or has("mountaindeed") or has("oceandeed") or has ("kafeiletter") or has ("express")
+function has_paper()
+    return has("landdeed") or has("swampdeed") or has("mountaindeed") or has("oceandeed") or has("kafeiletter") or has("express")
 end
 
 function can_plant_beans() -- was "plant_beans"
@@ -115,7 +115,7 @@ function baby_can_smack()
 end
 
 function baby_has_paper()
-    return has("landdeed") and has("swampdeed") and has("mountaindeed") or has("oceandeed") or has ("kafeiletter") or has ("express")
+    return has("landdeed") and has("swampdeed") and has("mountaindeed") or has("oceandeed") or has("kafeiletter") or has("express")
 end
 
 function baby_has_bottle()
@@ -148,15 +148,14 @@ function can_purchase()
     end
 end]]
 
-function anju_kafei() -- was "anju_kafei"
-    return has("kafeimask") and play_eponas() and has("kafeiletter") and has("pendant") and has("hookshot") and 
-    (has("garo") or has("gibdo"))
+function anju_kafei()
+    return has("kafei") and can_play_eponas() and has("kafeiletter") and has("pendant") and has("hookshot") and (has("garo") or has("gibdo"))
 end
 
 
 -- Region rules
 
-function moon() -- was "moon"
+function moon()
     return has("ocarina") and has("oath") and has("odolwa") and has("goht") and has("gyorg") and has("twinmold")
 end
 
@@ -173,7 +172,7 @@ end
 function baby_swamp_skull_house()
     return baby_south_swamp() and has("deku") and can_use_fire_arrows()
 end
-function swamp_skull_house() -- was "swamp_skull_house"
+function swamp_skull_house()
     return south_swamp() and has("deku")
 end
 
@@ -197,7 +196,7 @@ end
 function baby_woodfall_temple()
     return baby_woodfall() and can_play_sonata() and has("bosskey_wt") and has("smallkey_wt")
 end
-function woodfall_temple() -- was "woodfall_temple"
+function woodfall_temple()
     return woodfall() and can_play_sonata()
 end
 
@@ -205,7 +204,7 @@ end
 function baby_clear_woodfall()
     return baby_woodfall_temple() and has("bow") and baby_can_smack_hard() and has("bosskey_wf") and has("odolwa")
 end
-function clear_woodfall() -- was "clear_woodfall"
+function clear_woodfall()
     return woodfall_temple() and has("bow") and can_smack() and (has("bosskey_wf") or has("odolwa"))
 end
 
@@ -281,10 +280,11 @@ end
 
 -- What's needed to defeat Gyorg
 function baby_clear_greatbay()
-    return baby_great_bay_temple() has("zora") and can_use_ice_arrows() and can_use_fire_arrows() and has("bow")
+    return baby_great_bay_temple() and has("zora") and can_use_ice_arrows() and can_use_fire_arrows() and has("bow")
 end
+
 function clear_greatbay()
-    return great_bay_temple() has("zora") and can_use_ice_arrows() and can_use_fire_arrows() and (has("bosskey_gb") or has("gyorg"))
+    return great_bay_temple() and has("zora") and can_use_ice_arrows() and can_use_fire_arrows() and (has("bosskey_gb") or has("gyorg"))
 end
 
 

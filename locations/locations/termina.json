@@ -10,7 +10,7 @@
           },
           {
             "name": "Termina Stump Chest",
-            "access_rules": ["$plant_beans","hookshot"]
+            "access_rules": ["$can_plant_beans","hookshot"]
           },
           {
             "name": "Termina Tall Grass Grotto Chest"
@@ -100,7 +100,7 @@
         "sections": [
           {
             "name": "Termina Kamaro (Midnight - 6 AM)",
-            "access_rules": ["$play_healing"]
+            "access_rules": ["$can_play_healing"]
           }
         ],
         "map_locations": [
@@ -117,7 +117,7 @@
         "sections": [
           {
             "name": "Termina Bio Baba Grotto HP",
-            "access_rules": ["$explosives,goron,zora,$projectiles"]
+            "access_rules": ["$has_explosives,goron,zora,$has_projectiles"]
           }
         ],
         "map_locations":[
@@ -134,7 +134,7 @@
         "sections": [
           {
             "name": "East Clock Town Astral Observatory",
-            "access_rules": ["$projectiles"]
+            "access_rules": ["$has_projectiles"]
           }
         ],
         "map_locations": [
@@ -151,7 +151,7 @@
         "sections": [
           {
             "name": "Termina Business Scrub Grotto HP",
-            "access_rules": ["$projectiles,wallet"]
+            "access_rules": ["$has_projectiles,wallet"]
           }
         ],
         "map_locations": [

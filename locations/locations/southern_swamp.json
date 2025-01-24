@@ -7,7 +7,7 @@
         "sections": [
           {
             "name": "Road to Swamp Tree HP",
-            "access_rules": ["$projectiles"]
+            "access_rules": ["$has_projectiles"]
           }
         ],
         "map_locations": [
@@ -135,7 +135,7 @@
         "sections": [
           {
             "name": "Deku Palace Monkey Song",
-            "access_rules": ["ocarina,$plant_beans,deku"]
+            "access_rules": ["ocarina,$can_plant_beans,deku"]
           }
         ],
         "map_locations": [
@@ -170,7 +170,7 @@
         "sections": [
           {
             "name": "Deku Palace Bean Grotto Chest",
-            "access_rules": ["$plant_beans,hookshot"]
+            "access_rules": ["$can_plant_beans,hookshot"]
           },
           {
             "name": "Deku Palace Bean Seller",

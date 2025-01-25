@@ -82,13 +82,15 @@ LOCATION_MAPPING = {
     [0x3469420062D01] = {"@Termina Field/South East Termina Field/Termina Tall Grass Chest","@Termina Field Hints/South East Termina Field Hints/Termina Tall Grass Chest (Hint)"},
     [0x3469420062D00] = {"@Termina Field/Termina Underwater Chest/Termina Underwater Chest","@Termina Field Hints/Termina Underwater Chest Hints/Termina Underwater Chest (Hint)"},
     [0x346942006071F] = {"@Termina Field/South East Termina Field/Termina Tall Grass Grotto Chest","@Termina Field Hints/South East Termina Field Hints/Termina Tall Grass Grotto Chest (Hint)"},
-    [0x3469420060704] = {"@Termina Field/South West Termina Field/Termina Peahat Grotto Chest (Daytime Only)","@Termina Field Hints/South West Termina Field Hints/Termina Peahat Grotto Chest (Daytime Only) (Hint)"},
+    [0x3469420060704] = {"@Termina Field/Termina Field Peahat Grotto/Defeat Peahat (Daytime Only)","@Termina Field Hints/Termina Field Peahat Grotto Hints/Defeat Peahat (Daytime Only) (Hint)"},
     [0x3469420060700] = {"@Termina Field/Termina Dodongo Grotto Chest/Termina Dodongo Grotto Chest","@Termina Field Hints/Termina Dodongo Grotto Chest Hints/Termina Dodongo Grotto Chest (Hint)"},
     [0x346942006071A] = {"@Termina Field/Termina Ikana Pillar Grotto Chest/Termina Ikana Pillar Grotto Chest","@Termina Field Hints/Termina Ikana Pillar Grotto Chest Hints/Termina Ikana Pillar Grotto Chest (Hint)"},
-    [0x3469420000089] = {"@Termina Field/Termina Kamaro/Termina Kamaro (Midnight - 6 AM)","@Termina Field Hints/Termina Kamaro Hints/Termina Kamaro (Midnight - 6 AM) (Hint)"},
+    [0x3469420000089] = {"@Termina Field/Termina Northern Midnight Dancer/Termina Northern Midnight Dancer (Midnight - 6 AM)","@Termina Field Hints/Termina Northern Midnight Dancer Hints/Termina Northern Midnight Dancer (Midnight - 6 AM) (Hint)"},
     [0x3469420050702] = {"@Termina Field/Termina Bio Baba Grotto HP/Termina Bio Baba Grotto HP","@Termina Field Hints/Termina Bio Baba Grotto Hints/Termina Bio Baba Grotto HP (Hint)"},
     [0x34694200700EF] = {"@Termina Field/Termina Gossip Stones HP/Termina Gossip Stones HP","@Termina Field Hints/Termina Gossip Stones HP Hints/Termina Gossip Stones HP (Hint)"},
     [0x346942007024C] = {"@Termina Field/Termina Business Scrub Grotto/Termina Business Scrub Grotto HP","@Termina Field Hints/Termina Business Scrub Grotto Hints/Termina Business Scrub Grotto HP (Hint)"},
+    [0x3469420BEEF14] = {"@Termina Field/Termina Log Bombable Grotto/Left Cow","@Termina Field Hints/Termina Log Bombable Grotto Hints/Left Cow (Hint)"},
+    [0x3469420BEEF13] = {"@Termina Field/Termina Log Bombable Grotto/Right Cow","@Termina Field Hints/Termina Log Bombable Grotto Hints/Right Cow (Hint)"},
 
     -- Milk Road/Romani Ranch
     [0x3469420000081] = {"@Romani Ranch/Milk Road Gorman Ranch Race/Milk Road Gorman Ranch Race","@Romani Ranch Hints/Milk Road Gorman Ranch Race Hints/Milk Road Gorman Ranch Race (Hint)"},

@@ -1,6 +1,7 @@
 [
   {
     "name": "Termina Field",
+    "visibility_rules": ["easy_logic"],
     "children": [
       {
         "name": "South East Termina Field",
@@ -10,7 +11,7 @@
           },
           {
             "name": "Termina Stump Chest",
-            "access_rules": ["$can_plant_beans","hookshot"]
+            "access_rules": ["$baby_can_plant_beans,hookshot"]
           },
           {
             "name": "Termina Tall Grass Grotto Chest"
@@ -24,7 +25,6 @@
           }
         ]
       },
-
       {
         "name": "Termina Ikana Pillar Grotto Chest",
         "sections": [
@@ -40,7 +40,6 @@
           }
         ]
       },
-
       {
         "name": "Termina Underwater Chest",
         "sections": [
@@ -57,33 +56,28 @@
           }
         ]
       },
-
       {
-        "name": "South West Termina Field",
+        "name": "Termina Field Peahat Grotto",
         "sections": [
           {
-            "name": "Termina Peahat Grotto Chest (Daytime Only)",
-            "access_rules": ["sword"]
-          },
-          {
-            "ref": "Termina Field/Termina Gossip Stones HP/Termina Gossip Stones HP"
+            "name": "Defeat Peahat (Daytime Only)",
+            "access_rules": ["$baby_can_smack_hard"]
           }
         ],
         "map_locations": [
           {
             "map": "termina",
-            "x": 520,
-            "y": 355
+            "x": 513,
+            "y": 332
           }
         ]
       },
-
       {
         "name": "Termina Dodongo Grotto Chest",
         "sections": [
           {
             "name": "Termina Dodongo Grotto Chest",
-            "access_rules": ["sword"]
+            "access_rules": ["$baby_can_smack_hard"]
           }
         ],
         "map_locations": [
@@ -94,12 +88,11 @@
           }
         ]
       },
-
       {
-        "name": "Termina Kamaro",
+        "name": "Termina Northern Midnight Dancer",
         "sections": [
           {
-            "name": "Termina Kamaro (Midnight - 6 AM)",
+            "name": "Termina Northern Midnight Dancer (Midnight - 6 AM)",
             "access_rules": ["$can_play_healing"]
           }
         ],
@@ -111,13 +104,12 @@
           }
         ]
       },
-
       {
         "name": "Termina Bio Baba Grotto HP",
         "sections": [
           {
             "name": "Termina Bio Baba Grotto HP",
-            "access_rules": ["$has_explosives,goron,zora,$has_projectiles"]
+            "access_rules": ["$baby_has_explosives,goron,zora,$baby_has_projectiles"]
           }
         ],
         "map_locations":[
@@ -128,7 +120,6 @@
           }
         ]
       },
-      
       {
         "name": "East Clock Town Astral Observatory",
         "sections": [
@@ -145,7 +136,6 @@
           }
         ]
       },
-
       {
         "name": "Termina Business Scrub Grotto",
         "sections": [
@@ -162,13 +152,12 @@
           }
         ]
       },
-
       {
         "name": "Termina Gossip Stones HP",
         "sections": [
           {
             "name": "Termina Gossip Stones HP",
-            "access_rules": ["deku,sonata,goron,lullaby,zora,bossanova"]
+            "access_rules": ["deku,$can_play_sonata,goron,$can_play_lullaby,zora,$can_play_bossanova"]
           }
         ],
         "map_locations": [
@@ -186,6 +175,32 @@
             "map": "termina",
             "x": 498,
             "y": 299
+          },
+          {
+            "map": "termina",
+            "x": 515,
+            "y": 345
+          }
+        ]
+      },
+      {
+        "name": "Termina Log Bombable Grotto",
+        "access_rules": ["$baby_has_explosives"], //need confirmation
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 539,
+            "y": 348
+          }
+        ],
+        "sections": [
+          {
+            "name": "Left Cow",
+            "access_rules": ["can_play_eponas"]
+          },
+          {
+            "name": "Right Cow",
+            "access_rules": ["can_play_eponas"]
           }
         ]
       }

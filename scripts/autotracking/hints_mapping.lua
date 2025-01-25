@@ -165,5 +165,7 @@ HINTS_MAPPING = {
     [0x3469420090018] = {"bomb_shop_bomb_bag_purchase"},
     [0x3469420090013] = {"curiosity_shop_stop_thief"},
     [0x3469420090015] = {"curiosity_shop_stolen_item"},
-    [0x34694200000B4] = {"clock_town_map_purchase"}
+    [0x34694200000B4] = {"clock_town_map_purchase"},
+    [0x3469420BEEF14] = {"termina_cow_grotto_left_cow"},
+    [0x3469420BEEF13] = {"termina_cow_grotto_right_cow"}
 }

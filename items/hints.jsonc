@@ -823,5 +823,15 @@
     "name": "lottery_win_any_day",
     "type": "toggle",
     "codes": "lottery_win_any_day"
+  },
+  {
+    "name": "termina_cow_grotto_left_cow",
+    "type": "toggle",
+    "codes": "termina_cow_grotto_left_cow"
+  },
+  {
+    "name": "termina_cow_grotto_right_cow",
+    "type": "toggle",
+    "codes": "termina_cow_grotto_right_cow"
   }
 ]

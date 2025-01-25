@@ -63,22 +63,18 @@
       },
 
       {
-        "name": "South West Termina Field Hints",
+        "name": "Termina Field Peahat Grotto Hints",
         "sections": [
           {
-            "name": "Termina Peahat Grotto Chest (Daytime Only) (Hint)",
+            "name": "Defeat Peahat (Daytime Only) (Hint)",
             "visibility_rules":["termina_peahat_grotto_chest_daytime_only"]
-          },
-          {
-            "name": "Termina Gossip Stones HP (Hint)",
-            "visibility_rules":["termina_gossip_stones_hp"]
           }
         ],
         "map_locations": [
           {
             "map": "termina",
-            "x": 512,
-            "y": 355
+            "x": 505,
+            "y": 332
           }
         ]
       },
@@ -101,10 +97,10 @@
       },
 
       {
-        "name": "Termina Kamaro Hints",
+        "name": "Termina Northern Midnight Dancer Hints",
         "sections": [
           {
-            "name": "Termina Kamaro (Midnight - 6 AM) (Hint)",
+            "name": "Termina Northern Midnight Dancer (Midnight - 6 AM) (Hint)",
             "visibility_rules":["termina_kamaro_midnight_6_am"]
           }
         ],
@@ -191,6 +187,26 @@
             "map": "termina",
             "x": 575,
             "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Termina Log Bombable Grotto Hints",
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 531,
+            "y": 348
+          }
+        ],
+        "sections": [
+          {
+            "name": "Left Cow (Hint)",
+            "visibility_rules": ["termina_cow_grotto_left_cow"]
+          },
+          {
+            "name": "Right Cow (Hint)",
+            "visibility_rules": ["termina_cow_grotto_right_cow"]
           }
         ]
       }

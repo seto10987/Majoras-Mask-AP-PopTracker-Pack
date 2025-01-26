@@ -315,9 +315,9 @@
     "codes": "southern_swamp_deku_trade_freestanding_hp"
   },
   {
-    "name": "southern_swamp_kotake_request",
+    "name": "southern_swamp_healthy_witch_request",
     "type": "toggle",
-    "codes": "southern_swamp_kotake_request"
+    "codes": "southern_swamp_healthy_witch_request"
   },
   {
     "name": "southern_swamp_mystery_woods_grotto_chest_day_2",
@@ -325,9 +325,9 @@
     "codes": "southern_swamp_mystery_woods_grotto_chest_day_2"
   },
   {
-    "name": "southern_swamp_koume_tour_gift",
+    "name": "southern_swamp_tour_witch_gift",
     "type": "toggle",
-    "codes": "southern_swamp_koume_tour_gift"
+    "codes": "southern_swamp_tour_witch_gift"
   },
   {
     "name": "swamphouse_first_room_pot_near_entrance_token",
@@ -833,5 +833,30 @@
     "name": "termina_cow_grotto_right_cow",
     "type": "toggle",
     "codes": "termina_cow_grotto_right_cow"
+  },
+  {
+    "name": "southern_swamp_deku_purchase_beans",
+    "type": "toggle",
+    "codes": "southern_swamp_deku_purchase_beans"
+  },
+  {
+    "name": "witch_shop_item_1",
+    "type": "toggle",
+    "codes": "witch_shop_item_1"
+  },
+  {
+    "name": "witch_shop_item_2",
+    "type": "toggle",
+    "codes": "witch_shop_item_2"
+  },
+  {
+    "name": "witch_shop_item_3",
+    "type": "toggle",
+    "codes": "witch_shop_item_3"
+  },
+  {
+    "name": "woodfall_map_purchase",
+    "type": "toggle",
+    "codes": "woodfall_map_purchase"
   }
 ]

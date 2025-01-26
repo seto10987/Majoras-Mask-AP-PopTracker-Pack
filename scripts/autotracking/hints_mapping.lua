@@ -68,10 +68,15 @@ HINTS_MAPPING = {
     [0x3469420000024] = {"swamp_shooting_gallery_2120_points"},
     [0x346942008011D] = {"swamp_shooting_gallery_2180_points"},
     [0x3469420000098] = {"southern_swamp_deku_trade"},
+    [0x3469420090135] = {"southern_swamp_deku_purchase_beans"}
     [0x346942005451E] = {"southern_swamp_deku_trade_freestanding_hp"},
-    [0x3469420000059] = {"southern_swamp_kotake_request"},
+    [0x3469420000059] = {"southern_swamp_healthy_witch_request"},
     [0x346942006071C] = {"southern_swamp_mystery_woods_grotto_chest_day_2"},
-    [0x3469420000043] = {"southern_swamp_koume_tour_gift"},
+    [0x3469420000043] = {"southern_swamp_tour_witch_gift"},
+    [0x3469420090002] = {"witch_shop_item_1"},
+    [0x3469420090001] = {"witch_shop_item_2"},
+    [0x3469420090000] = {"witch_shop_item_3"},
+    [0x34694200000B5] = {"woodfall_map_purchase"},
     
     [0x346942006271E] = {"swamphouse_first_room_pot_near_entrance_token"},
     [0x3469420062708] = {"swamphouse_first_room_crawling_in_water_token"},

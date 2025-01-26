@@ -57,13 +57,32 @@
           }
         ]
       },
-
+      {
+        "name": "Tingle Southern Swamp Hints",
+        "sections": [
+          {
+            "name": "Woodfall Map Purchase (Hint)",
+            "visibility_rules": ["woodfall_map_purchase"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 537,
+            "y": 419
+          }
+        ]
+      },
       {
         "name": "Swamp Business Scrub Hints",
         "sections": [
           {
             "name": "Southern Swamp Deku Trade (Hint)",
             "visibility_rules": ["southern_swamp_deku_trade"]
+          },
+          {
+            "name": "Southern Swamp Deku Scrub Purchase Beans (Hint)",
+            "visibility_rules": ["southern_swamp_deku_purchase_beans"]
           },
           {
             "name": "Southern Swamp Deku Trade Freestanding HP (Hint)",
@@ -83,8 +102,8 @@
         "name": "Swamp Tourist Center Hints",
         "sections": [
           {
-            "name": "Southern Swamp Koume Tour Gift (Hint)",
-            "visibility_rules": ["southern_swamp_koume_tour_gift"]
+            "name": "Southern Swamp Tour Witch Gift (Hint)",
+            "visibility_rules": ["southern_swamp_tour_witch_gift"]
           },
           {
             "name": "Tour Koume Target Shooting (Hint)",
@@ -101,11 +120,11 @@
       },
 
       {
-        "name": "Southern Swamp Kotake Request Hints",
+        "name": "Southern Swamp Healthy Witch Request Hints",
         "sections": [
           {
-            "name": "Southern Swamp Kotake Request (Hint)",
-            "visibility_rules": ["southern_swamp_kotake_request"]
+            "name": "Southern Swamp Healthy Witch Request (Hint)",
+            "visibility_rules": ["southern_swamp_healthy_witch_request"]
           }
         ],
         "map_locations": [
@@ -116,7 +135,30 @@
           }
         ]
       },
-
+      {
+        "name": "Southern Swamp Witch Shop Hints",
+        "sections": [
+          {
+            "name": "Item 1 (Hint)",
+            "visibility_rules": ["witch_shop_item_1"]
+          },
+          {
+            "name": "Item 2 (Hint)",
+            "visibility_rules": ["witch_shop_item_2"]
+          },
+          {
+            "name": "Item 3 (Hint)",
+            "visibility_rules": ["witch_shop_item_3"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 572,
+            "y": 454
+          }
+        ]
+      },
       {
         "name": "Southern Swamp Mystery Woods Grotto Chest Hints",
         "sections": [

@@ -200,8 +200,8 @@
           "name": "North Clock Town Save Old Lady Hints",
           "sections": [
             {
-              "name": "North Clock Town Save Old Lady (Night 1, 12:20 PM) (Hint)",
-              "visibility_rules": ["north_clock_town_old_lady_night_1_1220_pm"]
+              "name": "North Clock Town Save Old Lady (Night 1, 12 AM) (Hint)",
+              "visibility_rules": ["north_clock_town_old_lady_night_1_12_am"]
             }
           ],
           "map_locations": [
@@ -292,7 +292,7 @@
           "name": "Treasure Game (6 AM - 10 PM) Hints",
           "sections": [
             {
-              "name": "East Clock Town Treasure Game Chest (Hint)",
+              "name": "East Clock Town Treasure Game Chest (Goron) (Hint)",
               "visibility_rules": ["east_clock_town_treasure_game_chest"]
             }
           ],

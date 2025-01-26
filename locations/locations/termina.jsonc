@@ -1,7 +1,6 @@
 [
   {
     "name": "Termina Field",
-    "visibility_rules": ["easy_logic"],
     "children": [
       {
         "name": "South East Termina Field",
@@ -11,7 +10,11 @@
           },
           {
             "name": "Termina Stump Chest",
-            "access_rules": ["$baby_can_plant_beans,hookshot"]
+            "access_rules": [
+              "easy_logic,$baby_can_plant_beans,hookshot",
+              "normal_logic,$can_plant_beans",
+              "normal_logic,hookshot"
+            ]
           },
           {
             "name": "Termina Tall Grass Grotto Chest"
@@ -61,7 +64,7 @@
         "sections": [
           {
             "name": "Defeat Peahat (Daytime Only)",
-            "access_rules": ["$baby_can_smack_hard"]
+            "access_rules": ["$baby_can_smack_hard","normal_logic"]
           }
         ],
         "map_locations": [
@@ -77,7 +80,7 @@
         "sections": [
           {
             "name": "Termina Dodongo Grotto Chest",
-            "access_rules": ["$baby_can_smack_hard"]
+            "access_rules": ["$baby_can_smack_hard","normal_logic"]
           }
         ],
         "map_locations": [
@@ -109,7 +112,11 @@
         "sections": [
           {
             "name": "Termina Bio Baba Grotto HP",
-            "access_rules": ["$baby_has_explosives,goron,zora,$baby_has_projectiles"]
+            "access_rules": [
+              "easy_logic,$baby_has_explosives,goron,zora,$baby_has_projectiles",
+              "normal_logic,$has_explosives,zora",
+              "normal_logic,goron,zora"
+            ]
           }
         ],
         "map_locations":[
@@ -125,7 +132,10 @@
         "sections": [
           {
             "name": "East Clock Town Astral Observatory",
-            "access_rules": ["$baby_has_projectiles"]
+            "access_rules": [
+              "easy_logic,$baby_has_projectiles",
+              "normal_logic,$has_projectiles"
+            ]
           }
         ],
         "map_locations": [
@@ -157,7 +167,12 @@
         "sections": [
           {
             "name": "Termina Gossip Stones HP",
-            "access_rules": ["deku,$can_play_sonata,goron,$can_play_lullaby,zora,$can_play_bossanova"]
+            "access_rules": [
+              "easy_logic,deku,$can_play_sonata,goron,$can_play_lullaby,zora,$can_play_bossanova",
+              "normal_logic,deku,$can_play_sonata,$has_explosives,goron",
+              "normal_logic,goron,$can_play_lullaby",
+              "normal_logic,zora,$can_play_bossanova,$has_explosives,goron"
+            ]
           }
         ],
         "map_locations": [
@@ -185,7 +200,7 @@
       },
       {
         "name": "Termina Log Bombable Grotto",
-        "access_rules": ["$baby_has_explosives"], //need confirmation
+        "access_rules": ["easy_logic,$baby_has_explosives","normal_logic,$has_explosives"],
         "map_locations": [
           {
             "map": "termina",
@@ -196,11 +211,11 @@
         "sections": [
           {
             "name": "Left Cow",
-            "access_rules": ["can_play_eponas"]
+            "access_rules": ["$can_play_eponas"]
           },
           {
             "name": "Right Cow",
-            "access_rules": ["can_play_eponas"]
+            "access_rules": ["$can_play_eponas"]
           }
         ]
       }

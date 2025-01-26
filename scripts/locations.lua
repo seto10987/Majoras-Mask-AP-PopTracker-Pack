@@ -1,22 +1,12 @@
--- Easy logic
-Tracker:AddLocations("locations/locations_easy/clock_town.jsonc")
-Tracker:AddLocations("locations/locations_easy/dungeons.jsonc")
-Tracker:AddLocations("locations/locations_easy/ikana_canyon.jsonc")
-Tracker:AddLocations("locations/locations_easy/romani_ranch.jsonc")
-Tracker:AddLocations("locations/locations_easy/southern_swamp.jsonc")
-Tracker:AddLocations("locations/locations_easy/swamp_spider_house.jsonc")
-Tracker:AddLocations("locations/locations_easy/termina.jsonc")
-Tracker:AddLocations("locations/locations_easy/woodfall_temple.jsonc")
-
--- Normal logic
-Tracker:AddLocations("locations/locations_normal/clock_town.jsonc")
-Tracker:AddLocations("locations/locations_normal/dungeons.jsonc")
-Tracker:AddLocations("locations/locations_normal/ikana_canyon.jsonc")
-Tracker:AddLocations("locations/locations_normal/romani_ranch.jsonc")
-Tracker:AddLocations("locations/locations_normal/southern_swamp.jsonc")
-Tracker:AddLocations("locations/locations_normal/swamp_spider_house.jsonc")
-Tracker:AddLocations("locations/locations_normal/termina.jsonc")
-Tracker:AddLocations("locations/locations_normal/woodfall_temple.jsonc")
+-- Logic
+Tracker:AddLocations("locations/locations/clock_town.jsonc")
+Tracker:AddLocations("locations/locations/dungeons.jsonc")
+Tracker:AddLocations("locations/locations/ikana_canyon.jsonc")
+Tracker:AddLocations("locations/locations/romani_ranch.jsonc")
+Tracker:AddLocations("locations/locations/southern_swamp.jsonc")
+Tracker:AddLocations("locations/locations/swamp_spider_house.jsonc")
+Tracker:AddLocations("locations/locations/termina.jsonc")
+Tracker:AddLocations("locations/locations/woodfall_temple.jsonc")
 
 -- Hints
 Tracker:AddLocations("locations/hints/clock_town_hints.jsonc")

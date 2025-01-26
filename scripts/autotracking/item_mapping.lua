@@ -101,13 +101,13 @@ ITEM_MAPPING = {
 [0x3469420010002] = {"fairy_gb","consumable"},
 [0x3469420010003] = {"fairy_st","consumable"},
 [0x3469420090078] = {"smallkey_wf","toggle"},
-[0x3469420090178] = {"smallkey_sh","consummable"},
+[0x3469420090178] = {"smallkey_sh","consumable"},
 [0x3469420090278] = {"smallkey_gb","toggle"},
-[0x3469420090378] = {"smallkey_st","consummable"},
+[0x3469420090378] = {"smallkey_st","consumable"},
 [0x3469420090074] = {"bosskey_wf","toggle"},
 [0x3469420090174] = {"bosskey_sh","toggle"},
 [0x3469420090274] = {"bosskey_gb","toggle"},
 [0x3469420090374] = {"bosskey_st","toggle"},
-[0x3469420000052] = {"skull_ss","consumable"},
+[0x3469420000075] = {"skull_ss","consumable"},
 [0x3469420000072] = {"skull_gb","consumable"}
 }

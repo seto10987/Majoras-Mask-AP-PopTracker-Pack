@@ -68,7 +68,7 @@
                     },
                     {
                       "type": "item",
-                      "item": "sk_sh",
+                      "item": "smallkey_sh",
                       "margin": "2,1",
                       "width": 28,
                       "height": 28

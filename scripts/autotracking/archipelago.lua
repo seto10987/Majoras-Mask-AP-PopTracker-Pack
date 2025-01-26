@@ -97,7 +97,7 @@ function onClear(slot_data)
         end
     end
     
-    --setFromSlotData("logic_difficulty","logic_difficulty")
+    setFromSlotData("logic_difficulty","logic_difficulty")
     setFromSlotData("swordless","swordless")
     setFromSlotData("shuffle_swamphouse_reward","shuffle_swamphouse_reward")
     setFromSlotData("shuffle_great_fairy_rewards","shuffle_great_fairy_rewards")

@@ -6,7 +6,6 @@
     "type": "progressive",
     "loop": false,
     "allow_disabled": false,
-    "initial_stage_idx": 0,
     "codes": "logic_difficulty",
     "stages": [
       {

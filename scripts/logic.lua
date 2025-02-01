@@ -40,7 +40,7 @@ function has_explosives() -- was "explosives"
     return has("bombs") or has("bombchu") or has("blast")
 end
 
-function has_hard_projectiles() -- was "projectiles_hard"
+function has_hard_projectiles() -- was "has_hard_projectiles"
     return has("bow") or has("zora") or has("hookshot")
 end
 
@@ -138,7 +138,7 @@ function easy_can_reach_seahorse()
     return great_bay() and has("zora") and (has("hookshot") or has("goron")) and has("pictobox")
 end
 
---[[Must find a way to read shop prices
+--[[
 function can_purchase()
     if price > 200 then
         return has("giantswallet")
@@ -161,7 +161,7 @@ function baby_south_swamp()
     return has("redpotion") and baby_has_hard_projectiles() and has("deku")
 end
 function south_swamp()
-    return has("redpotion") or (projectiles_hard() and has("deku")) or (has("pictobox") and has("deku"))
+    return has("redpotion") or (has_hard_projectiles() and has("deku")) or (has("pictobox") and has("deku"))
 end
 
 -- Southern Swamp (Deku Palace) -> Swamp Spider House

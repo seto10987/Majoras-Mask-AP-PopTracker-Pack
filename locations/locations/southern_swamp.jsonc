@@ -111,7 +111,7 @@
             "access_rules": ["redpotion"]
           },
           {
-            "name": "Tour Koume Target Shooting",
+            "name": "Tour Witch Target Shooting",
             "access_rules": ["$clear_woodfall,redpotion,chateau,bow"]
           }
         ],

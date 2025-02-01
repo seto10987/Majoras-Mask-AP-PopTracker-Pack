@@ -106,7 +106,7 @@
             "visibility_rules": ["southern_swamp_tour_witch_gift"]
           },
           {
-            "name": "Tour Koume Target Shooting (Hint)",
+            "name": "Tour Witch Target Shooting (Hint)",
             "visibility_rules": ["tour_koume_target_shooting"]
           }
         ],

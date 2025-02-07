@@ -8,8 +8,8 @@
           {
             "name": "Road to Swamp Tree HP",
             "access_rules": [
-              "easy_logic,$baby_has_projectiles",
-              "normal_logic,$has_projectiles"
+              "easy_logic, $baby_has_projectiles",
+              "normal_logic, $has_projectiles"
             ]
           }
         ],
@@ -62,8 +62,8 @@
           {
             "name": "Woodfall Map Purchase",
             "access_rules": [
-              "easy_logic,$baby_has_projectiles",
-              "normal_logic,$has_projectiles"
+              "easy_logic, $baby_has_projectiles",
+              "normal_logic, $has_projectiles"
             ]
           }
         ],
@@ -85,14 +85,14 @@
           {
             "name": "Southern Swamp Deku Scrub Purchase Beans",
             "access_rules": [
-              "easy_logic,deku,$can_plant_beans",
-              "normal_logic,deku,$can_plant_beans",
-              "normal_logic,landdeed,moontear,can_plant_beans"
+              "easy_logic, deku, $can_plant_beans",
+              "normal_logic, deku, $can_plant_beans",
+              "normal_logic, landdeed, moontear, can_plant_beans"
             ]
           },
           {
             "name": "Southern Swamp Deku Trade Freestanding HP",
-            "access_rules": ["deku,landdeed"]
+            "access_rules": ["deku, landdeed"]
           }
         ],
         "map_locations": [
@@ -112,7 +112,11 @@
           },
           {
             "name": "Tour Witch Target Shooting",
-            "access_rules": ["$clear_woodfall,redpotion,chateau,bow"]
+            "access_rules": [
+              "easy_logic, $baby_clear_woodfall, redpotion, chateau, bow",
+              "normal_logic, $can_clear_woodfall, redpotion, bow",
+              "normal_logic, $can_clear_woodfall, chateau, bow"
+            ]
           }
         ],
         "map_locations": [
@@ -176,13 +180,13 @@
       },
       {
         "name": "Deku Palace Monkey Song",
-        "access_rules": ["easy_logic,$baby_deku_palace","normal_logic,$deku_palace"],
+        "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
         "sections": [
           {
             "name": "Deku Palace Monkey Song",
             "access_rules": [
-              "easy_logic,ocarina,$baby_can_plant_beans,deku,$baby_has_projectiles",
-              "normal_logic,ocarina,$can_plant_beans,deku"
+              "easy_logic, ocarina, $baby_can_plant_beans, deku, $baby_has_projectiles",
+              "normal_logic, ocarina, $can_plant_beans, deku"
             ]
           }
         ],
@@ -196,7 +200,7 @@
       },
       {
         "name": "Deku Palace HP",
-        "access_rules": ["easy_logic,$baby_deku_palace","normal_logic,$deku_palace"],
+        "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
         "sections": [
           {
             "name": "Deku Palace HP"
@@ -212,14 +216,14 @@
       },
       {
         "name": "Deku Palace Bean Grotto",
-        "access_rules": ["easy_logic,$baby_deku_palace","normal_logic,$deku_palace"],
+        "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
         "sections": [
           {
             "name": "Deku Palace Bean Grotto Chest",
             "access_rules": [
-              "easy_logic,$baby_can_plant_beans,hookshot",
-              "normal_logic,$can_plant_beans",
-              "normal_logic,hookshot"
+              "easy_logic, $baby_can_plant_beans, hookshot",
+              "normal_logic, $can_plant_beans",
+              "normal_logic, hookshot"
             ]
           },
           {
@@ -237,7 +241,7 @@
       },
       {
         "name": "Southern Swamp Song Tablet",
-        "access_rules": ["easy_logic,$baby_south_swamp","normal_logic,$south_swamp"],
+        "access_rules": ["easy_logic, $baby_south_swamp", "normal_logic, $south_swamp"],
         "sections": [
           {
             "name": "Southern Swamp Song Tablet",
@@ -254,7 +258,7 @@
       },
       {
         "name": "Southern Swamp Near Swamphouse Grotto Chest",
-        "access_rules": ["easy_logic,$baby_south_swamp","normal_logic,$south_swamp"],
+        "access_rules": ["easy_logic, $baby_south_swamp", "normal_logic, $south_swamp"],
         "sections": [
           {
             "name": "Southern Swamp Near Swamphouse Grotto Chest",
@@ -271,7 +275,7 @@
       },
       {
         "name": "Woodfall",
-        "access_rules": ["easy_logic,$baby_woodfall","normal_logic,$woodfall"],
+        "access_rules": ["easy_logic, $baby_woodfall", "normal_logic, $woodfall"],
         "sections": [
           {
             "name": "Woodfall Near Owl Statue Chest"
@@ -302,10 +306,10 @@
           {
             "name": "Deku Palace Butler Race",
             "access_rules": [
-              "easy_logic,$baby_clear_woodfall,$baby_has_bottle",
-              "normal_logic,$clear_woodfall,bottle,sword",
-              "normal_logic,$clear_woodfall,bottle,fairysword",
-              "normal_logic,$clear_woodfall,bottle,fiercedeity"
+              "easy_logic, $baby_clear_woodfall, $baby_has_bottle",
+              "normal_logic, $clear_woodfall, bottle, sword",
+              "normal_logic, $clear_woodfall, bottle, fairysword",
+              "normal_logic, $clear_woodfall, bottle, fiercedeity"
             ]
           }
         ],

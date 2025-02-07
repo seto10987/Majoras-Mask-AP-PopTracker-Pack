@@ -39,9 +39,9 @@
             {
               "name": "South Clock Town Final Day Tower Chest",
               "access_rules": [
-                "easy_logic,hookshot,deku,moontear",
-                "normal_logic,hookshot",
-                "normal_logic,deku,moontear"
+                "easy_logic, hookshot, deku, moontear",
+                "normal_logic, hookshot",
+                "normal_logic, deku, moontear"
               ]
             }
           ],
@@ -111,8 +111,8 @@
             {
               "name": "Clock Town Hide-and-Seek",
               "access_rules": [
-                "easy_logic,$baby_has_projectiles",
-                "normal_logic,$has_projectiles"
+                "easy_logic, $baby_has_projectiles",
+                "normal_logic, $has_projectiles"
               ]
             }
           ],
@@ -171,10 +171,10 @@
             {
               "name": "North Clock Town Great Fairy Reward (Transformation Mask)",
               "access_rules": [
-                "easy_logic,fairy_ct,deku,goron,zora",
-                "normal_logic,fairy_ct,deku",
-                "normal_logic,fairy_ct,goron",
-                "normal_logic,fairy_ct,zora"
+                "easy_logic, fairy_ct, deku, goron, zora",
+                "normal_logic, fairy_ct, deku",
+                "normal_logic, fairy_ct, goron",
+                "normal_logic, fairy_ct, zora"
               ]
             }
           ],
@@ -213,11 +213,11 @@
             {
               "name": "North Clock Town Save Old Lady (Night 1, 12 AM)",
               "access_rules": [
-                "easy_logic,sword,fairysword",
-                "normal_logic,sword",
-                "normal_logic,fairysword",
-                "normal_logic,zora",
-                "normal_logic,goron"
+                "easy_logic, sword, fairysword",
+                "normal_logic, sword",
+                "normal_logic, fairysword",
+                "normal_logic, zora",
+                "normal_logic, goron"
               ]
             }
           ],
@@ -269,11 +269,11 @@
             {
               "name": "East Clock Town Honey and Darling Any Day",
               "access_rules": [
-                "easy_logic,bow,bombs,$baby_has_bombchus",
-                "normal_logic,bow",
-                "normal_logic,bombs",
-                "normal_logic,bombchus",
-                "normal_logic,deku,magic"
+                "easy_logic, bow, bombs, $baby_has_bombchus",
+                "normal_logic, bow",
+                "normal_logic, bombs",
+                "normal_logic, bombchus",
+                "normal_logic, deku, magic"
               ]
             },
             {
@@ -334,8 +334,8 @@
             {
               "name": "Bomber's Hideout Chest",
               "access_rules": [
-                "easy_logic,$baby_has_explosives,$baby_has_projectiles",
-                "normal_logic,$has_explosives,$has_projectiles"
+                "easy_logic, $baby_has_explosives, $baby_has_projectiles",
+                "normal_logic, $has_explosives, $has_projectiles"
               ]
             }
           ],
@@ -363,9 +363,9 @@
             {
               "name": "Stock Pot Inn Midnight Meeting (Night 1: 11:30 PM)",
               "access_rules": [
-                "easy_logic,kafeimask,deku,roomkey",
-                "normal_logic,kafeimask,deku",
-                "normal_logic,kafeimask,roomkey"
+                "easy_logic, kafeimask, deku, roomkey",
+                "normal_logic, kafeimask, deku",
+                "normal_logic, kafeimask, roomkey"
               ]
             },
             {
@@ -383,9 +383,9 @@
             {
               "name": "Stock Pot Inn Anju and Kafei (Final Night 4:30 AM)",
               "access_rules": [
-                "easy_logic,kafei,$can_play_eponas,kafeiletter,pendant,hookshot,garo,gibdo",
-                "normal_logic,kafei,$can_play_eponas,kafeiletter,pendant,hookshot,garo",
-                "normal_logic,kafei,$can_play_eponas,kafeiletter,pendant,hookshot,gibdo"
+                "easy_logic, kafei, $can_play_eponas, kafeiletter, pendant, hookshot, garo, gibdo",
+                "normal_logic, kafei, $can_play_eponas, kafeiletter, pendant, hookshot, garo",
+                "normal_logic, kafei, $can_play_eponas, kafeiletter, pendant, hookshot, gibdo"
               ]
             }
           ],
@@ -402,11 +402,11 @@
           "sections": [
             {
               "name": "Milk Bar Show (Night 1 - 2)",
-              "access_rules": ["romani,deku,goron,zora,ocarina"]
+              "access_rules": ["romani, deku, goron, zora, ocarina"]
             },
             {
               "name": "Priority Mail to Aroma (Final Night)",
-              "access_rules": ["romani,kafei,express"]
+              "access_rules": ["romani, kafei, express"]
             },
             {
               "name": "Milk Purchase",
@@ -414,7 +414,7 @@
             },
             {
               "name": "Chateau Romani Purchase",
-              "access_rules": ["romani,adultswallet"]
+              "access_rules": ["romani, adultswallet"]
             }
           ],
           "map_locations": [
@@ -448,20 +448,20 @@
           "sections": [
             {
               "name": "West Clock Town Bank 200 Rupees",
-              "access_rules": ["sword,wallet","normal_logic"]
+              "access_rules": ["sword, wallet","normal_logic"]
             },
             {
               "name": "West Clock Town Bank 500 Rupees",
               "access_rules": [
-                "easy_logic,fiercedeitymask,fairysword,adultswallet",
-                "normal_logic,adultswallet"
+                "easy_logic, fiercedeitymask, fairysword, adultswallet",
+                "normal_logic, adultswallet"
               ]
             },
             {
               "name": "West Clock Town Bank 1000 Rupees",
               "access_rules": [
-                "easy_logic,fiercedeitymask,fairysword,giantswallet",
-                "normal_logic,giantswallet"
+                "easy_logic, fiercedeitymask, fairysword, giantswallet",
+                "normal_logic, giantswallet"
               ]
             }
           ],
@@ -571,8 +571,8 @@
             {
               "name": "Top of Clock Tower (Ocarina of Time)",
               "access_rules": [
-                "easy_logic,$baby_has_projectiles",
-                "normal_logic,$has_projectiles"
+                "easy_logic, $baby_has_projectiles",
+                "normal_logic, $has_projectiles"
               ]
             },
             {
@@ -681,11 +681,11 @@
             {
               "name": "Bomb Bag Purchase",
               "access_rules": [
-                "easy_logic,sword,fairysword",
-                "normal_logic,sword",
-                "normal_logic,fairysword",
-                "normal_logic,zora",
-                "normal_logic,goron"
+                "easy_logic, sword, fairysword",
+                "normal_logic, sword",
+                "normal_logic, fairysword",
+                "normal_logic, zora",
+                "normal_logic, goron"
               ]
               //same requirements as North Clock Town Save Old Lady
             }
@@ -704,11 +704,11 @@
             {
               "name": "Curiosity Shop Night 3 (Stop Thief)",
               "access_rules": [
-                "easy_logic,giantswallet,sword,fairysword",
-                "normal_logic,giantswallet,sword",
-                "normal_logic,giantswallet,fairysword",
-                "normal_logic,giantswallet,zora",
-                "normal_logic,giantswallet,goron"
+                "easy_logic, giantswallet, sword, fairysword",
+                "normal_logic, giantswallet, sword",
+                "normal_logic, giantswallet, fairysword",
+                "normal_logic, giantswallet, zora",
+                "normal_logic, giantswallet, goron"
               ]
               //same requirements as Bomb Bag Purchase
             },
@@ -731,8 +731,8 @@
             {
               "name": "Clock Town Map Purchase",
               "access_rules": [
-                "easy_logic,$baby_has_projectiles,$baby_ikana_canyon,$can_use_ice_arrows",
-                "normal_logic,$has_projectiles"
+                "easy_logic, $baby_has_projectiles, $baby_ikana_canyon, $can_use_ice_arrows",
+                "normal_logic, $has_projectiles"
               ]
             }
           ]

@@ -565,9 +565,9 @@
     "codes": "woodfall_temple_wooden_flower_switch_chest"
   },
   {
-    "name": "woodfall_temple_dinofols_chest",
+    "name": "woodfall_temple_dinolfos_chest",
     "type": "toggle",
-    "codes": "woodfall_temple_dinofols_chest"
+    "codes": "woodfall_temple_dinolfos_chest"
   },
   {
     "name": "woodfall_temple_boss_key_chest",

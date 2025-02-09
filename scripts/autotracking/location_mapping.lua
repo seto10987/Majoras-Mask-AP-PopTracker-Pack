@@ -93,8 +93,18 @@ LOCATION_MAPPING = {
     [0x3469420BEEF13] = {"@Termina Field/Termina Log Bombable Grotto/Right Cow","@Termina Field Hints/Termina Log Bombable Grotto Hints/Right Cow (Hint)"},
 
     -- Milk Road/Romani Ranch
-    [0x3469420000081] = {"@Romani Ranch/Milk Road Gorman Ranch Race/Milk Road Gorman Ranch Race","@Romani Ranch Hints/Milk Road Gorman Ranch Race Hints/Milk Road Gorman Ranch Race (Hint)"},
-    [0x346942000007F] = {"@Romani Ranch/Romani Ranch Grog/Romani Ranch Grog","@Romani Ranch Hints/Romani Ranch Grog Hints/Romani Ranch Grog (Hint)"},
+    [0x34694200000B7] = {"@Romani Ranch/Tingle Milk Road/Romani Ranch Map Purchase","@Romani Ranch Hints/Tingle Milk Road Hints/Romani Ranch Map Purchase (Hint)"},
+    [0x3469420000081] = {"@Romani Ranch/Gorman Track/Race","@Romani Ranch Hints/Gorman Track Hints/Race (Hint)"},
+    [0x3469420006792] = {"@Romani Ranch/Gorman Track/Purchase","@Romani Ranch Hints/Gorman Track Hints/Purchase (Hint)"},
+    [0x346942000007F] = {"@Romani Ranch/Cucco Shack/Bremen Mask March Baby Cuccos","@Romani Ranch Hints/Cucco Shack Hints/Bremen Mask March Baby Cuccos (Hint)"},
+    [0x3469420064100] = {"@Romani Ranch/Mamamu Yan's Doggy Racetrack/Rooftop Chest","@Romani Ranch Hints/Mamamu Yan's Doggy Racetrack Hints/Rooftop Chest (Hint)"},
+    [0x3469420070117] = {"@Romani Ranch/Mamamu Yan's Doggy Racetrack/Dog Race","@Romani Ranch Hints/Mamamu Yan's Doggy Racetrack Hints/Dog Race (Hint)"},
+    [0x3469420BEEF10] = {"@Romani Ranch/Romani Ranch Barn/Free Cow","@Romani Ranch Hints/Romani Ranch Barn Hints/Free Cow (Hint)"},
+    [0x3469420BEEF11] = {"@Romani Ranch/Romani Ranch Barn/Stables Front Cow","@Romani Ranch Hints/Romani Ranch Barn Hints/Stables Front Cow (Hint)"},
+    [0x3469420BEEF12] = {"@Romani Ranch/Romani Ranch Barn/Stables Back Cow","@Romani Ranch Hints/Romani Ranch Barn Hints/Stables Back Cow (Hint)"},
+--    [?] = {"@Romani Ranch/Romani Ranch Outside/Romani Game","@Romani Ranch Hints/Romani Ranch Outside Hints/Romani Game (Hint)"},
+--    [?] = {"@Romani Ranch/Romani Ranch Outside/Alien Defense","@Romani Ranch Hints/Romani Ranch Outside Hints/Alien Defense (Hint)"},
+    [0x3469420000082] = {"@Romani Ranch/Romani Ranch Outside/Helping Cremia","@Romani Ranch Hints/Romani Ranch Outside Hints/Helping Cremia (Hint)"},
 
     -- Southern Swamp
     [0x3469420054001] = {"@Southern Swamp/Road to Swamp Tree HP/Road to Swamp Tree HP","@Southern Swamp Hints/Road to Swamp Tree HP Hints/Road to Swamp Tree HP (Hint)"},

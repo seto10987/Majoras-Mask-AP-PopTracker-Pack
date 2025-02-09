@@ -858,5 +858,55 @@
     "name": "woodfall_map_purchase",
     "type": "toggle",
     "codes": "woodfall_map_purchase"
+  },
+  {
+    "name": "gorman_track_purchase",
+    "type": "toggle",
+    "codes": "gorman_track_purchase"
+  },
+  {
+    "name": "racetrack_rooftop_chest",
+    "type": "toggle",
+    "codes": "racetrack_rooftop_chest"
+  },
+  {
+    "name": "dog_race",
+    "type": "toggle",
+    "codes": "dog_race"
+  },
+  {
+    "name": "romani_ranch_free_cow",
+    "type": "toggle",
+    "codes": "romani_ranch_free_cow"
+  },
+  {
+    "name": "romani_ranch_front_cow",
+    "type": "toggle",
+    "codes": "romani_ranch_front_cow"
+  },
+  {
+    "name": "romani_ranch_back_cow",
+    "type": "toggle",
+    "codes": "romani_ranch_back_cow"
+  },
+  {
+    "name": "alien_defense",
+    "type": "toggle",
+    "codes": "alien_defense"
+  },
+//  {
+//    "name": "helping_cremia",
+//    "type": "toggle",
+//    "codes": "helping_cremia"
+//  },
+//  {
+//    "name": "romani_game",
+//    "type": "toggle",
+//    "codes": "romani_game"
+//  },
+  {
+    "name": "romani_ranch_map_purchase",
+    "type": "toggle",
+    "codes": "romani_ranch_map_purchase"
   }
 ]

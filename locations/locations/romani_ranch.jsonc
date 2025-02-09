@@ -3,11 +3,33 @@
     "name": "Romani Ranch",
     "children": [
       {
-        "name": "Milk Road Gorman Ranch Race",
+        "name": "Tingle Milk Road",
         "sections": [
           {
-            "name": "Milk Road Gorman Ranch Race",
+            "name": "Romani Ranch Map Purchase",
+            "access_rules": [
+              "easy_logic, $baby_has_projectiles",
+              "normal_logic, $has_projectiles"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 450,
+            "y": 371
+          }
+        ]
+      },
+      {
+        "name": "Gorman Track",
+        "sections": [
+          {
+            "name": "Race",
             "access_rules": ["$can_play_eponas"]
+          },
+          {
+            "name": "Purchase"
           }
         ],
         "map_locations": [
@@ -19,18 +41,93 @@
         ]
       },
       {
-        "name": "Romani Ranch Grog",
+        "name": "Cucco Shack",
         "sections": [
           {
-            "name": "Romani Ranch Grog",
+            "name": "Bremen Mask March Baby Cuccos",
             "access_rules": ["bremenmask"]
           }
         ],
         "map_locations": [
           {
             "map": "termina",
-            "x": 369,
-            "y": 351
+            "x": 349,
+            "y": 352
+          }
+        ]
+      },
+      {
+        "name": "Mamamu Yan's Doggy Racetrack",
+        "sections": [
+          {
+            "name": "Rooftop Chest",
+            "access_rules": [
+              "easy_logic, hookshot, zora, $baby_can_plant_beans",
+              "normal_logic, hookshot",
+              "normal_logic, $can_plant_beans"
+            ]
+          },
+          {
+            "name": "Dog Race",
+            "access_rules": [
+              "easy_logic, giantswallet, truth",
+              "normal_logic, truth"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 329,
+            "y": 369
+          }
+        ]
+      },
+      {
+        "name": "Romani Ranch Barn",
+        "sections": [
+          {
+            "name": "Free Cow",
+            "access_rules": ["$can_use_powder_keg, $can_play_eponas"]
+          },
+          {
+            "name": "Stables Front Cow",
+            "access_rules": ["$can_use_powder_keg, $can_play_eponas"]
+          },
+          {
+            "name": "Stables Back Cow",
+            "access_rules": ["$can_use_powder_keg, $can_play_eponas"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 397,
+            "y": 342
+          }
+        ]
+      },
+      {
+        "name": "Romani Ranch Outside",
+        "sections": [
+          {
+            "name": "Romani Game",
+            "access_rules": ["$can_use_powder_keg, bow"]
+          },
+          {
+            "name": "Alien Defense", //location not found in Locations.py
+            "access_rules": ["$can_use_powder_keg, bow"]
+          },
+          {
+            "name": "Helping Cremia",
+            "access_rules": ["$can_use_powder_keg, bow"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 391,
+            "y": 350
           }
         ]
       }

@@ -39,7 +39,10 @@
         "sections": [
           {
             "name": "Road to Ikana Stone Soldier",
-            "access_rules": ["$can_play_eponas,$can_use_lens,bottle"]
+            "access_rules": [
+              "easy_logic, $can_play_eponas, $baby_has_bottle, $can_use_lens",
+              "normal_logic, $can_play_eponas, redpotion, $can_use_lens"
+            ]
           }
         ],
         "map_locations": [

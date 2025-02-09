@@ -102,8 +102,8 @@ LOCATION_MAPPING = {
     [0x3469420BEEF10] = {"@Romani Ranch/Romani Ranch Barn/Free Cow","@Romani Ranch Hints/Romani Ranch Barn Hints/Free Cow (Hint)"},
     [0x3469420BEEF11] = {"@Romani Ranch/Romani Ranch Barn/Stables Front Cow","@Romani Ranch Hints/Romani Ranch Barn Hints/Stables Front Cow (Hint)"},
     [0x3469420BEEF12] = {"@Romani Ranch/Romani Ranch Barn/Stables Back Cow","@Romani Ranch Hints/Romani Ranch Barn Hints/Stables Back Cow (Hint)"},
---    [?] = {"@Romani Ranch/Romani Ranch Outside/Romani Game","@Romani Ranch Hints/Romani Ranch Outside Hints/Romani Game (Hint)"},
---    [?] = {"@Romani Ranch/Romani Ranch Outside/Alien Defense","@Romani Ranch Hints/Romani Ranch Outside Hints/Alien Defense (Hint)"},
+    [0x34694200000A5] = {"@Romani Ranch/Romani Ranch Outside/Romani Game","@Romani Ranch Hints/Romani Ranch Outside Hints/Romani Game (Hint)"},
+    [0x3469420000060] = {"@Romani Ranch/Romani Ranch Outside/Defended Against Aliens","@Romani Ranch Hints/Romani Ranch Outside Hints/Defended Against Aliens (Hint)"},
     [0x3469420000082] = {"@Romani Ranch/Romani Ranch Outside/Helping Cremia","@Romani Ranch Hints/Romani Ranch Outside Hints/Helping Cremia (Hint)"},
 
     -- Southern Swamp

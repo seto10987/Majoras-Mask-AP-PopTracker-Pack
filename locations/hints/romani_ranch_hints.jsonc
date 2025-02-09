@@ -107,7 +107,7 @@
             "visibility_rules": ["romani_game"]
           },
           {
-            "name": "Alien Defense (Hint)", //location not found in Locations.py
+            "name": "Defended Against Aliens (Hint)", //location not found in Locations.py
             "visibility_rules": ["alien_defense"]
           },
           {

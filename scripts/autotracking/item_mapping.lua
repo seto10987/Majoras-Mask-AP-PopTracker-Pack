@@ -65,6 +65,8 @@ ITEM_MAPPING = {
 [0x3469420000059] = {"redpotion","toggle"},
 [0x346942000005D] = {"bluepotion","toggle"},
 [0x346942000006F] = {"chateau","toggle"},
+[0x3469420000060] = {"milk","toggle"},
+--[?] = {"gold_dust","toggle"},
 
 -- Equipments
 [0x3469420000037] = {"sword","progressive"},
@@ -73,6 +75,9 @@ ITEM_MAPPING = {
 [0x3469420000008] = {"wallet","progressive"},
 [0x3469420020000] = {"magic","progressive"},
 [0x346942001007F] = {"fairy_ct","toggle"},
+[0x3469420020003] = {"double_defense","toggle"},
+[0x346942000000C] = {"heart_piece","consumable"},
+[0x346942000000D] = {"heart_container","consumable"},
 
 -- Maps & compasses
 [0x34694200000B4] = {"map_clocktown","toggle"},

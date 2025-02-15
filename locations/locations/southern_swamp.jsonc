@@ -40,6 +40,8 @@
       {
         "name": "Swamp Shooting Gallery",
         "access_rules": ["bow"],
+        "chest_unopened_img": "images/icons/archery.png",
+        "chest_opened_img": "images/icons/archery_grey.png",
         "sections": [
           {
             "name": "Swamp Shooting Gallery 2120 Points"
@@ -61,6 +63,8 @@
         "sections": [
           {
             "name": "Woodfall Map Purchase",
+            "chest_unopened_img": "images/equipment/rmap_woodfall.png",
+            "chest_opened_img": "images/equipment/region_map_grey.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles",
               "normal_logic, $has_projectiles"
@@ -112,10 +116,12 @@
           },
           {
             "name": "Tour Witch Target Shooting",
+            "chest_unopened_img": "images/icons/archery.png",
+            "chest_opened_img": "images/icons/archery_grey.png",
             "access_rules": [
               "easy_logic, $baby_clear_woodfall, redpotion, chateau, bow",
-              "normal_logic, $can_clear_woodfall, redpotion, bow",
-              "normal_logic, $can_clear_woodfall, chateau, bow"
+              "normal_logic, $clear_woodfall, redpotion, bow",
+              "normal_logic, $clear_woodfall, chateau, bow"
             ]
           }
         ],

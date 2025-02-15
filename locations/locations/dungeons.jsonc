@@ -7,8 +7,8 @@
           "chest_unopened_img": "images/icons/chest_unopened.png",
           "chest_opened_img": "images/icons/chest_opened.png",
           "access_rules": [
-            "easy_logic,$baby_woodfall_temple",
-            "normal_logic,$woodfall_temple"
+            "easy_logic, $baby_woodfall_temple",
+            "normal_logic, $woodfall_temple"
           ],
           "sections": [
             {

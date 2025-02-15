@@ -7,6 +7,8 @@
         "sections": [
           {
             "name": "Romani Ranch Map Purchase",
+            "chest_unopened_img": "images/equipment/rmap_romani.png",
+            "chest_opened_img": "images/equipment/region_map_grey.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles",
               "normal_logic, $has_projectiles"
@@ -26,6 +28,8 @@
         "sections": [
           {
             "name": "Race",
+            "chest_unopened_img": "images/icons/carrot.png",
+            "chest_opened_img": "images/icons/carrot_grey.png",
             "access_rules": ["$can_play_eponas"]
           },
           {
@@ -45,6 +49,8 @@
         "sections": [
           {
             "name": "Bremen Mask March Baby Cuccos",
+            "chest_unopened_img": "images/masks/bremen.png",
+            "chest_opened_img": "images/masks/bremen_grey.png",
             "access_rules": ["bremenmask"]
           }
         ],
@@ -115,7 +121,7 @@
             "access_rules": ["$can_use_powder_keg, bow"]
           },
           {
-            "name": "Alien Defense", //location not found in Locations.py
+            "name": "Alien Defense",
             "access_rules": ["$can_use_powder_keg, bow"]
           },
           {

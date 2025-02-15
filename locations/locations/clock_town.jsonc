@@ -1,12 +1,15 @@
 [
     {
       "name": "Clock Town",
+      "chest_opened_img": "images/icons/check.png",
       "children": [
         {
           "name": "South Clock Town Clock Tower",
           "sections": [
             {
-              "name": "Freestanding HP"
+              "name": "Freestanding HP",
+              "chest_unopened_img": "images/equipment/heart_piece.png",
+              "chest_opened_img": "images/icons/check_32.png"
             }
           ],
           "map_locations": [
@@ -64,8 +67,8 @@
           "map_locations": [
             {
               "map": "termina",
-              "x": 138,
-              "y": 209
+              "x": 157,
+              "y": 210
             }
           ]
         },
@@ -74,6 +77,8 @@
           "sections": [
             {
               "name": "Clock Town Postbox",
+              "chest_unopened_img": "images/masks/postman.png",
+              "chest_opened_img": "images/icons/check_32.png",
               "access_rules": ["postman"]
             }
           ],
@@ -110,6 +115,8 @@
           "sections": [
             {
               "name": "Clock Town Hide-and-Seek",
+              "chest_unopened_img": "images/characters/bombers.png",
+              "chest_opened_img": "images/icons/check_32.png",
               "access_rules": [
                 "easy_logic, $baby_has_projectiles",
                 "normal_logic, $has_projectiles"
@@ -128,7 +135,9 @@
           "name": "North Clock Town Tree HP",
           "sections": [
             {
-              "name": "North Clock Town Tree HP"
+              "name": "North Clock Town Tree HP",
+              "chest_unopened_img": "images/equipment/heart_piece.png",
+              "chest_opened_img": "images/icons/check_32.png"
             }
           ],
           "map_locations": [
@@ -191,7 +200,9 @@
           "sections": [
             {
               "name": "Keaton Quiz",
-              "access_rules": ["keaton"]
+              "access_rules": ["keaton"],
+              "chest_unopened_img": "images/masks/keaton.png",
+              "chest_opened_img": "images/icons/check_32.png"
             }
           ],
           "map_locations": [
@@ -212,6 +223,8 @@
           "sections": [
             {
               "name": "North Clock Town Save Old Lady (Night 1, 12 AM)",
+              "chest_unopened_img": "images/characters/bomb_shop_lady.png",
+              "chest_opened_img": "images/icons/check_32.png",
               "access_rules": [
                 "easy_logic, sword, fairysword",
                 "normal_logic, sword",
@@ -294,6 +307,8 @@
         },
         {
           "name": "Town Shooting Gallery (6 AM - 10 PM)",
+          "chest_unopened_img": "images/icons/archery.png",
+          "chest_opened_img": "images/icons/check_32.png",
           "sections": [
             {
               "name": "East Clock Town Shooting Gallery 40-49 Points",
@@ -351,7 +366,9 @@
           "name": "Stock Pot Inn",
           "sections": [
             {
-              "name": "Stock Pot Inn Reservation (Day 1: from 1 PM to 4 PM)"
+              "name": "Stock Pot Inn Reservation (Day 1: from 1 PM to 4 PM)",
+              "chest_unopened_img": "images/characters/anju.png",
+              "chest_opened_img": "images/icons/check_32.png"
             },
             {
               "name": "Stock Pot Inn Employees Only Room Chest (Final Night)"
@@ -362,6 +379,8 @@
             },
             {
               "name": "Stock Pot Inn Midnight Meeting (Night 1: 11:30 PM)",
+              "chest_unopened_img": "images/characters/anju.png",
+              "chest_opened_img": "images/icons/check_32.png",
               "access_rules": [
                 "easy_logic, kafeimask, deku, roomkey",
                 "normal_logic, kafeimask, deku",
@@ -374,10 +393,14 @@
             },
             {
               "name": "Stock Pot Inn Granny Story #1",
+              "chest_unopened_img": "images/characters/anjus_grandmother.png",
+              "chest_opened_img": "images/icons/check_32.png",
               "access_rules": ["allnightmask"]
             },
             {
               "name": "Stock Pot Inn Granny Story #2",
+              "chest_unopened_img": "images/characters/anjus_grandmother.png",
+              "chest_opened_img": "images/icons/check_32.png",
               "access_rules": ["allnightmask"]
             },
             {
@@ -730,6 +753,8 @@
           "sections": [
             {
               "name": "Clock Town Map Purchase",
+              "chest_unopened_img": "images/equipment/rmap_clocktown.png",
+              "chest_opened_img": "images/icons/check_32.png",
               "access_rules": [
                 "easy_logic, $baby_has_projectiles, $baby_ikana_canyon, $can_use_ice_arrows",
                 "normal_logic, $has_projectiles"

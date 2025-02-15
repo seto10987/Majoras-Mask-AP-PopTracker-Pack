@@ -1,0 +1,49 @@
+{
+  "horizontal_equipments_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "1,1",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "v_alignment": "center",
+        "item_margin": "1,1",
+        "rows": [
+          [
+            "map_clocktown",
+            "map_woodfall",
+            "map_snowhead",
+            "map_romani",
+            "map_greatbay",
+            "map_stonetower"
+          ],
+          [
+            "heart_piece",
+            "heart_container",
+            "double_defense",
+            "magic",
+            "wallet",
+            "spin_attack"
+          ],
+          [
+            "time",
+            "healing",
+            "epona",
+            "soaring",
+            "storms",
+            "sword"
+          ],
+          [
+            "sonata",
+            "lullaby",
+            "newwave",
+            "elegy",
+            "oath",
+            "shield"
+          ]
+        ]
+      }
+    ]
+  }
+}

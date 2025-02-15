@@ -190,7 +190,7 @@ end
 
 -- Woodfall -> Woodfall Temple
 function baby_woodfall_temple()
-    return baby_woodfall() and can_play_sonata() and has("bosskey_wt") and has("smallkey_wt")
+    return baby_woodfall() and can_play_sonata() and has("bosskey_wf") and has("smallkey_wf")
 end
 function woodfall_temple()
     return woodfall() and can_play_sonata()

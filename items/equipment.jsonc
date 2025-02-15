@@ -57,6 +57,28 @@
     ]
   },
   {
+    "name": "Heart Piece",
+    "type": "consumable",
+    "img": "images/equipment/heart_piece.png",
+    "allow_disabled": true,
+    "codes": "heart_piece",
+    "max_quantity": 36
+  },
+  {
+    "name": "Heart Container",
+    "type": "consumable",
+    "img": "images/equipment/heart_container.png",
+    "allow_disabled": true,
+    "codes": "heart_container",
+    "max_quantity": 8
+  },
+  {
+    "name": "Double Defense",
+    "type": "toggle",
+    "img": "images/equipment/double_defense.png",
+    "codes": "double_defense"
+  },
+  {
     "name": "Magic Meter",
     "type": "progressive",
     "allow_disabled": true,
@@ -74,7 +96,7 @@
   {
     "name": "Song of Time",
     "type": "static",
-    "img": "images/equipment/time_colored.png",
+    "img": "images/equipment/song_time.png",
     "codes": "time,sot"
   },
   {
@@ -88,7 +110,7 @@
     "name": "Song of Healing",
     "type": "toggle",
     "loop": true,
-    "img": "images/equipment/healing_colored.png",
+    "img": "images/equipment/song_healing.png",
     "codes": "healing,soh"
   },
   {
@@ -102,7 +124,7 @@
     "name": "Epona's Song",
     "type": "toggle",
     "loop": true,
-    "img": "images/equipment/epona_colored.png",
+    "img": "images/equipment/song_epona.png",
     "codes": "epona"
   },
   {
@@ -116,7 +138,7 @@
     "name": "Song of Soaring",
     "type": "toggle",
     "loop": true,
-    "img": "images/equipment/soaring_colored.png",
+    "img": "images/equipment/song_soaring.png",
     "codes": "soaring"
   },
   {
@@ -130,7 +152,7 @@
     "name": "Song of Storms",
     "type": "toggle",
     "loop": true,
-    "img": "images/equipment/storms_colored.png",
+    "img": "images/equipment/song_storms.png",
     "codes": "storms"
   },
   {
@@ -144,7 +166,7 @@
     "name": "Sonata of Awakening",
     "type": "toggle",
     "loop": true,
-    "img": "images/equipment/sonata_colored.png",
+    "img": "images/equipment/song_sonata.png",
     "codes": "sonata,soa"
   },
   {
@@ -158,7 +180,7 @@
     "name": "Goron's Lullaby",
     "type": "toggle",
     "loop": true,
-    "img": "images/equipment/lullaby_colored.png",
+    "img": "images/equipment/song_lullaby.png",
     "codes": "goronlullaby,lullaby"
   },
   {
@@ -172,7 +194,7 @@
     "name": "New Wave Bossa Nova",
     "type": "toggle",
     "loop": true,
-    "img": "images/equipment/newwave_colored.png",
+    "img": "images/equipment/song_bossa_nova.png",
     "codes": "newwave,bossanova,nwbn"
   },
   {
@@ -186,7 +208,7 @@
     "name": "Elegy of Emptiness",
     "type": "toggle",
     "loop": true,
-    "img": "images/equipment/elegy_colored.png",
+    "img": "images/equipment/song_elegy.png",
     "codes": "elegy,emptiness,eoe"
   },
   {
@@ -200,7 +222,7 @@
     "name": "Oath to Order",
     "type": "toggle",
     "loop": true,
-    "img": "images/equipment/oath_colored.png",
+    "img": "images/equipment/song_oath.png",
     "codes": "oathtoorder,oath,oto"
   },
   {
@@ -418,7 +440,7 @@
     "name":  "Swamp Stray Fairies",
     "type":  "consumable",
     "img": "images/equipment/fairy_wf.png",
-    "allow_disabled": false,
+    //"allow_disabled": false,
     "codes": "fairy_wf",
     "max_quantity": 15
   },
@@ -426,7 +448,7 @@
     "name":  "Snowhead Stray Fairies",
     "type":  "consumable",
     "img": "images/equipment/fairy_sh.png",
-    "allow_disabled": false,
+    //"allow_disabled": false,
     "codes": "fairy_sh",
     "max_quantity": 15
   },
@@ -434,7 +456,7 @@
     "name":  "Great Bay Stray Fairies",
     "type":  "consumable",
     "img": "images/equipment/fairy_gb.png",
-    "allow_disabled": false,
+    //"allow_disabled": false,
     "codes": "fairy_gb",
     "max_quantity": 15
   },
@@ -442,7 +464,7 @@
     "name":  "Stone Tower Stray Fairies",
     "type":  "consumable",
     "img": "images/equipment/fairy_st.png",
-    "allow_disabled": false,
+    //"allow_disabled": false,
     "codes": "fairy_st",
     "max_quantity": 15
   },
@@ -450,7 +472,7 @@
     "name":  "Swamp Skulltula Tokens",
     "type":  "consumable",
     "img": "images/equipment/skull_ss.png",
-    "allow_disabled": false,
+    //"allow_disabled": false,
     "codes": "skull_ss",
     "max_quantity": 30
   },
@@ -458,7 +480,7 @@
     "name":  "Ocean Skulltula Tokens",
     "type":  "consumable",
     "img": "images/equipment/skull_gb.png",
-    "allow_disabled": false,
+    //"allow_disabled": false,
     "codes": "skull_gb",
     "max_quantity": 30
   },
@@ -467,5 +489,113 @@
     "type": "toggle",
     "img": "images/equipment/odolwa.png",
     "codes": "boss_odolwa"
+  },
+  {
+    "name": "Woodfall Temple",
+    "type": "static",
+    "img": "images/icons/wft_header.png",
+    "codes": "wft_header"
+  },
+  {
+    "name": "Snowhead Temple",
+    "type": "static",
+    "img": "images/icons/sht_header.png",
+    "codes": "sht_header"
+  },
+  {
+    "name": "Great Bay Temple",
+    "type": "static",
+    "img": "images/icons/gbt_header.png",
+    "codes": "gbt_header"
+  },
+  {
+    "name": "Stone Tower Temple",
+    "type": "static",
+    "img": "images/icons/stt_header.png",
+    "codes": "stt_header"
+  },
+  {
+    "name": "Woodfall Temple Map",
+    "type": "toggle",
+    "img": "images/equipment/map_wft.png",
+    "codes": "map_woodfall_temple"
+  },
+  {
+    "name": "Snowhead Temple Map",
+    "type": "toggle",
+    "img": "images/equipment/map_sht.png",
+    "codes": "map_snowhead_temple"
+  },
+  {
+    "name": "Great Bay Temple Map",
+    "type": "toggle",
+    "img": "images/equipment/map_gbt.png",
+    "codes": "map_greatbay_temple"
+  },
+  {
+    "name": "Stone Tower Temple Map",
+    "type": "toggle",
+    "img": "images/equipment/map_stt.png",
+    "codes": "map_stonetower_temple"
+  },
+  {
+    "name": "Woodfall Temple Compass",
+    "type": "toggle",
+    "img": "images/equipment/compass_wft.png",
+    "codes": "compass_woodfall"
+  },
+  {
+    "name": "Snowhead Temple Compass",
+    "type": "toggle",
+    "img": "images/equipment/compass_sht.png",
+    "codes": "compass_snowhead"
+  },
+  {
+    "name": "Great Bay Temple Compass",
+    "type": "toggle",
+    "img": "images/equipment/compass_gbt.png",
+    "codes": "compass_greatbay"
+  },
+  {
+    "name": "Stone Tower Temple Compass",
+    "type": "toggle",
+    "img": "images/equipment/compass_stt.png",
+    "codes": "compass_stonetower"
+  },
+  {
+    "name": "Clock Town Map",
+    "type": "toggle",
+    "img": "images/equipment/rmap_clocktown.png",
+    "codes": "map_clocktown"
+  },
+  {
+    "name": "Woodfall Map",
+    "type": "toggle",
+    "img": "images/equipment/rmap_woodfall.png",
+    "codes": "map_woodfall"
+  },
+  {
+    "name": "Snowhead Map",
+    "type": "toggle",
+    "img": "images/equipment/rmap_snowhead.png",
+    "codes": "map_snowhead"
+  },
+  {
+    "name": "Romani Ranch Map",
+    "type": "toggle",
+    "img": "images/equipment/rmap_romani.png",
+    "codes": "map_romani"
+  },
+  {
+    "name": "Great Bay Map",
+    "type": "toggle",
+    "img": "images/equipment/rmap_greatbay.png",
+    "codes": "map_greatbay"
+  },
+  {
+    "name": "Stone Tower Map",
+    "type": "toggle",
+    "img": "images/equipment/rmap_stonetower.png",
+    "codes": "map_stonetower"
   }
 ]

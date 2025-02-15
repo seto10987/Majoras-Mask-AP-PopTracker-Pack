@@ -1,0 +1,278 @@
+{
+  "horizontal_dungeon_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "array",
+            "orientation": "vertical",
+            //"margin": "5,0,0,0",
+            "background": "20f690e0",
+            "content": [
+              {
+                "type": "item",
+                "item": "wft_header",
+                //"item_size": "35",
+                "margin": "16,0"
+              },
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,2",
+                "content": [
+                  {
+                    "type": "item",
+                    //"item_size": "35",
+                    "item": "smallkey_wf"
+                  },
+                  {
+                    "type": "item",
+                    //"item_size": "35",
+                    "item": "bosskey_wf"
+                  }
+                ]
+              },
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,2",
+                "content": [
+                  {
+                    "type": "item",
+                    //"item_size": "35",
+                    "item": "map_woodfall_temple"
+                  },
+                  {
+                    "type": "item",
+                    //"item_size": "35",
+                    "item": "compass_woodfall"
+                  }
+                ]
+              },
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,6",
+                "content": [
+                  //{
+                  //  "type": "item",
+                  //  //"item_size": "35",
+                  //  "item": "fairy_wf"
+                  //},
+                  {
+                    "type": "item",
+                    //"item_size": "35",
+                    "item": "wftreward",
+                    "margin": "16,0"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "array",
+            "orientation": "vertical",
+            //"margin": "5,0,0,0",
+            "background": "2060ebbe",
+            "content": [
+              {
+                "type": "item",
+                //"item_size": "35",
+                "item": "sht_header",
+                "margin": "16,0"
+              },
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,2",
+                "content": [
+                  {
+                    "type": "item",
+                    //"item_size": "35",
+                    "item": "smallkey_sh"
+                  },
+                  {
+                    "type": "item",
+                    //"item_size": "35",
+                    "item": "bosskey_sh"
+                  }
+                ]
+              },
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,2",
+                "content": [
+                  {
+                    "type": "item",
+                    //"item_size": "35",
+                    "item": "map_snowhead_temple"
+                  },
+                  {
+                    "type": "item",
+                    //"item_size": "35",
+                    "item": "compass_snowhead"
+                  }
+                ]
+              },
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,6",
+                "content": [
+                  //{
+                  //  "type": "item",
+                  //  //"item_size": "35",
+                  //  "item": "fairy_sh"
+                  //},
+                  {
+                    "type": "item",
+                    //"item_size": "35",
+                    "item": "shtreward",
+                    "margin": "16,0"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "array",
+            "orientation": "vertical",
+            //"margin": "5,0,0,0",
+            "background": "206e88db",
+            "content": [
+              {
+                "type": "item",
+                //"item_size": "35",
+                "item": "gbt_header",
+                "margin": "16,0"
+              },
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,2",
+                "content": [
+                  {
+                    "type": "item",
+                    //"item_size": "35",
+                    "item": "smallkey_gb"
+                  },
+                  {
+                    "type": "item",
+                    //"item_size": "35",
+                    "item": "bosskey_gb"
+                  }
+                ]
+              },
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,2",
+                "content": [
+                  {
+                    "type": "item",
+                    //"item_size": "35",
+                    "item": "map_greatbay_temple"
+                  },
+                  {
+                    "type": "item",
+                    //"item_size": "35",
+                    "item": "compass_greatbay"
+                  }
+                ]
+              },
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,6",
+                "content": [
+                  //{
+                  //  "type": "item",
+                  //  //"item_size": "35",
+                  //  "item": "fairy_gb"
+                  //},
+                  {
+                    "type": "item",
+                    //"item_size": "35",
+                    "item": "gbtreward",
+                    "margin": "16,0"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "array",
+            "orientation": "vertical",
+            //"margin": "5,0,0,0",
+            "background": "20d0c64d",
+            "content": [
+              {
+                "type": "item",
+                //"item_size": "35",
+                "item": "stt_header",
+                "margin": "16,0"
+              },
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,2",
+                "content": [
+                  {
+                    "type": "item",
+                    //"item_size": "35",
+                    "item": "smallkey_st"
+                  },
+                  {
+                    "type": "item",
+                    //"item_size": "35",
+                    "item": "bosskey_st"
+                  }
+                ]
+              },
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,2",
+                "content": [
+                  {
+                    "type": "item",
+                    //"item_size": "35",
+                    "item": "map_stonetower_temple"
+                  },
+                  {
+                    "type": "item",
+                    //"item_size": "35",
+                    "item": "compass_stonetower"
+                  }
+                ]
+              },
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,6",
+                "content": [
+                  //{
+                  //  "type": "item",
+                  //  //"item_size": "35",
+                  //  "item": "fairy_st"
+                  //},
+                  {
+                    "type": "item",
+                    //"item_size": "35",
+                    "item": "sttreward",
+                    "margin": "16,0"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

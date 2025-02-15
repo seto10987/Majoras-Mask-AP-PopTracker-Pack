@@ -184,58 +184,76 @@
     "codes": "memoriespendant,pendant"
   },
   {
-    "name": "Bottle 1",
+    "name": "Empty Bottle",
     "type": "toggle",
     "img": "images/items/bottle.png",
-    "codes": "bottle_1,bottle"
+    "codes": "bottle"
   },
-  {
-    "name": "Bottle 2",
-    "type": "toggle",
-    "img": "images/items/bottle.png",
-    "codes": "bottle_2,bottle"
-  },
-  {
-    "name": "Bottle 3",
-    "type": "toggle",
-    "img": "images/items/bottle.png",
-    "codes": "bottle_3,bottle"
-  },
-  {
-    "name": "Bottle 4",
-    "type": "toggle",
-    "img": "images/items/bottle.png",
-    "codes": "bottle_4,bottle"
-  },
-  {
-    "name": "Bottle 5",
-    "type": "toggle",
-    "img": "images/items/bottle.png",
-    "codes": "bottle_5,bottle"
-  },
-  {
-    "name": "Bottle 6",
-    "type": "toggle",
-    "img": "images/items/bottle.png",
-    "codes": "bottle_6,bottle"
-  },
+//  {
+//    "name": "Bottle 1",
+//    "type": "toggle",
+//    "img": "images/items/bottle.png",
+//    "codes": "bottle_1,bottle"
+//  },
+//  {
+//    "name": "Bottle 2",
+//    "type": "toggle",
+//    "img": "images/items/bottle.png",
+//    "codes": "bottle_2,bottle"
+//  },
+//  {
+//    "name": "Bottle 3",
+//    "type": "toggle",
+//    "img": "images/items/bottle.png",
+//    "codes": "bottle_3,bottle"
+//  },
+//  {
+//    "name": "Bottle 4",
+//    "type": "toggle",
+//    "img": "images/items/bottle.png",
+//    "codes": "bottle_4,bottle"
+//  },
+//  {
+//    "name": "Bottle 5",
+//    "type": "toggle",
+//    "img": "images/items/bottle.png",
+//    "codes": "bottle_5,bottle"
+//  },
+//  {
+//    "name": "Bottle 6",
+//    "type": "toggle",
+//    "img": "images/items/bottle.png",
+//    "codes": "bottle_6,bottle"
+//  },
   {
     "name": "Red Potion",
     "type": "toggle",
-    "img": "images/items/bottle_red.png",
+    "img": "images/items/red_potion.png",
     "codes": "redpotion"
   },
   {
     "name": "Blue Potion",
     "type": "toggle",
-    "img": "images/items/bottle_blue.png",
+    "img": "images/items/blue_potion.png",
     "codes": "bluepotion"
   },
   {
     "name": "Chateau Romani",
     "type": "toggle",
-    "img": "images/items/chateau.png",
+    "img": "images/items/chateau_romani.png",
     "codes": "chateau"
+  },
+  {
+    "name": "Milk Bottle",
+    "type": "toggle",
+    "img": "images/items/milk_bottle.png",
+    "codes": "milk"
+  },
+  {
+    "name": "Gold Dust",
+    "type": "toggle",
+    "img": "images/items/gold_dust.png",
+    "codes": "gold_dust"
   },
   {
     "name": "Clock Town Map",

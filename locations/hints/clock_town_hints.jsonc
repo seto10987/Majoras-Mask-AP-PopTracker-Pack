@@ -563,67 +563,67 @@
           ],
           "sections": [
             {
-              "name": "Clock Town Trading Post Shop Item 1 (Hint)",
+              "name": "Shop Item 1 (Hint)",
               "visibility_rules": ["trading_post_shop_item_1"]
             },
             {
-              "name": "Clock Town Trading Post Shop Item 2 (Hint)",
+              "name": "Shop Item 2 (Hint)",
               "visibility_rules": ["trading_post_shop_item_2"]
             },
             {
-              "name": "Clock Town Trading Post Shop Item 3 (Hint)",
+              "name": "Shop Item 3 (Hint)",
               "visibility_rules": ["trading_post_shop_item_3"]
             },
             {
-              "name": "Clock Town Trading Post Shop Item 4 (Hint)",
+              "name": "Shop Item 4 (Hint)",
               "visibility_rules": ["trading_post_shop_item_4"]
             },
             {
-              "name": "Clock Town Trading Post Shop Item 5 (Hint)",
+              "name": "Shop Item 5 (Hint)",
               "visibility_rules": ["trading_post_shop_item_5"]
             },
             {
-              "name": "Clock Town Trading Post Shop Item 6 (Hint)",
+              "name": "Shop Item 6 (Hint)",
               "visibility_rules": ["trading_post_shop_item_6"]
             },
             {
-              "name": "Clock Town Trading Post Shop Item 7 (Hint)",
+              "name": "Shop Item 7 (Hint)",
               "visibility_rules": ["trading_post_shop_item_7"]
             },
             {
-              "name": "Clock Town Trading Post Shop Item 8 (Hint)",
+              "name": "Shop Item 8 (Hint)",
               "visibility_rules": ["trading_post_shop_item_8"]
             },
             {
-              "name": "Clock Town Trading Post Shop (Night) Item 1 (Hint)",
+              "name": "Shop (Night) Item 1 (Hint)",
               "visibility_rules": ["trading_post_shop_night_item_1"]
             },
             {
-              "name": "Clock Town Trading Post Shop (Night) Item 2 (Hint)",
+              "name": "Shop (Night) Item 2 (Hint)",
               "visibility_rules": ["trading_post_shop_night_item_2"]
             },
             {
-              "name": "Clock Town Trading Post Shop (Night) Item 3 (Hint)",
+              "name": "Shop (Night) Item 3 (Hint)",
               "visibility_rules": ["trading_post_shop_night_item_3"]
             },
             {
-              "name": "Clock Town Trading Post Shop (Night) Item 4 (Hint)",
+              "name": "Shop (Night) Item 4 (Hint)",
               "visibility_rules": ["trading_post_shop_night_item_4"]
             },
             {
-              "name": "Clock Town Trading Post Shop (Night) Item 5 (Hint)",
+              "name": "Shop (Night) Item 5 (Hint)",
               "visibility_rules": ["trading_post_shop_night_item_5"]
             },
             {
-              "name": "Clock Town Trading Post Shop (Night) Item 6 (Hint)",
+              "name": "Shop (Night) Item 6 (Hint)",
               "visibility_rules": ["trading_post_shop_night_item_6"]
             },
             {
-              "name": "Clock Town Trading Post Shop (Night) Item 7 (Hint)",
+              "name": "Shop (Night) Item 7 (Hint)",
               "visibility_rules": ["trading_post_shop_night_item_7"]
             },
             {
-              "name": "Clock Town Trading Post Shop (Night) Item 8 (Hint)",
+              "name": "Shop (Night) Item 8 (Hint)",
               "visibility_rules": ["trading_post_shop_night_item_8"]
             }
           ]

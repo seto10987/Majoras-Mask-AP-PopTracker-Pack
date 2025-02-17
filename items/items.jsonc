@@ -150,7 +150,7 @@
   {
     "name": "Pictobox",
     "type": "toggle",
-    "img": "images/items/camera.png",
+    "img": "images/items/pictobox.png",
     "codes": "pictobox,picto"
   },
   {

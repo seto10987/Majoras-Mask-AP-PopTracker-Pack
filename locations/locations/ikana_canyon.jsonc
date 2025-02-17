@@ -1,6 +1,8 @@
 [
   {
     "name": "Ikana Canyon",
+    "chest_unopened_img": "images/icons/chest.png",
+    "chest_opened_img": "images/icons/check_32.png",
     "children": [
       {
         "name": "Road to Ikana Pillar Chest",
@@ -39,6 +41,7 @@
         "sections": [
           {
             "name": "Road to Ikana Stone Soldier",
+            "chest_unopened_img": "images/characters/shiro.png",
             "access_rules": [
               "easy_logic, $can_play_eponas, $baby_has_bottle, $can_use_lens",
               "normal_logic, $can_play_eponas, redpotion, $can_use_lens"

@@ -1,6 +1,8 @@
 [
     {
     "name": "Romani Ranch",
+    "chest_unopened_img": "images/icons/chest.png",
+    "chest_opened_img": "images/icons/check_32.png",
     "children": [
       {
         "name": "Tingle Milk Road",
@@ -8,7 +10,6 @@
           {
             "name": "Romani Ranch Map Purchase",
             "chest_unopened_img": "images/equipment/rmap_romani.png",
-            "chest_opened_img": "images/equipment/region_map_grey.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles",
               "normal_logic, $has_projectiles"
@@ -29,11 +30,11 @@
           {
             "name": "Race",
             "chest_unopened_img": "images/icons/carrot.png",
-            "chest_opened_img": "images/icons/carrot_grey.png",
             "access_rules": ["$can_play_eponas"]
           },
           {
-            "name": "Purchase"
+            "name": "Purchase",
+            "chest_unopened_img": "images/characters/gorman_brothers.png"
           }
         ],
         "map_locations": [
@@ -49,8 +50,7 @@
         "sections": [
           {
             "name": "Bremen Mask March Baby Cuccos",
-            "chest_unopened_img": "images/masks/bremen.png",
-            "chest_opened_img": "images/masks/bremen_grey.png",
+            "chest_unopened_img": "images/characters/grog.png",
             "access_rules": ["bremenmask"]
           }
         ],
@@ -75,6 +75,7 @@
           },
           {
             "name": "Dog Race",
+            "chest_unopened_img": "images/icons/dog.png",
             "access_rules": [
               "easy_logic, giantswallet, truth",
               "normal_logic, truth"
@@ -94,14 +95,17 @@
         "sections": [
           {
             "name": "Free Cow",
+            "chest_unopened_img": "images/icons/cow.png",
             "access_rules": ["$can_use_powder_keg, $can_play_eponas"]
           },
           {
             "name": "Stables Front Cow",
+            "chest_unopened_img": "images/icons/cow.png",
             "access_rules": ["$can_use_powder_keg, $can_play_eponas"]
           },
           {
             "name": "Stables Back Cow",
+            "chest_unopened_img": "images/icons/cow.png",
             "access_rules": ["$can_use_powder_keg, $can_play_eponas"]
           }
         ],
@@ -118,14 +122,17 @@
         "sections": [
           {
             "name": "Romani Game",
-            "access_rules": ["$can_use_powder_keg, bow"]
+            "access_rules": ["$can_use_powder_keg, bow"],
+            "chest_unopened_img": "images/characters/romani.png"
           },
           {
             "name": "Alien Defense",
-            "access_rules": ["$can_use_powder_keg, bow"]
+            "access_rules": ["$can_use_powder_keg, bow"],
+            "chest_unopened_img": "images/characters/romani.png"
           },
           {
             "name": "Helping Cremia",
+            "chest_unopened_img": "images/characters/cremia.png",
             "access_rules": ["$can_use_powder_keg, bow"]
           }
         ],

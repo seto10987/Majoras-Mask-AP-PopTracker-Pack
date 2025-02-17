@@ -4,8 +4,8 @@
       "children": [
         {
           "name": "Woodfall Temple",
-          "chest_unopened_img": "images/icons/chest_unopened.png",
-          "chest_opened_img": "images/icons/chest_opened.png",
+          "chest_unopened_img": "images/icons/chest.png",
+          "chest_opened_img": "images/icons/check_32.png",
           "access_rules": [
             "easy_logic, $baby_woodfall_temple",
             "normal_logic, $woodfall_temple"
@@ -177,6 +177,7 @@
             },
             {
               "name": "Woodfall Temple Heart Container",
+              "chest_unopened_img": "images/equipment/heart_container.png",
               "access_rules": [
                 "easy_logic, bow, $baby_can_smack_hard, bosskey_wf",
                 "normal_logic, bow, $can_smack, bosskey_wf",
@@ -205,7 +206,7 @@
         {
           "name": "Swamp Spider House",
           "chest_unopened_img": "images/equipment/skull_ss.png",
-          "chest_opened_img": "images/equipment/skull_grey.png",
+          "chest_opened_img": "images/icons/check_32.png",
           "access_rules": [
             "easy_logic, $baby_swamp_skull_house",
             "normal_logic, $swamp_skull_house"

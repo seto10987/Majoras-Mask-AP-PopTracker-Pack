@@ -1,6 +1,8 @@
 [
   {
     "name": "Termina Field",
+    "chest_unopened_img": "images/icons/chest.png",
+    "chest_opened_img": "images/icons/check_32.png",
     "children": [
       {
         "name": "South East Termina Field",
@@ -96,6 +98,7 @@
         "sections": [
           {
             "name": "Termina Northern Midnight Dancer (Midnight - 6 AM)",
+            "chest_unopened_img": "images/characters/kamaro.png",
             "access_rules": ["$can_play_healing"]
           }
         ],
@@ -109,6 +112,7 @@
       },
       {
         "name": "Termina Bio Baba Grotto HP",
+        "chest_unopened_img": "images/equipment/heart_piece.png",
         "sections": [
           {
             "name": "Termina Bio Baba Grotto HP",
@@ -132,6 +136,7 @@
         "sections": [
           {
             "name": "East Clock Town Astral Observatory",
+            "chest_unopened_img": "images/items/moon_tear.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles",
               "normal_logic, $has_projectiles"
@@ -151,6 +156,7 @@
         "sections": [
           {
             "name": "Termina Business Scrub Grotto HP",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": ["$has_projectiles, wallet"]
           }
         ],
@@ -164,6 +170,7 @@
       },
       {
         "name": "Termina Gossip Stones HP",
+        "chest_unopened_img": "images/icons/gossip_stone.png",
         "sections": [
           {
             "name": "Termina Gossip Stones HP",
@@ -211,10 +218,12 @@
         "sections": [
           {
             "name": "Left Cow",
+            "chest_unopened_img": "images/icons/cow.png",
             "access_rules": ["$can_play_eponas"]
           },
           {
             "name": "Right Cow",
+            "chest_unopened_img": "images/icons/cow.png",
             "access_rules": ["$can_play_eponas"]
           }
         ]

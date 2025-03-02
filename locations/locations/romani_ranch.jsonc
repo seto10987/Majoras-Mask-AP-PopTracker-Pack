@@ -6,6 +6,10 @@
     "children": [
       {
         "name": "Tingle Milk Road",
+        "visibility_rules": [
+          "shuffle_regional_maps_vanilla",
+          "shuffle_regional_maps_anywhere"
+        ],
         "sections": [
           {
             "name": "Romani Ranch Map Purchase",
@@ -34,7 +38,11 @@
           },
           {
             "name": "Purchase",
-            "chest_unopened_img": "images/characters/gorman_brothers.png"
+            "chest_unopened_img": "images/characters/gorman_brothers.png",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
           }
         ],
         "map_locations": [

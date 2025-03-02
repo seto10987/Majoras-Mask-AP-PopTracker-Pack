@@ -63,6 +63,10 @@
       },
       {
         "name": "Tingle Southern Swamp",
+        "visibility_rules": [
+          "shuffle_regional_maps_vanilla",
+          "shuffle_regional_maps_anywhere"
+        ],
         "sections": [
           {
             "name": "Woodfall Map Purchase",
@@ -161,15 +165,28 @@
         "sections": [
           {
             "name": "Item 1",
-            "chest_unopened_img": "images/items/red_potion.png"
+            "chest_unopened_img": "images/items/red_potion.png",
+            "access_rules": ["maskofscents, $has_bottle"],
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
           },
           {
             "name": "Item 2",
-            "chest_unopened_img": "images/items/green_potion.png"
+            "chest_unopened_img": "images/items/green_potion.png",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
           },
           {
             "name": "Item 3",
-            "chest_unopened_img": "images/items/blue_potion.png"
+            "chest_unopened_img": "images/items/blue_potion.png",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
           }
         ],
         "map_locations": [

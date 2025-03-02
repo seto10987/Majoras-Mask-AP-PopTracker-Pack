@@ -1,6 +1,7 @@
 ScriptHost:LoadScript("scripts/autotracking/hints_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/tables.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
@@ -70,7 +71,7 @@ function onClear(slot_data)
         Archipelago:Get({HINTS_ID})
     end
 
-    -- read YAML settings
+    -- read YAML options
     local function setFromSlotData(slot_data_key, item_code)
         local v = slot_data[slot_data_key]
         if not v then
@@ -91,18 +92,48 @@ function onClear(slot_data)
         elseif obj.Type == 'progressive' then
             obj.CurrentStage = v
             return v
+        elseif obj.Type == 'consumable' then
+            obj.AcquiredCount = v
+            return v
         else
             print(string.format("Unsupported item type '%s' for item '%s'", tostring(obj.Type), item_code))
             return nil
         end
+
+        if Tracker:FindObjectForCode("shuffle_regional_maps").CurrentStage == 1 then
+            for _, regional_maps in pairs(REGION_MAPS_LIST) do
+                Tracker:FindObjectForCode(regional_maps).Active = true
+            end
+        else
+            for _, regional_maps in pairs(REGION_MAPS_LIST) do
+                Tracker:FindObjectForCode(regional_maps).Active = false
+            end
+        end
     end
     
     setFromSlotData("logic_difficulty","logic_difficulty")
+    setFromSlotData("camc","camc")
     setFromSlotData("swordless","swordless")
+    setFromSlotData("shieldless","shieldless")
+    setFromSlotData("start_with_soaring","start_with_soaring")
+    setFromSlotData("starting_hearts","starting_hearts")
+    setFromSlotData("starting_hearts_are_containers_or_pieces","starting_hearts_are_containers_or_pieces")
+    setFromSlotData("shuffle_regional_maps","shuffle_regional_maps")
+    setFromSlotData("shuffle_boss_remains","shuffle_boss_remains")
     setFromSlotData("shuffle_swamphouse_reward","shuffle_swamphouse_reward")
-    setFromSlotData("shuffle_great_fairy_rewards","shuffle_great_fairy_rewards")
     setFromSlotData("skullsanity","skullsanity")
+    setFromSlotData("shopsanity","shopsanity")
+    setFromSlotData("scrubsanity","scrubsanity")
+    setFromSlotData("cowsanity","cowsanity")
+    setFromSlotData("shuffle_great_fairy_rewards","shuffle_great_fairy_rewards")
     setFromSlotData("fairysanity","fairysanity")
+    setFromSlotData("start_with_consumables","start_with_consumables")
+    setFromSlotData("permanent_chateau_romani","permanent_chateau_romani")
+    setFromSlotData("start_with_inverted_time","start_with_inverted_time")
+    setFromSlotData("receive_filled_wallets","receive_filled_wallets")
+    setFromSlotData("damage_multiplier","damage_multiplier")
+    setFromSlotData("death_behavior","death_behavior")
+    setFromSlotData("death_link","death_link")
 end
 
 -- called when an item gets collected

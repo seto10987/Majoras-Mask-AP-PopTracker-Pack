@@ -16,44 +16,122 @@
               {
                 "type": "item",
                 "max_width": "260",
+                "margin": "260,0",
                 "item": "logic_difficulty"
               }
             ]
           },
           {
-            "type": "group",
-            "header": "Shuffles",
+            "type": "array",
+            "orientation": "horizontal",
             "content": [
               {
-                "type": "item",
-                "max_width": "260",
-                "item": "swordless"
+                "type": "group",
+                "header": "Shuffles",
+                "content": [
+                  {
+                    "type": "item",
+                    "max_width": "260",
+                    "item": "swordless"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": "260",
+                    "item": "shieldless"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": "260",
+                    "item": "shuffle_regional_maps"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": "260",
+                    "item": "shuffle_boss_remains"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": "260",
+                    "item": "shuffle_swamphouse_reward"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": "260",
+                    "item": "shuffle_great_fairy_rewards"
+                  }
+                ]
               },
               {
-                "type": "item",
-                "max_width": "260",
-                "item": "shuffle_swamphouse_reward"
+                "type": "group",
+                "header": "Sanities",
+                "content": [
+                  {
+                    "type": "item",
+                    "max_width": "260",
+                    "item": "skullsanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": "260",
+                    "item": "shopsanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": "260",
+                    "item": "scrubsanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": "260",
+                    "item": "cowsanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": "260",
+                    "item": "fairysanity"
+                  }
+                ]
               },
               {
-                "type": "item",
-                "max_width": "260",
-                "item": "shuffle_great_fairy_rewards"
-              }
-            ]
-          },
-          {
-            "type": "group",
-            "header": "Sanities",
-            "content": [
-              {
-                "type": "item",
-                "max_width": "260",
-                "item": "skullsanity"
-              },
-              {
-                "type": "item",
-                "max_width": "260",
-                "item": "fairysanity"
+                "type": "group",
+                "header": "Inventory",
+                "content": [
+                  {
+                    "type": "item",
+                    "max_width": "260",
+                    "item": "start_with_soaring"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": "260",
+                    "item": "starting_hearts"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": "260",
+                    "item": "starting_hearts_containers_or_pieces"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": "260",
+                    "item": "start_with_consumables"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": "260",
+                    "item": "permanent_chateau_romani"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": "260",
+                    "item": "start_with_inverted_time"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": "260",
+                    "item": "receive_filled_wallets"
+                  }
+                ]
               }
             ]
           }

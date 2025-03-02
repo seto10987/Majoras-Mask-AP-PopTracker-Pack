@@ -435,12 +435,20 @@
           {
             "name": "Milk Purchase",
             "chest_unopened_img": "images/items/milk_bottle.png",
-            "access_rules": ["romani"]
+            "access_rules": ["romani"],
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
           },
           {
             "name": "Chateau Romani Purchase",
             "chest_unopened_img": "images/items/chateau_romani.png",
-            "access_rules": ["romani, adultswallet"]
+            "access_rules": ["romani, adultswallet"],
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
           }
         ],
         "map_locations": [
@@ -651,67 +659,107 @@
         "sections": [
           {
             "name": "Shop Item 1",
-            "chest_unopened_img": "images/icons/trading_post.png"
+            "chest_unopened_img": "images/icons/trading_post.png",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
           },
           {
             "name": "Shop Item 2",
-            "chest_unopened_img": "images/icons/trading_post.png"
+            "chest_unopened_img": "images/icons/trading_post.png",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
           },
           {
             "name": "Shop Item 3",
-            "chest_unopened_img": "images/icons/trading_post.png"
+            "chest_unopened_img": "images/icons/trading_post.png",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
           },
           {
             "name": "Shop Item 4",
-            "chest_unopened_img": "images/icons/trading_post.png"
+            "chest_unopened_img": "images/icons/trading_post.png",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
           },
           {
             "name": "Shop Item 5",
-            "chest_unopened_img": "images/icons/trading_post.png"
+            "chest_unopened_img": "images/icons/trading_post.png",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
           },
           {
             "name": "Shop Item 6",
-            "chest_unopened_img": "images/icons/trading_post.png"
+            "chest_unopened_img": "images/icons/trading_post.png",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
           },
           {
             "name": "Shop Item 7",
-            "chest_unopened_img": "images/icons/trading_post.png"
+            "chest_unopened_img": "images/icons/trading_post.png",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
           },
           {
             "name": "Shop Item 8",
-            "chest_unopened_img": "images/icons/trading_post.png"
+            "chest_unopened_img": "images/icons/trading_post.png",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
           },
           {
             "name": "Shop (Night) Item 1",
-            "chest_unopened_img": "images/icons/trading_post_night.png"
+            "chest_unopened_img": "images/icons/trading_post_night.png",
+            "visibility_rules": ["shopsanity_advanced"]
           },
           {
             "name": "Shop (Night) Item 2",
-            "chest_unopened_img": "images/icons/trading_post_night.png"
+            "chest_unopened_img": "images/icons/trading_post_night.png",
+            "visibility_rules": ["shopsanity_advanced"]
           },
           {
             "name": "Shop (Night) Item 3",
-            "chest_unopened_img": "images/icons/trading_post_night.png"
+            "chest_unopened_img": "images/icons/trading_post_night.png",
+            "visibility_rules": ["shopsanity_advanced"]
           },
           {
             "name": "Shop (Night) Item 4",
-            "chest_unopened_img": "images/icons/trading_post_night.png"
+            "chest_unopened_img": "images/icons/trading_post_night.png",
+            "visibility_rules": ["shopsanity_advanced"]
           },
           {
             "name": "Shop (Night) Item 5",
-            "chest_unopened_img": "images/icons/trading_post_night.png"
+            "chest_unopened_img": "images/icons/trading_post_night.png",
+            "visibility_rules": ["shopsanity_advanced"]
           },
           {
             "name": "Shop (Night) Item 6",
-            "chest_unopened_img": "images/icons/trading_post_night.png"
+            "chest_unopened_img": "images/icons/trading_post_night.png",
+            "visibility_rules": ["shopsanity_advanced"]
           },
           {
             "name": "Shop (Night) Item 7",
-            "chest_unopened_img": "images/icons/trading_post_night.png"
+            "chest_unopened_img": "images/icons/trading_post_night.png",
+            "visibility_rules": ["shopsanity_advanced"]
           },
           {
             "name": "Shop (Night) Item 8",
-            "chest_unopened_img": "images/icons/trading_post_night.png"
+            "chest_unopened_img": "images/icons/trading_post_night.png",
+            "visibility_rules": ["shopsanity_advanced"]
           }
         ]
       },
@@ -727,13 +775,25 @@
         ],
         "sections": [
           {
-            "name": "Item 1"
+            "name": "Item 1",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
           },
           {
-            "name": "Item 2"
+            "name": "Item 2",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
           },
           {
-            "name": "Item 3"
+            "name": "Item 3",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
           },
           {
             "name": "Bomb Bag Purchase",
@@ -743,6 +803,10 @@
               "normal_logic, fairysword",
               "normal_logic, zora",
               "normal_logic, goron"
+            ],
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
             ]
             //same requirements as North Clock Town Save Old Lady
           }
@@ -778,6 +842,10 @@
       },
       {
         "name": "Tingle Clock Town",
+        "visibility_rules": [
+          "shuffle_regional_maps_vanilla",
+          "shuffle_regional_maps_anywhere"
+        ],
         "map_locations": [
           {
             "map": "termina",

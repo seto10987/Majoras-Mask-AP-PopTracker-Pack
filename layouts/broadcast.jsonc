@@ -10,7 +10,25 @@
         "dock": "top",
         "content": {
           "type": "layout",
-          "key": "item_grid"
+          "key": "broadcast_item_grid"
+        }
+      },
+      {
+        "type": "group",
+        "header": "Masks",
+        "dock": "top",
+        "content": {
+          "type": "layout",
+          "key": "broadcast_masks_grid"
+        }
+      },
+      {
+        "type": "group",
+        "header": "Equipment",
+        "dock": "top",
+        "content": {
+          "type": "layout",
+          "key": "broadcast_equipment_grid"
         }
       },
       {
@@ -19,7 +37,7 @@
         "dock": "bottom",
         "content": {
           "type": "layout",
-          "key": "dungeon_grid"
+          "key": "broadcast_dungeons_grid"
         }
 //      },
 //      {

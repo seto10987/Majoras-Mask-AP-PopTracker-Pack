@@ -32,11 +32,11 @@
               },
               {
                 "type": "group",
-                "header": "Equipments",
+                "header": "Equipment",
                 "dock": "top",
                 "content": {
                   "type": "layout",
-                  "key": "vertical_equipments_grid"
+                  "key": "vertical_equipment_grid"
                 }
               },
               {
@@ -117,13 +117,13 @@
               },
               {
                 "type": "group",
-                "header": "Equipments",
+                "header": "Equipment",
                 "dock": "left",
                 "content": {
                   "type": "layout",
                   "h_alignment": "center",
                   "v_alignment": "center",
-                  "key": "horizontal_equipments_grid"
+                  "key": "horizontal_equipment_grid"
                 }
               },
               {

@@ -1,0 +1,52 @@
+{
+  "broadcast_equipment_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "1,1",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "v_alignment": "center",
+        "item_margin": "0,0",
+        "rows": [
+          [
+            "heart_piece",
+            "heart_container",
+            "double_defense",
+            "magic",
+            "wallet",
+            "spin_attack"
+          ],
+          [
+            "time",
+            "healing",
+            "epona",
+            "soaring",
+            "storms",
+            "sword"
+          ],
+          [
+            "sonata",
+            "lullaby",
+            "newwave",
+            "elegy",
+            "oath",
+            "shield"
+          ],
+          [
+            "fairy_ct",
+            "fairy_wf",
+            "fairy_sh",
+            "fairy_gb",
+            "fairy_st"
+          ],
+          [
+            "skull_ss",
+            "skull_gb"
+          ]
+        ]
+      }
+    ]
+  }
+}

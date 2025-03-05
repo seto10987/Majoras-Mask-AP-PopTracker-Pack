@@ -2,7 +2,7 @@
   "horizontal_remnants_grid": {
     "type": "array",
     "orientation": "vertical",
-    "margin": "1,1",
+    "margin": "1,16",
     "content": [
       {
         "type": "itemgrid",

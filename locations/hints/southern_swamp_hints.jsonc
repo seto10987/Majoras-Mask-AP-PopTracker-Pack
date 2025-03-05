@@ -63,6 +63,10 @@
           {
             "name": "Woodfall Map Purchase (Hint)",
             "visibility_rules": ["woodfall_map_purchase"]
+          },
+          {
+            "name": "Snowhead Map Purchase (Hint)",
+            "visibility_rules": ["snowhead_map_purchase"]
           }
         ],
         "map_locations": [

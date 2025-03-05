@@ -2,7 +2,7 @@
   "broadcast_equipment_grid": {
     "type": "array",
     "orientation": "vertical",
-    "margin": "1,1",
+    "margin": "16,1",
     "content": [
       {
         "type": "itemgrid",
@@ -11,28 +11,25 @@
         "item_margin": "0,0",
         "rows": [
           [
-            "heart_piece",
-            "heart_container",
-            "double_defense",
+            "spin_attack",
+            "sword",
+            "shield",
             "magic",
-            "wallet",
-            "spin_attack"
+            "wallet"
           ],
           [
             "time",
             "healing",
             "epona",
             "soaring",
-            "storms",
-            "sword"
+            "storms"
           ],
           [
             "sonata",
             "lullaby",
             "newwave",
             "elegy",
-            "oath",
-            "shield"
+            "oath"
           ],
           [
             "fairy_ct",

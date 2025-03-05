@@ -680,7 +680,7 @@
     "codes": "swamp_shooting_gallery_2180_points"
   },
   {
-    "name": "tour_koume_target_shooting", //to be renamed
+    "name": "tour_koume_target_shooting",
     "type": "toggle",
     "codes": "tour_koume_target_shooting"
   },
@@ -894,19 +894,165 @@
     "type": "toggle",
     "codes": "alien_defense"
   },
-//  {
-//    "name": "helping_cremia",
-//    "type": "toggle",
-//    "codes": "helping_cremia"
-//  },
-//  {
-//    "name": "romani_game",
-//    "type": "toggle",
-//    "codes": "romani_game"
-//  },
+  {
+    "name": "helping_cremia",
+    "type": "toggle",
+    "codes": "helping_cremia"
+  },
+  {
+    "name": "romani_game",
+    "type": "toggle",
+    "codes": "romani_game"
+  },
   {
     "name": "romani_ranch_map_purchase",
     "type": "toggle",
     "codes": "romani_ranch_map_purchase"
+  },
+  //Snowhead Hints
+  {
+    "name": "snowhead_map_purchase",
+    "type": "toggle",
+    "codes": "snowhead_map_purchase"
+  },
+  {
+    "name": "mountain_village_spring_waterfall_chest",
+    "type": "toggle",
+    "codes": "mountain_village_spring_waterfall_chest"
+  },
+  {
+    "name": "mountain_village_spring_ramp_grotto",
+    "type": "toggle",
+    "codes": "mountain_village_spring_ramp_grotto"
+  },
+  {
+    "name": "mountain_village_healing_goron",
+    "type": "toggle",
+    "codes": "mountain_village_healing_goron"
+  },
+  {
+    "name": "mountain_village_feed_goron",
+    "type": "toggle",
+    "codes": "mountain_village_feed_goron"
+  },
+  {
+    "name": "mountain_village_frog_song",
+    "type": "toggle",
+    "codes": "mountain_village_frog_song"
+  },
+  {
+    "name": "twin_islands_underwater_cave_chest",
+    "type": "toggle",
+    "codes": "twin_islands_underwater_cave_chest"
+  },
+  {
+    "name": "twin_islands_underwater_chest",
+    "type": "toggle",
+    "codes": "twin_islands_underwater_chest"
+  },
+  {
+    "name": "twin_islands_ramp_grotto_chest",
+    "type": "toggle",
+    "codes": "twin_islands_ramp_grotto_chest"
+  },
+  {
+    "name": "twin_islands_goron_elder",
+    "type": "toggle",
+    "codes": "twin_islands_goron_elder"
+  },
+  {
+    "name": "twin_islands_hot_water_grotto_chest",
+    "type": "toggle",
+    "codes": "twin_islands_hot_water_grotto_chest"
+  },
+  {
+    "name": "lens_cave_center_chest",
+    "type": "toggle",
+    "codes": "lens_cave_center_chest"
+  },
+  {
+    "name": "lens_cave_invisible_chest",
+    "type": "toggle",
+    "codes": "lens_cave_invisible_chest"
+  },
+  {
+    "name": "lens_cave_rock_chest",
+    "type": "toggle",
+    "codes": "lens_cave_rock_chest"
+  },
+  {
+    "name": "goron_village_baby_goron",
+    "type": "toggle",
+    "codes": "goron_village_baby_goron"
+  },
+  {
+    "name": "goron_village_shop_1",
+    "type": "toggle",
+    "codes": "goron_village_shop_1"
+  },
+  {
+    "name": "goron_village_shop_2",
+    "type": "toggle",
+    "codes": "goron_village_shop_2"
+  },
+  {
+    "name": "goron_village_shop_3",
+    "type": "toggle",
+    "codes": "goron_village_shop_3"
+  },
+  {
+    "name": "goron_village_shop_spring_1",
+    "type": "toggle",
+    "codes": "goron_village_shop_spring_1"
+  },
+  {
+    "name": "goron_village_shop_spring_2",
+    "type": "toggle",
+    "codes": "goron_village_shop_spring_2"
+  },
+  {
+    "name": "goron_village_shop_spring_3",
+    "type": "toggle",
+    "codes": "goron_village_shop_spring_3"
+  },
+  {
+    "name": "goron_village_scrub_purchase_bomb_bag",
+    "type": "toggle",
+    "codes": "goron_village_scrub_purchase_bomb_bag"
+  },
+  {
+    "name": "goron_village_scrub_trade",
+    "type": "toggle",
+    "codes": "goron_village_scrub_trade"
+  },
+  {
+    "name": "goron_village_scrub_freestanding_hp",
+    "type": "toggle",
+    "codes": "goron_village_scrub_freestanding_hp"
+  },
+  //{
+  //  "name": "goron_village_powder_keg",
+  //  "type": "toggle",
+  //  "codes": "goron_village_powder_keg"
+  //},
+  {
+    "name": "goron_village_scrub_freestanding_hp_spring",
+    "type": "toggle",
+    "codes": "goron_village_scrub_freestanding_hp_spring"
+  },
+  {
+    "name": "path_snowhead_grotto_chest",
+    "type": "toggle",
+    "codes": "path_snowhead_grotto_chest"
+  },
+  {
+    "name": "path_snowhead_scarecrow_hp",
+    "type": "toggle",
+    "codes": "path_snowhead_scarecrow_hp"
+  },
+  {
+    "name": "snowhead_great_fairy_reward",
+    "type": "toggle",
+    "codes": "snowhead_great_fairy_reward"
   }
 ]

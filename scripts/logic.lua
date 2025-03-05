@@ -155,7 +155,7 @@ function moon()
     return has("ocarina") and has("oath") and has("odolwa") and has("goht") and has("gyorg") and has("twinmold")
 end
 
---- SWAMP AREA ---
+--- SWAMP REGION ---
 -- Southern Swamp -> Southern Swamp (Deku Palace)
 function baby_south_swamp()
     return has("redpotion") and baby_has_hard_projectiles() and has("deku")
@@ -205,7 +205,7 @@ function clear_woodfall()
 end
 
 
---- MOUNTAIN AREA ---
+--- MOUNTAIN REGION ---
 -- Termina Field -> Path to Mountain Village
 -- Easy and normal
 function path_mountain()
@@ -237,7 +237,7 @@ function clear_snowhead()
 end
 
 
---- GREAT BAY AREA ---
+--- GREAT BAY REGION ---
 -- Termina Field -> Great Bay
 -- Easy and normal
 function great_bay()

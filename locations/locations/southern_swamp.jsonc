@@ -71,7 +71,14 @@
           {
             "name": "Woodfall Map Purchase",
             "chest_unopened_img": "images/equipment/rmap_woodfall.png",
-            "chest_opened_img": "images/equipment/region_map_grey.png",
+            "access_rules": [
+              "easy_logic, $baby_has_projectiles",
+              "normal_logic, $has_projectiles"
+            ]
+          },
+          {
+            "name": "Snowhead Map Purchase",
+            "chest_unopened_img": "images/equipment/rmap_snowhead.png",
             "access_rules": [
               "easy_logic, $baby_has_projectiles",
               "normal_logic, $has_projectiles"
@@ -166,7 +173,7 @@
           {
             "name": "Item 1",
             "chest_unopened_img": "images/items/red_potion.png",
-            "access_rules": ["maskofscents, $has_bottle"],
+            "access_rules": ["maskofscents, bottle"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"

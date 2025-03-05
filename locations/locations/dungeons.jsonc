@@ -40,7 +40,7 @@
               "access_rules": [
                 "easy_logic, bow, $baby_can_smack_hard, $baby_has_explosives, deku, goron",
                 "normal_logic, bow, $can_smack, $has_explosives",
-                "normal_logic, bow, $can_smack,goron",
+                "normal_logic, bow, $can_smack, goron",
                 "normal_logic, bow, deku" //for potential dungeon entrance rando
               ]
             },

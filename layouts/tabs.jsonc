@@ -3,24 +3,40 @@
     "type": "tabbed",
     "tabs": [
       {
-        "title": "Termina",
+        "title": "Overworld",
         "content": {
-          "type": "map",
-          "maps": ["termina"]
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Termina",
+              "content": {
+                "type": "map",
+                "maps": ["termina"]
+              }
+            }
+          ]
         }
       },
       {
-        "title": "Swamp Spider House",
+        "title": "Dungeons",
         "content": {
-          "type": "map",
-          "maps": ["swamp_spider_house"]
-        }
-      },
-      {
-        "title": "Woodfall Temple",
-        "content": {
-          "type": "map",
-          "maps": ["woodfall_temple"]
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Woodfall Temple",
+              "content": {
+                "type": "map",
+                "maps": ["woodfall_temple"]
+              }
+            },
+            {
+              "title": "Swamp Spider House",
+              "content": {
+                "type": "map",
+                "maps": ["swamp_spider_house"]
+              }
+            }
+          ]
         }
       }
     ]
@@ -29,24 +45,40 @@
     "type": "tabbed",
     "tabs": [
       {
-        "title": "Termina",
+        "title": "Overworld",
         "content": {
-          "type": "map",
-          "maps": ["termina"]
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Termina",
+              "content": {
+                "type": "map",
+                "maps": ["termina"]
+              }
+            }
+          ]
         }
       },
       {
-        "title": "Swamp Spider House",
+        "title": "Dungeons",
         "content": {
-          "type": "map",
-          "maps": ["swamp_spider_house"]
-        }
-      },
-      {
-        "title": "Woodfall Temple",
-        "content": {
-          "type": "map",
-          "maps": ["woodfall_temple"]
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Woodfall Temple",
+              "content": {
+                "type": "map",
+                "maps": ["woodfall_temple"]
+              }
+            },
+            {
+              "title": "Swamp Spider House",
+              "content": {
+                "type": "map",
+                "maps": ["swamp_spider_house"]
+              }
+            }
+          ]
         }
       }
     ]

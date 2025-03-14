@@ -4,7 +4,7 @@
     "package_version": "0.2.2",
     "package_uid": "MM_AP",
     "platform": "Nintendo 64",
-    "author": "Seto10987",
+    "author": "Seto10987, G4M3R L1F3",
     "variants": {
         "standard": {
             "display_name": "Map Tracker",
@@ -12,7 +12,7 @@
         },
 		"var_z_items_only": {
 			"display_name": "Items Only",
-			"flags": [ "ap" ]
+			"flags": ["ap"]
 		}
     },
 	"versions_url": "https://raw.githubusercontent.com/seto10987/Majoras-Mask-AP-PopTracker-Pack/versions/versions.json"

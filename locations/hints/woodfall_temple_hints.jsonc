@@ -12,8 +12,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 382,
-            "y": 639
+            "x": 818,
+            "y": 1100
           }
         ]
       },
@@ -27,8 +27,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 328,
-            "y": 471
+            "x": 716,
+            "y": 816
           }
         ]
       },
@@ -42,8 +42,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 465,
-            "y": 353
+            "x": 957,
+            "y": 607
           }
         ]
       },
@@ -57,8 +57,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 569,
-            "y": 426
+            "x": 1141,
+            "y": 734
           }
         ]
       },
@@ -72,8 +72,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 463,
-            "y": 569
+            "x": 958,
+            "y": 1018
           }
         ]
       },
@@ -87,8 +87,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 464,
-            "y": 212
+            "x": 958,
+            "y": 351
           }
         ]
       },
@@ -102,8 +102,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 202,
-            "y": 536
+            "x": 507,
+            "y": 973
           }
         ]
       },
@@ -117,8 +117,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 30,
-            "y": 210
+            "x": 61,
+            "y": 291
           }
         ]
       },
@@ -132,8 +132,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 328,
-            "y": 644
+            "x": 693,
+            "y": 1123
           }
         ]
       },
@@ -147,8 +147,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 261,
-            "y": 435
+            "x": 584,
+            "y": 755
           }
         ]
       },
@@ -162,8 +162,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 305,
-            "y": 357
+            "x": 672,
+            "y": 609
           }
         ]
       },
@@ -177,8 +177,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 398,
-            "y": 499
+            "x": 846,
+            "y": 867
           }
         ]
       },
@@ -192,8 +192,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 430,
-            "y": 353
+            "x": 896,
+            "y": 600
           }
         ]
       },
@@ -207,8 +207,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 169,
-            "y": 353
+            "x": 436,
+            "y": 601
           }
         ]
       },
@@ -222,8 +222,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 202,
-            "y": 427
+            "x": 500,
+            "y": 736
           }
         ]
       },
@@ -237,8 +237,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 202,
-            "y": 410
+            "x": 296,
+            "y": 712
           }
         ]
       },
@@ -252,8 +252,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 355,
-            "y": 337
+            "x": 765,
+            "y": 569
           }
         ]
       },
@@ -267,8 +267,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 355,
-            "y": 317
+            "x": 827,
+            "y": 540
           }
         ]
       },
@@ -282,8 +282,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 250,
-            "y": 280
+            "x": 574,
+            "y": 483
           }
         ]
       },
@@ -297,8 +297,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 303,
-            "y": 240
+            "x": 673,
+            "y": 414
           }
         ]
       },
@@ -312,8 +312,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 307,
-            "y": 77
+            "x": 694,
+            "y": 139
           }
         ]
       },
@@ -327,8 +327,8 @@
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 349,
-            "y": 77
+            "x": 737,
+            "y": 139
           }
         ]
       }

@@ -104,16 +104,19 @@
           {
             "name": "Free Cow",
             "chest_unopened_img": "images/icons/cow.png",
+            "visibility_rules": ["cowsanity"],
             "access_rules": ["$can_use_powder_keg, $can_play_eponas"]
           },
           {
             "name": "Stables Front Cow",
             "chest_unopened_img": "images/icons/cow.png",
+            "visibility_rules": ["cowsanity"],
             "access_rules": ["$can_use_powder_keg, $can_play_eponas"]
           },
           {
             "name": "Stables Back Cow",
             "chest_unopened_img": "images/icons/cow.png",
+            "visibility_rules": ["cowsanity"],
             "access_rules": ["$can_use_powder_keg, $can_play_eponas"]
           }
         ],

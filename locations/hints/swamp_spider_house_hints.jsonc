@@ -12,8 +12,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 175,
-            "y": 351
+            "x": 279,
+            "y": 1010
           }
         ]
       },
@@ -27,8 +27,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 175,
-            "y": 317
+            "x": 301,
+            "y": 970
           }
         ]
       },
@@ -42,8 +42,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 203,
-            "y": 215
+            "x": 306,
+            "y": 664
           }
         ]
       },
@@ -57,8 +57,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 230,
-            "y": 191
+            "x": 410,
+            "y": 724
           }
         ]
       },
@@ -72,8 +72,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 469,
-            "y": 280
+            "x": 975,
+            "y": 632
           }
         ]
       },
@@ -87,8 +87,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 506,
-            "y": 265
+            "x": 1052,
+            "y": 596
           }
         ]
       },
@@ -102,8 +102,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 122,
-            "y": 163
+            "x": 200,
+            "y": 696
           }
         ]
       },
@@ -117,8 +117,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 267,
-            "y": 257
+            "x": 464,
+            "y": 784
           }
         ]
       },
@@ -132,8 +132,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 560,
-            "y": 427
+            "x": 1165,
+            "y": 974
           }
         ]
       },
@@ -147,8 +147,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 26,
-            "y": 293
+            "x": 3,
+            "y": 919
           }
         ]
       },
@@ -162,8 +162,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 43,
-            "y": 189
+            "x": 27,
+            "y": 718
           }
         ]
       },
@@ -177,8 +177,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 11,
-            "y": 248
+            "x": 1,
+            "y": 811
           }
         ]
       },
@@ -192,8 +192,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 400,
-            "y": 381
+            "x": 804,
+            "y": 844
           }
         ]
       },
@@ -207,8 +207,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 431,
-            "y": 332
+            "x": 892,
+            "y": 711
           }
         ]
       },
@@ -222,8 +222,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 593,
-            "y": 316
+            "x": 1291,
+            "y": 753
           }
         ]
       },
@@ -237,8 +237,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 612,
-            "y": 348
+            "x": 1241,
+            "y": 723
           }
         ]
       },
@@ -252,8 +252,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 306,
-            "y": 228
+            "x": 523,
+            "y": 826
           }
         ]
       },
@@ -267,8 +267,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 336,
-            "y": 152
+            "x": 605,
+            "y": 632
           }
         ]
       },
@@ -282,8 +282,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 336,
-            "y": 200
+            "x": 605,
+            "y": 772
           }
         ]
       },
@@ -297,8 +297,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 340,
-            "y": 71
+            "x": 625,
+            "y": 545
           }
         ]
       },
@@ -312,8 +312,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 604,
-            "y": 196
+            "x": 1254,
+            "y": 479
           }
         ]
       },
@@ -327,8 +327,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 143,
-            "y": 75
+            "x": 266,
+            "y": 523
           }
         ]
       },
@@ -342,8 +342,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 243,
-            "y": 41
+            "x": 392,
+            "y": 451
           }
         ]
       },
@@ -357,8 +357,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 510,
-            "y": 184
+            "x": 1052,
+            "y": 415
           }
         ]
       },
@@ -372,8 +372,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 510,
-            "y": 239
+            "x": 1051,
+            "y": 484
           }
         ]
       },
@@ -387,8 +387,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 476,
-            "y": 26
+            "x": 961,
+            "y": 103
           }
         ]
       },
@@ -402,44 +402,20 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 543,
-            "y": 99
+            "x": 1101,
+            "y": 201
           }
         ]
       },
       {
-        "name": "Tree Room Tree #1 Token (Hint)",
+        "name": "Tree Room Tree Hints",
         "sections": [
           {
           "ref": "Dungeons Hints/Swamp Spider House Hints/Swamphouse Tree Room Tree #1 Token (Hint)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "swamp_spider_house",
-            "x": 531,
-            "y": 67
-          }
-        ]
-      },
-      {
-        "name": "Tree Room Tree #2 Token (Hint)",
-        "sections": [
+          },
           {
           "ref": "Dungeons Hints/Swamp Spider House Hints/Swamphouse Tree Room Tree #2 Token (Hint)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "swamp_spider_house",
-            "x": 498,
-            "y": 82
-          }
-        ]
-      },
-      {
-        "name": "Tree Room Tree #3 Token (Hint)",
-        "sections": [
+          },
           {
           "ref": "Dungeons Hints/Swamp Spider House Hints/Swamphouse Tree Room Tree #3 Token (Hint)"
           }
@@ -447,8 +423,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 476,
-            "y": 57
+            "x": 1051,
+            "y": 107
           }
         ]
       },
@@ -462,8 +438,8 @@
         "map_locations": [
           {
             "map": "swamp_spider_house",
-            "x": 515,
-            "y": 36
+            "x": 1107,
+            "y": 42
           }
         ]
       }

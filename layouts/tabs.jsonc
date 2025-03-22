@@ -1,5 +1,5 @@
 ﻿{
-  "vertical_tabs": {
+  "map_tabs": {
     "type": "tabbed",
     "tabs": [
       {
@@ -30,45 +30,10 @@
               }
             },
             {
-              "title": "Swamp Spider House",
+              "title": "Snowhead Temple",
               "content": {
                 "type": "map",
-                "maps": ["swamp_spider_house"]
-              }
-            }
-          ]
-        }
-      }
-    ]
-  },
-  "horizontal_tabs": {
-    "type": "tabbed",
-    "tabs": [
-      {
-        "title": "Overworld",
-        "content": {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Termina",
-              "content": {
-                "type": "map",
-                "maps": ["termina"]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "title": "Dungeons",
-        "content": {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Woodfall Temple",
-              "content": {
-                "type": "map",
-                "maps": ["woodfall_temple"]
+                "maps": ["snowhead_temple"]
               }
             },
             {

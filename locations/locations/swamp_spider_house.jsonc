@@ -1,472 +1,448 @@
 [
-    {
-      "name": "Swamp Spider House",
-      "children": [
-        {
-          "name": "Collect 30 Tokens",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Collect 30 Tokens"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 183,
-              "y": 351
-            }
-          ]
-        },
-        {
-          "name": "First Room Pot Near Entrance Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse First Room Pot Near Entrance Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 183,
-              "y": 317
-            }
-          ]
-        },
-        {
-          "name": "First Room Crawling In Water Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse First Room Crawling In Water Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 211,
-              "y": 215
-            }
-          ]
-        },
-        {
-          "name": "First Room Crawling Right Column Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse First Room Crawling Right Column Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 238,
-              "y": 191
-            }
-          ]
-        },
-        {
-          "name": "First Room Crawling Left Column Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse First Room Crawling Left Column Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 477,
-              "y": 280
-            }
-          ]
-        },
-        {
-          "name": "First Room Against Far Wall Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse First Room Against Far Wall Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 514,
-              "y": 265
-            }
-          ]
-        },
-        {
-          "name": "First Room Left Bugpatch Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse First Room Left Bugpatch Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 130,
-              "y": 163
-            }
-          ]
-        },
-        {
-          "name": "First Room Right Bugpatch Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse First Room Right Bugpatch Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 275,
-              "y": 257
-            }
-          ]
-        },
-        {
-          "name": "First Room Upper Right Bugpatch Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse First Room Upper Right Bugpatch Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 568,
-              "y": 427
-            }
-          ]
-        },
-        {
-          "name": "Monument Room Left Crate Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse Monument Room Left Crate Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 34,
-              "y": 293
-            }
-          ]
-        },
-        {
-          "name": "Monument Room Right Crate Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse Monument Room Right Crate Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 51,
-              "y": 189
-            }
-          ]
-        },
-        {
-          "name": "Monument Room Crawling Wall Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse Monument Room Crawling Wall Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 19,
-              "y": 248
-            }
-          ]
-        },
-        {
-          "name": "Monument Room Crawling On Monument Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse Monument Room Crawling On Monument Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 408,
-              "y": 381
-            }
-          ]
-        },
-        {
-          "name": "Monument Room Behind Torch Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse Monument Room Behind Torch Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 439,
-              "y": 332
-            }
-          ]
-        },
-        {
-          "name": "Pottery Room Beehive #1 Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse Pottery Room Beehive #1 Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 601,
-              "y": 316
-            }
-          ]
-        },
-        {
-          "name": "Pottery Room Beehive #2 Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse Pottery Room Beehive #2 Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 620,
-              "y": 348
-            }
-          ]
-        },
-        {
-          "name": "Pottery Room Small Pot Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse Pottery Room Small Pot Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 314,
-              "y": 228
-            }
-          ]
-        },
-        {
-          "name": "Pottery Room Left Large Pot Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse Pottery Room Left Large Pot Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 344,
-              "y": 152
-            }
-          ]
-        },
-        {
-          "name": "Pottery Room Right Large Pot Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse Pottery Room Right Large Pot Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 344,
-              "y": 200
-            }
-          ]
-        },
-        {
-          "name": "Pottery Room Behind Vines Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse Pottery Room Behind Vines Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 348,
-              "y": 71
-            }
-          ]
-        },
-        {
-          "name": "Pottery Room Upper Wall Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse Pottery Room Upper Wall Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 612,
-              "y": 196
-            }
-          ]
-        },
-        {
-          "name": "Golden Room Crawling Left Wall Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse Golden Room Crawling Left Wall Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 151,
-              "y": 75
-            }
-          ]
-        },
-        {
-          "name": "Golden Room Crawling Right Column Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse Golden Room Crawling Right Column Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 251,
-              "y": 41
-            }
-          ]
-        },
-        {
-          "name": "Golden Room Against Far Wall Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse Golden Room Against Far Wall Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 517,
-              "y": 184
-            }
-          ]
-        },
-        {
-          "name": "Golden Room Beehive Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse Golden Room Beehive Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 518,
-              "y": 239
-            }
-          ]
-        },
-        {
-          "name": "Tree Room Tall Grass #1 Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse Tree Room Tall Grass #1 Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 484,
-              "y": 26
-            }
-          ]
-        },
-        {
-          "name": "Tree Room Tall Grass #2 Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse Tree Room Tall Grass #2 Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 551,
-              "y": 99
-            }
-          ]
-        },
-        {
-          "name": "Tree Room Tree #1 Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse Tree Room Tree #1 Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 539,
-              "y": 67
-            }
-          ]
-        },
-        {
-          "name": "Tree Room Tree #2 Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse Tree Room Tree #2 Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 506,
-              "y": 82
-            }
-          ]
-        },
-        {
-          "name": "Tree Room Tree #3 Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse Tree Room Tree #3 Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 484,
-              "y": 57
-            }
-          ]
-        },
-        {
-          "name": "Tree Room Beehive Token",
-          "sections": [
-            {
-            "ref": "Dungeons/Swamp Spider House/Swamphouse Tree Room Beehive Token"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "swamp_spider_house",
-              "x": 523,
-              "y": 36
-            }
-          ]
-        }
-      ]
-    }
+  {
+    "name": "Swamp Spider House",
+    "children": [
+      {
+        "name": "Collect 30 Tokens",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Collect 30 Tokens"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 287,
+            "y": 1010
+          }
+        ]
+      },
+      {
+        "name": "First Room Pot Near Entrance Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse First Room Pot Near Entrance Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 309,
+            "y": 970
+          }
+        ]
+      },
+      {
+        "name": "First Room Crawling In Water Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse First Room Crawling In Water Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 314,
+            "y": 664
+          }
+        ]
+      },
+      {
+        "name": "First Room Crawling Right Column Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse First Room Crawling Right Column Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 418,
+            "y": 724
+          }
+        ]
+      },
+      {
+        "name": "First Room Crawling Left Column Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse First Room Crawling Left Column Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 983,
+            "y": 632
+          }
+        ]
+      },
+      {
+        "name": "First Room Against Far Wall Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse First Room Against Far Wall Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 1060,
+            "y": 596
+          }
+        ]
+      },
+      {
+        "name": "First Room Left Bugpatch Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse First Room Left Bugpatch Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 208,
+            "y": 696
+          }
+        ]
+      },
+      {
+        "name": "First Room Right Bugpatch Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse First Room Right Bugpatch Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 472,
+            "y": 784
+          }
+        ]
+      },
+      {
+        "name": "First Room Upper Right Bugpatch Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse First Room Upper Right Bugpatch Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 1173,
+            "y": 974
+          }
+        ]
+      },
+      {
+        "name": "Monument Room Left Crate Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse Monument Room Left Crate Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 11,
+            "y": 927
+          }
+        ]
+      },
+      {
+        "name": "Monument Room Right Crate Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse Monument Room Right Crate Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 35,
+            "y": 718
+          }
+        ]
+      },
+      {
+        "name": "Monument Room Crawling Wall Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse Monument Room Crawling Wall Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 9,
+            "y": 811
+          }
+        ]
+      },
+      {
+        "name": "Monument Room Crawling On Monument Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse Monument Room Crawling On Monument Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 812,
+            "y": 844
+          }
+        ]
+      },
+      {
+        "name": "Monument Room Behind Torch Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse Monument Room Behind Torch Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 900,
+            "y": 711
+          }
+        ]
+      },
+      {
+        "name": "Pottery Room Beehive #1 Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse Pottery Room Beehive #1 Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 1293,
+            "y": 753
+          }
+        ]
+      },
+      {
+        "name": "Pottery Room Beehive #2 Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse Pottery Room Beehive #2 Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 1249,
+            "y": 723
+          }
+        ]
+      },
+      {
+        "name": "Pottery Room Small Pot Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse Pottery Room Small Pot Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 531,
+            "y": 826
+          }
+        ]
+      },
+      {
+        "name": "Pottery Room Left Large Pot Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse Pottery Room Left Large Pot Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 613,
+            "y": 632
+          }
+        ]
+      },
+      {
+        "name": "Pottery Room Right Large Pot Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse Pottery Room Right Large Pot Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 613,
+            "y": 772
+          }
+        ]
+      },
+      {
+        "name": "Pottery Room Behind Vines Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse Pottery Room Behind Vines Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 633,
+            "y": 545
+          }
+        ]
+      },
+      {
+        "name": "Pottery Room Upper Wall Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse Pottery Room Upper Wall Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 1262,
+            "y": 479
+          }
+        ]
+      },
+      {
+        "name": "Golden Room Crawling Left Wall Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse Golden Room Crawling Left Wall Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 274,
+            "y": 523
+          }
+        ]
+      },
+      {
+        "name": "Golden Room Crawling Right Column Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse Golden Room Crawling Right Column Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 400,
+            "y": 451
+          }
+        ]
+      },
+      {
+        "name": "Golden Room Against Far Wall Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse Golden Room Against Far Wall Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 1060,
+            "y": 415
+          }
+        ]
+      },
+      {
+        "name": "Golden Room Beehive Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse Golden Room Beehive Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 1059,
+            "y": 484
+          }
+        ]
+      },
+      {
+        "name": "Tree Room Tall Grass #1 Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse Tree Room Tall Grass #1 Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 969,
+            "y": 103
+          }
+        ]
+      },
+      {
+        "name": "Tree Room Tall Grass #2 Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse Tree Room Tall Grass #2 Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 1109,
+            "y": 201
+          }
+        ]
+      },
+      {
+        "name": "Tree Room Tree",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse Tree Room Tree #1 Token"
+          },
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse Tree Room Tree #2 Token"
+          },
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse Tree Room Tree #3 Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 1059,
+            "y": 107
+          }
+        ]
+      },
+      {
+        "name": "Tree Room Beehive Token",
+        "sections": [
+          {
+          "ref": "Dungeons/Swamp Spider House/Swamphouse Tree Room Beehive Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "swamp_spider_house",
+            "x": 1115,
+            "y": 42
+          }
+        ]
+      }
+    ]
+  }
 ]

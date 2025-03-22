@@ -64,7 +64,7 @@
             "content": [
               {
                 "type": "layout",
-                "key": "vertical_tabs"
+                "key": "map_tabs"
               }
             ]
           }
@@ -166,7 +166,7 @@
             "content": [
               {
                 "type": "layout",
-                "key": "horizontal_tabs"
+                "key": "map_tabs"
               }
             ]
           }

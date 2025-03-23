@@ -183,12 +183,6 @@
     "img": "images/items/pendant.png",
     "codes": "memoriespendant,pendant"
   },
-  {
-    "name": "Empty Bottle",
-    "type": "toggle",
-    "img": "images/items/bottle.png",
-    "codes": "bottle"
-  },
 //  {
 //    "name": "Bottle 1",
 //    "type": "toggle",
@@ -225,6 +219,19 @@
 //    "img": "images/items/bottle.png",
 //    "codes": "bottle_6,bottle"
 //  },
+  {
+    "name": "Bottle Count",
+    "type": "consumable",
+    "img": "images/items/bottle.png",
+    "codes": "bottles",
+    "max_quantity": 6
+  },
+  {
+    "name": "Empty Bottle",
+    "type": "toggle",
+    "img": "images/items/bottle.png",
+    "codes": "empty_bottle"
+  },
   {
     "name": "Red Potion",
     "type": "toggle",

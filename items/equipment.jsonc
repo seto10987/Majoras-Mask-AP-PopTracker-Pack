@@ -19,7 +19,8 @@
   },
   {
     "name": "Spin Attack",
-    "type": "toggle",
+    "type": "toggle_badged",
+    "base_item": "sword",
     "img": "images/equipment/spin_attack.png",
     "codes": "spin_attack"
   },
@@ -55,6 +56,12 @@
         "codes": "giantswallet,wallet2"
       }
     ]
+  },
+  {
+    "name": "Bomber's Notebook",
+    "type": "toggle",
+    "img": "images/equipment/bombers_notebook.png",
+    "codes": "bombers_notebook"
   },
   {
     "name": "Heart Piece",

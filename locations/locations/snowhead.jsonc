@@ -102,8 +102,8 @@
               "easy_logic, goron, $can_use_fire_arrows, $can_use_lens, $can_play_healing, $baby_has_bottle",
               "normal_logic, goron, $can_use_fire_arrows",
               "normal_logic, goron, $can_use_lens, $can_play_healing, $has_bottle",
-              "normal_logic, goron, gibdo, adultswallet, $can_play_soaring, $has_bottle",
-              "normal_logic, goron, gibdo, maskofscents, $can_play_soaring, $has_bottle"
+              "normal_logic, goron, gibdo, adultswallet, $can_play_soaring, $can_play_eponas, $has|bottles|1",
+              "normal_logic, goron, gibdo, maskofscents, $can_play_soaring, $can_play_eponas, $has|bottles|1"
             ]
           },
           {
@@ -113,8 +113,8 @@
               "normal_logic, $has_explosives, $can_use_fire_arrows",
               "normal_logic, $can_use_lens, $can_play_healing, goron",
               "normal_logic, $clear_snowhead",
-              "normal_logic, gibdo, $has_bottle, adultswallet",
-              "normal_logic, gibdo, $has_bottle, maskofscents"
+              "normal_logic, gibdo, $can_play_eponas, hookshot, $can_use_ice_arrows, $has_bottle, adultswallet, $can_play_soaring",
+              "normal_logic, gibdo, $can_play_eponas, hookshot, $can_use_ice_arrows, $has_bottle, maskofscents, $can_play_soaring"
             ]
           }
         ]
@@ -167,7 +167,7 @@
           {
             "name": "Baby Goron Lullaby",
             "access_rules": [
-              "easy_logic, goron, $can_play_lullaby, $can_use_lens, $can_play_healing, $can_use_fire_arrows, bottle",
+              "easy_logic, goron, $can_play_lullaby, $can_use_lens, $can_play_healing, $can_use_fire_arrows, $baby_has_bottle",
               "normal_logic, goron, $can_play_lullaby"
             ]
           },
@@ -231,7 +231,7 @@
           //  "name": "Powder Keg Goron Reward",
           //  "access_rules": [
           //    "easy_logic, powderkeg, $baby_clear_snowhead, $can_use_fire_arrows",
-          //    "normal_logic, goron, $clear_snowhead",
+          //    "normal_logic, $clear_snowhead",
           //    "normal_logic, goron, $can_use_fire_arrows"
           //  ]
           //},

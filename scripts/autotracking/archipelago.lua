@@ -1,3 +1,4 @@
+---@diagnostic disable: lowercase-global
 ScriptHost:LoadScript("scripts/autotracking/hints_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
@@ -53,9 +54,9 @@ function onClear(slot_data)
         end
     end
 
-    Tracker:FindObjectForCode("bottle_1").Active = false
-    Tracker:FindObjectForCode("bottle_2").Active = false
-    Tracker:FindObjectForCode("bottle_3").Active = false
+    --Tracker:FindObjectForCode("bottle_1").Active = false
+    --Tracker:FindObjectForCode("bottle_2").Active = false
+    --Tracker:FindObjectForCode("bottle_3").Active = false
 
 	PLAYER_NUMBER = Archipelago.PlayerNumber or -1
 	TEAM_NUMBER = Archipelago.TeamNumber or 0
@@ -63,9 +64,8 @@ function onClear(slot_data)
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
 
-    
+
     if Archipelago.PlayerNumber > -1 then
-    
         HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_NUMBER
         Archipelago:SetNotify({HINTS_ID})
         Archipelago:Get({HINTS_ID})

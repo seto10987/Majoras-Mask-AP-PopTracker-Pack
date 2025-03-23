@@ -1,3 +1,4 @@
+---@diagnostic disable: redundant-parameter, lowercase-global, undefined-field, need-check-nil
 -- Songs
 function can_play_healing() -- was "play_healing"
     return has("healing") and has("ocarina")
@@ -119,7 +120,7 @@ function baby_has_paper()
 end
 
 function baby_has_bottle()
-    return has("redpotion") and has("chateau")
+    return has("redpotion") and has("chateau") and has("milk")
 end
 
 function baby_can_plant_beans()
@@ -158,7 +159,7 @@ end
 --- SWAMP REGION ---
 -- Southern Swamp -> Southern Swamp (Deku Palace)
 function baby_south_swamp()
-    return has("redpotion") and baby_has_hard_projectiles() and has("deku")
+    return has("redpotion") and baby_has_hard_projectiles() and has("deku") and has("pictobox")
 end
 function south_swamp()
     return has("redpotion") or (has_hard_projectiles() and has("deku")) or (has("pictobox") and has("deku"))
@@ -340,18 +341,71 @@ function inverted_stone_tower()
 end
 
 -----
-
-function bottle_count()
-    if Tracker:FindObjectForCode("redpotion").Active then
-        if Tracker:FindObjectForCode("bottle_1").Active then
-                if Tracker:FindObjectForCode("bottle_2").Active then
-                    Tracker:FindObjectForCode("bottle_3").Active = true
-                        else Tracker:FindObjectForCode("bottle_2").Active = true
-                end
-            else Tracker:FindObjectForCode("bottle_1").Active = true
+-- The following "obtain" functions each act as a flag to increase the total amount of bottles obtained, which is
+-- necessary for logic purposes, like Beneath the Well that requires a certain amount of bottles.
+function obtainMilk()
+    local bottle_count = Tracker:FindObjectForCode("bottles")
+    if Tracker:FindObjectForCode("milk").Active then
+        if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
+            bottle_count.AcquiredCount = bottle_count.MaxCount
+        else
+        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
         end
+    elseif Tracker:FindObjectForCode("milk").Active == false then
+        bottle_count.AcquiredCount = bottle_count.AcquiredCount - bottle_count.Decrement
     end
 end
+
+function obtainChateau()
+    local bottle_count = Tracker:FindObjectForCode("bottles")
+    if Tracker:FindObjectForCode("chateau").Active then
+        if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
+            bottle_count.AcquiredCount = bottle_count.MaxCount
+        else
+        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
+        end
+    elseif Tracker:FindObjectForCode("chateau").Active == false then
+        bottle_count.AcquiredCount = bottle_count.AcquiredCount - bottle_count.Decrement
+    end
+end
+
+function obtainRedPotion()
+    local bottle_count = Tracker:FindObjectForCode("bottles")
+    if Tracker:FindObjectForCode("redpotion").Active then
+        if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
+            bottle_count.AcquiredCount = bottle_count.MaxCount
+        else
+        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
+        end
+    elseif Tracker:FindObjectForCode("redpotion").Active == false then
+        bottle_count.AcquiredCount = bottle_count.AcquiredCount - bottle_count.Decrement
+    end
+end
+
+function obtainGoldDust()
+    local bottle_count = Tracker:FindObjectForCode("bottles")
+    if Tracker:FindObjectForCode("gold_dust").Active then
+        if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
+            bottle_count.AcquiredCount = bottle_count.MaxCount
+        else
+        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
+        end
+    elseif Tracker:FindObjectForCode("gold_dust").Active == false then
+        bottle_count.AcquiredCount = bottle_count.AcquiredCount - bottle_count.Decrement
+    end
+end
+
+--function bottle_count()
+--    if Tracker:FindObjectForCode("redpotion").Active then
+--        if Tracker:FindObjectForCode("bottle_1").Active then
+--                if Tracker:FindObjectForCode("bottle_2").Active then
+--                    Tracker:FindObjectForCode("bottle_3").Active = true
+--                        else Tracker:FindObjectForCode("bottle_2").Active = true
+--                end
+--            else Tracker:FindObjectForCode("bottle_1").Active = true
+--        end
+--    end
+--end
 
 function clear_wft()
     if Tracker:FindObjectForCode("boss_odolwa_hosted").Active then
@@ -364,6 +418,7 @@ end
 
 
 ScriptHost:AddWatchForCode("bottlecounter_wft", "boss_odolwa_hosted", clear_wft)
-ScriptHost:AddWatchForCode("bottlecounter_red", "redpotion", bottle_count)
-ScriptHost:AddWatchForCode("bottlecounter_blue", "bluepotion", bottle_count)
-ScriptHost:AddWatchForCode("bottlecounter_chateau", "chateau", bottle_count)
+ScriptHost:AddWatchForCode("bottlecounter_red", "redpotion", obtainRedPotion)
+ScriptHost:AddWatchForCode("bottlecounter_milk", "milk", obtainMilk)
+ScriptHost:AddWatchForCode("bottlecounter_chateau", "chateau", obtainChateau)
+ScriptHost:AddWatchForCode("bottlecounter_gold", "gold_dust", obtainGoldDust)

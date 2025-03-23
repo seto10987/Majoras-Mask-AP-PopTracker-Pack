@@ -78,7 +78,8 @@
             "access_rules": [
               "easy_logic, hookshot, zora, $baby_can_plant_beans",
               "normal_logic, hookshot",
-              "normal_logic, $can_plant_beans"
+              "normal_logic, $can_plant_beans",
+              "normal_logic, zora"
             ]
           },
           {

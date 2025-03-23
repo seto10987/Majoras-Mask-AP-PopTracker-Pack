@@ -173,7 +173,7 @@
           {
             "name": "Item 1",
             "chest_unopened_img": "images/items/red_potion.png",
-            "access_rules": ["maskofscents, bottle"],
+            "access_rules": ["maskofscents, $has|bottles|1"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -354,9 +354,9 @@
             "chest_unopened_img": "images/characters/butler.png",
             "access_rules": [
               "easy_logic, $baby_clear_woodfall, $baby_has_bottle",
-              "normal_logic, $clear_woodfall, bottle, sword",
-              "normal_logic, $clear_woodfall, bottle, fairysword",
-              "normal_logic, $clear_woodfall, bottle, fiercedeity"
+              "normal_logic, $clear_woodfall, $has|bottles|1, sword",
+              "normal_logic, $clear_woodfall, $has|bottles|1, fairysword",
+              "normal_logic, $clear_woodfall, $has|bottles|1, fiercedeity"
             ]
           }
         ],

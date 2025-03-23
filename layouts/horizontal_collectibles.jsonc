@@ -2,7 +2,7 @@
   "horizontal_collectibles_grid": {
     "type": "array",
     "orientation": "vertical",
-    "margin": "1,1",
+    "margin": "1,16",
     "content": [
       {
         "type": "itemgrid",
@@ -11,7 +11,9 @@
         "item_margin": "1,1",
         "rows": [
           [
-            "fairy_ct",
+            "fairy_ct"
+          ],
+          [
             "fairy_wf",
             "fairy_sh",
             "fairy_gb",

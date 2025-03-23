@@ -133,11 +133,11 @@
           ],
           [
             "redpotion",
-            "bluepotion",
             "milk",
             "chateau",
             "gold_dust",
-            "bottle"
+            "empty_bottle",
+            "bottles"
           ]
         ]
       }

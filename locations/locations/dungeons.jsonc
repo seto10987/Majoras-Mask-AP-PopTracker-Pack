@@ -39,9 +39,7 @@
               "name": "Woodfall Temple Boss Key Chest",
               "access_rules": [
                 "easy_logic, bow, $baby_can_smack_hard, $baby_has_explosives, deku, goron",
-                "normal_logic, bow, $can_smack, $has_explosives",
-                "normal_logic, bow, $can_smack, goron",
-                "normal_logic, bow, deku" //for potential dungeon entrance rando
+                "normal_logic, bow, $can_smack"
               ]
             },
             {
@@ -265,7 +263,7 @@
               "name": "Swamphouse First Room Left Bugpatch Token",
               "access_rules": [
                 "easy_logic, $baby_can_smack, $baby_has_bottle",
-                "normal_logic, $can_smack,bottle"
+                "normal_logic, $can_smack, $has|bottles|1"
               ],
               "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
@@ -273,7 +271,7 @@
               "name": "Swamphouse First Room Right Bugpatch Token",
               "access_rules": [
                 "easy_logic, $baby_can_smack, $baby_has_bottle",
-                "normal_logic, $can_smack,bottle"
+                "normal_logic, $can_smack, $has|bottles|1"
               ],
               "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },
@@ -281,7 +279,7 @@
               "name": "Swamphouse First Room Upper Right Bugpatch Token",
               "access_rules": [
                 "easy_logic, $baby_can_smack, $baby_has_bottle",
-                "normal_logic, $can_smack,bottle"
+                "normal_logic, $can_smack, $has|bottles|1"
               ],
               "visibility_rules": ["skullsanity_0","skullsanity_1"]
             },

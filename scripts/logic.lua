@@ -234,7 +234,7 @@ function baby_clear_snowhead()
     return baby_snowhead_temple() and can_use_fire_arrows() and baby_has_explosives()
 end
 function clear_snowhead()
-    return snowhead_temple() and (can_use_fire_arrows() and has("smallkey", 1) and has("bosskey_sh")) or (can_use_fire_arrows() and has("goht"))
+    return snowhead_temple() and (can_use_fire_arrows() and has("smallkey_sh", 1) and has("bosskey_sh")) or (can_use_fire_arrows() and has("goht"))
 end
 
 

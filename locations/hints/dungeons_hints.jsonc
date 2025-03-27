@@ -1,274 +1,402 @@
 [
-    {
-      "name": "Dungeons Hints",
-      "access_rules":["{}"],
-      "children": [
-        {
-          "name": "Woodfall Temple Hints",
-          "chest_unopened_img": "images/icons/chest_unopened.png",
-          "chest_opened_img": "images/icons/chest_opened.png",
-          "sections": [
-              {
-                "name": "Woodfall Temple Entrance Chest (Hint)",
-                "visibility_rules": ["woodfall_temple_entrance_chest"]
-              },
-              {
-                "name": "Woodfall Temple Wooden Flower Switch Chest (Hint)",
-                "visibility_rules": ["woodfall_temple_wooden_flower_switch_chest"]
-              },
-              {
-                "name": "Woodfall Temple Moving Flower Platform Room Chest (Hint)",
-                "visibility_rules": ["woodfall_temple_moving_flower_platform_room_chest"]
-              },
-              {
-                "name": "Woodfall Temple Gagwab Chest (Hint)",
-                "visibility_rules": ["woodfall_temple_gagwab_chest"]
-              },
-              {
-                "name": "Woodfall Temple Dinolfos Chest (Hint)",
-                "visibility_rules": ["woodfall_temple_dinolfos_chest"]
-              },
-              {
-                "name": "Woodfall Temple Boss Key Chest (Hint)",
-                "visibility_rules": ["woodfall_temple_boss_key_chest"]
-              },
-              {
-                "name": "Woodfall Temple Dragonfly Chest (Hint)",
-                "visibility_rules": ["woodfall_temple_dragonfly_chest"]
-              },
-              {
-                "name": "Woodfall Temple Black Boe Room Chest (Hint)",
-                "visibility_rules": ["woodfall_temple_black_boe_room_chest"]
-              },
-              {
-                "name": "Woodfall Temple Entrance Freestanding SF (Hint)",
-                "visibility_rules": ["woodfall_temple_entrance_freestanding_sf"],
-                "chest_unopened_img": "images/equipment/fairy_wf.png",
-                "chest_opened_img": "images/equipment/fairy_grey.png"
-              },
-              {
-                "name": "Woodfall Temple Wooden Flower Deku Baba SF (Hint)",
-                "visibility_rules": ["woodfall_temple_wooden_flower_deku_baba_sf"],
-                "chest_unopened_img": "images/equipment/fairy_wf.png",
-                "chest_opened_img": "images/equipment/fairy_grey.png"
-              },
-              {
-                "name": "Woodfall Temple Wooden Flower Bubble SF (Hint)",
-                "visibility_rules": ["woodfall_temple_wooden_flower_bubble_sf"],
-                "chest_unopened_img": "images/equipment/fairy_wf.png",
-                "chest_opened_img": "images/equipment/fairy_grey.png"
-              },
-              {
-                "name": "Woodfall Temple Wooden Flower Pot SF (Hint)",
-                "visibility_rules": ["woodfall_temple_wooden_flower_pot_sf"],
-                "chest_unopened_img": "images/equipment/fairy_wf.png",
-                "chest_opened_img": "images/equipment/fairy_grey.png"
-              },
-              {
-                "name": "Woodfall Temple Moving Flower Platform Room Beehive SF (Hint)",
-                "visibility_rules": ["woodfall_temple_moving_flower_platform_room_beehive_sf"],
-                "chest_unopened_img": "images/equipment/fairy_wf.png",
-                "chest_opened_img": "images/equipment/fairy_grey.png"
-              },
-              {
-                "name": "Woodfall Temple Push Block Skulltula SF (Hint)",
-                "visibility_rules": ["woodfall_temple_push_block_skulltula_sf"],
-                "chest_unopened_img": "images/equipment/fairy_wf.png",
-                "chest_opened_img": "images/equipment/fairy_grey.png"
-              },
-              {
-                "name": "Woodfall Temple Push Block Bubble SF (Hint)",
-                "visibility_rules": ["woodfall_temple_push_block_bubble_sf"],
-                "chest_unopened_img": "images/equipment/fairy_wf.png",
-                "chest_opened_img": "images/equipment/fairy_grey.png"
-              },
-              {
-                "name": "Woodfall Temple Push Block Beehive SF (Hint)",
-                "visibility_rules": ["woodfall_temple_push_block_beehive_sf"],
-                "chest_unopened_img": "images/equipment/fairy_wf.png",
-                "chest_opened_img": "images/equipment/fairy_grey.png"
-              },
-              {
-                "name": "Woodfall Temple Final Room Right Upper Platform SF (Hint)",
-                "visibility_rules": ["woodfall_temple_final_room_right_upper_platform_sf"],
-                "chest_unopened_img": "images/equipment/fairy_wf.png",
-                "chest_opened_img": "images/equipment/fairy_grey.png"
-              },
-              {
-                "name": "Woodfall Temple Final Room Right Lower Platform SF (Hint)",
-                "visibility_rules": ["woodfall_temple_final_room_right_lower_platform_sf"],
-                "chest_unopened_img": "images/equipment/fairy_wf.png",
-                "chest_opened_img": "images/equipment/fairy_grey.png"
-              },
-              {
-                "name": "Woodfall Temple Final Room Left Upper Platform SF (Hint)",
-                "visibility_rules": ["woodfall_temple_final_room_left_upper_platform_sf"],
-                "chest_unopened_img": "images/equipment/fairy_wf.png",
-                "chest_opened_img": "images/equipment/fairy_grey.png"
-              },
-              {
-                "name": "Woodfall Temple Final Room Bubble SF (Hint)",
-                "visibility_rules": ["woodfall_temple_final_room_bubble_sf"],
-                "chest_unopened_img": "images/equipment/fairy_wf.png",
-                "chest_opened_img": "images/equipment/fairy_grey.png"
-              },
-              {
-                "name": "Woodfall Temple Heart Container (Hint)",
-                "visibility_rules": ["woodfall_temple_heart_container"]
-              },
-              {
-                "name": "Woodfall Temple Odolwa's Remains (Hint)",
-                "visibility_rules": ["boss_odolwa"]
-              }
-          ],
-          "map_locations": [
+  {
+    "name": "Dungeons Hints",
+    "access_rules":["{}"],
+    "children": [
+      {
+        "name": "Woodfall Temple Hints",
+        "chest_unopened_img": "images/icons/chest.png",
+        "chest_opened_img": "images/icons/check_32.png",
+        "sections": [
             {
-              "map": "termina",
-              "x": 534,
-              "y": 478
+              "name": "Woodfall Temple Entrance Chest (Hint)",
+              "visibility_rules": ["woodfall_temple_entrance_chest"]
+            },
+            {
+              "name": "Woodfall Temple Wooden Flower Switch Chest (Hint)",
+              "visibility_rules": ["woodfall_temple_wooden_flower_switch_chest"]
+            },
+            {
+              "name": "Woodfall Temple Moving Flower Platform Room Chest (Hint)",
+              "visibility_rules": ["woodfall_temple_moving_flower_platform_room_chest"]
+            },
+            {
+              "name": "Woodfall Temple Gagwab Chest (Hint)",
+              "visibility_rules": ["woodfall_temple_gagwab_chest"]
+            },
+            {
+              "name": "Woodfall Temple Dinolfos Chest (Hint)",
+              "visibility_rules": ["woodfall_temple_dinolfos_chest"]
+            },
+            {
+              "name": "Woodfall Temple Boss Key Chest (Hint)",
+              "visibility_rules": ["woodfall_temple_boss_key_chest"]
+            },
+            {
+              "name": "Woodfall Temple Dragonfly Chest (Hint)",
+              "visibility_rules": ["woodfall_temple_dragonfly_chest"]
+            },
+            {
+              "name": "Woodfall Temple Black Boe Room Chest (Hint)",
+              "visibility_rules": ["woodfall_temple_black_boe_room_chest"]
+            },
+            {
+              "name": "Woodfall Temple Entrance Freestanding SF (Hint)",
+              "visibility_rules": ["woodfall_temple_entrance_freestanding_sf"],
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Temple Wooden Flower Deku Baba SF (Hint)",
+              "visibility_rules": ["woodfall_temple_wooden_flower_deku_baba_sf"],
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Temple Wooden Flower Bubble SF (Hint)",
+              "visibility_rules": ["woodfall_temple_wooden_flower_bubble_sf"],
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Temple Wooden Flower Pot SF (Hint)",
+              "visibility_rules": ["woodfall_temple_wooden_flower_pot_sf"],
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Temple Moving Flower Platform Room Beehive SF (Hint)",
+              "visibility_rules": ["woodfall_temple_moving_flower_platform_room_beehive_sf"],
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Temple Push Block Skulltula SF (Hint)",
+              "visibility_rules": ["woodfall_temple_push_block_skulltula_sf"],
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Temple Push Block Bubble SF (Hint)",
+              "visibility_rules": ["woodfall_temple_push_block_bubble_sf"],
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Temple Push Block Beehive SF (Hint)",
+              "visibility_rules": ["woodfall_temple_push_block_beehive_sf"],
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Temple Final Room Right Upper Platform SF (Hint)",
+              "visibility_rules": ["woodfall_temple_final_room_right_upper_platform_sf"],
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Temple Final Room Right Lower Platform SF (Hint)",
+              "visibility_rules": ["woodfall_temple_final_room_right_lower_platform_sf"],
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Temple Final Room Left Upper Platform SF (Hint)",
+              "visibility_rules": ["woodfall_temple_final_room_left_upper_platform_sf"],
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Temple Final Room Bubble SF (Hint)",
+              "visibility_rules": ["woodfall_temple_final_room_bubble_sf"],
+              "chest_unopened_img": "images/equipment/fairy_wf.png",
+              "chest_opened_img": "images/equipment/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Temple Heart Container (Hint)",
+              "visibility_rules": ["woodfall_temple_heart_container"]
+            },
+            {
+              "name": "Woodfall Temple Odolwa's Remains (Hint)",
+              "visibility_rules": ["boss_odolwa"]
             }
-          ]
-        },
-        {
-          "name": "Swamp Spider House Hints",
-          "chest_unopened_img": "images/equipment/skull_ss.png",
-          "chest_opened_img": "images/equipment/skull_grey.png",
-          "sections": [
-            {
-              "name": "Collect 30 Tokens (Hint)",
-              "visibility_rules": ["collect_30_tokens"],
-              "chest_unopened_img": "images/masks/truth.png",
-              "chest_opened_img": "images/masks/truth_checked.png"
-            },
-            {
-              "name": "Swamphouse First Room Pot Near Entrance Token (Hint)",
-              "visibility_rules": ["swamphouse_first_room_pot_near_entrance_token"]
-            },
-            {
-              "name": "Swamphouse First Room Crawling In Water Token (Hint)",
-              "visibility_rules": ["swamphouse_first_room_crawling_in_water_token"]
-            },
-            {
-              "name": "Swamphouse First Room Crawling Right Column Token (Hint)",
-              "visibility_rules": ["swamphouse_first_room_crawling_right_column_token"]
-            },
-            {
-              "name": "Swamphouse First Room Crawling Left Column Token (Hint)",
-              "visibility_rules": ["swamphouse_first_room_crawling_left_column_token"]
-            },
-            {
-              "name": "Swamphouse First Room Against Far Wall Token (Hint)",
-              "visibility_rules": ["swamphouse_first_room_against_far_wall_token"]
-            },
-            {
-              "name": "Swamphouse First Room Left Bugpatch Token (Hint)",
-              "visibility_rules": ["swamphouse_first_room_left_bugpatch_token"]
-            },
-            {
-              "name": "Swamphouse First Room Right Bugpatch Token (Hint)",
-              "visibility_rules": ["swamphouse_first_room_right_bugpatch_token"]
-            },
-            {
-              "name": "Swamphouse First Room Upper Right Bugpatch Token (Hint)",
-              "visibility_rules": ["swamphouse_first_room_upper_right_bugpatch_token"]
-            },
-            {
-              "name": "Swamphouse Monument Room Left Crate Token (Hint)",
-              "visibility_rules": ["swamphouse_monument_room_left_crate_token"]
-            },
-            {
-              "name": "Swamphouse Monument Room Right Crate Token (Hint)",
-              "visibility_rules": ["swamphouse_monument_room_right_crate_token"]
-            },
-            {
-              "name": "Swamphouse Monument Room Crawling Wall Token (Hint)",
-              "visibility_rules": ["swamphouse_monument_room_crawling_wall_token"]
-            },
-            {
-              "name": "Swamphouse Monument Room Crawling On Monument Token (Hint)",
-              "visibility_rules": ["swamphouse_monument_room_crawling_on_monument_token"]
-            },
-            {
-              "name": "Swamphouse Monument Room Behind Torch Token (Hint)",
-              "visibility_rules": ["swamphouse_monument_room_behind_torch_token"]
-            },
-            {
-              "name": "Swamphouse Pottery Room Beehive #1 Token (Hint)",
-              "visibility_rules": ["swamphouse_pottery_room_beehive_1_token"]
-            },
-            {
-              "name": "Swamphouse Pottery Room Beehive #2 Token (Hint)",
-              "visibility_rules": ["swamphouse_pottery_room_beehive_2_token"]
-            },
-            {
-              "name": "Swamphouse Pottery Room Small Pot Token (Hint)",
-              "visibility_rules": ["swamphouse_pottery_room_small_pot_token"]
-            },
-            {
-              "name": "Swamphouse Pottery Room Left Large Pot Token (Hint)",
-              "visibility_rules": ["swamphouse_pottery_room_left_large_pot_token"]
-            },
-            {
-              "name": "Swamphouse Pottery Room Right Large Pot Token (Hint)",
-              "visibility_rules": ["swamphouse_pottery_room_right_large_pot_token"]
-            },
-            {
-              "name": "Swamphouse Pottery Room Behind Vines Token (Hint)",
-              "visibility_rules": ["swamphouse_pottery_room_behind_vines_token"]
-            },
-            {
-              "name": "Swamphouse Pottery Room Upper Wall Token (Hint)",
-              "visibility_rules": ["swamphouse_pottery_room_upper_wall_token"]
-            },
-            {
-              "name": "Swamphouse Golden Room Crawling Left Wall Token (Hint)",
-              "visibility_rules": ["swamphouse_golden_room_crawling_left_wall_token"]
-            },
-            {
-              "name": "Swamphouse Golden Room Crawling Right Column Token (Hint)",
-              "visibility_rules": ["swamphouse_golden_room_crawling_right_column_token"]
-            },
-            {
-              "name": "Swamphouse Golden Room Against Far Wall Token (Hint)",
-              "visibility_rules": ["swamphouse_golden_room_against_far_wall_token"]
-            },
-            {
-              "name": "Swamphouse Golden Room Beehive Token (Hint)",
-              "visibility_rules": ["swamphouse_golden_room_beehive_token"]
-            },
-            {
-              "name": "Swamphouse Tree Room Tall Grass #1 Token (Hint)",
-              "visibility_rules": ["swamphouse_tree_room_tall_grass_1_token"]
-            },
-            {
-              "name": "Swamphouse Tree Room Tall Grass #2 Token (Hint)",
-              "visibility_rules": ["swamphouse_tree_room_tall_grass_2_token"]
-            },
-            {
-              "name": "Swamphouse Tree Room Tree #1 Token (Hint)",
-              "visibility_rules": ["swamphouse_tree_room_tree_1_token"]
-            },
-            {
-              "name": "Swamphouse Tree Room Tree #2 Token (Hint)",
-              "visibility_rules": ["swamphouse_tree_room_tree_2_token"]
-            },
-            {
-              "name": "Swamphouse Tree Room Tree #3 Token (Hint)",
-              "visibility_rules": ["swamphouse_tree_room_tree_3_token"]
-            },
-            {
-              "name": "Swamphouse Tree Room Beehive Token (Hint)",
-              "visibility_rules": ["swamphouse_tree_room_beehive_token"]
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "termina",
-              "x": 490,
-              "y": 494
-            }
-          ]
-        }
-      ]
-    }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 534,
+            "y": 478
+          }
+        ]
+      },
+      {
+        "name": "Snowhead Temple Hints",
+        "chest_unopened_img": "images/icons/chest.png",
+        "chest_opened_img": "images/icons/check_32.png",
+        "sections": [
+          {
+            "name": "Initial Runway Ice Blowers Chest (Hint)",
+            "visibility_rules": ["sht_initial_runway_ice_blowers_chest"]
+          },
+          {
+            "name": "Initial Runway Under Platform Bubble SF (Hint)",
+            "chest_unopened_img": "images/equipment/fairy_sh.png",
+            "chest_opened_img": "images/equipment/fairy_grey.png",
+            "visibility_rules": ["sht_initial_runway_under_platform_bubble_sf"]
+          },
+          {
+            "name": "Initial Runway Tower Bubble SF (Hint)",
+            "chest_unopened_img": "images/equipment/fairy_sh.png",
+            "chest_opened_img": "images/equipment/fairy_grey.png",
+            "visibility_rules": ["sht_initial_runway_tower_bubble_sf"]
+          },
+          {
+            "name": "Light Blue Door Center Chest (Hint)",
+            "visibility_rules": ["sht_light_blue_door_center_chest"]
+          },
+          {
+            "name": "Light Blue Door Upper Chest (Hint)",
+            "visibility_rules": ["sht_light_blue_door_upper_chest"]
+          },
+          {
+            "name": "Light Blue Door Near Bombable Stairs Box SF (Hint)",
+            "chest_unopened_img": "images/equipment/fairy_sh.png",
+            "chest_opened_img": "images/equipment/fairy_grey.png",
+            "visibility_rules": ["sht_light_blue_door_near_bombable_stairs_box_sf"]
+          },
+          {
+            "name": "Orange Door Upper Chest (Hint)",
+            "visibility_rules": ["sht_orange_door_upper_chest"]
+          },
+          {
+            "name": "Orange Door Behind Block Chest (Hint)",
+            "visibility_rules": ["sht_orange_door_behind_block_chest"]
+          },
+          {
+            "name": "Green Door Ice Blowers Chest (Hint)",
+            "visibility_rules": ["sht_green_door_ice_blowers_chest"]
+          },
+          {
+            "name": "Bottom Floor Switch Chest (Hint)",
+            "visibility_rules": ["sht_bottom_floor_switch_chest"]
+          },
+          {
+            "name": "Column Room 2F Hidden Chest (Hint)",
+            "visibility_rules": ["sht_column_room_2f_hidden_chest"]
+          },
+          {
+            "name": "Elevator Room Lower Chest (Hint)",
+            "visibility_rules": ["sht_elevator_room_lower_chest"]
+          },
+          {
+            "name": "Elevator Room Invisible Platform Chest (Hint)",
+            "visibility_rules": ["sht_elevator_room_invisible_platform_chest"]
+          },
+          {
+            "name": "Elevator Freestanding SF (Hint)",
+            "chest_unopened_img": "images/equipment/fairy_sh.png",
+            "chest_opened_img": "images/equipment/fairy_grey.png",
+            "visibility_rules": ["sht_elevator_freestanding_sf"]
+          },
+          {
+            "name": "Upstairs 2F Icicle Room Snowball Chest (Hint)",
+            "visibility_rules": ["sht_upstairs_2f_icicle_room_snowball_chest"]
+          },
+          {
+            "name": "Upstairs 2F Icicle Room Hidden Chest (Hint)",
+            "visibility_rules": ["sht_upstairs_2f_icicle_room_hidden_chest"]
+          },
+          {
+            "name": "Timed Switch Room Bubble SF (Hint)",
+            "chest_unopened_img": "images/equipment/fairy_sh.png",
+            "chest_opened_img": "images/equipment/fairy_grey.png",
+            "visibility_rules": ["sht_timed_switch_room_bubble_sf"]
+          },
+          {
+            "name": "1st Wizzrobe Chest (Hint)",
+            "visibility_rules": ["sht_1st_wizzrobe_chest"]
+          },
+          {
+            "name": "Snowmen Bubble SF (Hint)",
+            "chest_unopened_img": "images/equipment/fairy_sh.png",
+            "chest_opened_img": "images/equipment/fairy_grey.png",
+            "visibility_rules": ["sht_snowmen_bubble_sf"]
+          },
+          {
+            "name": "Dinolfos Room First SF (Hint)",
+            "chest_unopened_img": "images/equipment/fairy_sh.png",
+            "chest_opened_img": "images/equipment/fairy_grey.png",
+            "visibility_rules": ["sht_dinolfos_room_first_sf"]
+          },
+          {
+            "name": "Dinolfos Room Second SF (Hint)",
+            "chest_unopened_img": "images/equipment/fairy_sh.png",
+            "chest_opened_img": "images/equipment/fairy_grey.png",
+            "visibility_rules": ["sht_dinolfos_room_second_sf"]
+          },
+          {
+            "name": "2nd Wizzrobe Chest (Hint)",
+            "visibility_rules": ["sht_2nd_wizzrobe_chest"]
+          },
+          {
+            "name": "Heart Container (Hint)",
+            "chest_unopened_img": "images/equipment/heart_container.png",
+            "visibility_rules": ["sht_heart_container"]
+          },
+          {
+            "name": "Goht's Remains (Hint)",
+            "chest_unopened_img": "images/equipment/goht.png",
+            "visibility_rules": ["sht_gohts_remains"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 481,
+            "y": 38
+          }
+        ]
+      },
+      {
+        "name": "Swamp Spider House Hints",
+        "chest_unopened_img": "images/equipment/skull_ss.png",
+        "chest_opened_img": "images/equipment/skull_grey.png",
+        "sections": [
+          {
+            "name": "Collect 30 Tokens (Hint)",
+            "visibility_rules": ["collect_30_tokens"],
+            "chest_unopened_img": "images/masks/truth.png",
+            "chest_opened_img": "images/masks/truth_checked.png"
+          },
+          {
+            "name": "Swamphouse First Room Pot Near Entrance Token (Hint)",
+            "visibility_rules": ["swamphouse_first_room_pot_near_entrance_token"]
+          },
+          {
+            "name": "Swamphouse First Room Crawling In Water Token (Hint)",
+            "visibility_rules": ["swamphouse_first_room_crawling_in_water_token"]
+          },
+          {
+            "name": "Swamphouse First Room Crawling Right Column Token (Hint)",
+            "visibility_rules": ["swamphouse_first_room_crawling_right_column_token"]
+          },
+          {
+            "name": "Swamphouse First Room Crawling Left Column Token (Hint)",
+            "visibility_rules": ["swamphouse_first_room_crawling_left_column_token"]
+          },
+          {
+            "name": "Swamphouse First Room Against Far Wall Token (Hint)",
+            "visibility_rules": ["swamphouse_first_room_against_far_wall_token"]
+          },
+          {
+            "name": "Swamphouse First Room Left Bugpatch Token (Hint)",
+            "visibility_rules": ["swamphouse_first_room_left_bugpatch_token"]
+          },
+          {
+            "name": "Swamphouse First Room Right Bugpatch Token (Hint)",
+            "visibility_rules": ["swamphouse_first_room_right_bugpatch_token"]
+          },
+          {
+            "name": "Swamphouse First Room Upper Right Bugpatch Token (Hint)",
+            "visibility_rules": ["swamphouse_first_room_upper_right_bugpatch_token"]
+          },
+          {
+            "name": "Swamphouse Monument Room Left Crate Token (Hint)",
+            "visibility_rules": ["swamphouse_monument_room_left_crate_token"]
+          },
+          {
+            "name": "Swamphouse Monument Room Right Crate Token (Hint)",
+            "visibility_rules": ["swamphouse_monument_room_right_crate_token"]
+          },
+          {
+            "name": "Swamphouse Monument Room Crawling Wall Token (Hint)",
+            "visibility_rules": ["swamphouse_monument_room_crawling_wall_token"]
+          },
+          {
+            "name": "Swamphouse Monument Room Crawling On Monument Token (Hint)",
+            "visibility_rules": ["swamphouse_monument_room_crawling_on_monument_token"]
+          },
+          {
+            "name": "Swamphouse Monument Room Behind Torch Token (Hint)",
+            "visibility_rules": ["swamphouse_monument_room_behind_torch_token"]
+          },
+          {
+            "name": "Swamphouse Pottery Room Beehive #1 Token (Hint)",
+            "visibility_rules": ["swamphouse_pottery_room_beehive_1_token"]
+          },
+          {
+            "name": "Swamphouse Pottery Room Beehive #2 Token (Hint)",
+            "visibility_rules": ["swamphouse_pottery_room_beehive_2_token"]
+          },
+          {
+            "name": "Swamphouse Pottery Room Small Pot Token (Hint)",
+            "visibility_rules": ["swamphouse_pottery_room_small_pot_token"]
+          },
+          {
+            "name": "Swamphouse Pottery Room Left Large Pot Token (Hint)",
+            "visibility_rules": ["swamphouse_pottery_room_left_large_pot_token"]
+          },
+          {
+            "name": "Swamphouse Pottery Room Right Large Pot Token (Hint)",
+            "visibility_rules": ["swamphouse_pottery_room_right_large_pot_token"]
+          },
+          {
+            "name": "Swamphouse Pottery Room Behind Vines Token (Hint)",
+            "visibility_rules": ["swamphouse_pottery_room_behind_vines_token"]
+          },
+          {
+            "name": "Swamphouse Pottery Room Upper Wall Token (Hint)",
+            "visibility_rules": ["swamphouse_pottery_room_upper_wall_token"]
+          },
+          {
+            "name": "Swamphouse Golden Room Crawling Left Wall Token (Hint)",
+            "visibility_rules": ["swamphouse_golden_room_crawling_left_wall_token"]
+          },
+          {
+            "name": "Swamphouse Golden Room Crawling Right Column Token (Hint)",
+            "visibility_rules": ["swamphouse_golden_room_crawling_right_column_token"]
+          },
+          {
+            "name": "Swamphouse Golden Room Against Far Wall Token (Hint)",
+            "visibility_rules": ["swamphouse_golden_room_against_far_wall_token"]
+          },
+          {
+            "name": "Swamphouse Golden Room Beehive Token (Hint)",
+            "visibility_rules": ["swamphouse_golden_room_beehive_token"]
+          },
+          {
+            "name": "Swamphouse Tree Room Tall Grass #1 Token (Hint)",
+            "visibility_rules": ["swamphouse_tree_room_tall_grass_1_token"]
+          },
+          {
+            "name": "Swamphouse Tree Room Tall Grass #2 Token (Hint)",
+            "visibility_rules": ["swamphouse_tree_room_tall_grass_2_token"]
+          },
+          {
+            "name": "Swamphouse Tree Room Tree #1 Token (Hint)",
+            "visibility_rules": ["swamphouse_tree_room_tree_1_token"]
+          },
+          {
+            "name": "Swamphouse Tree Room Tree #2 Token (Hint)",
+            "visibility_rules": ["swamphouse_tree_room_tree_2_token"]
+          },
+          {
+            "name": "Swamphouse Tree Room Tree #3 Token (Hint)",
+            "visibility_rules": ["swamphouse_tree_room_tree_3_token"]
+          },
+          {
+            "name": "Swamphouse Tree Room Beehive Token (Hint)",
+            "visibility_rules": ["swamphouse_tree_room_beehive_token"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 490,
+            "y": 494
+          }
+        ]
+      }
+    ]
+  }
 ]

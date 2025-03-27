@@ -213,5 +213,31 @@ HINTS_MAPPING = {
     [0x346942005481E] = {"goron_village_scrub_freestanding_hp_spring"},
     [0x3469420060713] = {"path_snowhead_grotto_chest"},
     [0x3469420055B08] = {"path_snowhead_scarecrow_hp"},
-    [0x3469420030002] = {"snowhead_great_fairy_reward"}
+    [0x3469420030002] = {"snowhead_great_fairy_reward"},
+
+    -- Snowhead Temple
+    [0x3469420062101] = {"sht_initial_runway_ice_blowers_chest"},
+    [0x346942001212F] = {"sht_initial_runway_under_platform_bubble_sf"},
+    [0x3469420012130] = {"sht_initial_runway_tower_bubble_sf"},
+    [0x346942006211C] = {"sht_light_blue_door_center_chest"},
+    [0x3469420062119] = {"sht_light_blue_door_upper_chest"},
+    [0x346942001211E] = {"sht_light_blue_door_near_bombable_stairs_box_sf"},
+    [0x3469420062115] = {"sht_orange_door_upper_chest"},
+    [0x3469420062103] = {"sht_orange_door_behind_block_chest"},
+    [0x3469420062118] = {"sht_green_door_ice_blowers_chest"},
+    [0x3469420062114] = {"sht_bottom_floor_switch_chest"},
+    [0x3469420062117] = {"sht_column_room_2f_hidden_chest"},
+    [0x346942006211D] = {"sht_elevator_room_lower_chest"},
+    [0x3469420062113] = {"sht_elevator_room_invisible_platform_chest"},
+    [0x3469420012132] = {"sht_elevator_freestanding_sf"},
+    [0x3469420062104] = {"sht_upstairs_2f_icicle_room_snowball_chest"},
+    [0x3469420062116] = {"sht_upstairs_2f_icicle_room_hidden_chest"},
+    [0x346942001212C] = {"sht_timed_switch_room_bubble_sf"},
+    [0x346942006211B] = {"sht_1st_wizzrobe_chest"},
+    [0x346942001212B] = {"sht_snowmen_bubble_sf"},
+    [0x3469420012131] = {"sht_dinolfos_room_first_sf"},
+    [0x346942001212D] = {"sht_dinolfos_room_second_sf"},
+    [0x346942006211E] = {"sht_2nd_wizzrobe_chest"},
+    [0x3469420054400] = {"sht_heart_container"},
+    [0x3469420000056] = {"sht_gohts_remains"}
 }

@@ -1054,5 +1054,126 @@
     "name": "snowhead_great_fairy_reward",
     "type": "toggle",
     "codes": "snowhead_great_fairy_reward"
+  },
+  //Snowhead Temple Hints
+  {
+    "name": "sht_initial_runway_ice_blowers_chest",
+    "type": "toggle",
+    "codes": "sht_initial_runway_ice_blowers_chest"
+  },
+  {
+    "name": "sht_initial_runway_under_platform_bubble_sf",
+    "type": "toggle",
+    "codes": "sht_initial_runway_under_platform_bubble_sf"
+  },
+  {
+    "name": "sht_initial_runway_tower_bubble_sf",
+    "type": "toggle",
+    "codes": "sht_initial_runway_tower_bubble_sf"
+  },
+  {
+    "name": "sht_light_blue_door_center_chest",
+    "type": "toggle",
+    "codes": "sht_light_blue_door_center_chest"
+  },
+  {
+    "name": "sht_light_blue_door_upper_chest",
+    "type": "toggle",
+    "codes": "sht_light_blue_door_upper_chest"
+  },
+  {
+    "name": "sht_light_blue_door_near_bombable_stairs_box_sf",
+    "type": "toggle",
+    "codes": "sht_light_blue_door_near_bombable_stairs_box_sf"
+  },
+  {
+    "name": "sht_orange_door_upper_chest",
+    "type": "toggle",
+    "codes": "sht_orange_door_upper_chest"
+  },
+  {
+    "name": "sht_orange_door_behind_block_chest",
+    "type": "toggle",
+    "codes": "sht_orange_door_behind_block_chest"
+  },
+  {
+    "name": "sht_green_door_ice_blowers_chest",
+    "type": "toggle",
+    "codes": "sht_green_door_ice_blowers_chest"
+  },
+  {
+    "name": "sht_bottom_floor_switch_chest",
+    "type": "toggle",
+    "codes": "sht_bottom_floor_switch_chest"
+  },
+  {
+    "name": "sht_column_room_2f_hidden_chest",
+    "type": "toggle",
+    "codes": "sht_column_room_2f_hidden_chest"
+  },
+  {
+    "name": "sht_elevator_room_lower_chest",
+    "type": "toggle",
+    "codes": "sht_elevator_room_lower_chest"
+  },
+  {
+    "name": "sht_elevator_room_invisible_platform_chest",
+    "type": "toggle",
+    "codes": "sht_elevator_room_invisible_platform_chest"
+  },
+  {
+    "name": "sht_elevator_freestanding_sf",
+    "type": "toggle",
+    "codes": "sht_elevator_freestanding_sf"
+  },
+  {
+    "name": "sht_upstairs_2f_icicle_room_snowball_chest",
+    "type": "toggle",
+    "codes": "sht_upstairs_2f_icicle_room_snowball_chest"
+  },
+  {
+    "name": "sht_upstairs_2f_icicle_room_hidden_chest",
+    "type": "toggle",
+    "codes": "sht_upstairs_2f_icicle_room_hidden_chest"
+  },
+  {
+    "name": "sht_timed_switch_room_bubble_sf",
+    "type": "toggle",
+    "codes": "sht_timed_switch_room_bubble_sf"
+  },
+  {
+    "name": "sht_1st_wizzrobe_chest",
+    "type": "toggle",
+    "codes": "sht_1st_wizzrobe_chest"
+  },
+  {
+    "name": "sht_snowmen_bubble_sf",
+    "type": "toggle",
+    "codes": "sht_snowmen_bubble_sf"
+  },
+  {
+    "name": "sht_dinolfos_room_first_sf",
+    "type": "toggle",
+    "codes": "sht_dinolfos_room_first_sf"
+  },
+  {
+    "name": "sht_dinolfos_room_second_sf",
+    "type": "toggle",
+    "codes": "sht_dinolfos_room_second_sf"
+  },
+  {
+    "name": "sht_2nd_wizzrobe_chest",
+    "type": "toggle",
+    "codes": "sht_2nd_wizzrobe_chest"
+  },
+  {
+    "name": "sht_heart_container",
+    "type": "toggle",
+    "codes": "sht_heart_container"
+  },
+  {
+    "name": "sht_gohts_remains",
+    "type": "toggle",
+    "codes": "sht_gohts_remains"
   }
 ]

@@ -23,8 +23,8 @@
             "heart_container",
             "double_defense",
             "magic",
-            "wallet",
-            "bombers_notebook"
+            "spin_attack",
+            "shield"
           ],
           [
             "time",
@@ -32,7 +32,7 @@
             "epona",
             "soaring",
             "storms",
-            "spin_attack"
+            "wallet"
           ],
           [
             "sonata",
@@ -40,7 +40,7 @@
             "newwave",
             "elegy",
             "oath",
-            "shield"
+            "bombers_notebook"
           ],
           [
             "odolwa"

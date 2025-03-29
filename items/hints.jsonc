@@ -1175,5 +1175,149 @@
     "name": "sht_gohts_remains",
     "type": "toggle",
     "codes": "sht_gohts_remains"
+  },
+  //Great Bay Coast
+  {
+    "name": "great_bay_coast_healing_zora",
+    "type": "toggle",
+    "codes": "great_bay_coast_healing_zora"
+  },
+  {
+    "name": "great_bay_coast_hut_grotto_chest",
+    "type": "toggle",
+    "codes": "great_bay_coast_hut_grotto_chest"
+  },
+  {
+    "name": "lab_new_wave_bossa_nova",
+    "type": "toggle",
+    "codes": "lab_new_wave_bossa_nova"
+  },
+  {
+    "name": "lab_feed_fish",
+    "type": "toggle",
+    "codes": "lab_feed_fish"
+  },
+  {
+    "name": "great_bay_coast_ledge_grotto_left_cow",
+    "type": "toggle",
+    "codes": "great_bay_coast_ledge_grotto_left_cow"
+  },
+  {
+    "name": "great_bay_coast_ledge_grotto_right_cow",
+    "type": "toggle",
+    "codes": "great_bay_coast_ledge_grotto_right_cow"
+  },
+  {
+    "name": "great_bay_coast_scarecrow_hp",
+    "type": "toggle",
+    "codes": "great_bay_coast_scarecrow_hp"
+  },
+  {
+    "name": "great_bay_coast_island_game",
+    "type": "toggle",
+    "codes": "great_bay_coast_island_game"
+  },
+  //Zora Cape
+  {
+    "name": "zora_cape_underwater_like_like_hp",
+    "type": "toggle",
+    "codes": "zora_cape_underwater_like_like_hp"
+  },
+  {
+    "name": "zora_cape_underwater_chest",
+    "type": "toggle",
+    "codes": "zora_cape_underwater_chest"
+  },
+  {
+    "name": "zora_cape_pot_game",
+    "type": "toggle",
+    "codes": "zora_cape_pot_game"
+  },
+  {
+    "name": "zora_cape_upper_chest",
+    "type": "toggle",
+    "codes": "zora_cape_upper_chest"
+  },
+  {
+    "name": "zora_cape_tree_chest",
+    "type": "toggle",
+    "codes": "zora_cape_tree_chest"
+  },
+  {
+    "name": "zora_cape_grotto_chest",
+    "type": "toggle",
+    "codes": "zora_cape_grotto_chest"
+  },
+  {
+    "name": "great_bay_great_fairy_reward",
+    "type": "toggle",
+    "codes": "great_bay_great_fairy_reward"
+  },
+  //Zora Hall
+  {
+    "name": "zora_hall_shop_1",
+    "type": "toggle",
+    "codes": "zora_hall_shop_1"
+  },
+  {
+    "name": "zora_hall_shop_2",
+    "type": "toggle",
+    "codes": "zora_hall_shop_2"
+  },
+  {
+    "name": "zora_hall_shop_3",
+    "type": "toggle",
+    "codes": "zora_hall_shop_3"
+  },
+  {
+    "name": "zora_hall_deku_scrub_purchase_green_potion",
+    "type": "toggle",
+    "codes": "zora_hall_deku_scrub_purchase_green_potion"
+  },
+  {
+    "name": "zora_hall_goron_scrub_trade",
+    "type": "toggle",
+    "codes": "zora_hall_goron_scrub_trade"
+  },
+  {
+    "name": "zora_hall_goron_scrub_trade_hp",
+    "type": "toggle",
+    "codes": "zora_hall_goron_scrub_trade_hp"
+  },
+  {
+    "name": "zora_hall_piano_zora_song",
+    "type": "toggle",
+    "codes": "zora_hall_piano_zora_song"
+  },
+  {
+    "name": "zora_hall_torches_reward",
+    "type": "toggle",
+    "codes": "zora_hall_torches_reward"
+  },
+  {
+    "name": "zora_hall_good_picture_of_lulu",
+    "type": "toggle",
+    "codes": "zora_hall_good_picture_of_lulu"
+  },
+  {
+    "name": "zora_hall_bad_picture_of_lulu",
+    "type": "toggle",
+    "codes": "zora_hall_bad_picture_of_lulu"
+  },
+  //Pinnacle Rock
+  {
+    "name": "pinnacle_rock_hp",
+    "type": "toggle",
+    "codes": "pinnacle_rock_hp"
+  },
+  {
+    "name": "pinnacle_rock_upper_chest",
+    "type": "toggle",
+    "codes": "pinnacle_rock_upper_chest"
+  },
+  {
+    "name": "pinnacle_rock_lower_chest",
+    "type": "toggle",
+    "codes": "pinnacle_rock_lower_chest"
   }
 ]

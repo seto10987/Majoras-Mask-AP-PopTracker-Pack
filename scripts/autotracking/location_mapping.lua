@@ -248,6 +248,42 @@ LOCATION_MAPPING = {
     [0x3469420054400] = {"@Dungeons/Snowhead Temple/Heart Container","@Dungeon Hints/Snowhead Temple Hints/Heart Container (Hint)"},
     [0x3469420000056] = {"@Dungeons/Snowhead Temple/Goht's Remains","@Dungeon Hints/Snowhead Temple Hints/Goht's Remains (Hint)"},
 
+    -- Great Bay Coast
+    [0x346942000007A] = {"@Great Bay/Great Bay Coast/Healing Zora","@Great Bay Hints/Great Bay Coast Hints/Healing Zora (Hint)"},
+    [0x3469420060717] = {"@Great Bay/Great Bay Coast/Behind Fisherman's Hut Grotto Chest","@Great Bay Hints/Great Bay Coast Hints/Behind Fisherman's Hut Grotto Chest (Hint)"},
+    [0x34694200000AC] = {"@Great Bay/Great Bay Coast/Marine Research Lab Zora Egg Delivery Song","@Great Bay Hints/Great Bay Coast Hints/Marine Research Lab Zora Egg Delivery Song (Hint)"},
+    [0x34694200701D9] = {"@Great Bay/Great Bay Coast/Marine Research Lab Feeding Fish","@Great Bay Hints/Great Bay Coast Hints/Marine Research Lab Feeding Fish (Hint)"},
+    [0x3469420BEEF16] = {"@Great Bay/Great Bay Coast/Ledge Grotto Left Cow","@Great Bay Hints/Great Bay Coast Hints/Ledge Grotto Left Cow (Hint)"},
+    [0x3469420BEEF15] = {"@Great Bay/Great Bay Coast/Ledge Grotto Right Cow","@Great Bay Hints/Great Bay Coast Hints/Ledge Grotto Right Cow (Hint)"},
+    [0x3469420053705] = {"@Great Bay/Great Bay Coast/Scarecrow Ledge HP","@Great Bay Hints/Great Bay Coast Hints/Scarecrow Ledge HP (Hint)"},
+    [0x3469420070292] = {"@Great Bay/Great Bay Coast/Great Bay (Cleared) Fisherman Island Game HP","@Great Bay Hints/Great Bay Coast Hints/Great Bay (Cleared) Fisherman Island Game HP (Hint)"},
+
+    -- Zora Cape
+    [0x3469420053807] = {"@Great Bay/Zora Cape/Underwater Like-Like HP","@Great Bay Hints/Zora Cape Hints/Underwater Like-Like HP (Hint)"},
+    [0x3469420063800] = {"@Great Bay/Zora Cape/Underwater Chest","@Great Bay Hints/Zora Cape Hints/Underwater Chest (Hint)"},
+    [0x3469420072806] = {"@Great Bay/Zora Cape/Pot Game Silver Rupee","@Great Bay Hints/Zora Cape Hints/Pot Game Silver Rupee (Hint)"},
+    [0x3469420063801] = {"@Great Bay/Zora Cape/Upper Chest","@Great Bay Hints/Zora Cape Hints/Upper Chest (Hint)"},
+    [0x3469420063802] = {"@Great Bay/Zora Cape/Tree Chest","@Great Bay Hints/Zora Cape Hints/Tree Chest (Hint)"},
+    [0x3469420060715] = {"@Great Bay/Zora Cape/Near Great Fairy Grotto Chest","@Great Bay Hints/Zora Cape Hints/Near Great Fairy Grotto Chest (Hint)"},
+    [0x3469420030003] = {"@Great Bay/Zora Cape/Great Bay Great Fairy Reward","@Great Bay Hints/Zora Cape Hints/Great Bay Great Fairy Reward (Hint)"},
+
+    -- Zora Hall
+    [0x346942009001B] = {"@Great Bay/Zora Hall/Shop 1","@Great Bay Hints/Zora Hall Hints/Shop 1 (Hint)"},
+    [0x346942009001C] = {"@Great Bay/Zora Hall/Shop 2","@Great Bay Hints/Zora Hall Hints/Shop 2 (Hint)"},
+    [0x346942009001D] = {"@Great Bay/Zora Hall/Shop 3","@Great Bay Hints/Zora Hall Hints/Shop 3 (Hint)"},
+    [0x346942009015C] = {"@Great Bay/Zora Hall/Deku Scrub Purchase Green Potion","@Great Bay Hints/Zora Hall Hints/Deku Scrub Purchase Green Potion (Hint)"},
+    [0x346942000009A] = {"@Great Bay/Zora Hall/Goron Scrub Trade","@Great Bay Hints/Zora Hall Hints/Goron Scrub Trade (Hint)"},
+    [0x3469420054C1E] = {"@Great Bay/Zora Hall/Goron Scrub Trade Freestanding HP","@Great Bay Hints/Zora Hall Hints/Goron Scrub Trade Freestanding HP (Hint)"},
+    [0x3469420070241] = {"@Great Bay/Zora Hall/Piano Zora Song","@Great Bay Hints/Zora Hall Hints/Piano Zora Song (Hint)"},
+    [0x3469420072802] = {"@Great Bay/Zora Hall/Torches Reward","@Great Bay Hints/Zora Hall Hints/Torches Reward (Hint)"},
+    [0x3469420082284] = {"@Great Bay/Zora Hall/Good Picture of Lulu","@Great Bay Hints/Zora Hall Hints/Good Picture of Lulu (Hint)"},
+    [0x3469420082282] = {"@Great Bay/Zora Hall/Bad Picture of Lulu","@Great Bay Hints/Zora Hall Hints/Bad Picture of Lulu (Hint)"},
+
+    -- Pinnacle Rock
+    --[] = {"@Great Bay/Pinnacle Rock/Heart Piece","@Great Bay/Pinnacle Rock Hints/Heart Piece (Hint)"},
+    [0x3469420062502] = {"@Great Bay/Pinnacle Rock/Upper Eel Chest","@Great Bay Hints/Pinnacle Rock Hints/Upper Eel Chest (Hint)"},
+    [0x3469420062501] = {"@Great Bay/Pinnacle Rock/Lower Eel Chest","@Great Bay Hints/Pinnacle Rock Hints/Lower Eel Chest (Hint)"},
+
     -- Road to Ikana/Ikana Canyon
     [0x3469420065300] = {"@Ikana Canyon/Road to Ikana Pillar Chest/Road to Ikana Pillar Chest","@Ikana Canyon Hints/Road to Ikana Pillar Chest Hints/Road to Ikana Pillar Chest (Hint)"},
     [0x3469420060716] = {"@Ikana Canyon/Road to Ikana Rock Grotto Chest/Road to Ikana Rock Grotto Chest","@Ikana Canyon Hints/Road to Ikana Rock Grotto Chest Hints/Road to Ikana Rock Grotto Chest (Hint)"},

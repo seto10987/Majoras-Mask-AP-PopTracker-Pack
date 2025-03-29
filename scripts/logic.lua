@@ -89,6 +89,10 @@ function can_bring_to_player()
     return has("hookshot") or has("zora")
 end
 
+function can_reach_seahorse()
+    return great_bay() and has("zora") and has("pictobox") and (has("hookshot") or has("goron"))
+end
+
 
 -- Easy difficulty rules
 function baby_has_bombchus()
@@ -133,10 +137,6 @@ end
 
 function baby_can_reach_seahorse()
     return great_bay() and has("zora") and has("hookshot") and has("goron") and has("pictobox")
-end
-
-function easy_can_reach_seahorse()
-    return great_bay() and has("zora") and (has("hookshot") or has("goron")) and has("pictobox")
 end
 
 --[[
@@ -342,7 +342,7 @@ end
 
 -----
 -- The following "obtain" functions each act as a flag to increase the total amount of bottles obtained, which is
--- necessary for logic purposes, like Beneath the Well that requires a certain amount of bottles.
+-- necessary for logic purposes, like Beneath the Well and New Wave Bossa Nova's location.
 function obtainMilk()
     local bottle_count = Tracker:FindObjectForCode("bottles")
     if Tracker:FindObjectForCode("milk").Active then

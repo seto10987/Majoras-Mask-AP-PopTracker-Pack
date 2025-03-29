@@ -239,5 +239,41 @@ HINTS_MAPPING = {
     [0x346942001212D] = {"sht_dinolfos_room_second_sf"},
     [0x346942006211E] = {"sht_2nd_wizzrobe_chest"},
     [0x3469420054400] = {"sht_heart_container"},
-    [0x3469420000056] = {"sht_gohts_remains"}
+    [0x3469420000056] = {"sht_gohts_remains"},
+
+    -- Great Bay
+    [0x346942000007A] = {"great_bay_coast_healing_zora"},
+    [0x3469420060717] = {"great_bay_coast_hut_grotto_chest"},
+    [0x34694200000AC] = {"lab_new_wave_bossa_nova"},
+    [0x34694200701D9] = {"lab_feed_fish"},
+    [0x3469420BEEF16] = {"great_bay_coast_ledge_grotto_left_cow"},
+    [0x3469420BEEF15] = {"great_bay_coast_ledge_grotto_right_cow"},
+    [0x3469420053705] = {"great_bay_coast_scarecrow_hp"},
+    [0x3469420070292] = {"great_bay_coast_island_game"},
+
+    -- Zora Cape
+    [0x3469420053807] = {"zora_cape_underwater_like_like_hp"},
+    [0x3469420063800] = {"zora_cape_underwater_chest"},
+    [0x3469420072806] = {"zora_cape_pot_game"},
+    [0x3469420063801] = {"zora_cape_upper_chest"},
+    [0x3469420063802] = {"zora_cape_tree_chest"},
+    [0x3469420060715] = {"zora_cape_grotto_chest"},
+    [0x3469420030003] = {"great_bay_great_fairy_reward"},
+
+    -- Zora Hall
+    [0x346942009001B] = {"zora_hall_shop_1"},
+    [0x346942009001C] = {"zora_hall_shop_2"},
+    [0x346942009001D] = {"zora_hall_shop_3"},
+    [0x346942009015C] = {"zora_hall_deku_scrub_purchase_green_potion"},
+    [0x346942000009A] = {"zora_hall_goron_scrub_trade"},
+    [0x3469420054C1E] = {"zora_hall_goron_scrub_trade_hp"},
+    [0x3469420070241] = {"zora_hall_piano_zora_song"},
+    [0x3469420072802] = {"zora_hall_torches_reward"},
+    [0x3469420082284] = {"zora_hall_good_picture_of_lulu"},
+    [0x3469420082282] = {"zora_hall_bad_picture_of_lulu"},
+
+    -- Pinnacle Rock
+    --[] = {"pinnacle_rock_hp"},
+    [0x3469420062502] = {"pinnacle_rock_upper_chest"},
+    [0x3469420062501] = {"pinnacle_rock_lower_chest"}
 }

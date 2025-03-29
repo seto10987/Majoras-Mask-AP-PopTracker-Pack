@@ -16,6 +16,7 @@
           },
           {
             "name": "Invisible Ladder Cave Healing Invisible Goron (Hint)",
+            "chest_unopened_img": "images/masks/goron.png",
             "visibility_rules": ["mountain_village_healing_goron"]
           },
           {
@@ -135,6 +136,7 @@
           },
           {
             "name": "Scarecrow Pillar HP (Hint)",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
             "visibility_rules": ["path_snowhead_scarecrow_hp"]
           }
         ]

@@ -1319,5 +1319,66 @@
     "name": "pinnacle_rock_lower_chest",
     "type": "toggle",
     "codes": "pinnacle_rock_lower_chest"
+  },
+  //Pirates' Fortress
+  {
+    "name": "pf_exterior_underwater_log_chest",
+    "type": "toggle",
+    "codes": "pf_exterior_underwater_log_chest"
+  },
+  {
+    "name": "pf_exterior_underwater_near_entrance_chest",
+    "type": "toggle",
+    "codes": "pf_exterior_underwater_near_entrance_chest"
+  },
+  {
+    "name": "pf_exterior_underwater_corner_chest",
+    "type": "toggle",
+    "codes": "pf_exterior_underwater_corner_chest"
+  },
+  {
+    "name": "pf_sewers_cage_hp",
+    "type": "toggle",
+    "codes": "pf_sewers_cage_hp"
+  },
+  {
+    "name": "pf_sewers_push_block_chest",
+    "type": "toggle",
+    "codes": "pf_sewers_push_block_chest"
+  },
+  {
+    "name": "pf_sewers_lower_chest",
+    "type": "toggle",
+    "codes": "pf_sewers_lower_chest"
+  },
+  {
+    "name": "pf_sewers_upper_chest",
+    "type": "toggle",
+    "codes": "pf_sewers_upper_chest"
+  },
+  {
+    "name": "pf_interior_egg_chest",
+    "type": "toggle",
+    "codes": "pf_interior_egg_chest"
+  },
+  {
+    "name": "pf_interior_surrounded_chest",
+    "type": "toggle",
+    "codes": "pf_interior_surrounded_chest"
+  },
+  {
+    "name": "pf_interior_hub_lower_chest",
+    "type": "toggle",
+    "codes": "pf_interior_hub_lower_chest"
+  },
+  {
+    "name": "pf_interior_hub_upper_chest",
+    "type": "toggle",
+    "codes": "pf_interior_hub_upper_chest"
+  },
+  {
+    "name": "pf_interior_hookshot_chest",
+    "type": "toggle",
+    "codes": "pf_interior_hookshot_chest"
   }
 ]

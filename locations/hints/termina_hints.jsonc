@@ -1,7 +1,7 @@
 [
   {
     "name": "Termina Field Hints",
-    "access_rules":["{}"],
+    "access_rules": ["{}"],
     "children": [
       {
         "name": "South East Termina Field Hints",

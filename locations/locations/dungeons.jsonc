@@ -409,6 +409,91 @@
         ]
       },
       {
+        "name": "Pirates' Fortress",
+        "chest_unopened_img": "images/icons/chest.png",
+        "chest_opened_img": "images/icons/check_32.png",
+        "access_rules": ["$pirates_fortress"],
+        "sections": [
+          {
+            "name": "Pirates' Fortress Exterior Underwater Log Chest",
+            "access_rules": ["zora"]
+          },
+          {
+            "name": "Pirates' Fortress Exterior Underwater Near Entrance Chest",
+            "access_rules": ["zora"]
+          },
+          {
+            "name": "Pirates' Fortress Exterior Underwater Corner Near Fortress Chest",
+            "access_rules": ["zora"]
+          },
+          {
+            "name": "Pirates' Fortress Sewers Cage HP",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
+            "access_rules": [
+              "easy_logic, goron, bow",
+              "normal_logic, goron"
+            ]
+          },
+          {
+            "name": "Pirates' Fortress Sewers Push Block Maze Chest",
+            "access_rules": ["goron"]
+          },
+          {
+            "name": "Pirates' Fortress Sewers Underwater Lower Chest",
+            "access_rules": ["goron"]
+          },
+          {
+            "name": "Pirates' Fortress Sewers Underwater Upper Chest",
+            "access_rules": ["goron"]
+          },
+          {
+            "name": "Pirates' Fortress Near Egg Chest",
+            "access_rules": [
+              "easy_logic, $baby_pirates_fortress_interior, hookshot, $baby_can_smack_hard, magic, stonemask",
+              "normal_logic, $pirates_fortress_interior, hookshot, $can_smack_hard"
+            ]
+          },
+          {
+            "name": "Pirates' Fortress Pirates Surrounding Chest",
+            "access_rules": [
+              "easy_logic, $baby_pirates_fortress_interior, $baby_has_projectiles, stonemask, hookshot",
+              "normal_logic, $pirates_fortress_interior, hookshot"
+            ]
+          },
+          {
+            "name": "Pirates' Fortress Hub Lower Chest",
+            "access_rules": [
+              "easy_logic, $baby_pirates_fortress_interior, goron, hookshot, stonemask",
+              "normal_logic, $pirates_fortress_interior"
+            ]
+          },
+          {
+            "name": "Pirates' Fortress Hub Upper Chest",
+            "access_rules": [
+              "easy_logic, $baby_pirates_fortress_interior, hookshot, stonemask",
+              "normal_logic, $pirates_fortress_interior, hookshot"
+            ]
+          },
+          {
+            "name": "Pirates' Fortress Leader's Room Chest",
+            "access_rules": [
+              "easy_logic, $baby_pirates_fortress_interior, $baby_has_projectiles, stonemask, hookshot",
+              "normal_logic, $pirates_fortress_interior, hookshot, bow",
+              "normal_logic, $pirates_fortress_interior, hookshot, deku, magic",
+              "normal_logic, $pirates_fortress_interior, goron, bow",
+              "normal_logic, $pirates_fortress_interior, goron, deku, magic"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 310,
+            "y": 242
+          }
+        ]
+      },
+      {
         "name": "Swamp Spider House",
         "chest_unopened_img": "images/equipment/skull_ss.png",
         "chest_opened_img": "images/icons/check_32.png",

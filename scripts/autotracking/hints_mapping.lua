@@ -275,5 +275,19 @@ HINTS_MAPPING = {
     -- Pinnacle Rock
     --[] = {"pinnacle_rock_hp"},
     [0x3469420062502] = {"pinnacle_rock_upper_chest"},
-    [0x3469420062501] = {"pinnacle_rock_lower_chest"}
+    [0x3469420062501] = {"pinnacle_rock_lower_chest"},
+
+    -- Pirates' Fortress
+    [0x3469420063B00] = {"pf_exterior_underwater_log_chest"},
+    [0x3469420063B01] = {"pf_exterior_underwater_near_entrance_chest"},
+    [0x3469420063B02] = {"pf_exterior_underwater_corner_chest"},
+    [0x346942005230C] = {"pf_sewers_cage_hp"},
+    [0x3469420062301] = {"pf_sewers_push_block_chest"},
+    [0x3469420062304] = {"pf_sewers_lower_chest"},
+    [0x3469420062306] = {"pf_sewers_upper_chest"},
+    [0x3469420062300] = {"pf_interior_egg_chest"},
+    [0x3469420062303] = {"pf_interior_surrounded_chest"},
+    [0x3469420061400] = {"pf_interior_hub_lower_chest"},
+    [0x3469420061401] = {"pf_interior_hub_upper_chest"},
+    [0x3469420062302] = {"pf_interior_hookshot_chest"}
 }

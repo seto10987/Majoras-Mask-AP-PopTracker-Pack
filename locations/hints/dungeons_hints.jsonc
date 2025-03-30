@@ -1,12 +1,12 @@
 [
   {
     "name": "Dungeons Hints",
-    "access_rules":["{}"],
+    "chest_unopened_img": "images/icons/chest.png",
+    "chest_opened_img": "images/icons/check_32.png",
+    "access_rules": ["{}"],
     "children": [
       {
         "name": "Woodfall Temple Hints",
-        "chest_unopened_img": "images/icons/chest.png",
-        "chest_opened_img": "images/icons/check_32.png",
         "sections": [
             {
               "name": "Woodfall Temple Entrance Chest (Hint)",
@@ -131,8 +131,6 @@
       },
       {
         "name": "Snowhead Temple Hints",
-        "chest_unopened_img": "images/icons/chest.png",
-        "chest_opened_img": "images/icons/check_32.png",
         "sections": [
           {
             "name": "Initial Runway Ice Blowers Chest (Hint)",
@@ -254,6 +252,67 @@
             "map": "termina",
             "x": 481,
             "y": 38
+          }
+        ]
+      },
+      {
+        "name": "Pirates' Hideout Hints",
+        "sections": [
+          {
+            "name": "Pirates' Fortress Exterior Underwater Log Chest (Hint)",
+            "visibility_rules": ["pf_exterior_underwater_log_chest"]
+          },
+          {
+            "name": "Pirates' Fortress Exterior Underwater Near Entrance Chest (Hint)",
+            "visibility_rules": ["pf_exterior_underwater_near_entrance_chest"]
+          },
+          {
+            "name": "Pirates' Fortress Exterior Underwater Corner Near Fortress Chest (Hint)",
+            "visibility_rules": ["pf_exterior_underwater_corner_chest"]
+          },
+          {
+            "name": "Pirates' Fortress Sewers Cage HP (Hint)",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
+            "visibility_rules": ["pf_sewers_cage_hp"]
+          },
+          {
+            "name": "Pirates' Fortress Sewers Push Block Maze Chest (Hint)",
+            "visibility_rules": ["pf_sewers_push_block_chest"]
+          },
+          {
+            "name": "Pirates' Fortress Sewers Underwater Lower Chest (Hint)",
+            "visibility_rules": ["pf_sewers_lower_chest"]
+          },
+          {
+            "name": "Pirates' Fortress Sewers Underwater Upper Chest (Hint)",
+            "visibility_rules": ["pf_sewers_upper_chest"]
+          },
+          {
+            "name": "Pirates' Fortress Near Egg Chest (Hint)",
+            "visibility_rules": ["pf_interior_egg_chest"]
+          },
+          {
+            "name": "Pirates' Fortress Pirates Surrounding Chest (Hint)",
+            "visibility_rules": ["pf_interior_surrounded_chest"]
+          },
+          {
+            "name": "Pirates' Fortress Hub Lower Chest (Hint)",
+            "visibility_rules": ["pf_interior_hub_lower_chest"]
+          },
+          {
+            "name": "Pirates' Fortress Hub Upper Chest (Hint)",
+            "visibility_rules": ["pf_interior_hub_upper_chest"]
+          },
+          {
+            "name": "Pirates' Fortress Leader's Room Chest (Hint)",
+            "visibility_rules": ["pf_interior_hookshot_chest"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 302,
+            "y": 242
           }
         ]
       },

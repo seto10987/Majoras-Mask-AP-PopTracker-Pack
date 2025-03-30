@@ -1,7 +1,7 @@
 [
     {
       "name": "Clock Town Hints",
-      "access_rules":["{}"],
+      "access_rules": ["{}"],
       "children": [
         {
           "name": "South Clock Town Clock Tower Hints",

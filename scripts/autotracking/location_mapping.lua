@@ -284,6 +284,20 @@ LOCATION_MAPPING = {
     [0x3469420062502] = {"@Great Bay/Pinnacle Rock/Upper Eel Chest","@Great Bay Hints/Pinnacle Rock Hints/Upper Eel Chest (Hint)"},
     [0x3469420062501] = {"@Great Bay/Pinnacle Rock/Lower Eel Chest","@Great Bay Hints/Pinnacle Rock Hints/Lower Eel Chest (Hint)"},
 
+    -- Pirates' Fortress
+    [0x3469420063B00] = {"@Dungeons/Pirates' Fortress/Pirates' Fortress Exterior Underwater Log Chest","@Dungeon Hints/Pirates' Hideout Hints/Pirates' Fortress Exterior Underwater Log Chest (Hint)"},
+    [0x3469420063B01] = {"@Dungeons/Pirates' Fortress/Pirates' Fortress Exterior Underwater Near Entrance Chest","@Dungeon Hints/Pirates' Hideout Hints/Pirates' Fortress Exterior Underwater Near Entrance Chest (Hint)"},
+    [0x3469420063B02] = {"@Dungeons/Pirates' Fortress/Pirates' Fortress Exterior Underwater Corner Near Fortress Chest","@Dungeon Hints/Pirates' Hideout Hints/Pirates' Fortress Exterior Underwater Corner Near Fortress Chest (Hint)"},
+    [0x346942005230C] = {"@Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Cage HP","@Dungeon Hints/Pirates' Hideout Hints/Pirates' Fortress Sewers Cage HP (Hint)"},
+    [0x3469420062301] = {"@Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Push Block Maze Chest","@Dungeon Hints/Pirates' Hideout Hints/Pirates' Fortress Sewers Push Block Maze Chest (Hint)"},
+    [0x3469420062304] = {"@Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Underwater Lower Chest","@Dungeon Hints/Pirates' Hideout Hints/Pirates' Fortress Sewers Underwater Lower Chest (Hint)"},
+    [0x3469420062306] = {"@Dungeons/Pirates' Fortress/Pirates' Fortress Sewers Underwater Upper Chest","@Dungeon Hints/Pirates' Hideout Hints/Pirates' Fortress Sewers Underwater Upper Chest (Hint)"},
+    [0x3469420062300] = {"@Dungeons/Pirates' Fortress/Pirates' Fortress Near Egg Chest","@Dungeon Hints/Pirates' Hideout Hints/Pirates' Fortress Near Egg Chest (Hint)"},
+    [0x3469420062303] = {"@Dungeons/Pirates' Fortress/Pirates' Fortress Pirates Surrounding Chest","@Dungeon Hints/Pirates' Hideout Hints/Pirates' Fortress Pirates Surrounding Chest (Hint)"},
+    [0x3469420061400] = {"@Dungeons/Pirates' Fortress/Pirates' Fortress Hub Lower Chest","@Dungeon Hints/Pirates' Hideout Hints/Pirates' Fortress Hub Lower Chest (Hint)"},
+    [0x3469420061401] = {"@Dungeons/Pirates' Fortress/Pirates' Fortress Hub Upper Chest","@Dungeon Hints/Pirates' Hideout Hints/Pirates' Fortress Hub Upper Chest (Hint)"},
+    [0x3469420062302] = {"@Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest","@Dungeon Hints/Pirates' Hideout Hints/Pirates' Fortress Leader's Room Chest (Hint)"},
+
     -- Road to Ikana/Ikana Canyon
     [0x3469420065300] = {"@Ikana Canyon/Road to Ikana Pillar Chest/Road to Ikana Pillar Chest","@Ikana Canyon Hints/Road to Ikana Pillar Chest Hints/Road to Ikana Pillar Chest (Hint)"},
     [0x3469420060716] = {"@Ikana Canyon/Road to Ikana Rock Grotto Chest/Road to Ikana Rock Grotto Chest","@Ikana Canyon Hints/Road to Ikana Rock Grotto Chest Hints/Road to Ikana Rock Grotto Chest (Hint)"},

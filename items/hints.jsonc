@@ -1380,5 +1380,166 @@
     "name": "pf_interior_hookshot_chest",
     "type": "toggle",
     "codes": "pf_interior_hookshot_chest"
+  },
+  // Ocean Spider House
+  {
+    "name": "osh_ramp_upper_token",
+    "type": "toggle",
+    "codes": "osh_ramp_upper_token"
+  },
+  {
+    "name": "osh_ramp_lower_token",
+    "type": "toggle",
+    "codes": "osh_ramp_lower_token"
+  },
+  {
+    "name": "osh_lobby_ceiling_token",
+    "type": "toggle",
+    "codes": "osh_lobby_ceiling_token"
+  },
+  {
+    "name": "osh_first_room_rafter_token",
+    "type": "toggle",
+    "codes": "osh_first_room_rafter_token"
+  },
+  {
+    "name": "osh_first_room_pot_1_token",
+    "type": "toggle",
+    "codes": "osh_first_room_pot_1_token"
+  },
+  {
+    "name": "osh_first_room_pot_2_token",
+    "type": "toggle",
+    "codes": "osh_first_room_pot_2_token"
+  },
+  {
+    "name": "osh_first_room_wall_token",
+    "type": "toggle",
+    "codes": "osh_first_room_wall_token"
+  },
+  {
+    "name": "osh_library_top_bookcase_token",
+    "type": "toggle",
+    "codes": "osh_library_top_bookcase_token"
+  },
+  {
+    "name": "osh_library_passage_behind_bookcase_front_token",
+    "type": "toggle",
+    "codes": "osh_library_passage_behind_bookcase_front_token"
+  },
+  {
+    "name": "osh_library_passage_behind_bookcase_rear_token",
+    "type": "toggle",
+    "codes": "osh_library_passage_behind_bookcase_rear_token"
+  },
+  {
+    "name": "osh_library_painting_1_token",
+    "type": "toggle",
+    "codes": "osh_library_painting_1_token"
+  },
+  {
+    "name": "osh_library_painting_2_token",
+    "type": "toggle",
+    "codes": "osh_library_painting_2_token"
+  },
+  {
+    "name": "osh_library_rafter_token",
+    "type": "toggle",
+    "codes": "osh_library_rafter_token"
+  },
+  {
+    "name": "osh_library_bookshelf_hole_token",
+    "type": "toggle",
+    "codes": "osh_library_bookshelf_hole_token"
+  },
+  {
+    "name": "osh_first_room_downstairs_rafter_token",
+    "type": "toggle",
+    "codes": "osh_first_room_downstairs_rafter_token"
+  },
+  {
+    "name": "osh_first_room_downstairs_open_pot_token",
+    "type": "toggle",
+    "codes": "osh_first_room_downstairs_open_pot_token"
+  },
+  {
+    "name": "osh_first_room_downstairs_behind_staircase_token",
+    "type": "toggle",
+    "codes": "osh_first_room_downstairs_behind_staircase_token"
+  },
+  {
+    "name": "osh_first_room_downstairs_breakable_pot_token",
+    "type": "toggle",
+    "codes": "osh_first_room_downstairs_breakable_pot_token"
+  },
+  {
+    "name": "osh_first_room_downstairs_wall_token",
+    "type": "toggle",
+    "codes": "osh_first_room_downstairs_wall_token"
+  },
+  {
+    "name": "osh_dining_room_open_pot_token",
+    "type": "toggle",
+    "codes": "osh_dining_room_open_pot_token"
+  },
+  {
+    "name": "osh_dining_room_painting_room",
+    "type": "toggle",
+    "codes": "osh_dining_room_painting_room"
+  },
+  {
+    "name": "osh_dining_room_ceiling_token",
+    "type": "toggle",
+    "codes": "osh_dining_room_ceiling_token"
+  },
+  {
+    "name": "osh_dining_room_chandelier_1_token",
+    "type": "toggle",
+    "codes": "osh_dining_room_chandelier_1_token"
+  },
+  {
+    "name": "osh_dining_room_chandelier_2_token",
+    "type": "toggle",
+    "codes": "osh_dining_room_chandelier_2_token"
+  },
+  {
+    "name": "osh_dining_room_chandelier_3_token",
+    "type": "toggle",
+    "codes": "osh_dining_room_chandelier_3_token"
+  },
+  {
+    "name": "osh_storage_room_web_token",
+    "type": "toggle",
+    "codes": "osh_storage_room_web_token"
+  },
+  {
+    "name": "osh_storage_room_north_wall_token",
+    "type": "toggle",
+    "codes": "osh_storage_room_north_wall_token"
+  },
+  {
+    "name": "osh_storage_room_crate_token",
+    "type": "toggle",
+    "codes": "osh_storage_room_crate_token"
+  },
+  {
+    "name": "osh_storage_room_hidden_hole_token",
+    "type": "toggle",
+    "codes": "osh_storage_room_hidden_hole_token"
+  },
+  {
+    "name": "osh_storage_room_ceiling_pot_token",
+    "type": "toggle",
+    "codes": "osh_storage_room_ceiling_pot_token"
+  },
+  {
+    "name": "osh_coloured_mask_sequence_hp",
+    "type": "toggle",
+    "codes": "osh_coloured_mask_sequence_hp"
+  },
+  {
+    "name": "ocean_spider_house_reward",
+    "type": "toggle",
+    "codes": "ocean_spider_house_reward"
   }
 ]

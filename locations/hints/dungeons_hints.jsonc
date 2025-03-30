@@ -319,7 +319,6 @@
       {
         "name": "Swamp Spider House Hints",
         "chest_unopened_img": "images/equipment/skull_ss.png",
-        "chest_opened_img": "images/equipment/skull_grey.png",
         "sections": [
           {
             "name": "Collect 30 Tokens (Hint)",
@@ -453,6 +452,149 @@
             "map": "termina",
             "x": 490,
             "y": 494
+          }
+        ]
+      },
+      {
+        "name": "Ocean Spider House Hints",
+        "chest_unopened_img": "images/equipment/skull_gb.png",
+        "sections": [
+          {
+            "name": "Ramp Upper Token (Hint)",
+            "visibility_rules": ["osh_ramp_upper_token"]
+          },
+          {
+            "name": "Ramp Lower Token (Hint)",
+            "visibility_rules": ["osh_ramp_lower_token"]
+          },
+          {
+            "name": "Lobby Ceiling Token (Hint)",
+            "visibility_rules": ["osh_lobby_ceiling_token"]
+          },
+          {
+            "name": "First Room Rafter Token (Hint)",
+            "visibility_rules": ["osh_first_room_rafter_token"]
+          },
+          {
+            "name": "First Room Open Pot #1 Token (Hint)",
+            "visibility_rules": ["osh_first_room_pot_1_token"]
+          },
+          {
+            "name": "First Room Open Pot #2 Token (Hint)",
+            "visibility_rules": ["osh_first_room_pot_2_token"]
+          },
+          {
+            "name": "First Room Wall Token (Hint)",
+            "visibility_rules": ["osh_first_room_wall_token"]
+          },
+          {
+            "name": "Library Top Bookcase Token (Hint)",
+            "visibility_rules": ["osh_library_top_bookcase_token"]
+          },
+          {
+            "name": "Library Passage Behind Bookcase Front Token (Hint)",
+            "visibility_rules": ["osh_library_passage_behind_bookcase_front_token"]
+          },
+          {
+            "name": "Library Passage Behind Bookcase Rear Token (Hint)",
+            "visibility_rules": ["osh_library_passage_behind_bookcase_rear_token"]
+          },
+          {
+            "name": "Library Painting #1 Token (Hint)",
+            "visibility_rules": ["osh_library_painting_1_token"]
+          },
+          {
+            "name": "Library Painting #2 Token (Hint)",
+            "visibility_rules": ["osh_library_painting_2_token"]
+          },
+          {
+            "name": "Library Rafter Token (Hint)",
+            "visibility_rules": ["osh_library_rafter_token"]
+          },
+          {
+            "name": "Library Bookshelf Hole Token (Hint)",
+            "visibility_rules": ["osh_library_bookshelf_hole_token"]
+          },
+          {
+            "name": "First Room Downstairs Rafter Token (Hint)",
+            "visibility_rules": ["osh_first_room_downstairs_rafter_token"]
+          },
+          {
+            "name": "First Room Downstairs Open Pot Token (Hint)",
+            "visibility_rules": ["osh_first_room_downstairs_open_pot_token"]
+          },
+          {
+            "name": "First Room Downstairs Behind Staircase Token (Hint)",
+            "visibility_rules": ["osh_first_room_downstairs_behind_staircase_token"]
+          },
+          {
+            "name": "First Room Downstairs Breakable Pot Token (Hint)",
+            "visibility_rules": ["osh_first_room_downstairs_breakable_pot_token"]
+          },
+          {
+            "name": "First Room Downstairs Wall Token (Hint)",
+            "visibility_rules": ["osh_first_room_downstairs_wall_token"]
+          },
+          {
+            "name": "Dining Room Open Pot Token (Hint)",
+            "visibility_rules": ["osh_dining_room_open_pot_token"]
+          },
+          {
+            "name": "Dining Room Painting Token (Hint)",
+            "visibility_rules": ["osh_dining_room_painting_token"]
+          },
+          {
+            "name": "Dining Room Ceiling Token (Hint)",
+            "visibility_rules": ["osh_dining_room_ceiling_token"]
+          },
+          {
+            "name": "Dining Room Chandelier #1 Token (Hint)",
+            "visibility_rules": ["osh_dining_room_chandelier_1_token"]
+          },
+          {
+            "name": "Dining Room Chandelier #2 Token (Hint)",
+            "visibility_rules": ["osh_dining_room_chandelier_2_token"]
+          },
+          {
+            "name": "Dining Room Chandelier #3 Token (Hint)",
+            "visibility_rules": ["osh_dining_room_chandelier_3_token"]
+          },
+          {
+            "name": "Storage Room Web Token (Hint)",
+            "visibility_rules": ["osh_storage_room_web_token"]
+          },
+          {
+            "name": "Storage Room North Wall Token (Hint)",
+            "visibility_rules": ["osh_storage_room_north_wall_token"]
+          },
+          {
+            "name": "Storage Room Crate Token (Hint)",
+            "visibility_rules": ["osh_storage_room_crate_token"]
+          },
+          {
+            "name": "Storage Room Hidden Hole Token (Hint)",
+            "visibility_rules": ["osh_storage_room_hidden_hole_token"]
+          },
+          {
+            "name": "Storage Room Ceiling Pot Token (Hint)",
+            "visibility_rules": ["osh_storage_room_ceiling_pot_token"]
+          },
+          {
+            "name": "Coloured Mask Sequence HP (Hint)",
+            "chest_unopened_img": "images/icons/chest.png",
+            "visibility_rules": ["osh_coloured_mask_sequence_hp"]
+          },
+          {
+            "name": "Ocean Spider House Reward (Hint)",
+            "chest_unopened_img": "images/equipment/wallet2.png",
+            "visibility_rules": ["ocean_spider_house_reward"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 299,
+            "y": 347
           }
         ]
       }

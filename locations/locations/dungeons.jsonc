@@ -1,6 +1,8 @@
 [
   {
     "name": "Dungeons",
+    "chest_unopened_img": "images/icons/chest.png",
+    "chest_opened_img": "images/icons/check_32.png",
     "children": [
       {
           "name": "Woodfall Temple",
@@ -61,21 +63,18 @@
             {
               "name": "Woodfall Temple Entrance Freestanding SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "chest_opened_img": "images/equipment/fairy_grey.png",
               "access_rules": [""],
               "visibility_rules": ["fairysanity_on"]
             },
             {
               "name": "Woodfall Temple Wooden Flower Deku Baba SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "chest_opened_img": "images/equipment/fairy_grey.png",
               "access_rules": [""],
               "visibility_rules": ["fairysanity_on"]
             },
             {
               "name": "Woodfall Temple Wooden Flower Bubble SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "chest_opened_img": "images/equipment/fairy_grey.png",
               "access_rules": [
                 "easy_logic, bow, fairymask",
                 "normal_logic, bow, fairymask",
@@ -86,14 +85,12 @@
             {
               "name": "Woodfall Temple Wooden Flower Pot SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "chest_opened_img": "images/equipment/fairy_grey.png",
               "access_rules": [""],
               "visibility_rules": ["fairysanity_on"]
             },
             {
               "name": "Woodfall Temple Moving Flower Platform Room Beehive SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "chest_opened_img": "images/equipment/fairy_grey.png",
               "access_rules": [
                 "easy_logic, $baby_has_projectiles, fairymask",
                 "normal_logic, $has_projectiles"
@@ -103,7 +100,6 @@
             {
               "name": "Woodfall Temple Push Block Skulltula SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "chest_opened_img": "images/equipment/fairy_grey.png",
               "access_rules": [
                 "easy_logic, smallkey_wf, $baby_can_smack_hard, $baby_has_projectiles",
                 "normal_logic, smallkey_wf, $can_smack",
@@ -114,7 +110,6 @@
             {
               "name": "Woodfall Temple Push Block Bubble SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "chest_opened_img": "images/equipment/fairy_grey.png",
               "access_rules": [
                 "easy_logic, smallkey_wf, $baby_has_projectiles, fairymask",
                 "normal_logic, smallkey_wf, $has_projectiles, fairymask",
@@ -125,7 +120,6 @@
             {
               "name": "Woodfall Temple Push Block Beehive SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "chest_opened_img": "images/equipment/fairy_grey.png",
               "access_rules": [
                 "easy_logic, smallkey_wf, $baby_has_projectiles, fairymask",
                 "normal_logic, smallkey_wf, $has_projectiles, fairymask",
@@ -136,14 +130,12 @@
             {
               "name": "Woodfall Temple Final Room Right Upper Platform SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "chest_opened_img": "images/equipment/fairy_grey.png",
               "access_rules": ["bow"],
               "visibility_rules": ["fairysanity_on"]
             },
             {
               "name": "Woodfall Temple Final Room Right Lower Platform SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "chest_opened_img": "images/equipment/fairy_grey.png",
               "access_rules": [
                 "easy_logic, bow, $can_use_fire_arrows",
                 "normal_logic,bow",
@@ -154,7 +146,6 @@
             {
               "name": "Woodfall Temple Final Room Left Upper Platform SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "chest_opened_img": "images/equipment/fairy_grey.png",
               "access_rules": [
                 "easy_logic, bow, $can_use_fire_arrows",
                 "normal_logic,bow",
@@ -165,7 +156,6 @@
             {
               "name": "Woodfall Temple Final Room Bubble SF",
               "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "chest_opened_img": "images/equipment/fairy_grey.png",
               "access_rules": [
                 "easy_logic, bow, fairymask, $can_use_fire_arrows",
                 "normal_logic, bow",
@@ -220,14 +210,12 @@
           {
             "name": "Initial Runway Under Platform Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_sh.png",
-            "chest_opened_img": "images/equipment/fairy_grey.png",
             "access_rules": ["fairymask, bow"],
             "visibility_rules": ["fairysanity_on"]
           },
           {
             "name": "Initial Runway Tower Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_sh.png",
-            "chest_opened_img": "images/equipment/fairy_grey.png",
             "access_rules": [
               "easy_logic, fairymask, bow, $can_use_lens",
               "normal_logic, fairymask, bow"
@@ -253,7 +241,6 @@
           {
             "name": "Light Blue Door Near Bombable Stairs Box SF",
             "chest_unopened_img": "images/equipment/fairy_sh.png",
-            "chest_opened_img": "images/equipment/fairy_grey.png",
             "access_rules": [
               "easy_logic, fairymask, $baby_has_explosives",
               "normal_logic, $has|smallkey_sh|1, fairymask, $has_explosives",
@@ -303,6 +290,7 @@
           },
           {
             "name": "Elevator Freestanding SF",
+            "chest_unopened_img": "images/equipment/fairy_sh.png",
             "access_rules": [""],
             "visibility_rules": ["fairysanity_on"]
           },
@@ -326,7 +314,6 @@
           {
             "name": "Timed Switch Room Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_sh.png",
-            "chest_opened_img": "images/equipment/fairy_grey.png",
             "access_rules": [
               "easy_logic, fairymask, bow, $can_use_lens, $baby_has_explosives",
               "normal_logic, $has|smallkey_sh|1, fairymask, bow, $can_use_lens, $has_explosives",
@@ -345,7 +332,6 @@
           {
             "name": "Snowmen Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_sh.png",
-            "chest_opened_img": "images/equipment/fairy_grey.png",
             "access_rules": [
               "easy_logic, fairymask, $can_use_fire_arrows",
               "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows, fairymask",
@@ -356,7 +342,6 @@
           {
             "name": "Dinolfos Room First SF",
             "chest_unopened_img": "images/equipment/fairy_sh.png",
-            "chest_opened_img": "images/equipment/fairy_grey.png",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows",
               "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows"
@@ -366,7 +351,6 @@
           {
             "name": "Dinolfos Room Second SF",
             "chest_unopened_img": "images/equipment/fairy_sh.png",
-            "chest_opened_img": "images/equipment/fairy_grey.png",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows",
               "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows"
@@ -505,7 +489,6 @@
           {
             "name": "Collect 30 Tokens",
             "chest_unopened_img": "images/masks/truth.png",
-            "chest_opened_img": "images/masks/truth_checked.png",
             "access_rules": ["$has|skull_ss|30"],
             "visibility_rules": ["shuffle_swamphouse_reward"]
           },
@@ -763,6 +746,228 @@
             "map": "termina",
             "x": 498,
             "y": 502
+          }
+        ]
+      },
+      {
+        "name": "Ocean Spider House",
+        "chest_unopened_img": "images/equipment/skull_gb.png",
+        "access_rules": [
+          "easy_logic, $baby_ocean_spider_house",
+          "normal_logic, $ocean_spider_house"
+        ],
+        "sections": [
+          {
+            "name": "Ramp Upper Token",
+            "access_rules": ["hookshot"],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Ramp Lower Token",
+            "access_rules": ["hookshot"],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Lobby Ceiling Token",
+            "access_rules": ["hookshot, $can_use_fire_arrows"],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "First Room Rafter Token",
+            "access_rules": ["hookshot"],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "First Room Open Pot #1 Token",
+            "access_rules": ["hookshot"],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "First Room Open Pot #2 Token",
+            "access_rules": ["hookshot, $can_use_fire_arrows"],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "First Room Wall Token",
+            "access_rules": ["hookshot"],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Library Top Bookcase Token",
+            "access_rules": [
+              "easy_logic, hookshot, $can_use_fire_arrows",
+              "normal_logic, hookshot"
+            ],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Library Passage Behind Bookcase Front Token",
+            "access_rules": [
+              "easy_logic, hookshot, $can_use_fire_arrows",
+              "normal_logic, hookshot"
+            ],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Library Passage Behind Bookcase Rear Token",
+            "access_rules": [
+              "easy_logic, hookshot, $can_use_fire_arrows",
+              "normal_logic, hookshot"
+            ],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Library Painting #1 Token",
+            "access_rules": [
+              "easy_logic, hookshot, $can_use_fire_arrows",
+              "normal_logic, hookshot"
+            ],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Library Painting #2 Token",
+            "access_rules": [
+              "easy_logic, hookshot, $can_use_fire_arrows",
+              "normal_logic, hookshot"
+            ],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Library Rafter Token",
+            "access_rules": [
+              "easy_logic, hookshot, $can_use_fire_arrows",
+              "normal_logic, hookshot"
+            ],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Library Bookshelf Hole Token",
+            "access_rules": [
+              "easy_logic, hookshot, $can_use_fire_arrows",
+              "normal_logic, hookshot"
+            ],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "First Room Downstairs Rafter Token",
+            "access_rules": ["hookshot"],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "First Room Downstairs Open Pot Token",
+            "access_rules": ["hookshot"],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "First Room Downstairs Behind Staircase Token",
+            "access_rules": [
+              "easy_logic, hookshot, $can_use_fire_arrows",
+              "normal_logic, hookshot"
+            ],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "First Room Downstairs Breakable Pot Token",
+            "access_rules": ["hookshot"],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "First Room Downstairs Wall Token",
+            "access_rules": ["hookshot"],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Dining Room Open Pot Token",
+            "access_rules": ["hookshot"],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Dining Room Painting Token",
+            "access_rules": ["hookshot"],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Dining Room Ceiling Token",
+            "access_rules": ["hookshot"],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Dining Room Chandelier #1 Token",
+            "access_rules": [
+              "easy_logic, hookshot, goron",
+              "normal_logic, hookshot"
+            ],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Dining Room Chandelier #2 Token",
+            "access_rules": [
+              "easy_logic, hookshot, goron",
+              "normal_logic, hookshot"
+            ],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Dining Room Chandelier #3 Token",
+            "access_rules": [
+              "easy_logic, hookshot, goron",
+              "normal_logic, hookshot"
+            ],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Storage Room Web Token",
+            "access_rules": ["hookshot, $can_use_fire_arrows"],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Storage Room North Wall Token",
+            "access_rules": [
+              "easy_logic, hookshot, $can_use_fire_arrows",
+              "normal_logic, hookshot"
+            ],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Storage Room Crate Token",
+            "access_rules": [
+              "easy_logic, hookshot, $can_use_fire_arrows",
+              "normal_logic, hookshot"
+            ],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Storage Room Hidden Hole Token",
+            "access_rules": [
+              "easy_logic, hookshot, $can_use_fire_arrows",
+              "normal_logic, hookshot"
+            ],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Storage Room Ceiling Pot Token",
+            "access_rules": [
+              "easy_logic, hookshot, $can_use_fire_arrows",
+              "normal_logic, hookshot"
+            ],
+            "visibility_rules": ["skullsanity_0","skullsanity_1"]
+          },
+          {
+            "name": "Coloured Mask Sequence HP",
+            "chest_unopened_img": "images/icons/chest.png",
+            "access_rules": ["hookshot, captainhat, bow"]
+          },
+          {
+            "name": "Ocean Spider House Reward",
+            "chest_unopened_img": "images/equipment/wallet2.png",
+            "access_rules": ["$has|skull_gb|30"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 307,
+            "y": 347
           }
         ]
       }

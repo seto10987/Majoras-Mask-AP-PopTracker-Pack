@@ -123,7 +123,7 @@
               "access_rules": [
                 "easy_logic, smallkey_wf, $baby_has_projectiles, fairymask",
                 "normal_logic, smallkey_wf, $has_projectiles, fairymask",
-                "normal_logic, bow"
+                "normal_logic, bow, fairymask"
               ],
               "visibility_rules": ["fairysanity_on"]
             },
@@ -169,15 +169,15 @@
               "access_rules": [
                 "easy_logic, bow, $baby_can_smack_hard, bosskey_wf",
                 "normal_logic, bow, $can_smack, bosskey_wf",
-                "normal_logic, odolwa"
+                "normal_logic, bow, $can_smack, odolwa"
               ]
             },
             {
               "name": "Woodfall Temple Odolwa's Remains",
               "access_rules": [
                 "easy_logic, bow, $baby_can_smack_hard, bosskey_wf",
-                "normal_logic, bow, $can_smack, bosskey_wf",
-                "normal_logic, odolwa"
+                "normal_logic, $can_smack, bow, bosskey_wf",
+                "normal_logic, $can_smack, bow, odolwa"
               ],
               "hosted_item": "boss_odolwa_hosted"
             }
@@ -370,8 +370,8 @@
             "chest_unopened_img": "images/equipment/heart_container.png",
             "access_rules": [
               "easy_logic, $can_use_fire_arrows, $baby_has_explosives",
-              "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows, bosskey_sh",
-              "$can_use_fire_arrows, gohtremains"
+              "normal_logic, $can_use_fire_arrows, $has|smallkey_sh|1, bosskey_sh",
+              "normal_logic, $can_use_fire_arrows, gohtremains"
             ]
           },
           {

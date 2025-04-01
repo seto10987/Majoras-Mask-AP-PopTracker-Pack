@@ -49,6 +49,7 @@ ITEM_MAPPING = {
 [0x3469420000099] = {"mountaindeed","toggle"},
 [0x346942000009A] = {"oceandeed","toggle"},
 [0x346942000001B] = {"bombs","progressive"},
+[0x3469420000054] = {"bombchu_bag","progressive"},
 [0x3469420000036] = {"bombchu1","toggle"},
 [0x346942000003A] = {"bombchu5","toggle"},
 [0x346942000001A] = {"bombchu10","toggle"},
@@ -63,12 +64,12 @@ ITEM_MAPPING = {
 [0x34694200000AA] = {"kafeiletter","toggle"},
 [0x34694200000AB] = {"pendant","toggle"},
 [0x3469420000059] = {"redpotion","toggle"},
-[0x346942000005D] = {"bluepotion","toggle"},
+--[0x346942000005D] = {"bluepotion","toggle"},
 [0x346942000006F] = {"chateau","toggle"},
 [0x3469420000060] = {"milk","toggle"},
 --[?] = {"gold_dust","toggle"},
 
--- Equipments
+-- Equipment
 [0x3469420000037] = {"sword","progressive"},
 [0x3469420020001] = {"spin_attack", "toggle"},
 [0x3469420000032] = {"shield", "progressive"},
@@ -78,6 +79,7 @@ ITEM_MAPPING = {
 [0x3469420020003] = {"double_defense","toggle"},
 [0x346942000000C] = {"heart_piece","consumable"},
 [0x346942000000D] = {"heart_container","consumable"},
+[0x3469420000050] = {"bombers_notebook","toggle"},
 
 -- Maps & compasses
 [0x34694200000B4] = {"map_clocktown","toggle"},

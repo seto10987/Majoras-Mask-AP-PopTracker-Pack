@@ -96,7 +96,7 @@ end
 
 -- Easy difficulty rules
 function baby_has_bombchus()
-    return has("bombchu1") and has("bombchu5") and has("bombchu10")
+    return has("bombchu1") and has("bombchu5") and has("bombchu10") and has("bombchu_bag")
 end
 
 function baby_has_explosives()

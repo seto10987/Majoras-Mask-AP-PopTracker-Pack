@@ -105,20 +105,56 @@
     ]
   },
   {
-    "name": "Bombchu",
+    "name": "Bombchu Bag",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/bombchu.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "img": "images/items/bombchu.png",
+        "img_mods": "overlay|images/icons/overlay_20.png",
+        "codes": "bombchu_bag"
+      },
+      {
+        "img": "images/items/bombchu.png",
+        "img_mods": "overlay|images/icons/overlay_30.png"
+      },
+      {
+        "img": "images/items/bombchu.png",
+        "img_mods": "overlay|images/icons/overlay_40_green.png"
+      }
+    ]
+  },
+  {
+    "name": "Bombchu (1)",
     "type": "toggle",
     "img": "images/items/bombchu.png",
-    "codes": "bombchu1,bombchu5,bombchu10,bombchu,bombchus,chus"
+    "codes": "bombchu1"
+  },
+  {
+    "name": "Bombchu (5)",
+    "type": "toggle",
+    "img": "images/items/bombchu.png",
+    "codes": "bombchu5"
+  },
+  {
+    "name": "Bombchu (10)",
+    "type": "toggle",
+    "img": "images/items/bombchu.png",
+    "codes": "bombchu10"
   },
   {
     "name": "Deku Sticks",
-    "type": "toggle",
+    "type": "static",
     "img": "images/items/stick.png",
     "codes": "dekusticks,sticks,ds"
   },
   {
     "name": "Deku Nuts",
-    "type": "toggle",
+    "type": "static",
     "img": "images/items/nut.png",
     "codes": "dekunuts,nuts,dn"
   },

@@ -112,10 +112,10 @@
             "access_rules": [
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows, $can_use_lens, $can_play_healing, $baby_clear_snowhead",
               "normal_logic, $has_explosives, $can_use_fire_arrows",
-              "normal_logic, $can_use_lens, $can_play_healing, goron",
+              "normal_logic, $can_use_lens, $can_play_healing, goron, $has|bottles|1, $has_explosives",
               "normal_logic, $clear_snowhead",
-              "normal_logic, gibdo, $can_play_eponas, hookshot, $can_use_ice_arrows, $has_bottle, adultswallet, $can_play_soaring",
-              "normal_logic, gibdo, $can_play_eponas, hookshot, $can_use_ice_arrows, $has_bottle, maskofscents, $can_play_soaring"
+              "normal_logic, gibdo, $can_play_eponas, hookshot, $can_use_ice_arrows, $has|bottles|1, adultswallet, $can_play_soaring",
+              "normal_logic, gibdo, $can_play_eponas, hookshot, $can_use_ice_arrows, $has|bottles|1, maskofscents, $can_play_soaring"
             ]
           }
         ]

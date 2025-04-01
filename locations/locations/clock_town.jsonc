@@ -287,15 +287,15 @@
               "easy_logic, bow, bombs, $baby_has_bombchus",
               "normal_logic, bow",
               "normal_logic, bombs",
-              "normal_logic, bombchus",
+              "normal_logic, bombchu_bag",
               "normal_logic, deku, magic"
             ]
           },
           {
             "name": "East Clock Town Honey and Darling All Days",
             "access_rules": [
-              "easy_logic,bow,bombs,$baby_has_bombchus",
-              "normal_logic,bow,bombs,bombchu"
+              "easy_logic, bow, bombs, $baby_has_bombchus",
+              "normal_logic, bow, bombs, bombchu_bag"
             ]
           }
         ],

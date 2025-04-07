@@ -256,6 +256,117 @@
         ]
       },
       {
+        "name": "Great Bay Temple Hints",
+        "sections": [
+          {
+            "name": "Four Torches Chest (Hint)",
+            "visibility_rules": ["gbt_four_torches_chest"]
+          },
+          {
+            "name": "Waterwheel Room Skulltula SF (Hint)",
+            "chest_unopened_img": "images/equipment/fairy_gb.png",
+            "visibility_rules": ["gbt_waterwheel_room_skulltula_sf"]
+          },
+          {
+            "name": "Waterwheel Room Bubble Under Platform SF (Hint)",
+            "chest_unopened_img": "images/equipment/fairy_gb.png",
+            "visibility_rules": ["gbt_waterwheel_room_bubble_under_platform_sf"]
+          },
+          {
+            "name": "Blender Room Barrel SF (Hint)",
+            "chest_unopened_img": "images/equipment/fairy_gb.png",
+            "visibility_rules": ["gbt_blender_room_barrel_sf"]
+          },
+          {
+            "name": "Pot At Bottom Of Blender SF (Hint)",
+            "chest_unopened_img": "images/equipment/fairy_gb.png",
+            "visibility_rules": ["gbt_pot_at_bottom_of_blender_sf"]
+          },
+          {
+            "name": "Red-Green Pipe First Room Chest (Hint)",
+            "visibility_rules": ["gbt_red_green_pipe_first_room_chest"]
+          },
+          {
+            "name": "Red-Green Pipe First Room Pot SF (Hint)",
+            "chest_unopened_img": "images/equipment/fairy_gb.png",
+            "visibility_rules": ["gbt_red_green_pipe_first_room_pot_sf"]
+          },
+          {
+            "name": "Bio-Baba Hall Chest (Hint)",
+            "visibility_rules": ["gbt_bio_baba_hall_chest"]
+          },
+          {
+            "name": "Froggy Entrance Room Upper Chest (Hint)",
+            "visibility_rules": ["gbt_froggy_entrance_room_upper_chest"]
+          },
+          {
+            "name": "Froggy Entrance Room Underwater Chest (Hint)",
+            "visibility_rules": ["gbt_froggy_entrance_room_underwater_chest"]
+          },
+          {
+            "name": "Froggy Entrance Room Caged Chest (Hint)",
+            "visibility_rules": ["gbt_froggy_entrance_room_caged_chest"]
+          },
+          {
+            "name": "Froggy Entrance Room Pot SF (Hint)",
+            "chest_unopened_img": "images/equipment/fairy_gb.png",
+            "visibility_rules": ["gbt_froggy_entrance_room_pot_sf"]
+          },
+          {
+            "name": "Behind Locked Door Chest (Hint)",
+            "visibility_rules": ["gbt_behind_locked_door_chest"]
+          },
+          {
+            "name": "Room Behind Waterfall Ceiling Chest (Hint)",
+            "visibility_rules": ["gbt_room_behind_waterfall_ceiling_chest"]
+          },
+          {
+            "name": "Green Pipe Freezable Waterwheel Upper Chest (Hint)",
+            "visibility_rules": ["gbt_green_pipe_freezable_waterwheel_upper_chest"]
+          },
+          {
+            "name": "Green Pipe Freezable Waterwheel Lower Chest (Hint)",
+            "visibility_rules": ["gbt_green_pipe_freezable_waterwheel_lower_chest"]
+          },
+          {
+            "name": "Seesaw Room Underwater Barrel SF (Hint)",
+            "chest_unopened_img": "images/equipment/fairy_gb.png",
+            "visibility_rules": ["gbt_seesaw_room_underwater_barrel_sf"]
+          },
+          {
+            "name": "Seesaw Room Chest (Hint)",
+            "visibility_rules": ["gbt_seesaw_room_chest"]
+          },
+          {
+            "name": "Before Boss Room Underneath Platform Bubble SF (Hint)",
+            "chest_unopened_img": "images/equipment/fairy_gb.png",
+            "visibility_rules": ["gbt_before_boss_room_underneath_platform_bubble_sf"]
+          },
+          {
+            "name": "Before Boss Room Exit Tunnel Bubble SF (Hint)",
+            "chest_unopened_img": "images/equipment/fairy_gb.png",
+            "visibility_rules": ["gbt_before_boss_room_exit_tunnel_bubble_sf"]
+          },
+          {
+            "name": "Heart Container (Hint)",
+            "chest_unopened_img": "images/equipment/heart_container.png",
+            "visibility_rules": ["gbt_heart_container"]
+          },
+          {
+            "name": "Gyorg's Remains (Hint)",
+            "chest_unopened_img": "images/equipment/gyorg.png",
+            "visibility_rules": ["gbt_gyorgs_remains"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 50,
+            "y": 350
+          }
+        ]
+      },
+      {
         "name": "Pirates' Hideout Hints",
         "sections": [
           {

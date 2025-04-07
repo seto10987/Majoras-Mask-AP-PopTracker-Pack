@@ -96,6 +96,14 @@
             "name": "Great Bay Great Fairy Reward (Hint)",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
             "visibility_rules": ["great_bay_great_fairy_reward"]
+          },
+          {
+            "name": "Beaver Bros. Race Bottle Reward (Hint)",
+            "visibility_rules": ["beaver_bottle"]
+          },
+          {
+            "name": "Beaver Bros. Race HP (Hint)",
+            "visibility_rules": ["beaver_hp"]
           }
         ]
       },

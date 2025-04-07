@@ -1253,6 +1253,16 @@
     "type": "toggle",
     "codes": "great_bay_great_fairy_reward"
   },
+  {
+    "name": "beaver_bottle",
+    "type": "toggle",
+    "codes": "beaver_bottle"
+  },
+  {
+    "name": "beaver_hp",
+    "type": "toggle",
+    "codes": "beaver_hp"
+  },
   //Zora Hall
   {
     "name": "zora_hall_shop_1",
@@ -1541,5 +1551,116 @@
     "name": "ocean_spider_house_reward",
     "type": "toggle",
     "codes": "ocean_spider_house_reward"
+  },
+  // Great Bay Temple
+  {
+    "name": "gbt_four_torches_chest",
+    "type": "toggle",
+    "codes": "gbt_four_torches_chest"
+  },
+  {
+    "name": "gbt_waterwheel_room_skulltula_sf",
+    "type": "toggle",
+    "codes": "gbt_waterwheel_room_skulltula_sf"
+  },
+  {
+    "name": "gbt_waterwheel_room_bubble_under_platform_sf",
+    "type": "toggle",
+    "codes": "gbt_waterwheel_room_bubble_under_platform_sf"
+  },
+  {
+    "name": "gbt_blender_room_barrel_sf",
+    "type": "toggle",
+    "codes": "gbt_blender_room_barrel_sf"
+  },
+  {
+    "name": "gbt_pot_at_bottom_of_blender_sf",
+    "type": "toggle",
+    "codes": "gbt_pot_at_bottom_of_blender_sf"
+  },
+  {
+    "name": "gbt_red_green_pipe_first_room_chest",
+    "type": "toggle",
+    "codes": "gbt_red_green_pipe_first_room_chest"
+  },
+  {
+    "name": "gbt_red_green_pipe_first_room_pot_sf",
+    "type": "toggle",
+    "codes": "gbt_red_green_pipe_first_room_pot_sf"
+  },
+  {
+    "name": "gbt_bio_baba_hall_chest",
+    "type": "toggle",
+    "codes": "gbt_bio_baba_hall_chest"
+  },
+  {
+    "name": "gbt_froggy_entrance_room_upper_chest",
+    "type": "toggle",
+    "codes": "gbt_froggy_entrance_room_upper_chest"
+  },
+  {
+    "name": "gbt_froggy_entrance_room_underwater_chest",
+    "type": "toggle",
+    "codes": "gbt_froggy_entrance_room_underwater_chest"
+  },
+  {
+    "name": "gbt_froggy_entrance_room_caged_chest",
+    "type": "toggle",
+    "codes": "gbt_froggy_entrance_room_caged_chest"
+  },
+  {
+    "name": "gbt_froggy_entrance_room_pot_sf",
+    "type": "toggle",
+    "codes": "gbt_froggy_entrance_room_pot_sf"
+  },
+  {
+    "name": "gbt_behind_locked_door_chest",
+    "type": "toggle",
+    "codes": "gbt_behind_locked_door_chest"
+  },
+  {
+    "name": "gbt_room_behind_waterfall_ceiling_chest",
+    "type": "toggle",
+    "codes": "gbt_room_behind_waterfall_ceiling_chest"
+  },
+  {
+    "name": "gbt_green_pipe_freezable_waterwheel_upper_chest",
+    "type": "toggle",
+    "codes": "gbt_green_pipe_freezable_waterwheel_upper_chest"
+  },
+  {
+    "name": "gbt_green_pipe_freezable_waterwheel_lower_chest",
+    "type": "toggle",
+    "codes": "gbt_green_pipe_freezable_waterwheel_lower_chest"
+  },
+  {
+    "name": "gbt_seesaw_room_underwater_barrel_sf",
+    "type": "toggle",
+    "codes": "gbt_seesaw_room_underwater_barrel_sf"
+  },
+  {
+    "name": "gbt_seesaw_room_chest",
+    "type": "toggle",
+    "codes": "gbt_seesaw_room_chest"
+  },
+  {
+    "name": "gbt_before_boss_room_underneath_platform_bubble_sf",
+    "type": "toggle",
+    "codes": "gbt_before_boss_room_underneath_platform_bubble_sf"
+  },
+  {
+    "name": "gbt_before_boss_room_exit_tunnel_bubble_sf",
+    "type": "toggle",
+    "codes": "gbt_before_boss_room_exit_tunnel_bubble_sf"
+  },
+  {
+    "name": "gbt_heart_container",
+    "type": "toggle",
+    "codes": "gbt_heart_container"
+  },
+  {
+    "name": "gbt_gyorgs_remains",
+    "type": "toggle",
+    "codes": "gbt_gyorgs_remains"
   }
 ]

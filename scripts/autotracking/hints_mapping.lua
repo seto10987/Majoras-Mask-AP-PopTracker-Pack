@@ -153,9 +153,6 @@ HINTS_MAPPING = {
     [0x3469420051F00] = {"woodfall_temple_heart_container"},
     [0x3469420000055] = {"boss_odolwa"},
     [0x3469420070168] = {"tour_koume_target_shooting"},
-    [0x3469420065300] = {"road_to_ikana_pillar_chest"},
-    [0x3469420060716] = {"road_to_ikana_rock_grotto_chest"},
-    [0x346942000008B] = {"road_to_ikana_stone_soldier"},
     [0x3469420026392] = {"milk_bar_milk_purchase"},
     [0x3469420000091] = {"milk_bar_chateau_romani_purchase"},
     [0x346942009000A] = {"trading_post_shop_item_1"},
@@ -271,6 +268,8 @@ HINTS_MAPPING = {
     [0x3469420072802] = {"zora_hall_torches_reward"},
     [0x3469420082284] = {"zora_hall_good_picture_of_lulu"},
     [0x3469420082282] = {"zora_hall_bad_picture_of_lulu"},
+    [0x346942009018D] = {"beaver_bottle"},
+    [0x346942007018D] = {"beaver_hp"},
 
     -- Pinnacle Rock
     --[] = {"pinnacle_rock_hp"},
@@ -323,5 +322,34 @@ HINTS_MAPPING = {
     [0x346942006280A] = {"osh_storage_room_hidden_hole_token"},
     [0x346942006281A] = {"osh_storage_room_ceiling_pot_token"},
     [0x3469420062800] = {"osh_coloured_mask_sequence_hp"},
-    [0x3469420000009] = {"ocean_spider_house_reward"}
+    [0x3469420000009] = {"ocean_spider_house_reward"},
+
+    -- Great Bay Temple
+    [0x3469420064918] = {"gbt_four_torches_chest"},
+    [0x3469420014932] = {"gbt_waterwheel_room_skulltula_sf"},
+    [0x3469420014930] = {"gbt_waterwheel_room_bubble_under_platform_sf"},
+    [0x346942001491C] = {"gbt_blender_room_barrel_sf"},
+    [0x346942001491B] = {"gbt_pot_at_bottom_of_blender_sf"},
+    [0x346942006491D] = {"gbt_red_green_pipe_first_room_chest"},
+    [0x346942001491E] = {"gbt_red_green_pipe_first_room_pot_sf"},
+    [0x3469420064919] = {"gbt_bio_baba_hall_chest"},
+    [0x346942006491C] = {"gbt_froggy_entrance_room_upper_chest"},
+    [0x3469420064901] = {"gbt_froggy_entrance_room_underwater_chest"},
+    [0x346942006491E] = {"gbt_froggy_entrance_room_caged_chest"},
+    [0x346942001491D] = {"gbt_froggy_entrance_room_pot_sf"},
+    [0x346942006491B] = {"gbt_behind_locked_door_chest"},
+    [0x3469420064915] = {"gbt_room_behind_waterfall_ceiling_chest"},
+    [0x3469420064914] = {"gbt_green_pipe_freezable_waterwheel_upper_chest"},
+    [0x3469420064917] = {"gbt_green_pipe_freezable_waterwheel_lower_chest"},
+    [0x346942001491A] = {"gbt_seesaw_room_underwater_barrel_sf"},
+    [0x3469420064916] = {"gbt_seesaw_room_chest"},
+    [0x3469420014931] = {"gbt_before_boss_room_underneath_platform_bubble_sf"},
+    [0x346942001492F] = {"gbt_before_boss_room_exit_tunnel_bubble_sf"},
+    [0x3469420055F00] = {"gbt_heart_container"},
+    [0x3469420000057] = {"gbt_gyorgs_remains"},
+
+    -- Road to Ikana
+    [0x3469420065300] = {"road_to_ikana_pillar_chest"},
+    [0x3469420060716] = {"road_to_ikana_rock_grotto_chest"},
+    [0x346942000008B] = {"road_to_ikana_stone_soldier"}
 }

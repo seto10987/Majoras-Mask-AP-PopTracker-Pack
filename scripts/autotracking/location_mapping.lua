@@ -266,6 +266,8 @@ LOCATION_MAPPING = {
     [0x3469420063802] = {"@Great Bay/Zora Cape/Tree Chest","@Great Bay Hints/Zora Cape Hints/Tree Chest (Hint)"},
     [0x3469420060715] = {"@Great Bay/Zora Cape/Near Great Fairy Grotto Chest","@Great Bay Hints/Zora Cape Hints/Near Great Fairy Grotto Chest (Hint)"},
     [0x3469420030003] = {"@Great Bay/Zora Cape/Great Bay Great Fairy Reward","@Great Bay Hints/Zora Cape Hints/Great Bay Great Fairy Reward (Hint)"},
+    [0x346942009018D] = {"@Great Bay/Zora Cape/Beaver Bros. Race Bottle Reward","@Great Bay Hint/Zora Cape Hints/Beaver Bros. Race Bottle Reward (Hint)"},
+    [0x346942007018D] = {"@Great Bay/Zora Cape/Beaver Bros. Race HP","@Great Bay Hint/Zora Cape Hints/Beaver Bros. Race HP (Hint)"},
 
     -- Zora Hall
     [0x346942009001B] = {"@Great Bay/Zora Hall/Shop 1","@Great Bay Hints/Zora Hall Hints/Shop 1 (Hint)"},
@@ -331,6 +333,30 @@ LOCATION_MAPPING = {
     [0x346942006281A] = {"@Dungeons/Ocean Spider House/Storage Room Ceiling Pot Token","@Dungeon Hints/Ocean Spider House Hints/Storage Room Ceiling Pot Token (Hint)"},
     [0x3469420062800] = {"@Dungeons/Ocean Spider House/Coloured Mask Sequence HP","@Dungeon Hints/Ocean Spider House Hints/Coloured Mask Sequence HP (Hint)"},
     [0x3469420000009] = {"@Dungeons/Ocean Spider House/Ocean Spider House Reward","@Dungeon Hints/Ocean Spider House Hints/Ocean Spider House Reward (Hint)"},
+
+    -- Great Bay Temple
+    [0x3469420064918] = {"@Dungeons/Great Bay Temple/Four Torches Chest","@Dungeon Hints/Great Bay Temple Hints/Four Torches Chest (Hint)"},
+    [0x3469420014932] = {"@Dungeons/Great Bay Temple/Waterwheel Room Skulltula SF","@Dungeon Hints/Great Bay Temple Hints/Waterwheel Room Skulltula SF (Hint)"},
+    [0x3469420014930] = {"@Dungeons/Great Bay Temple/Waterwheel Room Bubble Under Platform SF","@Dungeon Hints/Great Bay Temple Hints/Waterwheel Room Bubble Under Platform SF (Hint)"},
+    [0x346942001491C] = {"@Dungeons/Great Bay Temple/Blender Room Barrel SF","@Dungeon Hints/Great Bay Temple Hints/Blender Room Barrel SF (Hint)"},
+    [0x346942001491B] = {"@Dungeons/Great Bay Temple/Pot At Bottom Of Blender SF","@Dungeon Hints/Great Bay Temple Hints/Pot At Bottom Of Blender SF (Hint)"},
+    [0x346942006491D] = {"@Dungeons/Great Bay Temple/Red-Green Pipe First Room Chest","@Dungeon Hints/Great Bay Temple Hints/Red-Green Pipe First Room Chest (Hint)"},
+    [0x346942001491E] = {"@Dungeons/Great Bay Temple/Red-Green Pipe First Room Pot SF","@Dungeon Hints/Great Bay Temple Hints/Red-Green Pipe First Room Pot SF (Hint)"},
+    [0x3469420064919] = {"@Dungeons/Great Bay Temple/Bio-Baba Hall Chest","@Dungeon Hints/Great Bay Temple Hints/Bio-Baba Hall Chest (Hint)"},
+    [0x346942006491C] = {"@Dungeons/Great Bay Temple/Froggy Entrance Room Upper Chest","@Dungeon Hints/Great Bay Temple Hints/Froggy Entrance Room Upper Chest (Hint)"},
+    [0x3469420064901] = {"@Dungeons/Great Bay Temple/Froggy Entrance Room Underwater Chest","@Dungeon Hints/Great Bay Temple Hints/Froggy Entrance Room Underwater Chest (Hint)"},
+    [0x346942006491E] = {"@Dungeons/Great Bay Temple/Froggy Entrance Room Caged Chest","@Dungeon Hints/Great Bay Temple Hints/Froggy Entrance Room Caged Chest (Hint)"},
+    [0x346942001491D] = {"@Dungeons/Great Bay Temple/Froggy Entrance Room Pot SF","@Dungeon Hints/Great Bay Temple Hints/Froggy Entrance Room Pot SF (Hint)"},
+    [0x346942006491B] = {"@Dungeons/Great Bay Temple/Behind Locked Door Chest","@Dungeon Hints/Great Bay Temple Hints/Behind Locked Door Chest (Hint)"},
+    [0x3469420064915] = {"@Dungeons/Great Bay Temple/Room Behind Waterfall Ceiling Chest","@Dungeon Hints/Great Bay Temple Hints/Room Behind Waterfall Ceiling Chest (Hint)"},
+    [0x3469420064914] = {"@Dungeons/Great Bay Temple/Green Pipe Freezable Waterwheel Upper Chest","@Dungeon Hints/Great Bay Temple Hints/Green Pipe Freezable Waterwheel Upper Chest (Hint)"},
+    [0x3469420064917] = {"@Dungeons/Great Bay Temple/Green Pipe Freezable Waterwheel Lower Chest","@Dungeon Hints/Great Bay Temple Hints/Green Pipe Freezable Waterwheel Lower Chest (Hint)"},
+    [0x346942001491A] = {"@Dungeons/Great Bay Temple/Seesaw Room Underwater Barrel SF","@Dungeon Hints/Great Bay Temple Hints/Seesaw Room Underwater Barrel SF (Hint)"},
+    [0x3469420064916] = {"@Dungeons/Great Bay Temple/Seesaw Room Chest","@Dungeon Hints/Great Bay Temple Hints/Seesaw Room Chest (Hint)"},
+    [0x3469420014931] = {"@Dungeons/Great Bay Temple/Before Boss Room Underneath Platform Bubble SF","@Dungeon Hints/Great Bay Temple Hints/Before Boss Room Underneath Platform Bubble SF (Hint)"},
+    [0x346942001492F] = {"@Dungeons/Great Bay Temple/Before Boss Room Exit Tunnel Bubble SF","@Dungeon Hints/Great Bay Temple Hints/Before Boss Room Exit Tunnel Bubble SF (Hint)"},
+    [0x3469420055F00] = {"@Dungeons/Great Bay Temple/Heart Container","@Dungeon Hints/Great Bay Temple Hints/Heart Container (Hint)"},
+    [0x3469420000057] = {"@Dungeons/Great Bay Temple/Gyorg's Remains","@Dungeon Hints/Great Bay Temple Hints/Gyorg's Remains (Hint)"},
 
     -- Road to Ikana/Ikana Canyon
     [0x3469420065300] = {"@Ikana Canyon/Road to Ikana Pillar Chest/Road to Ikana Pillar Chest","@Ikana Canyon Hints/Road to Ikana Pillar Chest Hints/Road to Ikana Pillar Chest (Hint)"},

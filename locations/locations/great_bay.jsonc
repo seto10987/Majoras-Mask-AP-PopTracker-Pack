@@ -119,6 +119,14 @@
             "chest_unopened_img": "images/equipment/fairy_gb.png",
             "visibility_rules": ["shuffle_great_fairy_rewards"],
             "access_rules": ["$has|fairy_gb|15, hookshot"]
+          },
+          {
+            "name": "Beaver Bros. Race Bottle Reward",
+            "access_rules": ["hookshot, zora"]
+          },
+          {
+            "name": "Beaver Bros. Race HP",
+            "access_rules": ["hookshot, zora"]
           }
         ]
       },

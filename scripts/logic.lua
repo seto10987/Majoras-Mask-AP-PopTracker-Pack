@@ -124,7 +124,7 @@ function baby_has_paper()
 end
 
 function baby_has_bottle()
-    return has("redpotion") and has("chateau") and has("milk")
+    return has("empty_bottle") and has("redpotion") and has("chateau") and has("milk")
 end
 
 function baby_can_plant_beans()
@@ -395,6 +395,19 @@ function obtainGoldDust()
     end
 end
 
+function obtainEmptyBottle()
+    local bottle_count = Tracker:FindObjectForCode("bottles")
+    if Tracker:FindObjectForCode("empty_bottle").Active then
+        if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
+            bottle_count.AcquiredCount = bottle_count.MaxCount
+        else
+        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
+        end
+    elseif Tracker:FindObjectForCode("empty_bottle").Active == false then
+        bottle_count.AcquiredCount = bottle_count.AcquiredCount - bottle_count.Decrement
+    end
+end
+
 --function bottle_count()
 --    if Tracker:FindObjectForCode("redpotion").Active then
 --        if Tracker:FindObjectForCode("bottle_1").Active then
@@ -422,3 +435,4 @@ ScriptHost:AddWatchForCode("bottlecounter_red", "redpotion", obtainRedPotion)
 ScriptHost:AddWatchForCode("bottlecounter_milk", "milk", obtainMilk)
 ScriptHost:AddWatchForCode("bottlecounter_chateau", "chateau", obtainChateau)
 ScriptHost:AddWatchForCode("bottlecounter_gold", "gold_dust", obtainGoldDust)
+ScriptHost:AddWatchForCode("bottlecounter_empty_bottle", "empty_bottle", obtainEmptyBottle)

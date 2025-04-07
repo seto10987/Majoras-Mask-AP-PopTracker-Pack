@@ -393,9 +393,206 @@
         ]
       },
       {
+        "name": "Great Bay Temple",
+        "access_rules": [
+          "easy_logic, $baby_great_bay_temple",
+          "normal_logic, $great_bay_temple"
+        ],
+        "sections": [
+          {
+            "name": "Four Torches Chest",
+            "access_rules": [
+              "easy_logic, $can_use_fire_arrows",
+              "normal_logic"
+            ]
+          },
+          {
+            "name": "Waterwheel Room Skulltula SF",
+            "chest_unopened_img": "images/equipment/fairy_gb.png",
+            "visibility_rules": ["fairysanity_on"],
+            "access_rules": [
+              "easy_logic, bow, fairymask",
+              "normal_logic, $can_smack_hard"
+            ]
+          },
+          {
+            "name": "Waterwheel Room Bubble Under Platform SF",
+            "chest_unopened_img": "images/equipment/fairy_gb.png",
+            "visibility_rules": ["fairysanity_on"],
+            "access_rules": [
+              "easy_logic, zora, bow, fairymask",
+              "normal_logic, zora",
+              "normal_logic, $has_projectiles, fairymask"
+            ]
+          },
+          {
+            "name": "Blender Room Barrel SF",
+            "chest_unopened_img": "images/equipment/fairy_gb.png",
+            "visibility_rules": ["fairysanity_on"],
+            "access_rules": [
+              "easy_logic, zora, bow, fairymask",
+              "normal_logic"
+            ]
+          },
+          {
+            "name": "Pot At Bottom Of Blender SF",
+            "chest_unopened_img": "images/equipment/fairy_gb.png",
+            "visibility_rules": ["fairysanity_on"],
+            "access_rules": [
+              "easy_logic, zora, bow, fairymask",
+              "normal_logic"
+            ]
+          },
+          {
+            "name": "Red-Green Pipe First Room Chest",
+            "access_rules": [
+              "easy_logic, $can_use_ice_arrows, zora, bow, hookshot, deku",
+              "normal_logic, $can_use_ice_arrows",
+              "normal_logic, deku"
+            ]
+          },
+          {
+            "name": "Red-Green Pipe First Room Pot SF",
+            "chest_unopened_img": "images/equipment/fairy_gb.png",
+            "visibility_rules": ["fairysanity_on"],
+            "access_rules": [
+              "easy_logic, $can_use_ice_arrows, zora, bow, fairymask, deku",
+              "normal_logic, $can_use_ice_arrows",
+              "normal_logic, $has_projectiles, fairymask",
+              "normal_logic, deku"
+            ]
+          },
+          {
+            "name": "Bio-Baba Hall Chest",
+            "access_rules": [
+              "easy_logic, zora, bow, hookshot",
+              "normal_logic"
+            ]
+          },
+          {
+            "name": "Froggy Entrance Room Upper Chest",
+            "access_rules": [
+              "easy_logic, zora, hookshot",
+              "normal_logic"
+            ]
+          },
+          {
+            "name": "Froggy Entrance Room Underwater Chest",
+            "access_rules": [
+              "easy_logic, zora",
+              "normal_logic"
+            ]
+          },
+          {
+            "name": "Froggy Entrance Room Caged Chest",
+            "access_rules": [
+              "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, zora",
+              "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows"
+            ]
+          },
+          {
+            "name": "Froggy Entrance Room Pot SF",
+            "chest_unopened_img": "images/equipment/fairy_gb.png",
+            "visibility_rules": ["fairysanity_on"],
+            "access_rules": [
+              "easy_logic, zora, bow, fairymask",
+              "normal_logic"
+            ]
+          },
+          {
+            "name": "Behind Locked Door Chest",
+            "access_rules": [
+              "easy_logic, smallkey_gb, bow, $baby_has_explosives, fairysword, mirrorshield, zora",
+              "normal_logic, smallkey_gb, $can_smack_hard",
+              "normal_logic, smallkey_gb, $has_explosives",
+              "normal_logic, smallkey_gb, bow"
+            ]
+          },
+          {
+            "name": "Room Behind Waterfall Ceiling Chest",
+            "access_rules": [
+              "easy_logic, $can_use_ice_arrows, hookshot, zora",
+              "normal_logic, $can_use_ice_arrows, hookshot"
+            ]
+          },
+          {
+            "name": "Green Pipe Freezable Waterwheel Upper Chest",
+            "access_rules": [
+              "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot, zora",
+              "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
+            ]
+          },
+          {
+            "name": "Green Pipe Freezable Waterwheel Lower Chest",
+            "access_rules": [
+              "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot, zora",
+              "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
+            ]
+          },
+          {
+            "name": "Seesaw Room Underwater Barrel SF",
+            "chest_unopened_img": "images/equipment/fairy_gb.png",
+            "visibility_rules": ["fairysanity_on"],
+            "access_rules": [
+              "easy_logic, zora, $can_use_ice_arrows, $can_use_fire_arrows, bombchu_bag",
+              "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows"
+            ]
+          },
+          {
+            "name": "Seesaw Room Chest",
+            "access_rules": [
+              "easy_logic, $can_use_ice_arrows, $can_use_fire_arrows, zora, hookshot",
+              "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot"
+            ]
+          },
+          {
+            "name": "Before Boss Room Underneath Platform Bubble SF",
+            "chest_unopened_img": "images/equipment/fairy_gb.png",
+            "visibility_rules": ["fairysanity_on"],
+            "access_rules": [
+              "easy_logic, zora, fairymask, $can_use_ice_arrows, $can_use_fire_arrows",
+              "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, fairymask",
+              "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, deku"
+            ]
+          },
+          {
+            "name": "Before Boss Room Exit Tunnel Bubble SF",
+            "chest_unopened_img": "images/equipment/fairy_gb.png",
+            "visibility_rules": ["fairysanity_on"],
+            "access_rules": [
+              "easy_logic, zora, fairymask, $can_use_ice_arrows, $can_use_fire_arrows",
+              "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows"
+            ]
+          },
+          {
+            "name": "Heart Container",
+            "chest_unopened_img": "images/equipment/heart_container.png",
+            "access_rules": [
+              "easy_logic, zora, hookshot, $can_use_ice_arrows, $can_use_fire_arrows, bosskey_gb",
+              "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot, bosskey_gb",
+              "normal_logic, gyorg, magic"
+            ]
+          },
+          {
+            "name": "Gyorg's Remains",
+            "chest_unopened_img": "images/equipment/gyorg.png",
+            "access_rules": [
+              "easy_logic, zora, hookshot, $can_use_ice_arrows, $can_use_fire_arrows, bosskey_gb",
+              "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot, bosskey_gb",
+              "normal_logic, gyorg, magic"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 58,
+            "y": 350
+          }
+        ]
+      },
+      {
         "name": "Pirates' Fortress",
-        "chest_unopened_img": "images/icons/chest.png",
-        "chest_opened_img": "images/icons/check_32.png",
         "access_rules": ["$pirates_fortress"],
         "sections": [
           {

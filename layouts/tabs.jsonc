@@ -11,7 +11,7 @@
               "title": "Termina",
               "content": {
                 "type": "map",
-                "maps": ["termina"]
+                "maps": ["overworld"]
               }
             }
           ]

@@ -13,7 +13,7 @@ Tracker:AddLocations("locations/locations/woodfall_temple.jsonc")
 
 -- Hints
 Tracker:AddLocations("locations/hints/clock_town_hints.jsonc")
-Tracker:AddLocations("locations/hints/dungeons_hints.jsonc")
+Tracker:AddLocations("locations/hints/dungeon_hints.jsonc")
 Tracker:AddLocations("locations/hints/great_bay_hints.jsonc")
 Tracker:AddLocations("locations/hints/ikana_canyon_hints.jsonc")
 Tracker:AddLocations("locations/hints/romani_ranch_hints.jsonc")

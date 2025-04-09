@@ -123,7 +123,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 534,
             "y": 478
           }
@@ -249,7 +249,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 481,
             "y": 38
           }
@@ -360,7 +360,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 50,
             "y": 350
           }
@@ -421,7 +421,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 302,
             "y": 242
           }
@@ -560,7 +560,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 490,
             "y": 494
           }
@@ -703,7 +703,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 299,
             "y": 347
           }

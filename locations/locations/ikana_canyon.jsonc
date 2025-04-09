@@ -14,7 +14,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 620,
             "y": 300
           }
@@ -30,7 +30,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 647,
             "y": 300
           }
@@ -50,7 +50,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 681,
             "y": 312
           }

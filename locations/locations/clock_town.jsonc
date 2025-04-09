@@ -14,7 +14,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 117,
             "y": 129
           }
@@ -31,7 +31,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 90,
             "y": 156
           }
@@ -51,7 +51,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 117,
             "y": 184
           }
@@ -67,7 +67,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 157,
             "y": 210
           }
@@ -84,27 +84,27 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 210,
             "y": 77
           },
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 225,
             "y": 170
           },
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 97,
             "y": 206
           },
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 148,
             "y": 116
           },
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 157,
             "y": 58
           }
@@ -124,7 +124,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 98,
             "y": 55
           }
@@ -140,7 +140,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 150,
             "y": 26
           }
@@ -162,7 +162,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 62,
             "y": 72
           }
@@ -190,7 +190,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 46,
             "y": 55
           }
@@ -207,12 +207,12 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 143,
             "y": 16
           },
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 461,
             "y": 364
           }
@@ -235,7 +235,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 145,
             "y": 70
           }
@@ -250,7 +250,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 170,
             "y": 210
           }
@@ -271,7 +271,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 214,
             "y": 41
           }
@@ -301,7 +301,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 235,
             "y": 157
           }
@@ -322,7 +322,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 211,
             "y": 191
           }
@@ -338,7 +338,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 175,
             "y": 166
           }
@@ -357,7 +357,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 235,
             "y": 62
           }
@@ -413,7 +413,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 185,
             "y": 115
           }
@@ -453,7 +453,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 216,
             "y": 111
           }
@@ -472,7 +472,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 38,
             "y": 111
           }
@@ -503,7 +503,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 48,
             "y": 155
           }
@@ -520,7 +520,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 30,
             "y": 91
           }
@@ -542,7 +542,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 44,
             "y": 91
           }
@@ -558,7 +558,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 50,
             "y": 214
           }
@@ -575,7 +575,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 24,
             "y": 207
           }
@@ -603,7 +603,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 21,
             "y": 173
           }
@@ -641,7 +641,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 117,
             "y": 95
           }
@@ -651,7 +651,7 @@
         "name": "Trading Post",
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 33,
             "y": 169
           }
@@ -768,7 +768,7 @@
         "chest_unopened_img": "images/icons/bomb_shop_sign.png",
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 21,
             "y": 148
           }
@@ -817,7 +817,7 @@
         "chest_unopened_img": "images/icons/curiosity_shop.png",
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 50,
             "y": 182
           }
@@ -848,7 +848,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 121,
             "y": 33
           }
@@ -869,7 +869,7 @@
         "chest_unopened_img": "images/icons/lottery.png",
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 55,
             "y": 129
           }

@@ -9,7 +9,7 @@
         "name": "Great Bay Coast",
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 236,
             "y": 323
           }
@@ -75,7 +75,7 @@
         "name": "Zora Cape",
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 294,
             "y": 393
           }
@@ -134,7 +134,7 @@
         "name": "Zora Hall",
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 215,
             "y": 394
           }
@@ -203,7 +203,7 @@
         "name": "Pinnacle Rock",
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 145,
             "y": 300
           }

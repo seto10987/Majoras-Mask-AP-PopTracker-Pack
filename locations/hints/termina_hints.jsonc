@@ -21,7 +21,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 555,
             "y": 352
           }
@@ -38,7 +38,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 574,
             "y": 302
           }
@@ -55,7 +55,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 499,
             "y": 339
           }
@@ -72,7 +72,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 505,
             "y": 332
           }
@@ -89,7 +89,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 533,
             "y": 260
           }
@@ -106,7 +106,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 505,
             "y": 260
           }
@@ -123,7 +123,7 @@
         ],
         "map_locations":[
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 475,
             "y": 328
           }
@@ -140,17 +140,17 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 540,
             "y": 273
           },
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 591,
             "y": 320
           },
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 490,
             "y": 299
           }
@@ -167,7 +167,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 582,
             "y": 347
           }
@@ -184,7 +184,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 575,
             "y": 328
           }
@@ -194,7 +194,7 @@
         "name": "Termina Log Bombable Grotto Hints",
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 531,
             "y": 348
           }

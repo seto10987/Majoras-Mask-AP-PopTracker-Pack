@@ -9,7 +9,7 @@
         "name": "Great Bay Coast Hints",
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 228,
             "y": 323
           }
@@ -60,7 +60,7 @@
         "name": "Zora Cape Hints",
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 286,
             "y": 393
           }
@@ -111,7 +111,7 @@
         "name": "Zora Hall Hints",
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 207,
             "y": 394
           }
@@ -173,7 +173,7 @@
         "name": "Pinnacle Rock Hints",
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 137,
             "y": 300
           }

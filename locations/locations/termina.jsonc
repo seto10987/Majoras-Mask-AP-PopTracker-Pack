@@ -24,7 +24,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 563,
             "y": 352
           }
@@ -39,7 +39,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 582,
             "y": 302
           }
@@ -55,7 +55,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 478,
             "y": 329
           }
@@ -71,7 +71,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 513,
             "y": 332
           }
@@ -87,7 +87,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 525,
             "y": 260
           }
@@ -104,7 +104,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 513,
             "y": 260
           }
@@ -125,7 +125,7 @@
         ],
         "map_locations":[
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 475,
             "y": 309
           }
@@ -145,7 +145,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 590,
             "y": 347
           }
@@ -162,7 +162,7 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 583,
             "y": 328
           }
@@ -184,22 +184,22 @@
         ],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 548,
             "y": 273
           },
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 599,
             "y": 320
           },
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 498,
             "y": 299
           },
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 515,
             "y": 345
           }
@@ -210,7 +210,7 @@
         "access_rules": ["easy_logic, $baby_has_explosives", "normal_logic, $has_explosives"],
         "map_locations": [
           {
-            "map": "termina",
+            "map": "overworld",
             "x": 539,
             "y": 348
           }

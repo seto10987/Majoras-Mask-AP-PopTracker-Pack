@@ -94,6 +94,7 @@ LOCATION_MAPPING = {
 
     -- Milk Road/Romani Ranch
     [0x34694200000B7] = {"@Romani Ranch/Tingle Milk Road/Romani Ranch Map Purchase","@Romani Ranch Hints/Tingle Milk Road Hints/Romani Ranch Map Purchase (Hint)"},
+    [0x34694200000B8] = {"@Romani Ranch/Tingle Milk Road/Great Bay Map Purchase","@Romani Ranch Hints/Tingle Milk Road Hints/Great Bay Map Purchase (Hint)"},
     [0x3469420000081] = {"@Romani Ranch/Gorman Track/Race","@Romani Ranch Hints/Gorman Track Hints/Race (Hint)"},
     [0x3469420006792] = {"@Romani Ranch/Gorman Track/Purchase","@Romani Ranch Hints/Gorman Track Hints/Purchase (Hint)"},
     [0x346942000007F] = {"@Romani Ranch/Cucco Shack/Bremen Mask March Baby Cuccos","@Romani Ranch Hints/Cucco Shack Hints/Bremen Mask March Baby Cuccos (Hint)"},
@@ -358,10 +359,18 @@ LOCATION_MAPPING = {
     [0x3469420055F00] = {"@Dungeons/Great Bay Temple/Heart Container","@Dungeon Hints/Great Bay Temple Hints/Heart Container (Hint)"},
     [0x3469420000057] = {"@Dungeons/Great Bay Temple/Gyorg's Remains","@Dungeon Hints/Great Bay Temple Hints/Gyorg's Remains (Hint)"},
 
-    -- Road to Ikana/Ikana Canyon
-    [0x3469420065300] = {"@Ikana Canyon/Road to Ikana Pillar Chest/Road to Ikana Pillar Chest","@Ikana Canyon Hints/Road to Ikana Pillar Chest Hints/Road to Ikana Pillar Chest (Hint)"},
-    [0x3469420060716] = {"@Ikana Canyon/Road to Ikana Rock Grotto Chest/Road to Ikana Rock Grotto Chest","@Ikana Canyon Hints/Road to Ikana Rock Grotto Chest Hints/Road to Ikana Rock Grotto Chest (Hint)"},
-    [0x346942000008B] = {"@Ikana Canyon/Road to Ikana Stone Soldier/Road to Ikana Stone Soldier","@Ikana Canyon Hints/Road to Ikana Stone Soldier Hints/Road to Ikana Stone Soldier (Hint)"}
+    -- Road to Ikana
+    [0x3469420065300] = {"@Ikana/Road to Ikana Pillar Chest/Road to Ikana Pillar Chest","@Ikana Hints/Road to Ikana Pillar Chest Hints/Road to Ikana Pillar Chest (Hint)"},
+    [0x3469420060716] = {"@Ikana/Road to Ikana Rock Grotto Chest/Road to Ikana Rock Grotto Chest","@Ikana Hints/Road to Ikana Rock Grotto Chest Hints/Road to Ikana Rock Grotto Chest (Hint)"},
+    [0x346942000008B] = {"@Ikana/Road to Ikana Stone Soldier/Road to Ikana Stone Soldier","@Ikana Hints/Road to Ikana Stone Soldier Hints/Road to Ikana Stone Soldier (Hint)"},
+
+    -- Graveyard
+    [0x3469420060718] = {"@Ikana/Graveyard/Bombable Grotto Chest","@Ikana Hints/Graveyard Hints/Bombable Grotto Chest (Hint)"},
+    [0x3469420060C03] = {"@Ikana/Graveyard/Day 1 Bats Chest","@Ikana Hints/Graveyard Hints/Day 1 Bats Chest (Hint)"},
+    [0x34694200000A2] = {"@Ikana/Graveyard/Day 1 Iron Knuckle Song","@Ikana Hints/Graveyard Hints/Day 1 Iron Knuckle Song (Hint)"},
+    [0x3469420060C00] = {"@Ikana/Graveyard/Day 2 Iron Knuckle Chest","@Ikana Hints/Graveyard Hints/Day 2 Iron Knuckle Chest (Hint)"},
+    [0x3469420063000] = {"@Ikana/Graveyard/Day 3 Dampe Big Poe Chest","@Ikana Hints/Graveyard Hints/Day 3 Dampe Big Poe Chest (Hint)"},
+    [0x3469420064300] = {"@Ikana/Graveyard/Sonata To Wake Sleeping Skeleton Chest","@Ikana Hints/Graveyard Hints/Sonata To Wake Sleeping Skeleton Chest (Hint)"}
 }
 
 

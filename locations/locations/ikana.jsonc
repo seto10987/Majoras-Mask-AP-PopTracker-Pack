@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Ikana",
+    "chest_unopened_img": "images/icons/chest.png",
+    "chest_opened_img": "images/icons/check_32.png",
+    "children": [
+      {
+        "name": "Road to Ikana Pillar Chest",
+        "sections": [
+          {
+            "name": "Road to Ikana Pillar Chest",
+            "access_rules": ["hookshot"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 620,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Road to Ikana Rock Grotto Chest",
+        "sections": [
+          {
+            "name": "Road to Ikana Rock Grotto Chest",
+            "access_rules": ["goron"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 647,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Road to Ikana Stone Soldier",
+        "sections": [
+          {
+            "name": "Road to Ikana Stone Soldier",
+            "chest_unopened_img": "images/characters/shiro.png",
+            "access_rules": [
+              "easy_logic, $can_play_eponas, $baby_has_bottle, $can_use_lens",
+              "normal_logic, $can_play_eponas, redpotion, $can_use_lens"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 681,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Graveyard",
+        "access_rules": ["$graveyard"],
+        "sections": [
+          {
+            "name": "Bombable Grotto Chest",
+            "access_rules": [
+              "easy_logic, $baby_has_explosives",
+              "normal_logic, $has_explosives"
+            ]
+          },
+          {
+            "name": "Day 1 Bats Chest",
+            "access_rules": [
+              "easy_logic, captainhat, $baby_can_smack_hard, magic",
+              "normal_logic, captainhat, $can_smack"
+            ]
+          },
+          {
+            "name": "Day 1 Iron Knuckle Song",
+            "chest_unopened_img": "images/equipment/song_storms_no_text.png",
+            "access_rules": [
+              "easy_logic, captainhat, $baby_can_smack_hard, $can_use_fire_arrows",
+              "normal_logic, captainhat, $can_smack_hard"
+            ]
+          },
+          {
+            "name": "Day 2 Iron Knuckle Chest",
+            "access_rules": [
+              "easy_logic, captainhat, $baby_can_smack_hard, $baby_has_explosives",
+              "normal_logic, captainhat, $can_smack_hard, $has_explosives"
+            ]
+          },
+          {
+            "name": "Day 3 Dampe Big Poe Chest",
+            "access_rules": [
+              "easy_logic, captainhat, bow",
+              "normal_logic, captainhat, bow",
+              "normal_logic, captainhat, zora"
+            ]
+          },
+          {
+            "name": "Sonata To Wake Sleeping Skeleton Chest",
+            "access_rules": [
+              "easy_logic, $can_play_sonata, $baby_can_smack_hard, bow",
+              "normal_logic, $can_play_sonata, $can_smack_hard"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 685,
+            "y": 257
+          }
+        ]
+      }
+    ]
+  }
+]
+

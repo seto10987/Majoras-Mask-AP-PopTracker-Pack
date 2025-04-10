@@ -9,6 +9,10 @@
           {
             "name": "Romani Ranch Map Purchase (Hint)",
             "visibility_rules": ["romani_ranch_map_purchase"]
+          },
+          {
+            "name": "Great Bay Map Purchase (Hint)",
+            "visibility_rules": ["great_bay_map_purchase"]
           }
         ],
         "map_locations": [

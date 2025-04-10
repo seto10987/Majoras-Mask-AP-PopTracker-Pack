@@ -62,6 +62,7 @@ HINTS_MAPPING = {
     [0x34694200700EF] = {"termina_gossip_stones_hp"},
     [0x346942007024C] = {"termina_business_scrub_grotto_hp"},
     [0x34694200000B7] = {"romani_ranch_map_purchase"},
+    [0x34694200000B8] = {"great_bay_map_purchase"},
     [0x3469420000081] = {"milk_road_gorman_ranch_race"},
     [0x3469420006792] = {"gorman_track_purchase"},
     [0x346942000007F] = {"romani_ranch_grog"},
@@ -351,5 +352,13 @@ HINTS_MAPPING = {
     -- Road to Ikana
     [0x3469420065300] = {"road_to_ikana_pillar_chest"},
     [0x3469420060716] = {"road_to_ikana_rock_grotto_chest"},
-    [0x346942000008B] = {"road_to_ikana_stone_soldier"}
+    [0x346942000008B] = {"road_to_ikana_stone_soldier"},
+
+    -- Graveyard
+    [0x3469420060718] = {"graveyard_bombable_grotto_chest"},
+    [0x3469420060C03] = {"graveyard_day_1_bats_chest"},
+    [0x34694200000A2] = {"graveyard_day_1_song"},
+    [0x3469420060C00] = {"graveyard_day_2_chest"},
+    [0x3469420063000] = {"graveyard_day_3_chest"},
+    [0x3469420064300] = {"graveyard_captains_hat_chest"}
 }

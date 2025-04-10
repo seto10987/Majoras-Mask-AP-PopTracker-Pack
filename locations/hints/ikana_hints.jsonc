@@ -1,0 +1,95 @@
+[
+  {
+    "name": "Ikana Hints",
+    "access_rules": ["{}"],
+    "children": [
+      {
+        "name": "Road to Ikana Pillar Chest Hints",
+        "sections": [
+          {
+            "name": "Road to Ikana Pillar Chest (Hint)",
+            "visibility_rules": ["road_to_ikana_pillar_chest"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 612,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Road to Ikana Rock Grotto Chest Hints",
+        "sections": [
+          {
+            "name": "Road to Ikana Rock Grotto Chest (Hint)",
+            "visibility_rules": ["road_to_ikana_rock_grotto_chest"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 639,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Road to Ikana Stone Soldier Hints",
+        "sections": [
+          {
+            "name": "Road to Ikana Stone Soldier (Hint)",
+            "visibility_rules": ["road_to_ikana_stone_soldier"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 673,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Graveyard Hints",
+        "access_rules": ["$graveyard"],
+        "sections": [
+          {
+            "name": "Bombable Grotto Chest (Hint)",
+            "visibility_rules": ["graveyard_bombable_grotto_chest"]
+          },
+          {
+            "name": "Day 1 Bats Chest (Hint)",
+            "visibility_rules": ["graveyard_day_1_bats_chest"]
+          },
+          {
+            "name": "Day 1 Iron Knuckle Song (Hint)",
+            "chest_unopened_img": "images/equipment/song_storms_no_text.png",
+            "visibility_rules": ["graveyard_day_1_song"]
+          },
+          {
+            "name": "Day 2 Iron Knuckle Chest (Hint)",
+            "visibility_rules": ["graveyard_day_2_chest"]
+          },
+          {
+            "name": "Day 3 Dampe Big Poe Chest (Hint)",
+            "visibility_rules": ["graveyard_day_3_chest"]
+          },
+          {
+            "name": "Sonata To Wake Sleeping Skeleton Chest (Hint)",
+            "visibility_rules": ["graveyard_captains_hat_chest"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 677,
+            "y": 257
+          }
+        ]
+      }
+    ]
+  }
+]
+

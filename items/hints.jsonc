@@ -909,6 +909,11 @@
     "type": "toggle",
     "codes": "romani_ranch_map_purchase"
   },
+  {
+    "name": "great_bay_map_purchase",
+    "type": "toggle",
+    "codes": "great_bay_map_purchase"
+  },
   //Snowhead Hints
   {
     "name": "snowhead_map_purchase",
@@ -1662,5 +1667,36 @@
     "name": "gbt_gyorgs_remains",
     "type": "toggle",
     "codes": "gbt_gyorgs_remains"
+  },
+  // Graveyard
+  {
+    "name": "graveyard_bombable_grotto_chest",
+    "type": "toggle",
+    "codes": "graveyard_bombable_grotto_chest"
+  },
+  {
+    "name": "graveyard_day_1_bats_chest",
+    "type": "toggle",
+    "codes": "graveyard_day_1_bats_chest"
+  },
+  {
+    "name": "graveyard_day_1_song",
+    "type": "toggle",
+    "codes": "graveyard_day_1_song"
+  },
+  {
+    "name": "graveyard_day_2_chest",
+    "type": "toggle",
+    "codes": "graveyard_day_2_chest"
+  },
+  {
+    "name": "graveyard_day_3_chest",
+    "type": "toggle",
+    "codes": "graveyard_day_3_chest"
+  },
+  {
+    "name": "graveyard_captains_hat_chest",
+    "type": "toggle",
+    "codes": "graveyard_captains_hat_chest"
   }
 ]

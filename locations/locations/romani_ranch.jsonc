@@ -18,6 +18,14 @@
               "easy_logic, $baby_has_projectiles",
               "normal_logic, $has_projectiles"
             ]
+          },
+          {
+            "name": "Great Bay Map Purchase",
+            "chest_unopened_img": "images/equipment/rmap_greatbay.png",
+            "access_rules": [
+              "easy_logic, $baby_has_projectiles",
+              "normal_logic, $has_projectiles"
+            ]
           }
         ],
         "map_locations": [

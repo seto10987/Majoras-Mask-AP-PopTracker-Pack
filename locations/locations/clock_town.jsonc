@@ -809,6 +809,14 @@
               "shopsanity_advanced"
             ]
             //same requirements as North Clock Town Save Old Lady
+          },
+          {
+            "name": "Powder Keg Goron",
+            "access_rules": ["goron, powderkeg"],
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
           }
         ]
       },

@@ -138,10 +138,10 @@
             "name": "Deku Trade Freestanding HP (Hint)",
             "visibility_rules": ["goron_village_scrub_freestanding_hp"]
           },
-          //{
-          //  "name": "Powder Keg Goron Reward (Hint)",
-          //  "visibility_rules": ["goron_village_powder_keg"]
-          //},
+          {
+            "name": "Powder Keg Goron Reward (Hint)",
+            "visibility_rules": ["goron_village_powder_keg"]
+          },
           {
             "name": "Deku Trade Freestanding HP (Spring) (Hint)",
             "visibility_rules": ["goron_village_scrub_freestanding_hp_spring"]

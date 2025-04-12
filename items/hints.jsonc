@@ -805,6 +805,11 @@
     "codes": "bomb_shop_bomb_bag_purchase"
   },
   {
+    "name": "bomb_shop_powder_keg_goron",
+    "type": "toggle",
+    "codes": "bomb_shop_powder_keg_goron"
+  },
+  {
     "name": "curiosity_shop_stop_thief",
     "type": "toggle",
     "codes": "curiosity_shop_stop_thief"
@@ -1035,11 +1040,11 @@
     "type": "toggle",
     "codes": "goron_village_scrub_freestanding_hp"
   },
-  //{
-  //  "name": "goron_village_powder_keg",
-  //  "type": "toggle",
-  //  "codes": "goron_village_powder_keg"
-  //},
+  {
+    "name": "goron_village_powder_keg",
+    "type": "toggle",
+    "codes": "goron_village_powder_keg"
+  },
   {
     "name": "goron_village_scrub_freestanding_hp_spring",
     "type": "toggle",

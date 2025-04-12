@@ -653,6 +653,10 @@
             {
               "name": "Bomb Bag Purchase (Hint)",
               "visibility_rules": ["bomb_shop_bomb_bag_purchase"]
+            },
+            {
+              "name": "Powder Keg Goron (Hint)",
+              "visibility_rules": ["bomb_shop_powder_keg_goron"]
             }
           ]
         },

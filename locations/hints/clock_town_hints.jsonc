@@ -693,6 +693,9 @@
             {
               "name": "Clock Town Map Purchase (Hint)",
               "visibility_rules": ["clock_town_map_purchase"]
+            },
+            {
+              "ref": "Southern Swamp Hints/Tingle Southern Swamp Hints/Woodfall Map Purchase (Hint)"
             }
           ]
         },

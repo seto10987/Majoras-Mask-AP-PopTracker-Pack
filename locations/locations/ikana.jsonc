@@ -112,8 +112,77 @@
             "y": 257
           }
         ]
+      },
+      {
+        "name": "Ikana Canyon",
+        "access_rules": [
+          "easy_logic, $baby_ikana_canyon",
+          "normal_logic, $ikana_canyon"
+        ],
+        "sections": [
+          {
+            "name": "Grotto Chest",
+            "access_rules": [""]
+          },
+          {
+            "name": "Deku Scrub Purchase Blue Potion",
+            "visibility_rules": ["scrubsanity"],
+            "access_rules": [
+              "easy_logic, zora, $baby_has_bottle, adultwallet",
+              "normal_logic, zora, $has|bottles|1, adultwallet"
+            ]
+          },
+          {
+            "name": "Zora Trade Freestanding HP",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
+            "access_rules": ["deku, zora, oceandeed"]
+          },
+          {
+            "ref": "Clock Town/Tingle Clock Town/Clock Town Map Purchase"
+          },
+          {
+            "name": "Stone Tower Map Purchase",
+            "chest_unopened_img": "images/equipment/rmap_stonetower.png",
+            "visibility_rules": [
+              "shuffle_regional_maps_vanilla",
+              "shuffle_regional_maps_anywhere"
+            ],
+            "access_rules": [
+              "easy_logic, $can_use_ice_arrows, $baby_has_projectiles, $great_bay",
+              "normal_logic, $has_projectiles, $great_bay"
+            ]
+          },
+          {
+            "name": "Music Box Mummy",
+            "chest_unopened_img": "images/masks/gibdo.png",
+            "access_rules": [
+              "easy_logic, $can_use_ice_arrows, $can_play_healing, $can_play_storms, $baby_has_explosives, stonemask",
+              "normal_logic, $can_use_ice_arrows, $can_play_healing, $can_play_storms"
+            ]
+          },
+          {
+            "name": "Spirit House",
+            "access_rules": [
+              "easy_logic, $can_use_ice_arrows, $baby_has_projectiles, shield, $baby_can_smack",
+              "normal_logic, $can_use_ice_arrows, bow",
+              "normal_logic, $can_use_ice_arrows, hookshot"
+            ]
+          },
+          {
+            "name": "Stone Tower Great Fairy Reward",
+            "chest_unopened_img": "images/equipment/fairy_st.png",
+            "visibility_rules": ["shuffle_great_fairy_rewards"],
+            "access_rules": ["$can_use_ice_arrows, $has|fairy_st|15"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 826,
+            "y": 251
+          }
+        ]
       }
     ]
   }
 ]
-

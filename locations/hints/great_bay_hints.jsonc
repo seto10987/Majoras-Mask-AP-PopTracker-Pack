@@ -30,6 +30,12 @@
             "visibility_rules": ["lab_new_wave_bossa_nova"]
           },
           {
+            "ref": "Romani Ranch Hints/Tingle Milk Road Hints/Great Bay Map Purchase (Hint)"
+          },
+          {
+            "ref": "Ikana Hints/Ikana Canyon Hints/Stone Tower Map Purchase (Hint)"
+          },
+          {
             "name": "Marine Research Lab Feeding Fish (Hint)",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "visibility_rules": ["lab_feed_fish"]

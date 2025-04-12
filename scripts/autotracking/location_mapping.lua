@@ -378,7 +378,16 @@ LOCATION_MAPPING = {
     [0x3469420066001] = {"@Dungeons/Secret Shrine/Middle-Left Chest","Dungeon Hints/Secret Shrine Hints/Middle-Left Chest (Hint)"},
     [0x3469420066002] = {"@Dungeons/Secret Shrine/Middle-Right Chest","Dungeon Hints/Secret Shrine Hints/Middle-Right Chest (Hint)"},
     [0x3469420066003] = {"@Dungeons/Secret Shrine/Right Chest","Dungeon Hints/Secret Shrine Hints/Right Chest (Hint)"},
-    [0x346942006600A] = {"@Dungeons/Secret Shrine/Center Chest","Dungeon Hints/Secret Shrine Hints/Center Chest (Hint)"}
+    [0x346942006600A] = {"@Dungeons/Secret Shrine/Center Chest","Dungeon Hints/Secret Shrine Hints/Center Chest (Hint)"},
+
+    -- Ikana Canyon
+    [0x3469420060714] = {"@Ikana/Ikana Canyon/Grotto Chest","@Ikana Hints/Ikana Canyon Hints/Grotto Chest (Hint)"},
+    [0x346942009015D] = {"@Ikana/Ikana Canyon/Deku Scrub Purchase Blue Potion","@Ikana Hints/Ikana Canyon Hints/Deku Scrub Purchase Blue Potion (Hint)"},
+    [0x346942005131E] = {"@Ikana/Ikana Canyon/Zora Trade Freestanding HP","@Ikana Hints/Ikana Canyon Hints/Zora Trade Freestanding HP (Hint)"},
+    [0x34694200000B9] = {"@Ikana/Ikana Canyon/Stone Tower Map Purchase","@Ikana Hints/Ikana Canyon Hints/Stone Tower Map Purchase (Hint)"},
+    [0x3469420000087] = {"@Ikana/Ikana Canyon/Music Box Mummy","@Ikana Hints/Ikana Canyon Hints/Music Box Mummy (Hint)"},
+    [0x34694200701DE] = {"@Ikana/Ikana Canyon/Spirit House","@Ikana Hints/Ikana Canyon Hints/Spirit House (Hint)"},
+    [0x3469420030004] = {"@Ikana/Ikana Canyon/Stone Tower Great Fairy Reward","@Ikana Hints/Ikana Canyon Hints/Stone Tower Great Fairy Reward (Hint)"}
 }
 
 

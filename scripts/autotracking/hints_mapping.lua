@@ -368,5 +368,14 @@ HINTS_MAPPING = {
     [0x3469420066001] = {"secret_shrine_middle_left_chest"},
     [0x3469420066002] = {"secret_shrine_middle_right_chest"},
     [0x3469420066003] = {"secret_shrine_right_chest"},
-    [0x346942006600A] = {"secret_shrine_center_chest"}
+    [0x346942006600A] = {"secret_shrine_center_chest"},
+
+    -- Ikana Canyon
+    [0x3469420060714] = {"ikana_canyon_grotto_chest"},
+    [0x346942009015D] = {"ikana_canyon_scrub_purchase_blue_potion"},
+    [0x346942005131E] = {"ikana_canyon_deed_trade"},
+    [0x34694200000B9] = {"stone_tower_map_purchase"},
+    [0x3469420000087] = {"ikana_canyon_music_box"},
+    [0x34694200701DE] = {"ikana_canyon_spirit_house"},
+    [0x3469420030004] = {"stone_tower_great_fairy_reward"}
 }

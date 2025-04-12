@@ -25,6 +25,12 @@
             "access_rules": [""]
           },
           {
+            "ref": "Romani Ranch/Tingle Milk Road/Great Bay Map Purchase"
+          },
+          {
+            "ref": "Ikana/Ikana Canyon/Stone Tower Map Purchase"
+          },
+          {
             "name": "Marine Research Lab Zora Egg Delivery Song",
             "chest_unopened_img": "images/equipment/song_bossa_nova_no_text.png",
             "access_rules": [

@@ -40,7 +40,10 @@
         "name": "Twin Islands Hints",
         "sections": [
           {
-            "ref": "@Southern Swamp Hints/Tingle Southern Swamp Hints/Snowhead Map Purchase (Hint)"
+            "ref": "Southern Swamp Hints/Tingle Southern Swamp Hints/Snowhead Map Purchase (Hint)"
+          },
+          {
+            "ref": "Romani Ranch Hints/Tingle Milk Road Hints/Romani Ranch Map Purchase (Hint)"
           },
           {
             "name": "Spring Underwater Cave Chest (Hint)",

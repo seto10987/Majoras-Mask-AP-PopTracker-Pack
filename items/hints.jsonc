@@ -1728,5 +1728,41 @@
     "name": "secret_shrine_center_chest",
     "type": "toggle",
     "codes": "secret_shrine_center_chest"
+  },
+  // Ikana Canyon
+  {
+    "name": "ikana_canyon_grotto_chest",
+    "type": "toggle",
+    "codes": "ikana_canyon_grotto_chest"
+  },
+  {
+    "name": "ikana_canyon_scrub_purchase_blue_potion",
+    "type": "toggle",
+    "codes": "ikana_canyon_scrub_purchase_blue_potion"
+  },
+  {
+    "name": "ikana_canyon_deed_trade",
+    "type": "toggle",
+    "codes": "ikana_canyon_deed_trade"
+  },
+  {
+    "name": "stone_tower_map_purchase",
+    "type": "toggle",
+    "codes": "stone_tower_map_purchase"
+  },
+  {
+    "name": "ikana_canyon_music_box",
+    "type": "toggle",
+    "codes": "ikana_canyon_music_box"
+  },
+  {
+    "name": "ikana_canyon_spirit_house",
+    "type": "toggle",
+    "codes": "ikana_canyon_spirit_house"
+  },
+  {
+    "name": "stone_tower_great_fairy_reward",
+    "type": "toggle",
+    "codes": "stone_tower_great_fairy_reward"
   }
 ]

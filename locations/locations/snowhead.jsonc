@@ -76,6 +76,9 @@
             "ref": "Southern Swamp/Tingle Southern Swamp/Snowhead Map Purchase"
           },
           {
+            "ref": "Romani Ranch/Tingle Milk Road/Romani Ranch Map Purchase"
+          },
+          {
             "name": "Spring Underwater Cave Chest",
             "access_rules": [
               "easy_logic, $baby_clear_snowhead",

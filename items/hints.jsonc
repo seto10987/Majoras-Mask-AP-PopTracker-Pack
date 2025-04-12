@@ -1703,5 +1703,30 @@
     "name": "graveyard_captains_hat_chest",
     "type": "toggle",
     "codes": "graveyard_captains_hat_chest"
+  },
+  {
+    "name": "secret_shrine_left_chest",
+    "type": "toggle",
+    "codes": "secret_shrine_left_chest"
+  },
+  {
+    "name": "secret_shrine_middle_left_chest",
+    "type": "toggle",
+    "codes": "secret_shrine_middle_left_chest"
+  },
+  {
+    "name": "secret_shrine_middle_right_chest",
+    "type": "toggle",
+    "codes": "secret_shrine_middle_right_chest"
+  },
+  {
+    "name": "secret_shrine_right_chest",
+    "type": "toggle",
+    "codes": "secret_shrine_right_chest"
+  },
+  {
+    "name": "secret_shrine_center_chest",
+    "type": "toggle",
+    "codes": "secret_shrine_center_chest"
   }
 ]

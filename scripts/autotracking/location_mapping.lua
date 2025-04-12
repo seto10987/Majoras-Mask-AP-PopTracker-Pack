@@ -371,7 +371,14 @@ LOCATION_MAPPING = {
     [0x34694200000A2] = {"@Ikana/Graveyard/Day 1 Iron Knuckle Song","@Ikana Hints/Graveyard Hints/Day 1 Iron Knuckle Song (Hint)"},
     [0x3469420060C00] = {"@Ikana/Graveyard/Day 2 Iron Knuckle Chest","@Ikana Hints/Graveyard Hints/Day 2 Iron Knuckle Chest (Hint)"},
     [0x3469420063000] = {"@Ikana/Graveyard/Day 3 Dampe Big Poe Chest","@Ikana Hints/Graveyard Hints/Day 3 Dampe Big Poe Chest (Hint)"},
-    [0x3469420064300] = {"@Ikana/Graveyard/Sonata To Wake Sleeping Skeleton Chest","@Ikana Hints/Graveyard Hints/Sonata To Wake Sleeping Skeleton Chest (Hint)"}
+    [0x3469420064300] = {"@Ikana/Graveyard/Sonata To Wake Sleeping Skeleton Chest","@Ikana Hints/Graveyard Hints/Sonata To Wake Sleeping Skeleton Chest (Hint)"},
+
+    -- Secret Shrine
+    [0x3469420066000] = {"@Dungeons/Secret Shrine/Left Chest","Dungeon Hints/Secret Shrine Hints/Left Chest (Hint)"},
+    [0x3469420066001] = {"@Dungeons/Secret Shrine/Middle-Left Chest","Dungeon Hints/Secret Shrine Hints/Middle-Left Chest (Hint)"},
+    [0x3469420066002] = {"@Dungeons/Secret Shrine/Middle-Right Chest","Dungeon Hints/Secret Shrine Hints/Middle-Right Chest (Hint)"},
+    [0x3469420066003] = {"@Dungeons/Secret Shrine/Right Chest","Dungeon Hints/Secret Shrine Hints/Right Chest (Hint)"},
+    [0x346942006600A] = {"@Dungeons/Secret Shrine/Center Chest","Dungeon Hints/Secret Shrine Hints/Center Chest (Hint)"}
 }
 
 

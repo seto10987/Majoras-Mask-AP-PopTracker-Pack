@@ -708,6 +708,42 @@
             "y": 347
           }
         ]
+      },
+      {
+        "name": "Secret Shrine Hints",
+        "access_rules": [
+          "easy_logic, $baby_secret_shrine",
+          "normal_logic, $secret_shrine"
+        ],
+        "sections": [
+          {
+            "name": "Left Chest (Hint)",
+            "visibility_rules": ["secret_shrine_left_chest"]
+          },
+          {
+            "name": "Middle-Left Chest (Hint)",
+            "visibility_rules": ["secret_shrine_middle_left_chest"]
+          },
+          {
+            "name": "Middle-Right Chest (Hint)",
+            "visibility_rules": ["secret_shrine_middle_right_chest"]
+          },
+          {
+            "name": "Right Chest (Hint)",
+            "visibility_rules": ["secret_shrine_right_chest"]
+          },
+          {
+            "name": "Center Chest (Hint)",
+            "visibility_rules": ["secret_shrine_center_chest"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 779,
+            "y": 223
+          }
+        ]
       }
     ]
   }

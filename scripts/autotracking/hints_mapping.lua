@@ -361,5 +361,12 @@ HINTS_MAPPING = {
     [0x34694200000A2] = {"graveyard_day_1_song"},
     [0x3469420060C00] = {"graveyard_day_2_chest"},
     [0x3469420063000] = {"graveyard_day_3_chest"},
-    [0x3469420064300] = {"graveyard_captains_hat_chest"}
+    [0x3469420064300] = {"graveyard_captains_hat_chest"},
+
+    -- Secret Shrine
+    [0x3469420066000] = {"secret_shrine_left_chest"},
+    [0x3469420066001] = {"secret_shrine_middle_left_chest"},
+    [0x3469420066002] = {"secret_shrine_middle_right_chest"},
+    [0x3469420066003] = {"secret_shrine_right_chest"},
+    [0x346942006600A] = {"secret_shrine_center_chest"}
 }

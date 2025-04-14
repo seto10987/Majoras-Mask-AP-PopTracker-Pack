@@ -62,7 +62,7 @@ function has_paper()
 end
 
 function can_plant_beans() -- was "plant_beans"
-    return can_get_magic_beans() and (has("bottle") or can_play_storms())
+    return can_get_magic_beans() and (has("bottles", 1) or can_play_storms())
 end
 
 function can_use_powder_keg() -- was "use_keg"
@@ -313,7 +313,7 @@ function baby_well()
     return baby_ikana_canyon() and can_use_ice_arrows() and has("gibdo") and baby_has_bottle()
 end
 function well()
-    return ikana_canyon() and can_use_ice_arrows() and has("gibdo") and has("bottle")
+    return ikana_canyon() and can_use_ice_arrows() and has("hookshot") and has("gibdo") and has("bottles", 1)
 end
 
 -- Ikana Canyon -> Ikana Castle

@@ -1764,5 +1764,26 @@
     "name": "stone_tower_great_fairy_reward",
     "type": "toggle",
     "codes": "stone_tower_great_fairy_reward"
+  },
+  // Beneath the Well
+  {
+    "name": "well_cow",
+    "type": "toggle",
+    "codes": "well_cow"
+  },
+  {
+    "name": "well_invisible_chest",
+    "type": "toggle",
+    "codes": "well_invisible_chest"
+  },
+  {
+    "name": "well_torch_chest",
+    "type": "toggle",
+    "codes": "well_torch_chest"
+  },
+  {
+    "name": "well_final_chest",
+    "type": "toggle",
+    "codes": "well_final_chest"
   }
 ]

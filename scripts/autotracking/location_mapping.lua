@@ -387,7 +387,11 @@ LOCATION_MAPPING = {
     [0x34694200000B9] = {"@Ikana/Ikana Canyon/Stone Tower Map Purchase","@Ikana Hints/Ikana Canyon Hints/Stone Tower Map Purchase (Hint)"},
     [0x3469420000087] = {"@Ikana/Ikana Canyon/Music Box Mummy","@Ikana Hints/Ikana Canyon Hints/Music Box Mummy (Hint)"},
     [0x34694200701DE] = {"@Ikana/Ikana Canyon/Spirit House","@Ikana Hints/Ikana Canyon Hints/Spirit House (Hint)"},
-    [0x3469420030004] = {"@Ikana/Ikana Canyon/Stone Tower Great Fairy Reward","@Ikana Hints/Ikana Canyon Hints/Stone Tower Great Fairy Reward (Hint)"}
+    [0x3469420030004] = {"@Ikana/Ikana Canyon/Stone Tower Great Fairy Reward","@Ikana Hints/Ikana Canyon Hints/Stone Tower Great Fairy Reward (Hint)"},
+
+    -- Beneath the Well
+    [0x3469420BEEF17] = {"@Dungeons/Beneath the Well/Cow","@Dungeon Hints/Beneath the Well Hints/Cow (Hint)"},
+    [0x3469420064B02] = {"@Dungeons/Beneath the Well/Invisible Chest","@Dungeon Hints/Beneath the Well Hints/Invisible Chest (Hint)"},
+    [0x3469420064B01] = {"@Dungeons/Beneath the Well/Rightside Torch Chest","@Dungeon Hints/Beneath the Well Hints/Rightside Torch Chest (Hint)"},
+    [0x3469420064B1B] = {"@Dungeons/Beneath the Well/Final Chest","@Dungeon Hints/Beneath the Well Hints/Final Chest (Hint)"}
 }
-
-

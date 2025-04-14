@@ -1218,6 +1218,63 @@
             "y": 223
           }
         ]
+      },
+      {
+        "name": "Beneath the Well",
+        "access_rules": [
+          "easy_logic, $baby_well",
+          "normal_logic, $well"
+        ],
+        "sections": [
+          {
+            "name": "Cow",
+            "chest_unopened_img": "images/icons/cow.png",
+            "visibility_rules": ["cowsanity"],
+            "access_rules": [
+              "easy_logic, gibdo, $baby_has_bottle, $baby_can_plant_beans, $can_use_light_arrows, maskofscents, adultswallet, zora, $can_play_eponas",
+              "normal_logic, gibdo, $has|bottles|1, $can_plant_beans, maskofscents, zora, $can_play_eponas",
+              "normal_logic, gibdo, $has|bottles|1, $can_plant_beans, adultswallet, zora, $can_play_eponas",
+              "normal_logic, gibdo, $has|bottles|1, $can_plant_beans, $mountain_village, $can_use_lens, $can_play_healing, goron, $can_play_soaring, $can_play_eponas",
+              "normal_logic, gibdo, $has|bottles|1, $can_plant_beans, $mountain_village, $can_use_fire_arrows, $can_play_soaring, $can_play_eponas",
+              "normal_logic, gibdo, $has|bottles|1, $can_use_light_arrows, maskofscents, zora, $can_play_eponas",
+              "normal_logic, gibdo, $has|bottles|1, $can_use_light_arrows, adultswallet, zora, $can_play_eponas",
+              "normal_logic, gibdo, $has|bottles|1, $can_use_light_arrows, $mountain_village, $can_use_lens, $can_play_healing, goron, $can_play_soaring, $can_play_eponas",
+              "normal_logic, gibdo, $has|bottles|1, $can_use_light_arrows, $mountain_village, $can_use_fire_arrows, $can_play_soaring, $can_play_eponas"
+            ]
+          },
+          {
+            "name": "Invisible Chest",
+            "access_rules": [
+              "easy_logic, gibdo, $baby_has_bottle, adultswallet, maskofscents, $can_use_fire_arrows, $can_use_lens",
+              "normal_logic, gibdo, $has|bottles|1, adultswallet, $can_use_lens",
+              "normal_logic, gibdo, $has|bottles|1, maskofscents, $can_use_lens"
+            ]
+          },
+          {
+            "name": "Rightside Torch Chest",
+            "access_rules": [
+              "easy_logic, gibdo, $baby_has_bottle, $baby_can_plant_beans, $can_use_light_arrows",
+              "normal_logic, gibdo, $has|bottles|1, $can_plant_beans",
+              "normal_logic, gibdo, $has|bottles|1, $can_use_light_arrows"
+            ]
+          },
+          {
+            "name": "Final Chest",
+            "access_rules": [
+              "easy_logic, gibdo, $baby_has_bottle, $baby_can_plant_beans, $can_use_light_arrows, bombs, captainhat, bow",
+              "normal_logic, gibdo, $has|bottles|1, $can_plant_beans, bombs",
+              "normal_logic, gibdo, $has|bottles|1, $can_plant_beans, captainhat, bow",
+              "normal_logic, $can_use_light_arrows, $can_use_fire_arrows"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 816,
+            "y": 245
+          }
+        ]
       }
     ]
   }

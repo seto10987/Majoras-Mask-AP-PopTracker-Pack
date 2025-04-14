@@ -377,5 +377,11 @@ HINTS_MAPPING = {
     [0x34694200000B9] = {"stone_tower_map_purchase"},
     [0x3469420000087] = {"ikana_canyon_music_box"},
     [0x34694200701DE] = {"ikana_canyon_spirit_house"},
-    [0x3469420030004] = {"stone_tower_great_fairy_reward"}
+    [0x3469420030004] = {"stone_tower_great_fairy_reward"},
+
+    -- Beneath the Well
+    [0x3469420BEEF17] = {"well_cow"},
+    [0x3469420064B02] = {"well_invisible_chest"},
+    [0x3469420064B01] = {"well_torch_chest"},
+    [0x3469420064B1B] = {"well_final_chest"}
 }

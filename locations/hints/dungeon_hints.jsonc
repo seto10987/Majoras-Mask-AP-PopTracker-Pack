@@ -744,6 +744,39 @@
             "y": 223
           }
         ]
+      },
+      {
+        "name": "Beneath the Well Hints",
+        "access_rules": [
+          "easy_logic, $baby_well",
+          "normal_logic, $well"
+        ],
+        "sections": [
+          {
+            "name": "Cow (Hint)",
+            "chest_unopened_img": "images/icons/cow.png",
+            "visibility_rules": ["well_cow"]
+          },
+          {
+            "name": "Invisible Chest (Hint)",
+            "visibility_rules": ["well_invisible_chest"]
+          },
+          {
+            "name": "Rightside Torch Chest (Hint)",
+            "visibility_rules": ["well_torch_chest"]
+          },
+          {
+            "name": "Final Chest (Hint)",
+            "visibility_rules": ["well_final_chest"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 808,
+            "y": 245
+          }
+        ]
       }
     ]
   }

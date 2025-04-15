@@ -318,10 +318,10 @@ end
 
 -- Ikana Canyon -> Ikana Castle
 function baby_ikana_castle()
-    return baby_ikana_canyon() and can_use_ice_arrows() and can_use_light_arrows() and has("gibdo") and has("mirrorshield") and baby_has_bottle()
+    return baby_ikana_canyon() and can_use_ice_arrows() and can_use_light_arrows() and has("garo") and has("gibdo") and has("captainhat") and has("mirrorshield") and baby_has_bottle() and has("hookshot")
 end
 function ikana_castle()
-    return ikana_canyon() and can_use_ice_arrows() and (can_use_light_arrows() or has("mirrorshield"))
+    return ikana_canyon() and can_use_ice_arrows() and has("hookshot") and (can_use_light_arrows() or has("mirrorshield"))
 end
 
 -- Stone Tower -> Stone Tower Temple

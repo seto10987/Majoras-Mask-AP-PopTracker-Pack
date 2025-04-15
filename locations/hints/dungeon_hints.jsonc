@@ -711,10 +711,6 @@
       },
       {
         "name": "Secret Shrine Hints",
-        "access_rules": [
-          "easy_logic, $baby_secret_shrine",
-          "normal_logic, $secret_shrine"
-        ],
         "sections": [
           {
             "name": "Left Chest (Hint)",
@@ -747,10 +743,6 @@
       },
       {
         "name": "Beneath the Well Hints",
-        "access_rules": [
-          "easy_logic, $baby_well",
-          "normal_logic, $well"
-        ],
         "sections": [
           {
             "name": "Cow (Hint)",
@@ -775,6 +767,26 @@
             "map": "overworld",
             "x": 808,
             "y": 245
+          }
+        ]
+      },
+      {
+        "name": "Ikana Castle Hints",
+        "sections": [
+          {
+            "name": "Pillar Freestanding HP (Hint)",
+            "visibility_rules": ["ikana_castle_hp"]
+          },
+          {
+            "name": "King Song (Hint)",
+            "visibility_rules": ["ikana_castle_elegy"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 821,
+            "y": 296
           }
         ]
       }

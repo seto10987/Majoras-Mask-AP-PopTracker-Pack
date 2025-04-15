@@ -383,5 +383,9 @@ HINTS_MAPPING = {
     [0x3469420BEEF17] = {"well_cow"},
     [0x3469420064B02] = {"well_invisible_chest"},
     [0x3469420064B01] = {"well_torch_chest"},
-    [0x3469420064B1B] = {"well_final_chest"}
+    [0x3469420064B1B] = {"well_final_chest"},
+
+    -- Ikana Castle
+    [0x3469420051D0A] = {"ikana_castle_hp"},
+    [0x3469420040064] = {"ikana_castle_elegy"}
 }

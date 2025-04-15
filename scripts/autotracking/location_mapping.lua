@@ -393,5 +393,9 @@ LOCATION_MAPPING = {
     [0x3469420BEEF17] = {"@Dungeons/Beneath the Well/Cow","@Dungeon Hints/Beneath the Well Hints/Cow (Hint)"},
     [0x3469420064B02] = {"@Dungeons/Beneath the Well/Invisible Chest","@Dungeon Hints/Beneath the Well Hints/Invisible Chest (Hint)"},
     [0x3469420064B01] = {"@Dungeons/Beneath the Well/Rightside Torch Chest","@Dungeon Hints/Beneath the Well Hints/Rightside Torch Chest (Hint)"},
-    [0x3469420064B1B] = {"@Dungeons/Beneath the Well/Final Chest","@Dungeon Hints/Beneath the Well Hints/Final Chest (Hint)"}
+    [0x3469420064B1B] = {"@Dungeons/Beneath the Well/Final Chest","@Dungeon Hints/Beneath the Well Hints/Final Chest (Hint)"},
+
+    -- Ikana Castle
+    [0x3469420051D0A] = {"@Dungeons/Ikana Castle/Pillar Freestanding HP","@Dungeon Hints/Ikana Castle Hints/Pillar Freestanding HP (Hint)"},
+    [0x3469420040064] = {"@Dungeons/Ikana Castle/King Song","@Dungeon Hints/Ikana Castle Hints/King Song (Hint)"}
 }

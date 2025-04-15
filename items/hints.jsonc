@@ -1785,5 +1785,16 @@
     "name": "well_final_chest",
     "type": "toggle",
     "codes": "well_final_chest"
+  },
+  // Ikana Castle
+  {
+    "name": "ikana_castle_hp",
+    "type": "toggle",
+    "codes": "ikana_castle_hp"
+  },
+  {
+    "name": "ikana_castle_elegy",
+    "type": "toggle",
+    "codes": "ikana_castle_elegy"
   }
 ]

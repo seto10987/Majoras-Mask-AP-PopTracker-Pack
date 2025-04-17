@@ -1285,16 +1285,13 @@
         "sections": [
           {
             "name": "Pillar Freestanding HP",
-            "access_rules": [
-              "easy_logic, deku, $can_use_lens, $can_use_fire_arrows",
-              "normal_logic, deku, $can_use_fire_arrows"
-            ]
+            "access_rules": ["deku, $can_use_lens, $can_use_fire_arrows"]
           },
           {
             "name": "King Song",
             "access_rules": [
               "easy_logic, deku, $can_use_lens, $can_use_fire_arrows, goron, powderkeg, mirrorshield, $baby_can_smack_hard, $can_use_light_arrows",
-              "normal_logic, deku, $can_use_fire_arrows, goron, powderkeg, mirrorshield",
+              "normal_logic, deku, $can_use_lens, $can_use_fire_arrows, goron, powderkeg, mirrorshield",
               "normal_logic, $can_use_fire_arrows, mirrorshield, $can_use_light_arrows"
             ]
           }
@@ -1304,6 +1301,132 @@
             "map": "overworld",
             "x": 829,
             "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Stone Tower Temple",
+        "access_rules": [
+          "easy_logic, $baby_stone_tower_temple",
+          "normal_logic, $stone_tower_temple"
+        ],
+        "sections": [
+          {
+            "name": "Entrance Room Eye Switch Chest",
+            "access_rules": ["bow"]
+          },
+          {
+            "name": "Entrance Room Lower Chest",
+            "access_rules": ["deku, $can_use_light_arrows, hookshot, $has|smallkey_st|4"]
+          },
+          {
+            "name": "Armos Room Back Chest",
+            "access_rules": [
+              "easy_logic, $can_use_light_arrows, mirrorshield, $baby_has_explosives",
+              "normal_logic, $can_use_light_arrows",
+              "normal_logic, mirrorshield, $has_explosives"
+            ]
+          },
+          {
+            "name": "Armos Room Upper Chest",
+            "access_rules": [
+              "easy_logic, hookshot, $baby_has_explosives",
+              "normal_logic, hookshot"
+            ]
+          },
+          {
+            "name": "Armos Room Lava Chest",
+            "access_rules": [
+              "easy_logic, $can_use_light_arrows, mirrorshield, $baby_has_explosives, goron",
+              "normal_logic, $can_use_light_arrows",
+              "normal_logic, mirrorshield, $has_explosives"
+            ]
+          },
+          {
+            "name": "Eyegore Room Switch Chest",
+            "access_rules": [
+              "easy_logic, mirrorshield, $can_use_light_arrows",
+              "normal_logic, $can_use_light_arrows"
+            ]
+          },
+          {
+            "name": "Eyegore Room Dexi Hand Ledge Chest",
+            "access_rules": [
+              "easy_logic, zora, @Stone Tower Temple/Armos Room Lava Chest, $can_use_light_arrows",
+              "normal_logic, $has|smallkey_st|1",
+              "normal_logic, $can_use_light_arrows"
+            ]
+          },
+          {
+            "name": "Eastern Water Room Underwater Chest",
+            "access_rules": [
+              "easy_logic, @Stone Tower Temple/Eyegore Room Dexi Hand Ledge Chest, $can_use_light_arrows, $can_use_ice_arrows, zora, deku",
+              "normal_logic, $can_use_light_arrows, zora"
+            ]
+          },
+          {
+            "name": "Eastern Water Room Sun Block Chest",
+            "access_rules": [
+              "easy_logic, @Stone Tower Temple/Eyegore Room Dexi Hand Ledge Chest, $can_use_light_arrows, mirrorshield",
+              "normal_logic, $can_use_light_arrows",
+              "normal_logic, $has|smallkey_st|1, mirrorshield"
+            ]
+          },
+          {
+            "name": "Mirror Room Sun Block Chest",
+            "access_rules": [
+              "easy_logic, @Stone Tower Temple/Eyegore Room Dexi Hand Ledge Chest, stonemask, $can_use_light_arrows, mirrorshield",
+              "normal_logic, $has|smallkey_st|2, mirrorshield",
+              "normal_logic, $has|smallkey_st|1, $can_use_light_arrows"
+            ]
+          },
+          {
+            "name": "Mirror Room Sun Face Chest",
+            "access_rules": [
+              "easy_logic, @Stone Tower Temple/Eyegore Room Dexi Hand Ledge Chest, stonemask, $can_use_light_arrows, mirrorshield",
+              "normal_logic, $has|smallkey_st|2, mirrorshield",
+              "normal_logic, $has|smallkey_st|1, $can_use_light_arrows"
+            ]
+          },
+          {
+            "name": "Air Gust Room Side Chest",
+            "access_rules": [
+              "easy_logic, @Stone Tower Temple/Mirror Room Sun Face Chest, deku",
+              "normal_logic, $has|smallkey_st|2, mirrorshield, deku",
+              "normal_logic, $has|smallkey_st|1, $can_use_light_arrows, deku"
+            ]
+          },
+          {
+            "name": "Air Gust Room Goron Switch Chest",
+            "access_rules": [
+              "easy_logic, @Stone Tower Temple/Air Gust Room Side Chest, goron",
+              "normal_logic, @Stone Tower Temple/Mirror Room Sun Block Chest, goron"
+            ]
+          },
+          {
+            "name": "Garo Master Chest",
+            "access_rules": [
+              "easy_logic, $baby_can_smack, @Stone Tower Temple/Air Gust Room Side Chest",
+              "normal_logic, $can_smack, @Stone Tower Temple/Air Gust Room Side Chest"
+            ]
+          },
+          {
+            "name": "After Garo Upside Down Chest",
+            "access_rules": ["@Inverted Stone Tower Temple/Eyegore Chest"]
+          },
+          {
+            "name": "Eyegore Chest",
+            "access_rules": [
+              "easy_logic, @Stone Tower Temple/Garo Master Chest, $baby_has_explosives, $baby_has_projectiles",
+              "normal_logic, @Stone Tower Temple/Garo Master Chest, hookshot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 965,
+            "y": 216
           }
         ]
       }

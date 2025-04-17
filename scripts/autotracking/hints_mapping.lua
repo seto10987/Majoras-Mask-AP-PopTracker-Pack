@@ -387,5 +387,23 @@ HINTS_MAPPING = {
 
     -- Ikana Castle
     [0x3469420051D0A] = {"ikana_castle_hp"},
-    [0x3469420040064] = {"ikana_castle_elegy"}
+    [0x3469420040064] = {"ikana_castle_elegy"},
+
+    -- Stone Tower Temple
+    [0x3469420061616] = {"stt_entrance_room_eye_switch_chest"},
+    [0x3469420061612] = {"stt_entrance_room_lower_chest"},
+    [0x346942006161D] = {"stt_armos_room_back_chest"},
+    [0x3469420061615] = {"stt_armos_room_upper_chest"},
+    [0x3469420061602] = {"stt_armos_room_lava_chest"},
+    [0x3469420061618] = {"stt_eyegore_room_switch_chest"},
+    [0x3469420061601] = {"stt_eyegore_room_dexi_hand_ledge_chest"},
+    [0x3469420061617] = {"stt_eastern_water_room_underwater_chest"},
+    [0x346942006161C] = {"stt_eastern_water_room_sun_block_chest"},
+    [0x346942006160B] = {"stt_mirror_room_sun_block_chest"},
+    [0x346942006160F] = {"stt_mirror_room_sun_face_chest"},
+    [0x3469420061619] = {"stt_air_gust_room_side_chest"},
+    [0x346942006160D] = {"stt_air_gust_room_goron_switch_chest"},
+    [0x346942006161B] = {"stt_garo_master_chest"},
+    [0x3469420061614] = {"stt_after_garo_upside_down_chest"},
+    [0x346942006160C] = {"stt_eyegore_chest"}
 }

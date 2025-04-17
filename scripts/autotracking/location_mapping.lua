@@ -397,5 +397,23 @@ LOCATION_MAPPING = {
 
     -- Ikana Castle
     [0x3469420051D0A] = {"@Dungeons/Ikana Castle/Pillar Freestanding HP","@Dungeon Hints/Ikana Castle Hints/Pillar Freestanding HP (Hint)"},
-    [0x3469420040064] = {"@Dungeons/Ikana Castle/King Song","@Dungeon Hints/Ikana Castle Hints/King Song (Hint)"}
+    [0x3469420040064] = {"@Dungeons/Ikana Castle/King Song","@Dungeon Hints/Ikana Castle Hints/King Song (Hint)"},
+
+    -- Stone Tower Temple
+    [0x3469420061616] = {"@Dungeons/Stone Tower Temple/Entrance Room Eye Switch Chest","@Dungeon Hints/Stone Tower Temple Hints/Entrance Room Eye Switch Chest (Hint)"},
+    [0x3469420061612] = {"@Dungeons/Stone Tower Temple/Entrance Room Lower Chest","@Dungeon Hints/Stone Tower Temple Hints/Entrance Room Lower Chest (Hint)"},
+    [0x346942006161D] = {"@Dungeons/Stone Tower Temple/Armos Room Back Chest","@Dungeon Hints/Stone Tower Temple Hints/Armos Room Back Chest (Hint)"},
+    [0x3469420061615] = {"@Dungeons/Stone Tower Temple/Armos Room Upper Chest","@Dungeon Hints/Stone Tower Temple Hints/Armos Room Upper Chest (Hint)"},
+    [0x3469420061602] = {"@Dungeons/Stone Tower Temple/Armos Room Lava Chest","@Dungeon Hints/Stone Tower Temple Hints/Armos Room Lava Chest (Hint)"},
+    [0x3469420061618] = {"@Dungeons/Stone Tower Temple/Eyegore Room Switch Chest","@Dungeon Hints/Stone Tower Temple Hints/Eyegore Room Switch Chest (Hint)"},
+    [0x3469420061601] = {"@Dungeons/Stone Tower Temple/Eyegore Room Dexi Hand Ledge Chest","@Dungeon Hints/Stone Tower Temple Hints/Eyegore Room Dexi Hand Ledge Chest (Hint)"},
+    [0x3469420061617] = {"@Dungeons/Stone Tower Temple/Eastern Water Room Underwater Chest","@Dungeon Hints/Stone Tower Temple Hints/Eastern Water Room Underwater Chest (Hint)"},
+    [0x346942006161C] = {"@Dungeons/Stone Tower Temple/Eastern Water Room Sun Block Chest","@Dungeon Hints/Stone Tower Temple Hints/Eastern Water Room Sun Block Chest (Hint)"},
+    [0x346942006160B] = {"@Dungeons/Stone Tower Temple/Mirror Room Sun Block Chest","@Dungeon Hints/Stone Tower Temple Hints/Mirror Room Sun Block Chest (Hint)"},
+    [0x346942006160F] = {"@Dungeons/Stone Tower Temple/Mirror Room Sun Face Chest","@Dungeon Hints/Stone Tower Temple Hints/Mirror Room Sun Face Chest (Hint)"},
+    [0x3469420061619] = {"@Dungeons/Stone Tower Temple/Air Gust Room Side Chest","@Dungeon Hints/Stone Tower Temple Hints/Air Gust Room Side Chest (Hint)"},
+    [0x346942006160D] = {"@Dungeons/Stone Tower Temple/Air Gust Room Goron Switch Chest","@Dungeon Hints/Stone Tower Temple Hints/Air Gust Room Goron Switch Chest (Hint)"},
+    [0x346942006161B] = {"@Dungeons/Stone Tower Temple/Garo Master Chest","@Dungeon Hints/Stone Tower Temple Hints/Garo Master Chest (Hint)"},
+    [0x3469420061614] = {"@Dungeons/Stone Tower Temple/After Garo Upside Down Chest","@Dungeon Hints/Stone Tower Temple Hints/After Garo Upside Down Chest (Hint)"},
+    [0x346942006160C] = {"@Dungeons/Stone Tower Temple/Eyegore Chest","@Dungeon Hints/Stone Tower Temple Hints/Eyegore Chest (Hint)"}
 }

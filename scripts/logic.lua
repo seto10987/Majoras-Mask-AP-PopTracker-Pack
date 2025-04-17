@@ -326,7 +326,7 @@ end
 
 -- Stone Tower -> Stone Tower Temple
 function baby_stone_tower_temple()
-    return baby_ikana_canyon() and can_use_ice_arrows() and can_play_elegy() and has("goron") and has("zora") and has("bosskey_st") and has("smallkey_st", 4)
+    return baby_ikana_canyon() and can_use_ice_arrows() and can_play_elegy() and has("goron") and has("zora") and has("smallkey_st", 4) and has("bosskey_st")
 end
 function stone_tower_temple()
     return ikana_canyon() and can_use_ice_arrows() and can_play_elegy() and has("goron") and has("zora")
@@ -337,7 +337,7 @@ function baby_inverted_stone_tower()
     return baby_stone_tower_temple() and can_use_light_arrows()
 end
 function inverted_stone_tower()
-    return stone_tower_temple() and can_use_light_arrows()
+    return stone_tower_temple() and can_use_light_arrows() and can_play_elegy() and has("smallkey_st", 4) and has("bosskey_st")
 end
 
 -----

@@ -1796,5 +1796,86 @@
     "name": "ikana_castle_elegy",
     "type": "toggle",
     "codes": "ikana_castle_elegy"
+  },
+  // Stone Tower Temple
+  {
+    "name": "stt_entrance_room_eye_switch_chest",
+    "type": "toggle",
+    "codes": "stt_entrance_room_eye_switch_chest"
+  },
+  {
+    "name": "stt_entrance_room_lower_chest",
+    "type": "toggle",
+    "codes": "stt_entrance_room_lower_chest"
+  },
+  {
+    "name": "stt_armos_room_back_chest",
+    "type": "toggle",
+    "codes": "stt_armos_room_back_chest"
+  },
+  {
+    "name": "stt_armos_room_upper_chest",
+    "type": "toggle",
+    "codes": "stt_armos_room_upper_chest"
+  },
+  {
+    "name": "stt_armos_room_lava_chest",
+    "type": "toggle",
+    "codes": "stt_armos_room_lava_chest"
+  },
+  {
+    "name": "stt_eyegore_room_switch_chest",
+    "type": "toggle",
+    "codes": "stt_eyegore_room_switch_chest"
+  },
+  {
+    "name": "stt_eyegore_room_dexi_hand_ledge_chest",
+    "type": "toggle",
+    "codes": "stt_eyegore_room_dexi_hand_ledge_chest"
+  },
+  {
+    "name": "stt_eastern_water_room_underwater_chest",
+    "type": "toggle",
+    "codes": "stt_eastern_water_room_underwater_chest"
+  },
+  {
+    "name": "stt_eastern_water_room_sun_block_chest",
+    "type": "toggle",
+    "codes": "stt_eastern_water_room_sun_block_chest"
+  },
+  {
+    "name": "stt_mirror_room_sun_block_chest",
+    "type": "toggle",
+    "codes": "stt_mirror_room_sun_block_chest"
+  },
+  {
+    "name": "stt_mirror_room_sun_face_chest",
+    "type": "toggle",
+    "codes": "stt_mirror_room_sun_face_chest"
+  },
+  {
+    "name": "stt_air_gust_room_side_chest",
+    "type": "toggle",
+    "codes": "stt_air_gust_room_side_chest"
+  },
+  {
+    "name": "stt_air_gust_room_goron_switch_chest",
+    "type": "toggle",
+    "codes": "stt_air_gust_room_goron_switch_chest"
+  },
+  {
+    "name": "stt_garo_master_chest",
+    "type": "toggle",
+    "codes": "stt_garo_master_chest"
+  },
+  {
+    "name": "stt_after_garo_upside_down_chest",
+    "type": "toggle",
+    "codes": "stt_after_garo_upside_down_chest"
+  },
+  {
+    "name": "stt_eyegore_chest",
+    "type": "toggle",
+    "codes": "stt_eyegore_chest"
   }
 ]

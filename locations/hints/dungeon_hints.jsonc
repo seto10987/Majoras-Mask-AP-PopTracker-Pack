@@ -789,6 +789,82 @@
             "y": 296
           }
         ]
+      },
+      {
+        "name": "Stone Tower Temple Hints",
+        "sections": [
+          {
+            "name": "Entrance Room Eye Switch Chest (Hint)",
+            "visibility_rules": ["stt_entrance_room_eye_switch_chest"]
+          },
+          {
+            "name": "Entrance Room Lower Chest (Hint)",
+            "visibility_rules": ["stt_entrance_room_lower_chest"]
+          },
+          {
+            "name": "Armos Room Back Chest (Hint)",
+            "visibility_rules": ["stt_armos_room_back_chest"]
+          },
+          {
+            "name": "Armos Room Upper Chest (Hint)",
+            "visibility_rules": ["stt_armos_room_upper_chest"]
+          },
+          {
+            "name": "Armos Room Lava Chest (Hint)",
+            "visibility_rules": ["stt_armos_room_lava_chest"]
+          },
+          {
+            "name": "Eyegore Room Switch Chest (Hint)",
+            "visibility_rules": ["stt_eyegore_room_switch_chest"]
+          },
+          {
+            "name": "Eyegore Room Dexi Hand Ledge Chest (Hint)",
+            "visibility_rules": ["stt_eyegore_room_dexi_hand_ledge_chest"]
+          },
+          {
+            "name": "Eastern Water Room Underwater Chest (Hint)",
+            "visibility_rules": ["stt_eastern_water_room_underwater_chest"]
+          },
+          {
+            "name": "Eastern Water Room Sun Block Chest (Hint)",
+            "visibility_rules": ["stt_eastern_water_room_sun_block_chest"]
+          },
+          {
+            "name": "Mirror Room Sun Block Chest (Hint)",
+            "visibility_rules": ["stt_mirror_room_sun_block_chest"]
+          },
+          {
+            "name": "Mirror Room Sun Face Chest (Hint)",
+            "visibility_rules": ["stt_mirror_room_sun_face_chest"]
+          },
+          {
+            "name": "Air Gust Room Side Chest (Hint)",
+            "visibility_rules": ["stt_air_gust_room_side_chest"]
+          },
+          {
+            "name": "Air Gust Room Goron Switch Chest (Hint)",
+            "visibility_rules": ["stt_air_gust_room_goron_switch_chest"]
+          },
+          {
+            "name": "Garo Master Chest (Hint)",
+            "visibility_rules": ["stt_garo_master_chest"]
+          },
+          {
+            "name": "After Garo Upside Down Chest (Hint)",
+            "visibility_rules": ["stt_after_garo_upside_down_chest"]
+          },
+          {
+            "name": "Eyegore Chest (Hint)",
+            "visibility_rules": ["stt_eyegore_chest"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 957,
+            "y": 216
+          }
+        ]
       }
     ]
   }

@@ -139,6 +139,30 @@
             "y": 251
           }
         ]
+      },
+      {
+        "name": "Inverted Stone Tower Hints",
+        "sections": [
+          {
+            "name": "Outside Left Chest (Hint)",
+            "visibility_rules": ["inverted_stone_tower_left_chest"]
+          },
+          {
+            "name": "Outside Middle Chest (Hint)",
+            "visibility_rules": ["inverted_stone_tower_middle_chest"]
+          },
+          {
+            "name": "Outside Right Chest (Hint)",
+            "visibility_rules": ["inverted_stone_tower_right_chest"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 938,
+            "y": 216
+          }
+        ]
       }
     ]
   }

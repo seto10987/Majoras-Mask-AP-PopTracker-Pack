@@ -334,10 +334,10 @@ end
 
 -- Stone Tower -> Stone Tower (Inverted)
 function baby_inverted_stone_tower()
-    return baby_stone_tower_temple() and can_use_light_arrows()
+    return baby_stone_tower_temple() and can_use_light_arrows() and can_play_elegy() and has("smallkey_st", 4) and has("bosskey_st")
 end
 function inverted_stone_tower()
-    return stone_tower_temple() and can_use_light_arrows() and can_play_elegy() and has("smallkey_st", 4) and has("bosskey_st")
+    return stone_tower_temple() and can_use_light_arrows() and can_play_elegy()
 end
 
 -----

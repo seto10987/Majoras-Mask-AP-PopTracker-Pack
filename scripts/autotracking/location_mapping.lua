@@ -399,6 +399,11 @@ LOCATION_MAPPING = {
     [0x3469420051D0A] = {"@Dungeons/Ikana Castle/Pillar Freestanding HP","@Dungeon Hints/Ikana Castle Hints/Pillar Freestanding HP (Hint)"},
     [0x3469420040064] = {"@Dungeons/Ikana Castle/King Song","@Dungeon Hints/Ikana Castle Hints/King Song (Hint)"},
 
+    -- Inverted Stone Tower
+    [0x346942006591F] = {"@Ikana/Inverted Stone Tower/Outside Left Chest","@Ikana Hints/Inverted Stone Tower Hints/Outside Left Chest (Hint)"},
+    [0x346942006591E] = {"@Ikana/Inverted Stone Tower/Outside Middle Chest","@Ikana Hints/Inverted Stone Tower Hints/Outside Middle Chest (Hint)"},
+    [0x346942006591D] = {"@Ikana/Inverted Stone Tower/Outside Right Chest","@Ikana Hints/Inverted Stone Tower Hints/Outside Right Chest (Hint)"},
+
     -- Stone Tower Temple
     [0x3469420061616] = {"@Dungeons/Stone Tower Temple/Entrance Room Eye Switch Chest","@Dungeon Hints/Stone Tower Temple Hints/Entrance Room Eye Switch Chest (Hint)"},
     [0x3469420061612] = {"@Dungeons/Stone Tower Temple/Entrance Room Lower Chest","@Dungeon Hints/Stone Tower Temple Hints/Entrance Room Lower Chest (Hint)"},

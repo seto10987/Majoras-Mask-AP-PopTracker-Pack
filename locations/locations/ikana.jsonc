@@ -182,6 +182,43 @@
             "y": 251
           }
         ]
+      },
+      {
+        "name": "Inverted Stone Tower",
+        "access_rules": [
+          "easy_logic, $baby_inverted_stone_tower",
+          "normal_logic, $inverted_stone_tower"
+        ],
+        "sections": [
+          {
+            "name": "Outside Left Chest",
+            "access_rules": [
+              "easy_logic, $baby_can_plant_beans",
+              "normal_logic, $can_plant_beans"
+            ]
+          },
+          {
+            "name": "Outside Middle Chest",
+            "access_rules": [
+              "easy_logic, $baby_can_plant_beans",
+              "normal_logic, $can_plant_beans"
+            ]
+          },
+          {
+            "name": "Outside Right Chest",
+            "access_rules": [
+              "easy_logic, $baby_can_plant_beans",
+              "normal_logic, $can_plant_beans"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 946,
+            "y": 216
+          }
+        ]
       }
     ]
   }

@@ -1797,6 +1797,22 @@
     "type": "toggle",
     "codes": "ikana_castle_elegy"
   },
+  // Inverted Stone Tower
+  {
+    "name": "inverted_stone_tower_left_chest",
+    "type": "toggle",
+    "codes": "inverted_stone_tower_left_chest"
+  },
+  {
+    "name": "inverted_stone_tower_middle_chest",
+    "type": "toggle",
+    "codes": "inverted_stone_tower_middle_chest"
+  },
+  {
+    "name": "inverted_stone_tower_right_chest",
+    "type": "toggle",
+    "codes": "inverted_stone_tower_right_chest"
+  },
   // Stone Tower Temple
   {
     "name": "stt_entrance_room_eye_switch_chest",

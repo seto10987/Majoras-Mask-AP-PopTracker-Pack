@@ -389,6 +389,11 @@ HINTS_MAPPING = {
     [0x3469420051D0A] = {"ikana_castle_hp"},
     [0x3469420040064] = {"ikana_castle_elegy"},
 
+    -- Inverted Stone Tower
+    [0x346942006591F] = {"inverted_stone_tower_left_chest"},
+    [0x346942006591E] = {"inverted_stone_tower_middle_chest"},
+    [0x346942006591D] = {"inverted_stone_tower_right_chest"},
+
     -- Stone Tower Temple
     [0x3469420061616] = {"stt_entrance_room_eye_switch_chest"},
     [0x3469420061612] = {"stt_entrance_room_lower_chest"},

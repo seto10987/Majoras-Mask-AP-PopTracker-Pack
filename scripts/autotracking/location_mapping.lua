@@ -420,5 +420,17 @@ LOCATION_MAPPING = {
     [0x346942006160D] = {"@Dungeons/Stone Tower Temple/Air Gust Room Goron Switch Chest","@Dungeon Hints/Stone Tower Temple Hints/Air Gust Room Goron Switch Chest (Hint)"},
     [0x346942006161B] = {"@Dungeons/Stone Tower Temple/Garo Master Chest","@Dungeon Hints/Stone Tower Temple Hints/Garo Master Chest (Hint)"},
     [0x3469420061614] = {"@Dungeons/Stone Tower Temple/After Garo Upside Down Chest","@Dungeon Hints/Stone Tower Temple Hints/After Garo Upside Down Chest (Hint)"},
-    [0x346942006160C] = {"@Dungeons/Stone Tower Temple/Eyegore Chest","@Dungeon Hints/Stone Tower Temple Hints/Eyegore Chest (Hint)"}
+    [0x346942006160C] = {"@Dungeons/Stone Tower Temple/Eyegore Chest","@Dungeon Hints/Stone Tower Temple Hints/Eyegore Chest (Hint)"},
+
+    -- Inverted Stone Tower Temple
+    [0x3469420061810] = {"@Dungeons/Inverted Stone Tower Temple/Entrance Room Sun Face Chest","Dungeon Hints/Inverted Stone Tower Hints/Entrance Room Sun Face Chest (Hint)"},
+    [0x346942006180E] = {"@Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Fire Chest","Dungeon Hints/Inverted Stone Tower Hints/Eastern Air Gust Room Fire Chest (Hint)"},
+    [0x3469420061813] = {"@Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Ice Eye Switch Chest","Dungeon Hints/Inverted Stone Tower Hints/Eastern Air Gust Room Ice Eye Switch Chest (Hint)"},
+    [0x3469420061804] = {"@Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Hall Floor Switch Chest","Dungeon Hints/Inverted Stone Tower Hints/Eastern Air Gust Room Hall Floor Switch Chest (Hint)"},
+    [0x3469420061811] = {"@Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest","Dungeon Hints/Inverted Stone Tower Hints/Wizzrobe Chest (Hint)"},
+    [0x3469420061805] = {"@Dungeons/Inverted Stone Tower Temple/Death Armos Maze Chest","Dungeon Hints/Inverted Stone Tower Hints/Death Armos Maze Chest (Hint)"},
+    [0x346942006181E] = {"@Dungeons/Inverted Stone Tower Temple/Gomess Chest","Dungeon Hints/Inverted Stone Tower Hints/Gomess Chest (Hint)"},
+    [0x346942006181A] = {"@Dungeons/Inverted Stone Tower Temple/Eyegore Chest","Dungeon Hints/Inverted Stone Tower Hints/Eyegore Chest (Hint)"},
+    [0x3469420053600] = {"@Dungeons/Inverted Stone Tower Temple/Heart Container","Dungeon Hints/Inverted Stone Tower Hints/Heart Container (Hint)"},
+    [0x3469420000058] = {"@Dungeons/Inverted Stone Tower Temple/Twinmold's Remains","Dungeon Hints/Inverted Stone Tower Hints/Twinmold's Remains (Hint)"}
 }

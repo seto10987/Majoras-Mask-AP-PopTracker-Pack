@@ -1893,5 +1893,56 @@
     "name": "stt_eyegore_chest",
     "type": "toggle",
     "codes": "stt_eyegore_chest"
+  },
+  // Inverted Stone Tower Temple
+  {
+    "name": "istt_entrance_room_sun_face_chest",
+    "type": "toggle",
+    "codes": "istt_entrance_room_sun_face_chest"
+  },
+  {
+    "name": "istt_eastern_air_gust_room_fire_chest",
+    "type": "toggle",
+    "codes": "istt_eastern_air_gust_room_fire_chest"
+  },
+  {
+    "name": "istt_eastern_air_gust_room_ice_eye_switch_chest",
+    "type": "toggle",
+    "codes": "istt_eastern_air_gust_room_ice_eye_switch_chest"
+  },
+  {
+    "name": "istt_eastern_air_gust_room_hall_floor_switch_chest",
+    "type": "toggle",
+    "codes": "istt_eastern_air_gust_room_hall_floor_switch_chest"
+  },
+  {
+    "name": "istt_wizzrobe_chest",
+    "type": "toggle",
+    "codes": "istt_wizzrobe_chest"
+  },
+  {
+    "name": "istt_death_armos_maze_chest",
+    "type": "toggle",
+    "codes": "istt_death_armos_maze_chest"
+  },
+  {
+    "name": "istt_gomess_chest",
+    "type": "toggle",
+    "codes": "istt_gomess_chest"
+  },
+  {
+    "name": "istt_eyegore_chest",
+    "type": "toggle",
+    "codes": "istt_eyegore_chest"
+  },
+  {
+    "name": "istt_heart_container",
+    "type": "toggle",
+    "codes": "istt_heart_container"
+  },
+  {
+    "name": "istt_twinmolds_remains",
+    "type": "toggle",
+    "codes": "istt_twinmolds_remains"
   }
 ]

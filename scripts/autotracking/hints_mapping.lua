@@ -410,5 +410,17 @@ HINTS_MAPPING = {
     [0x346942006160D] = {"stt_air_gust_room_goron_switch_chest"},
     [0x346942006161B] = {"stt_garo_master_chest"},
     [0x3469420061614] = {"stt_after_garo_upside_down_chest"},
-    [0x346942006160C] = {"stt_eyegore_chest"}
+    [0x346942006160C] = {"stt_eyegore_chest"},
+
+    -- Inverted Stone Tower Temple
+    [0x3469420061810] = {"istt_entrance_room_sun_face_chest"},
+    [0x346942006180E] = {"istt_eastern_air_gust_room_fire_chest"},
+    [0x3469420061813] = {"istt_eastern_air_gust_room_ice_eye_switch_chest"},
+    [0x3469420061804] = {"istt_eastern_air_gust_room_hall_floor_switch_chest"},
+    [0x3469420061811] = {"istt_wizzrobe_chest"},
+    [0x3469420061805] = {"istt_death_armos_maze_chest"},
+    [0x346942006181E] = {"istt_gomess_chest"},
+    [0x346942006181A] = {"istt_eyegore_chest"},
+    [0x3469420053600] = {"istt_heart_container"},
+    [0x3469420000058] = {"istt_twinmolds_remains"}
 }

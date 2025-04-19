@@ -1285,6 +1285,7 @@
         "sections": [
           {
             "name": "Pillar Freestanding HP",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": ["deku, $can_use_lens, $can_use_fire_arrows"]
           },
           {
@@ -1427,6 +1428,92 @@
             "map": "overworld",
             "x": 965,
             "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Inverted Stone Tower Temple",
+        "access_rules": [
+          "easy_logic, $baby_inverted_stone_tower",
+          "normal_logic, $inverted_stone_tower"
+        ],
+        "sections": [
+          {
+            "name": "Entrance Room Sun Face Chest",
+            "access_rules": ["$can_use_light_arrows"]
+          },
+          {
+            "name": "Eastern Air Gust Room Fire Chest",
+            "access_rules": [
+              "easy_logic, @Stone Tower Temple/Eyegore Room Dexi Hand Ledge Chest, deku, $can_use_light_arrows",
+              "normal_logic, $can_use_light_arrows, deku, zora"
+            ]
+          },
+          {
+            "name": "Eastern Air Gust Room Ice Eye Switch Chest",
+            "access_rules": ["deku, $can_use_fire_arrows, $can_use_light_arrows"]
+          },
+          {
+            "name": "Eastern Air Gust Room Hall Floor Switch Chest",
+            "access_rules": ["deku, $can_use_light_arrows"]
+          },
+          {
+            "name": "Wizzrobe Chest",
+            "access_rules": [
+              "easy_logic, deku, $can_use_light_arrows",
+              "normal_logic, deku, $can_use_light_arrows, $has|smallkey_st|3"
+            ]
+          },
+          {
+            "name": "Death Armos Maze Chest",
+            "access_rules": ["deku, $can_use_light_arrows, $can_play_elegy"]
+          },
+          {
+            "name": "Gomess Chest",
+            "access_rules": [
+              "easy_logic, deku, $can_use_light_arrows, fairysword, fiercedeity",
+              "normal_logic, deku, $can_use_light_arrows, $can_smack_hard"
+            ]
+          },
+          {
+            "name": "Eyegore Chest",
+            "access_rules": [
+              "easy_logic, @Inverted Stone Tower Temple/Wizzrobe Chest, $baby_has_explosives, $baby_has_projectiles",
+              "normal_logic, @Inverted Stone Tower Temple/Wizzrobe Chest, hookshot, $has|smallkey_st|4"
+            ]
+          },
+          {
+            "name": "Heart Container",
+            "chest_unopened_img": "images/equipment/heart_container.png",
+            "access_rules": [
+              "easy_logic, @Inverted Stone Tower Temple/Eyegore Chest, giantmask, bosskey_st, $baby_can_smack_hard, fiercedeity",
+              "normal_logic, @Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, bow",
+              "normal_logic, @Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, fiercedeity",
+              "normal_logic, @Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, giantmask, sword",
+              "normal_logic, twinmold, bow",
+              "normal_logic, twinmold, fiercedeity",
+              "normal_logic, twinmold, giantmask, sword"
+            ]
+          },
+          {
+            "name": "Twinmold's Remains",
+            "chest_unopened_img": "images/equipment/twinmold.png",
+            "access_rules": [
+              "easy_logic, @Inverted Stone Tower Temple/Eyegore Chest, giantmask, bosskey_st, $baby_can_smack_hard, fiercedeity",
+              "normal_logic, @Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, bow",
+              "normal_logic, @Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, fiercedeity",
+              "normal_logic, @Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, giantmask, sword",
+              "normal_logic, twinmold, bow",
+              "normal_logic, twinmold, fiercedeity",
+              "normal_logic, twinmold, giantmask, sword"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 965,
+            "y": 230
           }
         ]
       }

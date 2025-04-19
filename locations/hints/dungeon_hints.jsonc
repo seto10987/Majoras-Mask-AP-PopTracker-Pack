@@ -775,6 +775,7 @@
         "sections": [
           {
             "name": "Pillar Freestanding HP (Hint)",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
             "visibility_rules": ["ikana_castle_hp"]
           },
           {
@@ -863,6 +864,60 @@
             "map": "overworld",
             "x": 957,
             "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Inverted Stone Tower Temple Hints",
+        "sections": [
+          {
+            "name": "Entrance Room Sun Face Chest (Hint)",
+            "visibility_rules": ["istt_entrance_room_sun_face_chest"]
+          },
+          {
+            "name": "Eastern Air Gust Room Fire Chest (Hint)",
+            "visibility_rules": ["istt_eastern_air_gust_room_fire_chest"]
+          },
+          {
+            "name": "Eastern Air Gust Room Ice Eye Switch Chest (Hint)",
+            "visibility_rules": ["istt_eastern_air_gust_room_ice_eye_switch_chest"]
+          },
+          {
+            "name": "Eastern Air Gust Room Hall Floor Switch Chest (Hint)",
+            "visibility_rules": ["istt_eastern_air_gust_room_hall_floor_switch_chest"]
+          },
+          {
+            "name": "Wizzrobe Chest (Hint)",
+            "visibility_rules": ["istt_wizzrobe_chest"]
+          },
+          {
+            "name": "Death Armos Maze Chest (Hint)",
+            "visibility_rules": ["istt_death_armos_maze_chest"]
+          },
+          {
+            "name": "Gomess Chest (Hint)",
+            "visibility_rules": ["istt_gomess_chest"]
+          },
+          {
+            "name": "Eyegore Chest (Hint)",
+            "visibility_rules": ["istt_eyegore_chest"]
+          },
+          {
+            "name": "Heart Container (Hint)",
+            "chest_unopened_img": "images/equipment/heart_container.png",
+            "visibility_rules": ["istt_heart_container"]
+          },
+          {
+            "name": "Twinmold's Remains (Hint)",
+            "chest_unopened_img": "images/equipment/twinmold.png",
+            "visibility_rules": ["istt_twinmolds_remains"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 957,
+            "y": 230
           }
         ]
       }

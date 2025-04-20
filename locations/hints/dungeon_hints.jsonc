@@ -920,6 +920,16 @@
             "y": 230
           }
         ]
+      },
+      {
+        "name": "Any Boss Hints",
+        "sections": [
+          {
+            "name": "Oath to Order (Hint)",
+            "chest_unopened_img": "images/equipment/song_oath_no_text.png",
+            "visibility_rules": ["any_boss_oath_to_order"]
+          }
+        ]
       }
     ]
   }

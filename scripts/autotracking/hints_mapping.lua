@@ -422,5 +422,17 @@ HINTS_MAPPING = {
     [0x346942006181E] = {"istt_gomess_chest"},
     [0x346942006181A] = {"istt_eyegore_chest"},
     [0x3469420053600] = {"istt_heart_container"},
-    [0x3469420000058] = {"istt_twinmolds_remains"}
+    [0x3469420000058] = {"istt_twinmolds_remains"},
+
+    -- Moon
+    [0x3469420052A01] = {"moon_deku_trial_hp"},
+    [0x3469420053F01] = {"moon_goron_trial_hp"},
+    [0x3469420054701] = {"moon_zora_trial_hp"},
+    [0x3469420066601] = {"moon_link_trial_garo_master_chest"},
+    [0x3469420066602] = {"moon_link_trial_iron_knuckle_chest"},
+    [0x3469420056601] = {"moon_link_trial_hp"},
+    [0x346942000007B] = {"moon_trade_all_masks"},
+
+    -- Any Boss
+    [0x3469420040065] = {"any_boss_oath_to_order"}
 }

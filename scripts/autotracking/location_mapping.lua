@@ -432,5 +432,17 @@ LOCATION_MAPPING = {
     [0x346942006181E] = {"@Dungeons/Inverted Stone Tower Temple/Gomess Chest","Dungeon Hints/Inverted Stone Tower Hints/Gomess Chest (Hint)"},
     [0x346942006181A] = {"@Dungeons/Inverted Stone Tower Temple/Eyegore Chest","Dungeon Hints/Inverted Stone Tower Hints/Eyegore Chest (Hint)"},
     [0x3469420053600] = {"@Dungeons/Inverted Stone Tower Temple/Heart Container","Dungeon Hints/Inverted Stone Tower Hints/Heart Container (Hint)"},
-    [0x3469420000058] = {"@Dungeons/Inverted Stone Tower Temple/Twinmold's Remains","Dungeon Hints/Inverted Stone Tower Hints/Twinmold's Remains (Hint)"}
+    [0x3469420000058] = {"@Dungeons/Inverted Stone Tower Temple/Twinmold's Remains","Dungeon Hints/Inverted Stone Tower Hints/Twinmold's Remains (Hint)"},
+
+    -- Moon
+    [0x3469420052A01] = {"@Inside the Moon/Deku Trial/Heart Piece","@Inside the Moon Hints/Deku Trial Hints/Heart Piece (Hint)"},
+    [0x3469420053F01] = {"@Inside the Moon/Goron Trial/Heart Piece","@Inside the Moon Hints/Goron Trial Hints/Heart Piece (Hint)"},
+    [0x3469420054701] = {"@Inside the Moon/Zora Trial/Heart Piece","@Inside the Moon Hints/Zora Trial Hints/Heart Piece (Hint)"},
+    [0x3469420066601] = {"@Inside the Moon/Link Trial/Garo Master Chest","@Inside the Moon Hints/Link Trial Hints/Garo Master Chest (Hint)"},
+    [0x3469420066602] = {"@Inside the Moon/Link Trial/Iron Knuckle Chest","@Inside the Moon Hints/Link Trial Hints/Iron Knuckle Chest (Hint)"},
+    [0x3469420056601] = {"@Inside the Moon/Link Trial/Heart Piece","@Inside the Moon Hints/Link Trial Hints/Heart Piece (Hint)"},
+    [0x346942000007B] = {"@Inside the Moon/The Moon/Trade All Masks","@Inside the Moon Hints/Link Trial Hints/Trade All Masks (Hint)"},
+
+    -- Any Boss
+    [0x3469420040065] = {"@Dungeons/Any Boss/Oath to Order","Dungeon Hints/Any Boss Hints/Oath to Order (Hint)"}
 }

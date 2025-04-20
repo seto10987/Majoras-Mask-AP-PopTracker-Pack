@@ -112,6 +112,8 @@ function onClear(slot_data)
     end
     
     setFromSlotData("logic_difficulty","logic_difficulty")
+    setFromSlotData("majora_remains_required","majora_remains_required")
+    setFromSlotData("moon_remains_required","moon_remains_required")
     setFromSlotData("camc","camc")
     setFromSlotData("swordless","swordless")
     setFromSlotData("shieldless","shieldless")

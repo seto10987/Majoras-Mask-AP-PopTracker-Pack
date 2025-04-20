@@ -333,31 +333,22 @@
         ]
       },
       {
-        "name": "Heart Container",
+        "name": "Goht",
         "sections": [
           {
             "ref": "Dungeons/Snowhead Temple/Heart Container"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "snowhead_temple",
-            "x": 1026,
-            "y": 1004
-          }
-        ]
-      },
-      {
-        "name": "Goht's Remains",
-        "sections": [
+          },
           {
             "ref": "Dungeons/Snowhead Temple/Goht's Remains"
+          },
+          {
+            "ref": "Dungeons/Any Boss/Oath to Order"
           }
         ],
         "map_locations": [
           {
             "map": "snowhead_temple",
-            "x": 1079,
+            "x": 1052,
             "y": 1004
           }
         ]

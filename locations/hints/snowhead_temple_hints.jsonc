@@ -6,7 +6,7 @@
         "name": "Initial Runway Ice Blowers Chest (Hint)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Initial Runway Ice Blowers Chest (Hint)"
+            "ref": "Dungeon Hints/Snowhead Temple Hints/Initial Runway Ice Blowers Chest (Hint)"
           }
         ],
         "map_locations": [
@@ -21,7 +21,7 @@
         "name": "Initial Runway Under Platform Bubble SF (Hint)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Initial Runway Under Platform Bubble SF (Hint)"
+            "ref": "Dungeon Hints/Snowhead Temple Hints/Initial Runway Under Platform Bubble SF (Hint)"
           }
         ],
         "map_locations": [
@@ -36,7 +36,7 @@
         "name": "Initial Runway Tower Bubble SF (Hint)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Initial Runway Tower Bubble SF (Hint)"
+            "ref": "Dungeon Hints/Snowhead Temple Hints/Initial Runway Tower Bubble SF (Hint)"
           }
         ],
         "map_locations": [
@@ -51,7 +51,7 @@
         "name": "Light Blue Door Center Chest (Hint)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Light Blue Door Center Chest (Hint)"
+            "ref": "Dungeon Hints/Snowhead Temple Hints/Light Blue Door Center Chest (Hint)"
           }
         ],
         "map_locations": [
@@ -66,7 +66,7 @@
         "name": "Light Blue Door Upper Chest (Hint)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Light Blue Door Upper Chest (Hint)"
+            "ref": "Dungeon Hints/Snowhead Temple Hints/Light Blue Door Upper Chest (Hint)"
           }
         ],
         "map_locations": [
@@ -81,7 +81,7 @@
         "name": "Light Blue Door Near Bombable Stairs Box SF (Hint)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Light Blue Door Near Bombable Stairs Box SF (Hint)"
+            "ref": "Dungeon Hints/Snowhead Temple Hints/Light Blue Door Near Bombable Stairs Box SF (Hint)"
           }
         ],
         "map_locations": [
@@ -96,7 +96,7 @@
         "name": "Orange Door Upper Chest (Hint)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Orange Door Upper Chest (Hint)"
+            "ref": "Dungeon Hints/Snowhead Temple Hints/Orange Door Upper Chest (Hint)"
           }
         ],
         "map_locations": [
@@ -111,7 +111,7 @@
         "name": "Orange Door Behind Block Chest (Hint)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Orange Door Behind Block Chest (Hint)"
+            "ref": "Dungeon Hints/Snowhead Temple Hints/Orange Door Behind Block Chest (Hint)"
           }
         ],
         "map_locations": [
@@ -126,7 +126,7 @@
         "name": "Green Door Ice Blowers Chest (Hint)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Green Door Ice Blowers Chest (Hint)"
+            "ref": "Dungeon Hints/Snowhead Temple Hints/Green Door Ice Blowers Chest (Hint)"
           }
         ],
         "map_locations": [
@@ -141,7 +141,7 @@
         "name": "Bottom Floor Switch Chest (Hint)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Bottom Floor Switch Chest (Hint)"
+            "ref": "Dungeon Hints/Snowhead Temple Hints/Bottom Floor Switch Chest (Hint)"
           }
         ],
         "map_locations": [
@@ -156,7 +156,7 @@
         "name": "Column Room 2F Hidden Chest (Hint)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Column Room 2F Hidden Chest (Hint)"
+            "ref": "Dungeon Hints/Snowhead Temple Hints/Column Room 2F Hidden Chest (Hint)"
           }
         ],
         "map_locations": [
@@ -171,7 +171,7 @@
         "name": "Elevator Room Lower Chest (Hint)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Elevator Room Lower Chest (Hint)"
+            "ref": "Dungeon Hints/Snowhead Temple Hints/Elevator Room Lower Chest (Hint)"
           }
         ],
         "map_locations": [
@@ -186,7 +186,7 @@
         "name": "Elevator Room Invisible Platform Chest (Hint)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Elevator Room Invisible Platform Chest (Hint)"
+            "ref": "Dungeon Hints/Snowhead Temple Hints/Elevator Room Invisible Platform Chest (Hint)"
           }
         ],
         "map_locations": [
@@ -201,7 +201,7 @@
         "name": "Elevator Freestanding SF (Hint)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Elevator Freestanding SF (Hint)"
+            "ref": "Dungeon Hints/Snowhead Temple Hints/Elevator Freestanding SF (Hint)"
           }
         ],
         "map_locations": [
@@ -216,7 +216,7 @@
         "name": "Upstairs 2F Icicle Room Snowball Chest (Hint)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Upstairs 2F Icicle Room Snowball Chest (Hint)"
+            "ref": "Dungeon Hints/Snowhead Temple Hints/Upstairs 2F Icicle Room Snowball Chest (Hint)"
           }
         ],
         "map_locations": [
@@ -231,7 +231,7 @@
         "name": "Upstairs 2F Icicle Room Hidden Chest (Hint)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Upstairs 2F Icicle Room Hidden Chest (Hint)"
+            "ref": "Dungeon Hints/Snowhead Temple Hints/Upstairs 2F Icicle Room Hidden Chest (Hint)"
           }
         ],
         "map_locations": [
@@ -246,7 +246,7 @@
         "name": "Timed Switch Room Bubble SF (Hint)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Timed Switch Room Bubble SF (Hint)"
+            "ref": "Dungeon Hints/Snowhead Temple Hints/Timed Switch Room Bubble SF (Hint)"
           }
         ],
         "map_locations": [
@@ -261,7 +261,7 @@
         "name": "1st Wizzrobe Chest (Hint)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/1st Wizzrobe Chest (Hint)"
+            "ref": "Dungeon Hints/Snowhead Temple Hints/1st Wizzrobe Chest (Hint)"
           }
         ],
         "map_locations": [
@@ -276,7 +276,7 @@
         "name": "Snowmen Bubble SF (Hint)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Snowmen Bubble SF (Hint)"
+            "ref": "Dungeon Hints/Snowhead Temple Hints/Snowmen Bubble SF (Hint)"
           }
         ],
         "map_locations": [
@@ -291,7 +291,7 @@
         "name": "Dinolfos Room First SF (Hint)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Dinolfos Room First SF (Hint)"
+            "ref": "Dungeon Hints/Snowhead Temple Hints/Dinolfos Room First SF (Hint)"
           }
         ],
         "map_locations": [
@@ -306,7 +306,7 @@
         "name": "Dinolfos Room Second SF (Hint)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Dinolfos Room Second SF (Hint)"
+            "ref": "Dungeon Hints/Snowhead Temple Hints/Dinolfos Room Second SF (Hint)"
           }
         ],
         "map_locations": [
@@ -321,7 +321,7 @@
         "name": "2nd Wizzrobe Chest (Hint)",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/2nd Wizzrobe Chest (Hint)"
+            "ref": "Dungeon Hints/Snowhead Temple Hints/2nd Wizzrobe Chest (Hint)"
           }
         ],
         "map_locations": [
@@ -333,31 +333,22 @@
         ]
       },
       {
-        "name": "Heart Container (Hint)",
+        "name": "Goht Hints",
         "sections": [
           {
-            "ref": "Dungeons/Snowhead Temple/Heart Container (Hint)"
+            "ref": "Dungeon Hints/Snowhead Temple Hints/Heart Container (Hint)"
+          },
+          {
+            "ref": "Dungeon Hints/Snowhead Temple Hints/Goht's Remains (Hint)"
+          },
+          {
+            "ref": "Dungeon Hints/Snowhead Temple Hints/Oath to Order (Hint)"
           }
         ],
         "map_locations": [
           {
             "map": "snowhead_temple",
             "x": 1018,
-            "y": 1004
-          }
-        ]
-      },
-      {
-        "name": "Goht's Remains (Hint)",
-        "sections": [
-          {
-            "ref": "Dungeons/Snowhead Temple/Goht's Remains (Hint)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "snowhead_temple",
-            "x": 1071,
             "y": 1004
           }
         ]

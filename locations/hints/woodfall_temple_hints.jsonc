@@ -303,32 +303,23 @@
         ]
       },
       {
-        "name": "Heart Container Hints",
+        "name": "Odolwa Hints",
         "sections": [
           {
             "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Heart Container (Hint)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "woodfall_temple",
-            "x": 694,
-            "y": 139
-          }
-        ]
-      },
-      {
-        "name": "Odolwa's Remains Hints",
-        "sections": [
+          },
           {
             "ref": "Dungeons Hints/Woodfall Temple Hints/Woodfall Temple Odolwa's Remains (Hint)"
+          },
+          {
+            "ref": "Dungeons Hints/Any Boss Hints/Oath to Order (Hint)"
           }
         ],
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 737,
-            "y": 139
+            "x": 714,
+            "y": 104
           }
         ]
       }

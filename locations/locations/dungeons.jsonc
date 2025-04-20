@@ -1516,6 +1516,22 @@
             "y": 230
           }
         ]
+      },
+      {
+        "name": "Any Boss",
+        "sections": [
+          {
+            "name": "Oath to Order",
+            "chest_unopened_img": "images/equipment/song_oath_no_text.png",
+            "access_rules": [
+              "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, @Inverted Stone Tower/Twinmold's Remains",
+              "normal_logic, $clear_woodfall",
+              "normal_logic, $clear_snowhead",
+              "normal_logic, $clear_greatbay",
+              "normal_logic, @Inverted Stone Tower/Twinmold's Remains"
+            ]
+          }
+        ]
       }
     ]
   }

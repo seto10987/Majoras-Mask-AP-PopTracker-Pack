@@ -1,6 +1,6 @@
 //Create items to display them in pack settings. Codes are used in /layouts/settings.jsonc for linking.
 [
-  //Logic Difficulty
+  //Game Options
   {
     "name": "Logic Difficulty",
     "type": "progressive",
@@ -21,6 +21,26 @@
         "inherit_codes": false
       }
     ]
+  },
+  {
+    "name": "Remains for Moon",
+    "type": "consumable",
+    "img": "images/pack_settings/remains_for_moon.png",
+    "codes": "moon_remains_required",
+    "min_quantity": 1,
+    "max_quantity": 4,
+    "initial_quantity": 4,
+    "overlay_font_size": 40
+  },
+  {
+    "name": "Remains for Majora",
+    "type": "consumable",
+    "img": "images/pack_settings/remains_for_majora.png",
+    "codes": "majora_remains_required",
+    "min_quantity": 1,
+    "max_quantity": 4,
+    "initial_quantity": 4,
+    "overlay_font_size": 40
   },
 
   //Shuffles

@@ -323,34 +323,24 @@
         ]
       },
       {
-        "name": "Heart Container",
+        "name": "Odolwa",
         "sections": [
           {
             "ref": "Dungeons/Woodfall Temple/Woodfall Temple Heart Container"
-          }
-    
-        ],
-        "map_locations": [
-          {
-            "map": "woodfall_temple",
-            "x": 702,
-            "y": 139
-          }
-        ]
-      },
-      {
-        "name": "Odolwa's Remains",
-        "sections": [
+          },
           {
             "ref": "Dungeons/Woodfall Temple/Woodfall Temple Odolwa's Remains"
+          },
+          {
+            "ref": "Dungeons/Any Boss/Oath to Order"
           }
     
         ],
         "map_locations": [
           {
             "map": "woodfall_temple",
-            "x": 745,
-            "y": 139
+            "x": 722,
+            "y": 104
           }
         ]
       }

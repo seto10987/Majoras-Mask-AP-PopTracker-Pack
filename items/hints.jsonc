@@ -1944,5 +1944,47 @@
     "name": "istt_twinmolds_remains",
     "type": "toggle",
     "codes": "istt_twinmolds_remains"
+  },
+  // Moon
+  {
+    "name": "moon_deku_trial_hp",
+    "type": "toggle",
+    "codes": "moon_deku_trial_hp"
+  },
+  {
+    "name": "moon_goron_trial_hp",
+    "type": "toggle",
+    "codes": "moon_goron_trial_hp"
+  },
+  {
+    "name": "moon_zora_trial_hp",
+    "type": "toggle",
+    "codes": "moon_zora_trial_hp"
+  },
+  {
+    "name": "moon_link_trial_garo_master_chest",
+    "type": "toggle",
+    "codes": "moon_link_trial_garo_master_chest"
+  },
+  {
+    "name": "moon_link_trial_iron_knuckle_chest",
+    "type": "toggle",
+    "codes": "moon_link_trial_iron_knuckle_chest"
+  },
+  {
+    "name": "moon_link_trial_hp",
+    "type": "toggle",
+    "codes": "moon_link_trial_hp"
+  },
+  {
+    "name": "moon_trade_all_masks",
+    "type": "toggle",
+    "codes": "moon_trade_all_masks"
+  },
+  // Any Boss
+  {
+    "name": "any_boss_oath_to_order",
+    "type": "toggle",
+    "codes": "any_boss_oath_to_order"
   }
 ]

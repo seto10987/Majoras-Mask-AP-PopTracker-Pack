@@ -206,7 +206,7 @@
     "type": "toggle",
     "img": "images/pack_settings/sanities/fairysanity_on.png",
     "disabled_img": "images/pack_settings/sanities/fairysanity_off.png",
-    "codes": "fairysanity,fairysanity_on"
+    "codes": "fairysanity"
   },
 
   //Inventory

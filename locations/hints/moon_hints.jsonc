@@ -3,6 +3,7 @@
     "name": "Inside the Moon Hints",
     "chest_unopened_img": "images/icons/chest.png",
     "chest_opened_img": "images/icons/check_32.png",
+    "access_rules": ["{}"],
     "children": [
       {
         "name": "Deku Trial Hints",

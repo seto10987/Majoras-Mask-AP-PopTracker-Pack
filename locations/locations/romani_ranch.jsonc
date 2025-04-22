@@ -1,5 +1,5 @@
 [
-    {
+  {
     "name": "Romani Ranch",
     "chest_unopened_img": "images/icons/chest.png",
     "chest_opened_img": "images/icons/check_32.png",
@@ -146,7 +146,7 @@
             "chest_unopened_img": "images/characters/romani.png"
           },
           {
-            "name": "Alien Defense",
+            "name": "Defended Against Aliens",
             "access_rules": ["$can_use_powder_keg, bow"],
             "chest_unopened_img": "images/characters/romani.png"
           },

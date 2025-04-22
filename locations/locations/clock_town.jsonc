@@ -796,19 +796,12 @@
             ]
           },
           {
-            "name": "Bomb Bag Purchase",
-            "access_rules": [
-              "easy_logic, sword, fairysword",
-              "normal_logic, sword",
-              "normal_logic, fairysword",
-              "normal_logic, zora",
-              "normal_logic, goron"
-            ],
+            "name": "Item 3 (Stop Thief)",
+            "access_rules": ["@Clock Town/North Clock Town Save Old Lady/North Clock Town Save Old Lady (Night 1, 12 AM)"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
             ]
-            //same requirements as North Clock Town Save Old Lady
           },
           {
             "name": "Powder Keg Goron",
@@ -833,18 +826,47 @@
         "sections": [
           {
             "name": "Curiosity Shop Night 3 (Stop Thief)",
-            "access_rules": [
-              "easy_logic, giantswallet, sword, fairysword",
-              "normal_logic, giantswallet, sword",
-              "normal_logic, giantswallet, fairysword",
-              "normal_logic, giantswallet, zora",
-              "normal_logic, giantswallet, goron"
-            ]
-            //same requirements as Bomb Bag Purchase
+            "access_rules": ["giantswallet, @Clock Town/Bomb Shop/Item 3 (Stop Thief)"]
           },
           {
             "name": "Curiosity Shop Night 3 Thief Stolen Item",
             "access_rules": ["adultswallet"]
+          },
+          {
+            "name": "Blue Rupee Trade (Half Milk)",
+            "chest_unopened_img": "images/items/half_milk_bottle.png",
+            "access_rules": [
+              "easy_logic, @Southern Swamp/Southern Swamp Witch Shop/Item 1, $baby_can_get_cow_milk",
+              "normal_logic, @Termina Field/Termina Log Bombable Grotto/Left Cow",
+              "normal_logic, @Romani Ranch/Romani Ranch Barn/Free Cow",
+              "normal_logic, @Great Bay/Great Bay Coast/Ledge Grotto Left Cow",
+              "normal_logic, @Dungeons/Beneath the Well/Cow"
+            ]
+          },
+          {
+            "name": "Red Rupee Trade (Red potion or full milk)",
+            "chest_unopened_img": "images/items/red_milk_potion.png",
+            "access_rules": [
+              "easy_logic, $baby_has_bottle",
+              "normal_logic, $has|bottles|1"
+            ]
+          },
+          {
+            "name": "Purple Rupee Trade (Poe)",
+            "chest_unopened_img": "images/items/poe.png",
+            "access_rules": [
+              "easy_logic, $baby_has_bottle, @Dungeons/Inverted Stone Tower Temple/Death Armos Maze Chest",
+              "normal_logic, $has|bottles|1, @Dungeons/Inverted Stone Tower Temple/Death Armos Maze Chest"
+            ]
+          },
+          {
+            "name": "Gold Rupee Trade (Big Poe)",
+            "chest_unopened_img": "images/items/big_poe.png",
+            "access_rules": [
+              "easy_logic, $baby_has_bottle, @Ikana/Graveyard/Day 3 Dampe Big Poe Chest, @Dungeons/Beneath the Well/Rightside Torch Chest, bombs",
+              "normal_logic, $has|bottles|1, @Ikana/Graveyard/Day 3 Dampe Big Poe Chest",
+              "normal_logic, $has|bottles|1, @Dungeons/Beneath the Well/Rightside Torch Chest, bombs"
+            ]
           }
         ]
       },

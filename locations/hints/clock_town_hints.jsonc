@@ -232,11 +232,11 @@
           "name": "Mayor's Residence (10 AM - 10 PM) Hints",
           "sections": [
             {
-              "name": "East Clock Town Mayors Wife (Hint)",
+              "name": "East Clock Town Mayor's Wife (Hint)",
               "visibility_rules": ["east_clock_town_madame_aroma"]
             },
             {
-              "name": "East Clock Town Couples Mask on Mayor (Hint)",
+              "name": "East Clock Town Couple's Mask on Mayor (Hint)",
               "visibility_rules": ["east_clock_town_mayor_dotour"]
             }
           ],
@@ -651,8 +651,8 @@
               "visibility_rules": ["bomb_shop_item_3"]
             },
             {
-              "name": "Bomb Bag Purchase (Hint)",
-              "visibility_rules": ["bomb_shop_bomb_bag_purchase"]
+              "name": "Item 3 (Stop Thief) (Hint)",
+              "visibility_rules": ["bomb_shop_item_3_stop_thief"]
             },
             {
               "name": "Powder Keg Goron (Hint)",
@@ -677,6 +677,26 @@
             {
               "name": "Curiosity Shop Night 3 Thief Stolen Item (Hint)",
               "visibility_rules": ["curiosity_shop_stolen_item"]
+            },
+            {
+              "name": "Blue Rupee Trade (Half Milk) (Hint)",
+              "chest_unopened_img": "images/items/half_milk_bottle.png",
+              "visibility_rules": ["curiosity_blue_rupee_trade"]
+            },
+            {
+              "name": "Red Rupee Trade (Red potion or full milk) (Hint)",
+              "chest_unopened_img": "images/items/red_milk_potion.png",
+              "visibility_rules": ["curiosity_red_rupee_trade"]
+            },
+            {
+              "name": "Purple Rupee Trade (Poe) (Hint)",
+              "chest_unopened_img": "images/items/poe.png",
+              "visibility_rules": ["curiosity_purple_rupee_trade"]
+            },
+            {
+              "name": "Gold Rupee Trade (Big Poe) (Hint)",
+              "chest_unopened_img": "images/items/big_poe.png",
+              "visibility_rules": ["curiosity_gold_rupee_trade"]
             }
           ]
         },

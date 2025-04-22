@@ -8,6 +8,10 @@ function can_play_eponas()
     return has("epona") and has("ocarina")
 end
 
+function can_play_soaring()
+    return has("soaring") and has("ocarina")
+end
+
 function can_play_storms()
     return has("storms") and has("ocarina")
 end
@@ -38,7 +42,7 @@ end
 -- has_bombchus() unnecessary: any bombchu pickup is linked to one toggle "bombchu"
 
 function has_explosives() -- was "explosives"
-    return has("bombs") or has("bombchu") or has("blast")
+    return has("bombs") or has("bombchu_bag") or has("blast")
 end
 
 function has_hard_projectiles() -- was "has_hard_projectiles"
@@ -50,7 +54,7 @@ function has_projectiles() -- was "projectiles"
 end
 
 function can_smack_hard() -- was "smack_hard"
-    return has("sword") or has("fiercedeity") or has("fairysword") or has("goron") or has("zora")
+    return has("sword") or has("fiercedeity") or has("fairysword") or has("goron")
 end
 
 function can_smack() -- was "smack"
@@ -59,6 +63,10 @@ end
 
 function has_paper()
     return has("landdeed") or has("swampdeed") or has("mountaindeed") or has("oceandeed") or has("kafeiletter") or has("express")
+end
+
+function can_get_cow_milk()
+    return has("bottles", 1) and can_play_eponas() and (has_explosives() or can_use_powder_keg() or has("hookshot") or (has("gibdo") and has("bottles",1) and (can_plant_beans() or can_use_light_arrows()) and (((has("maskofscents") or has("adultswallet")) and has("zora")) or (mountain_village() and can_play_soaring() and ((can_use_lens() and can_play_healing() and has("goron")) or can_use_fire_arrows())))))
 end
 
 function can_plant_beans() -- was "plant_beans"
@@ -137,6 +145,10 @@ end
 
 function baby_can_reach_seahorse()
     return great_bay() and has("zora") and has("hookshot") and has("goron") and has("pictobox")
+end
+
+function baby_can_get_cow_milk()
+    return baby_has_bottle() and can_play_eponas() and baby_has_explosives() and can_use_powder_keg() and has("hookshot") and has("gibdo") and baby_can_plant_beans() and can_use_light_arrows() and has("maskofscents") and has("zora")
 end
 
 --[[

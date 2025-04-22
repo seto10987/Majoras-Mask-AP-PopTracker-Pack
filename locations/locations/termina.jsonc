@@ -157,7 +157,10 @@
           {
             "name": "Termina Business Scrub Grotto HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
-            "access_rules": ["$has_projectiles, wallet"]
+            "access_rules": [
+              "easy_logic, $baby_has_projectiles, wallet",
+              "normal_logic, $has_projectiles, wallet"
+            ]
           }
         ],
         "map_locations": [
@@ -176,9 +179,11 @@
             "name": "Termina Gossip Stones HP",
             "access_rules": [
               "easy_logic, deku, $can_play_sonata, goron, $can_play_lullaby, zora, $can_play_bossa_nova",
-              "normal_logic, deku, $can_play_sonata, $has_explosives, goron",
+              "normal_logic, deku, $can_play_sonata, $has_explosives",
+              "normal_logic, deku, $can_play_sonata, goron",
               "normal_logic, goron, $can_play_lullaby",
-              "normal_logic, zora, $can_play_bossanova, $has_explosives, goron"
+              "normal_logic, zora, $can_play_bossa_nova, $has_explosives",
+              "normal_logic, zora, $can_play_bossa_nova, goron"
             ]
           }
         ],

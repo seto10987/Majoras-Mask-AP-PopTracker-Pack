@@ -99,18 +99,8 @@ function onClear(slot_data)
             print(string.format("Unsupported item type '%s' for item '%s'", tostring(obj.Type), item_code))
             return nil
         end
-
-        if Tracker:FindObjectForCode("shuffle_regional_maps").CurrentStage == 1 then
-            for _, regional_maps in pairs(REGION_MAPS_LIST) do
-                Tracker:FindObjectForCode(regional_maps).Active = true
-            end
-        else
-            for _, regional_maps in pairs(REGION_MAPS_LIST) do
-                Tracker:FindObjectForCode(regional_maps).Active = false
-            end
-        end
     end
-    
+
     setFromSlotData("logic_difficulty","logic_difficulty")
     setFromSlotData("majora_remains_required","majora_remains_required")
     setFromSlotData("moon_remains_required","moon_remains_required")
@@ -232,7 +222,6 @@ function onNotifyLaunch(key, value)
                     updateHints(hint.location)
                 elseif hint.found then
                     updateHints(hint.location)
-                    
                 end
             end
         end

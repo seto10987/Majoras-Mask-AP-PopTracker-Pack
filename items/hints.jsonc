@@ -50,6 +50,26 @@
     "codes": "laundry_pool_curiosity_shop_salesman_2_final_day_1_pm_9_pm"
   },
   {
+    "name": "curiosity_blue_rupee_trade",
+    "type": "toggle",
+    "codes": "curiosity_blue_rupee_trade"
+  },
+  {
+    "name": "curiosity_red_rupee_trade",
+    "type": "toggle",
+    "codes": "curiosity_red_rupee_trade"
+  },
+  {
+    "name": "curiosity_purple_rupee_trade",
+    "type": "toggle",
+    "codes": "curiosity_purple_rupee_trade"
+  },
+  {
+    "name": "curiosity_gold_rupee_trade",
+    "type": "toggle",
+    "codes": "curiosity_gold_rupee_trade"
+  },
+  {
     "name": "south_clock_town_corner_chest",
     "type": "toggle",
     "codes": "south_clock_town_corner_chest"
@@ -800,9 +820,9 @@
     "codes": "bomb_shop_item_3"
   },
   {
-    "name": "bomb_shop_bomb_bag_purchase",
+    "name": "bomb_shop_item_3_stop_thief",
     "type": "toggle",
-    "codes": "bomb_shop_bomb_bag_purchase"
+    "codes": "bomb_shop_item_3_stop_thief"
   },
   {
     "name": "bomb_shop_powder_keg_goron",

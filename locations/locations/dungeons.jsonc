@@ -5,191 +5,193 @@
     "chest_opened_img": "images/icons/check_32.png",
     "children": [
       {
-          "name": "Woodfall Temple",
-          "chest_unopened_img": "images/icons/chest.png",
-          "chest_opened_img": "images/icons/check_32.png",
-          "access_rules": [
-            "easy_logic, $baby_woodfall_temple",
-            "normal_logic, $woodfall_temple"
-          ],
-          "sections": [
-            {
-              "name": "Woodfall Temple Entrance Chest",
-              "access_rules": [""]
-            },
-            {
-              "name": "Woodfall Temple Wooden Flower Switch Chest",
-              "access_rules": ["bow"]
-            },
-            {
-              "name": "Woodfall Temple Moving Flower Platform Room Chest",
-              "access_rules": [""]
-            },
-            {
-              "name": "Woodfall Temple Gagwab Chest",
-              "access_rules": [""]
-            },
-            {
-              "name": "Woodfall Temple Dinolfos Chest",
-              "access_rules": [
-                "easy_logic, bow, $baby_can_smack_hard",
-                "normal_logic, smallkey_wf, $can_smack",
-                "normal_logic, bow"
-              ]
-            },
-            {
-              "name": "Woodfall Temple Boss Key Chest",
-              "access_rules": [
-                "easy_logic, bow, $baby_can_smack_hard, $baby_has_explosives, deku, goron",
-                "normal_logic, bow, $can_smack"
-              ]
-            },
-            {
-              "name": "Woodfall Temple Dragonfly Chest",
-              "access_rules": [
-                "easy_logic, smallkey_wf, $baby_has_projectiles",
-                "normal_logic, smallkey_wf",
-                "normal_logic, bow"
-              ]
-            },
-            {
-              "name": "Woodfall Temple Black Boe Room Chest",
-              "access_rules": [
-                "easy_logic, smallkey_wf, $baby_can_smack",
-                "normal_logic, smallkey_wf",
-                "normal_logic, bow"
-              ]
-            },
-            {
-              "name": "Woodfall Temple Entrance Freestanding SF",
-              "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "access_rules": [""],
-              "visibility_rules": ["fairysanity_on"]
-            },
-            {
-              "name": "Woodfall Temple Wooden Flower Deku Baba SF",
-              "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "access_rules": [""],
-              "visibility_rules": ["fairysanity_on"]
-            },
-            {
-              "name": "Woodfall Temple Wooden Flower Bubble SF",
-              "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "access_rules": [
-                "easy_logic, bow, fairymask",
-                "normal_logic, bow, fairymask",
-                "normal_logic, $can_use_fire_arrows"
-              ],
-              "visibility_rules": ["fairysanity_on"]
-            },
-            {
-              "name": "Woodfall Temple Wooden Flower Pot SF",
-              "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "access_rules": [""],
-              "visibility_rules": ["fairysanity_on"]
-            },
-            {
-              "name": "Woodfall Temple Moving Flower Platform Room Beehive SF",
-              "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "access_rules": [
-                "easy_logic, $baby_has_projectiles, fairymask",
-                "normal_logic, $has_projectiles"
-              ],
-              "visibility_rules": ["fairysanity_on"]
-            },
-            {
-              "name": "Woodfall Temple Push Block Skulltula SF",
-              "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "access_rules": [
-                "easy_logic, smallkey_wf, $baby_can_smack_hard, $baby_has_projectiles",
-                "normal_logic, smallkey_wf, $can_smack",
-                "normal_logic, bow"
-              ],
-              "visibility_rules": ["fairysanity_on"]
-            },
-            {
-              "name": "Woodfall Temple Push Block Bubble SF",
-              "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "access_rules": [
-                "easy_logic, smallkey_wf, $baby_has_projectiles, fairymask",
-                "normal_logic, smallkey_wf, $has_projectiles, fairymask",
-                "normal_logic, bow, fairymask"
-              ],
-              "visibility_rules": ["fairysanity_on"]
-            },
-            {
-              "name": "Woodfall Temple Push Block Beehive SF",
-              "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "access_rules": [
-                "easy_logic, smallkey_wf, $baby_has_projectiles, fairymask",
-                "normal_logic, smallkey_wf, $has_projectiles, fairymask",
-                "normal_logic, bow, fairymask"
-              ],
-              "visibility_rules": ["fairysanity_on"]
-            },
-            {
-              "name": "Woodfall Temple Final Room Right Upper Platform SF",
-              "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "access_rules": ["bow"],
-              "visibility_rules": ["fairysanity_on"]
-            },
-            {
-              "name": "Woodfall Temple Final Room Right Lower Platform SF",
-              "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "access_rules": [
-                "easy_logic, bow, $can_use_fire_arrows",
-                "normal_logic,bow",
-                "normal_logic, $can_use_fire_arrows"
-              ],
-              "visibility_rules": ["fairysanity_on"]
-            },
-            {
-              "name": "Woodfall Temple Final Room Left Upper Platform SF",
-              "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "access_rules": [
-                "easy_logic, bow, $can_use_fire_arrows",
-                "normal_logic,bow",
-                "normal_logic, $can_use_fire_arrows"
-              ],
-              "visibility_rules": ["fairysanity_on"]
-            },
-            {
-              "name": "Woodfall Temple Final Room Bubble SF",
-              "chest_unopened_img": "images/equipment/fairy_wf.png",
-              "access_rules": [
-                "easy_logic, bow, fairymask, $can_use_fire_arrows",
-                "normal_logic, bow",
-                "normal_logic, $can_use_fire_arrows"
-              ],
-              "visibility_rules": ["fairysanity_on"]
-            },
-            {
-              "name": "Woodfall Temple Heart Container",
-              "chest_unopened_img": "images/equipment/heart_container.png",
-              "access_rules": [
-                "easy_logic, bow, $baby_can_smack_hard, bosskey_wf",
-                "normal_logic, bow, $can_smack, bosskey_wf",
-                "normal_logic, bow, $can_smack, odolwa"
-              ]
-            },
-            {
-              "name": "Woodfall Temple Odolwa's Remains",
-              "access_rules": [
-                "easy_logic, bow, $baby_can_smack_hard, bosskey_wf",
-                "normal_logic, $can_smack, bow, bosskey_wf",
-                "normal_logic, $can_smack, bow, odolwa"
-              ],
-              "hosted_item": "boss_odolwa_hosted"
-            }
-      
-          ],
-          "map_locations": [
-            {
-              "map": "overworld",
-              "x": 542,
-              "y": 478
-            }
-          ]
+        "name": "Woodfall Temple",
+        "chest_unopened_img": "images/icons/chest.png",
+        "chest_opened_img": "images/icons/check_32.png",
+        "access_rules": [
+          "easy_logic, $baby_woodfall_temple",
+          "normal_logic, $woodfall_temple"
+        ],
+        "sections": [
+          {
+            "name": "Woodfall Temple Entrance Chest",
+            "access_rules": [""]
+          },
+          {
+            "name": "Woodfall Temple Wooden Flower Switch Chest",
+            "access_rules": ["bow"]
+          },
+          {
+            "name": "Woodfall Temple Moving Flower Platform Room Chest",
+            "access_rules": [""]
+          },
+          {
+            "name": "Woodfall Temple Gagwab Chest",
+            "access_rules": [""]
+          },
+          {
+            "name": "Woodfall Temple Dinolfos Chest",
+            "access_rules": [
+              "easy_logic, bow, $baby_can_smack_hard",
+              "normal_logic, smallkey_wf, $can_smack",
+              "normal_logic, bow"
+            ]
+          },
+          {
+            "name": "Woodfall Temple Boss Key Chest",
+            "access_rules": [
+              "easy_logic, bow, $baby_can_smack_hard, $baby_has_explosives, deku, goron",
+              "normal_logic, bow, $can_smack"
+            ]
+          },
+          {
+            "name": "Woodfall Temple Dragonfly Chest",
+            "access_rules": [
+              "easy_logic, smallkey_wf, $baby_has_projectiles",
+              "normal_logic, smallkey_wf",
+              "normal_logic, bow"
+            ]
+          },
+          {
+            "name": "Woodfall Temple Black Boe Room Chest",
+            "access_rules": [
+              "easy_logic, smallkey_wf, $baby_can_smack",
+              "normal_logic, smallkey_wf",
+              "normal_logic, bow"
+            ]
+          },
+          {
+            "name": "Woodfall Temple Entrance Freestanding SF",
+            "chest_unopened_img": "images/equipment/fairy_wf.png",
+            "access_rules": [""],
+            "visibility_rules": ["fairysanity"]
+          },
+          {
+            "name": "Woodfall Temple Wooden Flower Deku Baba SF",
+            "chest_unopened_img": "images/equipment/fairy_wf.png",
+            "access_rules": [""],
+            "visibility_rules": ["fairysanity"]
+          },
+          {
+            "name": "Woodfall Temple Wooden Flower Bubble SF",
+            "chest_unopened_img": "images/equipment/fairy_wf.png",
+            "access_rules": [
+              "easy_logic, bow, fairymask",
+              "normal_logic, bow"
+            ],
+            "visibility_rules": ["fairysanity"]
+          },
+          {
+            "name": "Woodfall Temple Wooden Flower Pot SF",
+            "chest_unopened_img": "images/equipment/fairy_wf.png",
+            "access_rules": [""],
+            "visibility_rules": ["fairysanity"]
+          },
+          {
+            "name": "Woodfall Temple Moving Flower Platform Room Beehive SF",
+            "chest_unopened_img": "images/equipment/fairy_wf.png",
+            "access_rules": [
+              "easy_logic, $baby_has_projectiles, fairymask",
+              "normal_logic, $has_projectiles"
+            ],
+            "visibility_rules": ["fairysanity"]
+          },
+          {
+            "name": "Woodfall Temple Push Block Skulltula SF",
+            "chest_unopened_img": "images/equipment/fairy_wf.png",
+            "access_rules": [
+              "easy_logic, smallkey_wf, $baby_can_smack_hard, $baby_has_projectiles",
+              "normal_logic, smallkey_wf, $can_smack",
+              "normal_logic, bow"
+            ],
+            "visibility_rules": ["fairysanity"]
+          },
+          {
+            "name": "Woodfall Temple Push Block Bubble SF",
+            "chest_unopened_img": "images/equipment/fairy_wf.png",
+            "access_rules": [
+              "easy_logic, smallkey_wf, $baby_has_projectiles, fairymask",
+              "normal_logic, smallkey_wf, $has_projectiles, fairymask",
+              "normal_logic, bow, fairymask",
+              "normal_logic, bow, zora"
+            ],
+            "visibility_rules": ["fairysanity"]
+          },
+          {
+            "name": "Woodfall Temple Push Block Beehive SF",
+            "chest_unopened_img": "images/equipment/fairy_wf.png",
+            "access_rules": [
+              "easy_logic, smallkey_wf, $baby_has_projectiles, fairymask",
+              "normal_logic, smallkey_wf, $has_projectiles, fairymask",
+              "normal_logic, bow"
+            ],
+            "visibility_rules": ["fairysanity"]
+          },
+          {
+            "name": "Woodfall Temple Final Room Right Upper Platform SF",
+            "chest_unopened_img": "images/equipment/fairy_wf.png",
+            "access_rules": ["bow"],
+            "visibility_rules": ["fairysanity"]
+          },
+          {
+            "name": "Woodfall Temple Final Room Right Lower Platform SF",
+            "chest_unopened_img": "images/equipment/fairy_wf.png",
+            "access_rules": [
+              "easy_logic, bow, $can_use_fire_arrows",
+              "normal_logic,bow",
+              "normal_logic, $can_use_fire_arrows"
+            ],
+            "visibility_rules": ["fairysanity"]
+          },
+          {
+            "name": "Woodfall Temple Final Room Left Upper Platform SF",
+            "chest_unopened_img": "images/equipment/fairy_wf.png",
+            "access_rules": [
+              "easy_logic, bow, $can_use_fire_arrows",
+              "normal_logic,bow",
+              "normal_logic, $can_use_fire_arrows"
+            ],
+            "visibility_rules": ["fairysanity"]
+          },
+          {
+            "name": "Woodfall Temple Final Room Bubble SF",
+            "chest_unopened_img": "images/equipment/fairy_wf.png",
+            "access_rules": [
+              "easy_logic, bow, fairymask, $can_use_fire_arrows",
+              "normal_logic, bow",
+              "normal_logic, $can_use_fire_arrows"
+            ],
+            "visibility_rules": ["fairysanity"]
+          },
+          {
+            "name": "Woodfall Temple Heart Container",
+            "chest_unopened_img": "images/equipment/heart_container.png",
+            "access_rules": [
+              "easy_logic, bow, $baby_can_smack_hard, bosskey_wf",
+              "normal_logic, bow, $can_smack, bosskey_wf",
+              "normal_logic, bow, $can_smack, odolwa"
+            ]
+          },
+          {
+            "name": "Woodfall Temple Odolwa's Remains",
+            "access_rules": [
+              "easy_logic, bow, $baby_can_smack_hard, bosskey_wf",
+              "normal_logic, $can_smack, bow, bosskey_wf",
+              "normal_logic, $can_smack, bow, odolwa"
+            ],
+            "hosted_item": "boss_odolwa_hosted"
+          },
+          {
+            "ref": "Dungeons/Any Boss/Oath to Order"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 542,
+            "y": 478
+          }
+        ]
       },
       {
         "name": "Snowhead Temple",
@@ -211,7 +213,7 @@
             "name": "Initial Runway Under Platform Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_sh.png",
             "access_rules": ["fairymask, bow"],
-            "visibility_rules": ["fairysanity_on"]
+            "visibility_rules": ["fairysanity"]
           },
           {
             "name": "Initial Runway Tower Bubble SF",
@@ -220,7 +222,7 @@
               "easy_logic, fairymask, bow, $can_use_lens",
               "normal_logic, fairymask, bow"
             ],
-            "visibility_rules": ["fairysanity_on"]
+            "visibility_rules": ["fairysanity"]
           },
           {
             "name": "Light Blue Door Center Chest",
@@ -246,7 +248,7 @@
               "normal_logic, $has|smallkey_sh|1, fairymask, $has_explosives",
               "normal_logic, $has|smallkey_sh|1, hookshot, $has_explosives, fairymask, bow"
             ],
-            "visibility_rules": ["fairysanity_on"]
+            "visibility_rules": ["fairysanity"]
           },
           {
             "name": "Orange Door Upper Chest",
@@ -292,7 +294,7 @@
             "name": "Elevator Freestanding SF",
             "chest_unopened_img": "images/equipment/fairy_sh.png",
             "access_rules": [""],
-            "visibility_rules": ["fairysanity_on"]
+            "visibility_rules": ["fairysanity"]
           },
           {
             "name": "Upstairs 2F Icicle Room Snowball Chest",
@@ -319,7 +321,7 @@
               "normal_logic, $has|smallkey_sh|1, fairymask, bow, $can_use_lens, $has_explosives",
               "normal_logic, hookshot, fairymask, bow, $can_use_lens"
             ],
-            "visibility_rules": ["fairysanity_on"]
+            "visibility_rules": ["fairysanity"]
           },
           {
             "name": "1st Wizzrobe Chest",
@@ -337,7 +339,7 @@
               "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows, fairymask",
               "normal_logic, $has|smallkey_sh|1, hookshot, fairymask"
             ],
-            "visibility_rules": ["fairysanity_on"]
+            "visibility_rules": ["fairysanity"]
           },
           {
             "name": "Dinolfos Room First SF",
@@ -346,7 +348,7 @@
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows",
               "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows"
             ],
-            "visibility_rules": ["fairysanity_on"]
+            "visibility_rules": ["fairysanity"]
           },
           {
             "name": "Dinolfos Room Second SF",
@@ -355,7 +357,7 @@
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows",
               "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows"
             ],
-            "visibility_rules": ["fairysanity_on"]
+            "visibility_rules": ["fairysanity"]
           },
           {
             "name": "2nd Wizzrobe Chest",
@@ -409,7 +411,7 @@
           {
             "name": "Waterwheel Room Skulltula SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
-            "visibility_rules": ["fairysanity_on"],
+            "visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, bow, fairymask",
               "normal_logic, $can_smack_hard"
@@ -418,7 +420,7 @@
           {
             "name": "Waterwheel Room Bubble Under Platform SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
-            "visibility_rules": ["fairysanity_on"],
+            "visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, bow, fairymask",
               "normal_logic, zora",
@@ -428,7 +430,7 @@
           {
             "name": "Blender Room Barrel SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
-            "visibility_rules": ["fairysanity_on"],
+            "visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, bow, fairymask",
               "normal_logic"
@@ -437,7 +439,7 @@
           {
             "name": "Pot At Bottom Of Blender SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
-            "visibility_rules": ["fairysanity_on"],
+            "visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, bow, fairymask",
               "normal_logic"
@@ -454,7 +456,7 @@
           {
             "name": "Red-Green Pipe First Room Pot SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
-            "visibility_rules": ["fairysanity_on"],
+            "visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, zora, bow, fairymask, deku",
               "normal_logic, $can_use_ice_arrows",
@@ -493,7 +495,7 @@
           {
             "name": "Froggy Entrance Room Pot SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
-            "visibility_rules": ["fairysanity_on"],
+            "visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, bow, fairymask",
               "normal_logic"
@@ -532,7 +534,7 @@
           {
             "name": "Seesaw Room Underwater Barrel SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
-            "visibility_rules": ["fairysanity_on"],
+            "visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, $can_use_ice_arrows, $can_use_fire_arrows, bombchu_bag",
               "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows"
@@ -548,7 +550,7 @@
           {
             "name": "Before Boss Room Underneath Platform Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
-            "visibility_rules": ["fairysanity_on"],
+            "visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, fairymask, $can_use_ice_arrows, $can_use_fire_arrows",
               "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, fairymask",
@@ -558,7 +560,7 @@
           {
             "name": "Before Boss Room Exit Tunnel Bubble SF",
             "chest_unopened_img": "images/equipment/fairy_gb.png",
-            "visibility_rules": ["fairysanity_on"],
+            "visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, fairymask, $can_use_ice_arrows, $can_use_fire_arrows",
               "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows"
@@ -1231,15 +1233,15 @@
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
             "access_rules": [
-              "easy_logic, gibdo, $baby_has_bottle, $baby_can_plant_beans, $can_use_light_arrows, maskofscents, adultswallet, zora, $can_play_eponas",
-              "normal_logic, gibdo, $has|bottles|1, $can_plant_beans, maskofscents, zora, $can_play_eponas",
-              "normal_logic, gibdo, $has|bottles|1, $can_plant_beans, adultswallet, zora, $can_play_eponas",
-              "normal_logic, gibdo, $has|bottles|1, $can_plant_beans, $mountain_village, $can_use_lens, $can_play_healing, goron, $can_play_soaring, $can_play_eponas",
-              "normal_logic, gibdo, $has|bottles|1, $can_plant_beans, $mountain_village, $can_use_fire_arrows, $can_play_soaring, $can_play_eponas",
-              "normal_logic, gibdo, $has|bottles|1, $can_use_light_arrows, maskofscents, zora, $can_play_eponas",
-              "normal_logic, gibdo, $has|bottles|1, $can_use_light_arrows, adultswallet, zora, $can_play_eponas",
-              "normal_logic, gibdo, $has|bottles|1, $can_use_light_arrows, $mountain_village, $can_use_lens, $can_play_healing, goron, $can_play_soaring, $can_play_eponas",
-              "normal_logic, gibdo, $has|bottles|1, $can_use_light_arrows, $mountain_village, $can_use_fire_arrows, $can_play_soaring, $can_play_eponas"
+              "easy_logic, gibdo, $baby_has_bottle, $can_play_eponas, $baby_can_plant_beans, $can_use_light_arrows, maskofscents, adultswallet, zora",
+              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, maskofscents, zora",
+              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, adultswallet, zora",
+              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, $mountain_village, $can_use_lens, $can_play_healing, goron, $can_play_soaring",
+              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_plant_beans, $mountain_village, $can_use_fire_arrows, $can_play_soaring",
+              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, maskofscents, zora",
+              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, adultswallet, zora",
+              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, $mountain_village, $can_play_soaring, $can_use_lens, $can_play_healing, goron",
+              "normal_logic, gibdo, $has|bottles|1, $can_play_eponas, $can_use_light_arrows, $mountain_village, $can_play_soaring, $can_use_fire_arrows"
             ]
           },
           {
@@ -1528,7 +1530,7 @@
               "normal_logic, $clear_woodfall",
               "normal_logic, $clear_snowhead",
               "normal_logic, $clear_greatbay",
-              "normal_logic, @Inverted Stone Tower/Twinmold's Remains"
+              "normal_logic, @Inverted Stone Tower Temple/Twinmold's Remains"
             ]
           }
         ]

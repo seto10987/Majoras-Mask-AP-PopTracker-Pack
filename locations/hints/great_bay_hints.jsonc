@@ -185,11 +185,11 @@
           }
         ],
         "sections": [
-          //{
-          //  "name": "Heart Piece (Hint)",
-          //  "chest_unopened_img": "images/equipment/heart_piece.png",
-          //  "visibility_rules": ["pinnacle_rock_hp"]
-          //},
+          {
+            "name": "Heart Piece (Hint)",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
+            "visibility_rules": ["pinnacle_rock_hp"]
+          },
           {
             "name": "Upper Eel Chest (Hint)",
             "visibility_rules": ["pinnacle_rock_upper_chest"]

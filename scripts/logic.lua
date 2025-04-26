@@ -165,7 +165,7 @@ end]]
 -- Region rules
 
 function moon()
-    return has("ocarina") and has("oath") and has("odolwa") and has("goht") and has("gyorg") and has("twinmold")
+    return has("ocarina") and has("oath") and --[[has("odolwa") and has("goht") and has("gyorg") and has("twinmold")]] has("remains_moon")
 end
 
 --- SWAMP REGION ---
@@ -420,15 +420,71 @@ function obtainEmptyBottle()
     end
 end
 
---function bottle_count()
---    if Tracker:FindObjectForCode("redpotion").Active then
---        if Tracker:FindObjectForCode("bottle_1").Active then
---                if Tracker:FindObjectForCode("bottle_2").Active then
---                    Tracker:FindObjectForCode("bottle_3").Active = true
---                        else Tracker:FindObjectForCode("bottle_2").Active = true
---                end
---            else Tracker:FindObjectForCode("bottle_1").Active = true
---        end
+function obtainOdolwa()
+    local remains_count = Tracker:FindObjectForCode("remains_count")
+    if Tracker:FindObjectForCode("odolwa").Active then
+        if (remains_count.AcquiredCount + remains_count.Increment) >= remains_count.MaxCount then
+            remains_count.AcquiredCount = remains_count.MaxCount
+        else
+            remains_count.AcquiredCount = remains_count.AcquiredCount + remains_count.Increment
+        end
+    elseif Tracker:FindObjectForCode("odolwa").Active == false then
+        remains_count.AcquiredCount = remains_count.AcquiredCount - remains_count.Decrement
+    end
+    remainsMoon()
+end
+
+function obtainGoht()
+    local remains_count = Tracker:FindObjectForCode("remains_count")
+    if Tracker:FindObjectForCode("goht").Active then
+        if (remains_count.AcquiredCount + remains_count.Increment) >= remains_count.MaxCount then
+            remains_count.AcquiredCount = remains_count.MaxCount
+        else
+            remains_count.AcquiredCount = remains_count.AcquiredCount + remains_count.Increment
+        end
+    elseif Tracker:FindObjectForCode("goht").Active == false then
+        remains_count.AcquiredCount = remains_count.AcquiredCount - remains_count.Decrement
+    end
+    remainsMoon()
+end
+
+function obtainGyorg()
+    local remains_count = Tracker:FindObjectForCode("remains_count")
+    if Tracker:FindObjectForCode("gyorg").Active then
+        if (remains_count.AcquiredCount + remains_count.Increment) >= remains_count.MaxCount then
+            remains_count.AcquiredCount = remains_count.MaxCount
+        else
+            remains_count.AcquiredCount = remains_count.AcquiredCount + remains_count.Increment
+        end
+    elseif Tracker:FindObjectForCode("gyorg").Active == false then
+        remains_count.AcquiredCount = remains_count.AcquiredCount - remains_count.Decrement
+    end
+    remainsMoon()
+end
+
+function obtainTwinmold()
+    local remains_count = Tracker:FindObjectForCode("remains_count")
+    if Tracker:FindObjectForCode("twinmold").Active then
+        if (remains_count.AcquiredCount + remains_count.Increment) >= remains_count.MaxCount then
+            remains_count.AcquiredCount = remains_count.MaxCount
+        else
+            remains_count.AcquiredCount = remains_count.AcquiredCount + remains_count.Increment
+        end
+    elseif Tracker:FindObjectForCode("twinmold").Active == false then
+        remains_count.AcquiredCount = remains_count.AcquiredCount - remains_count.Decrement
+    end
+    remainsMoon()
+end
+
+function remainsMoon()
+    if Tracker:FindObjectForCode("remains_count").AcquiredCount >= Tracker:FindObjectForCode("moon_remains_required").AcquiredCount then
+        Tracker:FindObjectForCode("remains_moon").Active = true
+    end
+end
+
+--function remainsMajora()
+--    if Tracker:FindObjectForCode("remains_count").AcquiredCount >= Tracker:FindObjectForCode("majora_remains_required").AcquiredCount then
+--        Tracker:FindObjectForCode("remains_majora").Active = true
 --    end
 --end
 
@@ -448,3 +504,7 @@ ScriptHost:AddWatchForCode("bottlecounter_milk", "milk", obtainMilk)
 ScriptHost:AddWatchForCode("bottlecounter_chateau", "chateau", obtainChateau)
 ScriptHost:AddWatchForCode("bottlecounter_gold", "gold_dust", obtainGoldDust)
 ScriptHost:AddWatchForCode("bottlecounter_empty_bottle", "empty_bottle", obtainEmptyBottle)
+ScriptHost:AddWatchForCode("OdolwaObtained", "odolwa", obtainOdolwa)
+ScriptHost:AddWatchForCode("GohtObtained", "goht", obtainGoht)
+ScriptHost:AddWatchForCode("GyorgObtained", "gyorg", obtainGyorg)
+ScriptHost:AddWatchForCode("TwinmoldObtained", "twinmold", obtainTwinmold)

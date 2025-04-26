@@ -88,6 +88,9 @@ HINTS_MAPPING = {
     [0x3469420000059] = {"southern_swamp_healthy_witch_request"},
     [0x346942006071C] = {"southern_swamp_mystery_woods_grotto_chest_day_2"},
     [0x3469420000043] = {"southern_swamp_tour_witch_gift"},
+    [0x34694200701C5] = {"tour_winning_picture"},
+    [0x3469420071C54] = {"tour_good_picture"},
+    [0x3469420071C52] = {"tour_okay_picture"},
     [0x3469420090002] = {"witch_shop_item_1"},
     [0x3469420090001] = {"witch_shop_item_2"},
     [0x3469420090000] = {"witch_shop_item_3"},
@@ -278,7 +281,7 @@ HINTS_MAPPING = {
     [0x346942007018D] = {"beaver_hp"},
 
     -- Pinnacle Rock
-    --[] = {"pinnacle_rock_hp"},
+    [0x3469420070205] = {"pinnacle_rock_hp"},
     [0x3469420062502] = {"pinnacle_rock_upper_chest"},
     [0x3469420062501] = {"pinnacle_rock_lower_chest"},
 
@@ -364,6 +367,7 @@ HINTS_MAPPING = {
     [0x3469420060C03] = {"graveyard_day_1_bats_chest"},
     [0x34694200000A2] = {"graveyard_day_1_song"},
     [0x3469420060C00] = {"graveyard_day_2_chest"},
+    [0x34694200043CA] = {"graveyard_day_2_dampe_bats"},
     [0x3469420063000] = {"graveyard_day_3_chest"},
     [0x3469420064300] = {"graveyard_captains_hat_chest"},
 
@@ -376,6 +380,7 @@ HINTS_MAPPING = {
 
     -- Ikana Canyon
     [0x3469420060714] = {"ikana_canyon_grotto_chest"},
+    [0x3469420001307] = {"ikana_canyon_zora_scrub_trade"},
     [0x346942009015D] = {"ikana_canyon_scrub_purchase_blue_potion"},
     [0x346942005131E] = {"ikana_canyon_deed_trade"},
     [0x34694200000B9] = {"stone_tower_map_purchase"},

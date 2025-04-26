@@ -107,11 +107,27 @@
         "sections": [
           {
             "name": "Southern Swamp Tour Witch Gift (Hint)",
+            "chest_unopened_img": "images/items/pictobox.png",
             "visibility_rules": ["southern_swamp_tour_witch_gift"]
           },
           {
             "name": "Tour Witch Target Shooting (Hint)",
             "visibility_rules": ["tour_koume_target_shooting"]
+          },
+          {
+            "name": "Tour Guide Winning Picture (Hint)",
+            "chest_unopened_img": "images/items/pictobox.png",
+            "visibility_rules": ["tour_winning_picture"]
+          },
+          {
+            "name": "Tour Guide Good Picture (Hint)",
+            "chest_unopened_img": "images/items/pictobox.png",
+            "visibility_rules": ["tour_good_picture"]
+          },
+          {
+            "name": "Tour Guide Okay Picture (Hint)",
+            "chest_unopened_img": "images/items/pictobox.png",
+            "visibility_rules": ["tour_okay_picture"]
           }
         ],
         "map_locations": [

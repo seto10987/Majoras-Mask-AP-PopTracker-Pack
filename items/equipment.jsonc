@@ -264,6 +264,23 @@
     "codes": "twinmoldremains,twinmold"
   },
   {
+    "name": "Remains Count",
+    "type": "consumable",
+    "img": "images/equipment/twinmold.png",
+    "codes": "remains_count",
+    "max_quantity": 4
+  },
+  {
+    "name": "Remains Moon",
+    "type": "toggle",
+    "codes": "remains_moon"
+  },
+  {
+    "name": "Remains Majora",
+    "type": "toggle",
+    "codes": "remains_majora"
+  },
+  {
     "name": "Woodfall Reward",
     "type": "progressive_toggle",
     "loop": true,

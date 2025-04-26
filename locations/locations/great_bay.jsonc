@@ -34,9 +34,8 @@
             "name": "Marine Research Lab Zora Egg Delivery Song",
             "chest_unopened_img": "images/equipment/song_bossa_nova_no_text.png",
             "access_rules": [
-              "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, $baby_has_hard_projectiles, $baby_pirates_fortress_interior, stonemask",
-              "normal_logic, $can_reach_seahorse, $has|bottles|3, $pirates_fortress_interior, bow",
-              "normal_logic, $can_reach_seahorse, $has|bottles|3, $pirates_fortress_interior, deku, magic"
+              "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, $baby_has_hard_projectiles, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest",
+              "normal_logic, $can_reach_seahorse, $has|bottles|3, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest"
             ]
           },
           {
@@ -215,14 +214,14 @@
           }
         ],
         "sections": [
-          //{
-          //  "name": "Heart Piece",
-          //  "chest_unopened_img": "images/equipment/heart_piece.png",
-          //  "access_rules": [
-          //    "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle",
-          //    "normal_logic, $can_reach_seahorse, $has|bottles|1, zora"
-          //  ]
-          //},
+          {
+            "name": "Heart Piece",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
+            "access_rules": [
+              "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle",
+              "normal_logic, $can_reach_seahorse, $has|bottles|1, zora"
+            ]
+          },
           {
             "name": "Upper Eel Chest",
             "access_rules": [

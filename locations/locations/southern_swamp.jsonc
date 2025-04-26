@@ -141,6 +141,30 @@
               "normal_logic, $clear_woodfall, redpotion, bow",
               "normal_logic, $clear_woodfall, chateau, bow"
             ]
+          },
+          {
+            "name": "Tour Guide Winning Picture",
+            "chest_unopened_img": "images/items/pictobox.png",
+            "access_rules": [
+              "easy_logic, $baby_deku_palace, pictobox",
+              "normal_logic, pictobox"
+            ]
+          },
+          {
+            "name": "Tour Guide Good Picture",
+            "chest_unopened_img": "images/items/pictobox.png",
+            "access_rules": [
+              "easy_logic, $baby_deku_palace, pictobox",
+              "normal_logic, pictobox"
+            ]
+          },
+          {
+            "name": "Tour Guide Okay Picture",
+            "chest_unopened_img": "images/items/pictobox.png",
+            "access_rules": [
+              "easy_logic, $baby_deku_palace, pictobox",
+              "normal_logic, pictobox"
+            ]
           }
         ],
         "map_locations": [

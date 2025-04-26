@@ -3,7 +3,7 @@
   "settings_tab": {
     "type": "array",
     "orientation": "horizontal",
-    "margin": "5",
+    "margin": 5,
     "content": [
       {
         "type": "array",
@@ -46,6 +46,17 @@
                     "item": "majora_remains_required"
                   }
                 ]
+              },
+              {
+                "type": "group",
+                "header": "",
+                "content": [
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "boss_warps_with_remains"
+                  }
+                ]
               }
             ]
           },
@@ -57,30 +68,30 @@
                 "type": "group",
                 "header": "Shuffles",
                 "content": [
-                  {
-                    "type": "item",
-                    "max_width": 260,
-                    "item": "swordless"
-                  },
-                  {
-                    "type": "item",
-                    "max_width": 260,
-                    "item": "shieldless"
-                  },
+                  //{
+                  //  "type": "item",
+                  //  "max_width": 260,
+                  //  "item": "swordless"
+                  //},
+                  //{
+                  //  "type": "item",
+                  //  "max_width": 260,
+                  //  "item": "shieldless"
+                  //},
                   {
                     "type": "item",
                     "max_width": 260,
                     "item": "shuffle_regional_maps"
                   },
+                  //{
+                  //  "type": "item",
+                  //  "max_width": 260,
+                  //  "item": "shuffle_boss_remains"
+                  //},
                   {
                     "type": "item",
                     "max_width": 260,
-                    "item": "shuffle_boss_remains"
-                  },
-                  {
-                    "type": "item",
-                    "max_width": 260,
-                    "item": "shuffle_swamphouse_reward"
+                    "item": "shuffle_spiderhouse_reward"
                   },
                   {
                     "type": "item",
@@ -101,6 +112,11 @@
                   {
                     "type": "item",
                     "max_width": 260,
+                    "item": "fairysanity"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
                     "item": "shopsanity"
                   },
                   {
@@ -112,11 +128,6 @@
                     "type": "item",
                     "max_width": 260,
                     "item": "cowsanity"
-                  },
-                  {
-                    "type": "item",
-                    "max_width": 260,
-                    "item": "fairysanity"
                   }
                 ]
               },
@@ -124,21 +135,21 @@
                 "type": "group",
                 "header": "Inventory",
                 "content": [
-                  {
-                    "type": "item",
-                    "max_width": 260,
-                    "item": "start_with_soaring"
-                  },
-                  {
-                    "type": "item",
-                    "max_width": 260,
-                    "item": "starting_hearts"
-                  },
-                  {
-                    "type": "item",
-                    "max_width": 260,
-                    "item": "starting_hearts_containers_or_pieces"
-                  },
+                  //{
+                  //  "type": "item",
+                  //  "max_width": 260,
+                  //  "item": "start_with_soaring"
+                  //},
+                  //{
+                  //  "type": "item",
+                  //  "max_width": 260,
+                  //  "item": "starting_hearts"
+                  //},
+                  //{
+                  //  "type": "item",
+                  //  "max_width": 260,
+                  //  "item": "starting_hearts_containers_or_pieces"
+                  //},
                   {
                     "type": "item",
                     "max_width": 260,
@@ -158,6 +169,32 @@
                     "type": "item",
                     "max_width": 260,
                     "item": "receive_filled_wallets"
+                  }
+                ]
+              },
+              {
+                "type": "group",
+                "header": "Miscellaneous",
+                "content": [
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "camc"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "magic_is_a_trap"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "dmg_mult"
+                  },
+                  {
+                    "type": "item",
+                    "max_width": 260,
+                    "item": "death_behavior"
                   }
                 ]
               }

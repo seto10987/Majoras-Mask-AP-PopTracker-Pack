@@ -1,3 +1,4 @@
+-- TODO: Add Southern Swamp Tour Guide Pictures
 LOCATION_MAPPING = {
     -- Clock Town
     [0x3469420000037] = {"@Clock Town/Spawn Area/Link's Inventory (Kokiri Sword)","@Clock Town Hints/Spawn Area Hints/Link's Inventory (Kokiri Sword) (Hint)"},
@@ -139,6 +140,9 @@ LOCATION_MAPPING = {
     [0x3469420064600] = {"@Southern Swamp/Woodfall/Woodfall Near Swamp Entrance Chest","@Southern Swamp Hints/Woodfall Hints/Woodfall Near Swamp Entrance Chest (Hint)"},
     [0x3469420030001] = {"@Southern Swamp/Woodfall/Woodfall Great Fairy Reward","@Southern Swamp Hints/Woodfall Hints/Woodfall Great Fairy Reward (Hint)"},
     [0x3469420070168] = {"@Southern Swamp/Swamp Tourist Center/Tour Witch Target Shooting","@Southern Swamp Hints/Swamp Tourist Center Hints/Tour Witch Target Shooting (Hint)"},
+    [0x34694200701C5] = {"@Southern Swamp/Swamp Tourist Center/Tour Guide Winning Picture","@Southern Swamp Hints/Swamp Tourist Center Hints/Tour Guide Winning Picture (Hint)"},
+    [0x3469420071C54] = {"@Southern Swamp/Swamp Tourist Center/Tour Guide Good Picture","@Southern Swamp Hints/Swamp Tourist Center Hints/Tour Guide Good Picture (Hint)"},
+    [0x3469420071C52] = {"@Southern Swamp/Swamp Tourist Center/Tour Guide Okay Picture","@Southern Swamp Hints/Swamp Tourist Center Hints/Tour Guide Okay Picture (Hint)"},
 
     -- Swamp Spider House
     [0x346942006271E] = {"@Dungeons/Swamp Spider House/Swamphouse First Room Pot Near Entrance Token","@Dungeons Hints/Swamp Spider House Hints/Swamphouse First Room Pot Near Entrance Token (Hint)"},
@@ -288,7 +292,7 @@ LOCATION_MAPPING = {
     [0x3469420082282] = {"@Great Bay/Zora Hall/Bad Picture of Lulu","@Great Bay Hints/Zora Hall Hints/Bad Picture of Lulu (Hint)"},
 
     -- Pinnacle Rock
-    --[] = {"@Great Bay/Pinnacle Rock/Heart Piece","@Great Bay/Pinnacle Rock Hints/Heart Piece (Hint)"},
+    [0x3469420070205] = {"@Great Bay/Pinnacle Rock/Heart Piece","@Great Bay/Pinnacle Rock Hints/Heart Piece (Hint)"},
     [0x3469420062502] = {"@Great Bay/Pinnacle Rock/Upper Eel Chest","@Great Bay Hints/Pinnacle Rock Hints/Upper Eel Chest (Hint)"},
     [0x3469420062501] = {"@Great Bay/Pinnacle Rock/Lower Eel Chest","@Great Bay Hints/Pinnacle Rock Hints/Lower Eel Chest (Hint)"},
 
@@ -374,6 +378,7 @@ LOCATION_MAPPING = {
     [0x3469420060C03] = {"@Ikana/Graveyard/Day 1 Bats Chest","@Ikana Hints/Graveyard Hints/Day 1 Bats Chest (Hint)"},
     [0x34694200000A2] = {"@Ikana/Graveyard/Day 1 Iron Knuckle Song","@Ikana Hints/Graveyard Hints/Day 1 Iron Knuckle Song (Hint)"},
     [0x3469420060C00] = {"@Ikana/Graveyard/Day 2 Iron Knuckle Chest","@Ikana Hints/Graveyard Hints/Day 2 Iron Knuckle Chest (Hint)"},
+    [0x34694200043CA] = {"@Ikana/Graveyard/Day 2 Dampe Bats","@Ikana Hints/Graveyard Hints/Day 2 Dampe Bats (Hint)"},
     [0x3469420063000] = {"@Ikana/Graveyard/Day 3 Dampe Big Poe Chest","@Ikana Hints/Graveyard Hints/Day 3 Dampe Big Poe Chest (Hint)"},
     [0x3469420064300] = {"@Ikana/Graveyard/Sonata To Wake Sleeping Skeleton Chest","@Ikana Hints/Graveyard Hints/Sonata To Wake Sleeping Skeleton Chest (Hint)"},
 
@@ -386,6 +391,7 @@ LOCATION_MAPPING = {
 
     -- Ikana Canyon
     [0x3469420060714] = {"@Ikana/Ikana Canyon/Grotto Chest","@Ikana Hints/Ikana Canyon Hints/Grotto Chest (Hint)"},
+    [0x3469420001307] = {"@Ikana/Ikana Canyon/Zora Scrub Trade","@Ikana Hints/Ikana Canyon Hints/Zora Scrub Trade (Hint)"},
     [0x346942009015D] = {"@Ikana/Ikana Canyon/Deku Scrub Purchase Blue Potion","@Ikana Hints/Ikana Canyon Hints/Deku Scrub Purchase Blue Potion (Hint)"},
     [0x346942005131E] = {"@Ikana/Ikana Canyon/Zora Trade Freestanding HP","@Ikana Hints/Ikana Canyon Hints/Zora Trade Freestanding HP (Hint)"},
     [0x34694200000B9] = {"@Ikana/Ikana Canyon/Stone Tower Map Purchase","@Ikana Hints/Ikana Canyon Hints/Stone Tower Map Purchase (Hint)"},

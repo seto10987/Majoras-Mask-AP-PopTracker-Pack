@@ -69,6 +69,10 @@
             "visibility_rules": ["graveyard_day_1_song"]
           },
           {
+            "name": "Day 2 Dampe Bats (Hint)",
+            "visibility_rules": ["graveyard_day_2_dampe_bats"]
+          },
+          {
             "name": "Day 2 Iron Knuckle Chest (Hint)",
             "visibility_rules": ["graveyard_day_2_chest"]
           },
@@ -99,6 +103,11 @@
           {
             "name": "Grotto Chest (Hint)",
             "visibility_rules": ["ikana_canyon_grotto_chest"]
+          },
+          {
+            "name": "Zora Scrub Trade (Hint)",
+            "chest_unopened_img": "images/characters/scrub_merchant.png",
+            "visibility_rules": ["ikana_canyon_zora_scrub_trade"]
           },
           {
             "name": "Deku Scrub Purchase Blue Potion (Hint)",

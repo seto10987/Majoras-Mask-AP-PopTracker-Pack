@@ -705,6 +705,21 @@
     "codes": "tour_koume_target_shooting"
   },
   {
+    "name": "tour_winning_picture",
+    "type": "toggle",
+    "codes": "tour_winning_picture"
+  },
+  {
+    "name": "tour_good_picture",
+    "type": "toggle",
+    "codes": "tour_good_picture"
+  },
+  {
+    "name": "tour_okay_picture",
+    "type": "toggle",
+    "codes": "tour_okay_picture"
+  },
+  {
     "name": "termina_business_scrub_grotto_hp",
     "type": "toggle",
     "codes": "termina_business_scrub_grotto_hp"
@@ -1710,6 +1725,11 @@
     "codes": "graveyard_day_1_song"
   },
   {
+    "name": "graveyard_day_2_dampe_bats",
+    "type": "toggle",
+    "codes": "graveyard_day_2_dampe_bats"
+  },
+  {
     "name": "graveyard_day_2_chest",
     "type": "toggle",
     "codes": "graveyard_day_2_chest"
@@ -1754,6 +1774,11 @@
     "name": "ikana_canyon_grotto_chest",
     "type": "toggle",
     "codes": "ikana_canyon_grotto_chest"
+  },
+  {
+    "name": "ikana_canyon_zora_scrub_trade",
+    "type": "toggle",
+    "codes": "ikana_canyon_zora_scrub_trade"
   },
   {
     "name": "ikana_canyon_scrub_purchase_blue_potion",

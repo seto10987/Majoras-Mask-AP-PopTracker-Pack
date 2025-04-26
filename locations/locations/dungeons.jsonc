@@ -169,7 +169,7 @@
             "access_rules": [
               "easy_logic, bow, $baby_can_smack_hard, bosskey_wf",
               "normal_logic, bow, $can_smack, bosskey_wf",
-              "normal_logic, bow, $can_smack, odolwa"
+              "normal_logic, bow, $can_smack, odolwa, boss_warps_with_remains"
             ]
           },
           {
@@ -177,7 +177,7 @@
             "access_rules": [
               "easy_logic, bow, $baby_can_smack_hard, bosskey_wf",
               "normal_logic, $can_smack, bow, bosskey_wf",
-              "normal_logic, $can_smack, bow, odolwa"
+              "normal_logic, $can_smack, bow, odolwa, boss_warps_with_remains"
             ],
             "hosted_item": "boss_odolwa_hosted"
           },
@@ -373,7 +373,7 @@
             "access_rules": [
               "easy_logic, $can_use_fire_arrows, $baby_has_explosives",
               "normal_logic, $can_use_fire_arrows, $has|smallkey_sh|1, bosskey_sh",
-              "normal_logic, $can_use_fire_arrows, gohtremains"
+              "normal_logic, $can_use_fire_arrows, gohtremains, boss_warps_with_remains"
             ]
           },
           {
@@ -382,8 +382,11 @@
             "access_rules": [
               "easy_logic, $can_use_fire_arrows, $baby_has_explosives",
               "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows, bosskey_sh",
-              "$can_use_fire_arrows, gohtremains"
+              "$can_use_fire_arrows, gohtremains, boss_warps_with_remains"
             ]
+          },
+          {
+            "ref": "Dungeons/Any Boss/Oath to Order"
           }
         ],
         "map_locations": [
@@ -572,7 +575,7 @@
             "access_rules": [
               "easy_logic, zora, hookshot, $can_use_ice_arrows, $can_use_fire_arrows, bosskey_gb",
               "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot, bosskey_gb",
-              "normal_logic, gyorg, magic"
+              "normal_logic, gyorg, boss_warps_with_remains, magic"
             ]
           },
           {
@@ -581,8 +584,11 @@
             "access_rules": [
               "easy_logic, zora, hookshot, $can_use_ice_arrows, $can_use_fire_arrows, bosskey_gb",
               "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot, bosskey_gb",
-              "normal_logic, gyorg, magic"
+              "normal_logic, gyorg, boss_warps_with_remains, magic"
             ]
+          },
+          {
+            "ref": "Dungeons/Any Boss/Oath to Order"
           }
         ],
         "map_locations": [
@@ -1492,9 +1498,9 @@
               "normal_logic, @Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, bow",
               "normal_logic, @Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, fiercedeity",
               "normal_logic, @Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, giantmask, sword",
-              "normal_logic, twinmold, bow",
-              "normal_logic, twinmold, fiercedeity",
-              "normal_logic, twinmold, giantmask, sword"
+              "normal_logic, twinmold, boss_warps_with_remains, bow",
+              "normal_logic, twinmold, boss_warps_with_remains, fiercedeity",
+              "normal_logic, twinmold, boss_warps_with_remains, giantmask, sword"
             ]
           },
           {
@@ -1505,10 +1511,13 @@
               "normal_logic, @Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, bow",
               "normal_logic, @Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, fiercedeity",
               "normal_logic, @Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, giantmask, sword",
-              "normal_logic, twinmold, bow",
-              "normal_logic, twinmold, fiercedeity",
-              "normal_logic, twinmold, giantmask, sword"
+              "normal_logic, twinmold, boss_warps_with_remains, bow",
+              "normal_logic, twinmold, boss_warps_with_remains, fiercedeity",
+              "normal_logic, twinmold, boss_warps_with_remains, giantmask, sword"
             ]
+          },
+          {
+            "ref": "Dungeons/Any Boss/Oath to Order"
           }
         ],
         "map_locations": [
@@ -1527,9 +1536,9 @@
             "chest_unopened_img": "images/equipment/song_oath_no_text.png",
             "access_rules": [
               "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, @Inverted Stone Tower/Twinmold's Remains",
-              "normal_logic, $clear_woodfall",
-              "normal_logic, $clear_snowhead",
-              "normal_logic, $clear_greatbay",
+              "normal_logic, $clear_woodfall, boss_warps_with_remains",
+              "normal_logic, $clear_snowhead, boss_warps_with_remains",
+              "normal_logic, $clear_greatbay, boss_warps_with_remains",
               "normal_logic, @Inverted Stone Tower Temple/Twinmold's Remains"
             ]
           }

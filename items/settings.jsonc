@@ -42,6 +42,14 @@
     "initial_quantity": 4,
     "overlay_font_size": 40
   },
+  {
+    "name": "Boss Warps With Remains",
+    "type": "toggle",
+    "img": "images/pack_settings/boss_warps_with_remains_on.png",
+    "disabled_img": "images/pack_settings/boss_warps_with_remains_off.png",
+    "disabled_img_mods": "none",
+    "codes": "boss_warps_with_remains"
+  },
 
   //Shuffles
   {
@@ -115,11 +123,11 @@
     ]
   },
   {
-    "name": "Shuffle Swamphouse Reward",
+    "name": "Shuffle Spiderhouse Reward",
     "type": "toggle",
-    "img": "images/pack_settings/shuffles/shuffle_swamphouse_reward_on.png",
-    "disabled_img": "images/pack_settings/shuffles/shuffle_swamphouse_reward_off.png",
-    "codes": "shuffle_swamphouse_reward"
+    "img": "images/pack_settings/shuffles/shuffle_spiderhouse_reward_on.png",
+    "disabled_img": "images/pack_settings/shuffles/shuffle_spiderhouse_reward_off.png",
+    "codes": "shuffle_spiderhouse_reward"
   },
   {
     "name": "Shuffle Great Fairy Rewards",
@@ -283,5 +291,97 @@
     //"disabled_img_mods": "none",
     "initial_active_state": true,
     "codes": "receive_filled_wallets"
+  },
+
+  //Miscellaneous
+  {
+    "name": "Chest Appearance Matches Content",
+    "type": "toggle",
+    "img": "images/pack_settings/miscellaneous/camc_on.png",
+    "disabled_img": "images/pack_settings/miscellaneous/camc_off.png",
+    "disabled_img_mods": "none",
+    "initial_active_state": true,
+    "codes": "camc"
+  },
+  {
+    "name": "Magic is a Trap",
+    "type": "toggle",
+    "img": "images/pack_settings/miscellaneous/magic_is_a_trap_on.png",
+    "disabled_img": "images/pack_settings/miscellaneous/magic_is_a_trap_off.png",
+    "disabled_img_mods": "none",
+    "initial_active_state": true,
+    "codes": "magic_is_a_trap"
+  },
+  {
+    "name": "Damage Multiplier",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "codes": "dmg_mult",
+    "stages": [
+      {
+        "name": "Half",
+        "img": "images/pack_settings/miscellaneous/dmg_mult_half.png",
+        "codes": "dmg_mult_half",
+        "inherit_codes": false
+      },
+      {
+        "name": "Normal",
+        "img": "images/pack_settings/miscellaneous/dmg_mult_normal.png",
+        "codes": "dmg_mult_normal",
+        "inherit_codes": false
+      },
+      {
+        "name": "Double",
+        "img": "images/pack_settings/miscellaneous/dmg_mult_double.png",
+        "codes": "dmg_mult_double",
+        "inherit_codes": false
+      },
+      {
+        "name": "Quadruple",
+        "img": "images/pack_settings/miscellaneous/dmg_mult_quad.png",
+        "codes": "dmg_mult_quad",
+        "inherit_codes": false
+      },
+      {
+        "name": "One-Hit KO",
+        "img": "images/pack_settings/miscellaneous/dmg_mult_ohko.png",
+        "codes": "dmg_mult_ohko",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Death Behavior",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "codes": "death_behavior",
+    "stages": [
+      {
+        "name": "Vanilla",
+        "img": "images/pack_settings/miscellaneous/death_behavior_vanilla.png",
+        "codes": "death_behavior_vanilla",
+        "inherit_codes": false
+      },
+      {
+        "name": "Fast",
+        "img": "images/pack_settings/miscellaneous/death_behavior_fast.png",
+        "codes": "death_behavior_fast",
+        "inherit_codes": false
+      },
+      {
+        "name": "Instant",
+        "img": "images/pack_settings/miscellaneous/death_behavior_instant.png",
+        "codes": "death_behavior_instant",
+        "inherit_codes": false
+      },
+      {
+        "name": "Moon Crash",
+        "img": "images/pack_settings/miscellaneous/death_behavior_moon_crash.png",
+        "codes": "death_behavior_moon_crash",
+        "inherit_codes": false
+      }
+    ]
   }
 ]

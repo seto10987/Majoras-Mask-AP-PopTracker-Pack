@@ -837,10 +837,8 @@
             "chest_unopened_img": "images/items/half_milk_bottle.png",
             "access_rules": [
               "easy_logic, @Southern Swamp/Southern Swamp Witch Shop/Item 1, $baby_can_get_cow_milk",
-              "normal_logic, @Termina Field/Termina Log Bombable Grotto/Left Cow",
-              "normal_logic, @Romani Ranch/Romani Ranch Barn/Free Cow",
-              "normal_logic, @Great Bay/Great Bay Coast/Ledge Grotto Left Cow",
-              "normal_logic, @Dungeons/Beneath the Well/Cow"
+              "normal_logic, maskofscents, $has|bottles|1",
+              "normal_logic, $can_get_cow_milk"
             ]
           },
           {

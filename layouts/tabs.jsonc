@@ -37,6 +37,13 @@
               }
             },
             {
+              "title": "Great Bay Temple",
+              "content": {
+                "type": "map",
+                "maps": ["great_bay_temple"]
+              }
+            },
+            {
               "title": "Swamp Spider House",
               "content": {
                 "type": "map",

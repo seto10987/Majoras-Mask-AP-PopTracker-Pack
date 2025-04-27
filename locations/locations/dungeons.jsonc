@@ -246,7 +246,7 @@
             "access_rules": [
               "easy_logic, fairymask, $baby_has_explosives",
               "normal_logic, $has|smallkey_sh|1, fairymask, $has_explosives",
-              "normal_logic, $has|smallkey_sh|1, hookshot, $has_explosives, fairymask, bow"
+              "normal_logic, $has|smallkey_sh|1, hookshot, @Snowhead Temple/Initial Runway Tower Bubble SF"
             ],
             "visibility_rules": ["fairysanity"]
           },
@@ -273,8 +273,8 @@
             "name": "Column Room 2F Hidden Chest",
             "access_rules": [
               "easy_logic, $can_use_lens, $baby_has_explosives, hookshot, deku, $can_use_fire_arrows",
-              "normal_logic, $has|smallkey_sh|3, $can_use_lens, $has_explosives, deku, $can_use_fire_arrows",
-              "normal_logic, $can_use_lens, hookshot"
+              "normal_logic, $can_use_lens, $can_use_fire_arrows, $has|smallkey_sh|3, $has_explosives, deku",
+              "normal_logic, $can_use_lens, $can_use_fire_arrows, hookshot"
             ]
           },
           {
@@ -300,17 +300,16 @@
             "name": "Upstairs 2F Icicle Room Snowball Chest",
             "access_rules": [
               "easy_logic, bow, $baby_has_explosives",
-              "normal_logic, $has|smallkey_sh|1, bow, $has_explosives",
-              "normal_logic, hookshot, $has_explosives, bow",
-              "normal_logic, zora, $has_explosives, bow"
+              "normal_logic, $has_explosives, bow, $has|smallkey_sh|1",
+              "normal_logic, $has_explosives, bow, hookshot"
             ]
           },
           {
             "name": "Upstairs 2F Icicle Room Hidden Chest",
             "access_rules": [
               "easy_logic, $can_use_lens, $baby_has_explosives, bow",
-              "normal_logic, $has|smallkey_sh|1, $has_explosives, $can_use_lens",
-              "normal_logic, hookshot, $can_use_lens, $has_explosives"
+              "normal_logic, $can_use_lens, $has_explosives, bow, $has|smallkey_sh|1",
+              "normal_logic, $can_use_lens, $has_explosives, bow, hookshot"
             ]
           },
           {
@@ -318,8 +317,9 @@
             "chest_unopened_img": "images/equipment/fairy_sh.png",
             "access_rules": [
               "easy_logic, fairymask, bow, $can_use_lens, $baby_has_explosives",
-              "normal_logic, $has|smallkey_sh|1, fairymask, bow, $can_use_lens, $has_explosives",
-              "normal_logic, hookshot, fairymask, bow, $can_use_lens"
+              "normal_logic, $has|smallkey_sh|2, fairymask, bow, $can_use_lens, $has_explosives",
+              "normal_logic, hookshot, fairymask, bow, $can_use_lens",
+              "normal_logic, $can_use_fire_arrows, fairymask, $can_use_lens"
             ],
             "visibility_rules": ["fairysanity"]
           },
@@ -327,7 +327,7 @@
             "name": "1st Wizzrobe Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives, $baby_has_projectiles, $baby_can_smack_hard",
-              "normal_logic, $has|smallkey_sh|2, $has_explosives, $has_projectiles",
+              "normal_logic, $has|smallkey_sh|2, $has_explosives",
               "normal_logic, $can_use_fire_arrows"
             ]
           },
@@ -336,8 +336,7 @@
             "chest_unopened_img": "images/equipment/fairy_sh.png",
             "access_rules": [
               "easy_logic, fairymask, $can_use_fire_arrows",
-              "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows, fairymask",
-              "normal_logic, $has|smallkey_sh|1, hookshot, fairymask"
+              "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows, fairymask"
             ],
             "visibility_rules": ["fairysanity"]
           },
@@ -364,7 +363,7 @@
             "access_rules": [
               "easy_logic, $baby_has_explosives, $can_use_fire_arrows, $baby_can_smack_hard",
               "normal_logic, $has|smallkey_sh|3, $can_use_fire_arrows, $has_explosives",
-              "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows, hookshot, deku"
+              "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows, deku"
             ]
           },
           {
@@ -556,8 +555,7 @@
             "visibility_rules": ["fairysanity"],
             "access_rules": [
               "easy_logic, zora, fairymask, $can_use_ice_arrows, $can_use_fire_arrows",
-              "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, fairymask",
-              "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, deku"
+              "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows"
             ]
           },
           {
@@ -1332,8 +1330,8 @@
             "name": "Armos Room Back Chest",
             "access_rules": [
               "easy_logic, $can_use_light_arrows, mirrorshield, $baby_has_explosives",
-              "normal_logic, $can_use_light_arrows",
-              "normal_logic, mirrorshield, $has_explosives"
+              "normal_logic, $has_explosives, $can_use_light_arrows",
+              "normal_logic, $has_explosives, mirrorshield"
             ]
           },
           {
@@ -1347,8 +1345,8 @@
             "name": "Armos Room Lava Chest",
             "access_rules": [
               "easy_logic, $can_use_light_arrows, mirrorshield, $baby_has_explosives, goron",
-              "normal_logic, $can_use_light_arrows",
-              "normal_logic, mirrorshield, $has_explosives"
+              "normal_logic, $has_explosives, $can_use_light_arrows",
+              "normal_logic, $has_explosives, mirrorshield"
             ]
           },
           {
@@ -1454,7 +1452,7 @@
             "name": "Eastern Air Gust Room Fire Chest",
             "access_rules": [
               "easy_logic, @Stone Tower Temple/Eyegore Room Dexi Hand Ledge Chest, deku, $can_use_light_arrows",
-              "normal_logic, $can_use_light_arrows, deku, zora"
+              "normal_logic, $can_use_light_arrows, deku"
             ]
           },
           {

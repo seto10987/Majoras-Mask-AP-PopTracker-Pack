@@ -18,6 +18,12 @@
         "img": "images/maps/snowhead_temple.png"
     },
     {
+        "name": "great_bay_temple",
+        "location_size": 30,
+        "location_border_thickness": 2,
+        "img": "images/maps/great_bay_temple.png"
+    },
+    {
         "name": "swamp_spider_house",
         "location_size": 30,
         "location_border_thickness": 2,

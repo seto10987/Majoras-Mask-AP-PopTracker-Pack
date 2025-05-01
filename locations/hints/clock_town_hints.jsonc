@@ -393,10 +393,10 @@
           ]
         },
         {
-          "name": "West Clock Town Rosa Sisters Hints",
+          "name": "West Clock Town Dancing Sisters Hints",
           "sections": [
             {
-              "name": "West Clock Town Rosa Sisters (Night 1 - 2) (Hint)",
+              "name": "West Clock Town Dancing Sisters (Night 1 - 2) (Hint)",
               "visibility_rules": ["west_clock_town_rosa_sisters_night_1_2"]
             }
           ],

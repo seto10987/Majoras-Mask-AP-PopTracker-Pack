@@ -3,139 +3,139 @@
     "name": "Postman's Hat",
     "type": "toggle",
     "img": "images/masks/postman.png",
-    "codes": "postmanhat,postman"
+    "codes": "postmanhat, postman"
   },
   {
     "name": "All-Night Mask",
     "type": "toggle",
     "img": "images/masks/all-night.png",
-    "codes": "allnightmask,allnight,anm"
+    "codes": "allnightmask, allnight,anm"
   },
   {
     "name": "Blast Mask",
     "type": "toggle",
     "img": "images/masks/blast.png",
-    "codes": "blastmask,blast"
+    "codes": "blastmask, blast"
   },
   {
     "name": "Stone Mask",
     "type": "toggle",
     "img": "images/masks/stone.png",
-    "codes": "stonemask,stone"
+    "codes": "stonemask, stone"
   },
   {
     "name": "Great Fairy's Mask",
     "type": "toggle",
     "img": "images/masks/fairy_mask.png",
-    "codes": "fairymask,gfm"
+    "codes": "fairymask, gfm"
   },
   {
     "name": "Deku Mask",
     "type": "toggle",
     "img": "images/masks/deku_mask.png",
-    "codes": "dekumask,deku"
+    "codes": "dekumask, deku"
   },
   {
     "name": "Keaton Mask",
     "type": "toggle",
     "img": "images/masks/keaton.png",
-    "codes": "keatonmask,keaton"
+    "codes": "keatonmask, keaton"
   },
   {
     "name": "Bremen Mask",
     "type": "toggle",
     "img": "images/masks/bremen.png",
-    "codes": "bremenmask,bremen"
+    "codes": "bremenmask, bremen"
   },
   {
     "name": "Bunny Hood",
     "type": "toggle",
     "img": "images/masks/bunny.png",
-    "codes": "bunnyhood,bunny"
+    "codes": "bunnyhood, bunny"
   },
   {
     "name": "Don Gero's Mask",
     "type": "toggle",
     "img": "images/masks/don_gero.png",
-    "codes": "dongeromask,dongero"
+    "codes": "dongeromask, dongero"
   },
   {
     "name": "Mask of Scents",
     "type": "toggle",
     "img": "images/masks/scents.png",
-    "codes": "maskofscents,scents"
+    "codes": "maskofscents, scents"
   },
   {
     "name": "Goron Mask",
     "type": "toggle",
     "img": "images/masks/goron.png",
-    "codes": "goronmask,goron"
+    "codes": "goronmask, goron"
   },
   {
     "name": "Romani's Mask",
     "type": "toggle",
     "img": "images/masks/romani.png",
-    "codes": "romanimask,romani"
+    "codes": "romanimask, romani"
   },
   {
     "name": "Circus Leader's Mask",
     "type": "toggle",
     "img": "images/masks/circus_leader.png",
-    "codes": "circusleadermask,circus"
+    "codes": "circusleadermask, circus"
   },
   {
     "name": "Kafei's Mask",
     "type": "toggle",
     "img": "images/masks/kafei_mask.png",
-    "codes": "kafeimask,kafei"
+    "codes": "kafeimask, kafei"
   },
   {
     "name": "Couple's Mask",
     "type": "toggle",
     "img": "images/masks/couples.png",
-    "codes": "couplesmask,couple"
+    "codes": "couplesmask, couple"
   },
   {
     "name": "Mask of Truth",
     "type": "toggle",
     "img": "images/masks/truth.png",
-    "codes": "maskoftruth,truth"
+    "codes": "maskoftruth, truth"
   },
   {
     "name": "Zora Mask",
     "type": "toggle",
     "img": "images/masks/zora.png",
-    "codes": "zoramask,zora"
+    "codes": "zoramask, zora"
   },
   {
     "name": "Kamaro's Mask",
     "type": "toggle",
     "img": "images/masks/kamaro.png",
-    "codes": "kamaromask,kamaro"
+    "codes": "kamaromask, kamaro"
   },
   {
     "name": "Gibdo Mask",
     "type": "toggle",
     "img": "images/masks/gibdo.png",
-    "codes": "gibdomask,gibdo"
+    "codes": "gibdomask, gibdo"
   },
   {
     "name": "Garo's Mask",
     "type": "toggle",
     "img": "images/masks/garo_mask.png",
-    "codes": "garomask,garo"
+    "codes": "garomask, garo"
   },
   {
     "name": "Captain's Hat",
     "type": "toggle",
     "img": "images/masks/captains.png",
-    "codes": "captainhat,captain"
+    "codes": "captainhat, captain"
   },
   {
     "name": "Giant's Mask",
     "type": "toggle",
     "img": "images/masks/giants_mask.png",
-    "codes": "giantmask,giant"
+    "codes": "giantmask, giant"
   },
   {
     "name": "Fierce Deity Mask",

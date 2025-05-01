@@ -222,7 +222,7 @@
         "name": "North Clock Town Save Old Lady",
         "sections": [
           {
-            "name": "North Clock Town Save Old Lady (Night 1, 12 AM)",
+            "name": "North Clock Town Save Old Lady (Night 1 - 12 AM)",
             "chest_unopened_img": "images/characters/bomb_shop_lady.png",
             "access_rules": [
               "easy_logic, sword, fairysword",
@@ -462,10 +462,10 @@
 
 
       {
-        "name": "West Clock Town Rosa Sisters",
+        "name": "West Clock Town Dancing Sisters",
         "sections": [
           {
-            "name": "West Clock Town Rosa Sisters (Night 1 - 2)",
+            "name": "West Clock Town Dancing Sisters (Night 1 - 2)",
             "chest_unopened_img": "images/characters/rosa_sisters.png",
             "access_rules": ["kamaro"]
           }
@@ -797,7 +797,7 @@
           },
           {
             "name": "Item 3 (Stop Thief)",
-            "access_rules": ["@Clock Town/North Clock Town Save Old Lady/North Clock Town Save Old Lady (Night 1, 12 AM)"],
+            "access_rules": ["@North Clock Town Save Old Lady/North Clock Town Save Old Lady (Night 1 - 12 AM)"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"

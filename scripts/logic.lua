@@ -104,7 +104,7 @@ end
 
 -- Easy difficulty rules
 function baby_has_bombchus()
-    return has("bombchu1") and has("bombchu5") and has("bombchu10") and has("bombchu_bag")
+    return --[[has("bombchu1") and has("bombchu5") and has("bombchu10") and ]]has("bombchu_bag")
 end
 
 function baby_has_explosives()
@@ -226,7 +226,7 @@ function path_mountain()
 end
 
 -- Path to Mountain Village -> Mountain Village
-function baby_moutain_village()
+function baby_mountain_village()
     return path_mountain() and has("goron") and baby_has_explosives() and can_use_fire_arrows()
 end
 function mountain_village()
@@ -235,7 +235,7 @@ end
 
 -- Path to Snowhead -> Snowhead Temple
 function baby_snowhead_temple()
-    return baby_moutain_village() and has("goron") and can_play_lullaby() and has("magic") and has("bosskey_sh") and has("smallkey_sh", 3)
+    return baby_mountain_village() and has("goron") and can_play_lullaby() and has("magic") and has("bosskey_sh") and has("smallkey_sh", 3)
 end
 function snowhead_temple()
     return mountain_village() and has("goron") and can_play_lullaby() and has("magic")

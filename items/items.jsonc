@@ -260,13 +260,15 @@
     "type": "consumable",
     "img": "images/items/bottle.png",
     "codes": "bottles",
+    "min_quantity": 0,
     "max_quantity": 6
   },
   {
     "name": "Empty Bottle",
-    "type": "toggle",
+    "type": "consumable",
     "img": "images/items/bottle.png",
-    "codes": "empty_bottle"
+    "codes": "empty_bottle",
+    "max_quantity": 2
   },
   {
     "name": "Red Potion",

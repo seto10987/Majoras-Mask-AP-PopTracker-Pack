@@ -353,131 +353,86 @@ function inverted_stone_tower()
 end
 
 -----
--- The following "obtain" functions each act as a flag to increase the total amount of bottles obtained, which is
--- necessary for logic purposes, like Beneath the Well and New Wave Bossa Nova's location.
-function obtainMilk()
+-- This function's purpose is for counting how many bottles have been acquired.
+-- They are used for baby zora song (New Wave Bossa Nova check).
+function bottleCount()
     local bottle_count = Tracker:FindObjectForCode("bottles")
+    bottle_count.AcquiredCount = bottle_count.MinCount
     if Tracker:FindObjectForCode("milk").Active then
         if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
             bottle_count.AcquiredCount = bottle_count.MaxCount
         else
         bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
         end
-    elseif Tracker:FindObjectForCode("milk").Active == false then
-        bottle_count.AcquiredCount = bottle_count.AcquiredCount - bottle_count.Decrement
     end
-end
-
-function obtainChateau()
-    local bottle_count = Tracker:FindObjectForCode("bottles")
     if Tracker:FindObjectForCode("chateau").Active then
         if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
             bottle_count.AcquiredCount = bottle_count.MaxCount
         else
         bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
         end
-    elseif Tracker:FindObjectForCode("chateau").Active == false then
-        bottle_count.AcquiredCount = bottle_count.AcquiredCount - bottle_count.Decrement
     end
-end
-
-function obtainRedPotion()
-    local bottle_count = Tracker:FindObjectForCode("bottles")
     if Tracker:FindObjectForCode("redpotion").Active then
         if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
             bottle_count.AcquiredCount = bottle_count.MaxCount
         else
         bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
         end
-    elseif Tracker:FindObjectForCode("redpotion").Active == false then
-        bottle_count.AcquiredCount = bottle_count.AcquiredCount - bottle_count.Decrement
     end
-end
-
-function obtainGoldDust()
-    local bottle_count = Tracker:FindObjectForCode("bottles")
     if Tracker:FindObjectForCode("gold_dust").Active then
         if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
             bottle_count.AcquiredCount = bottle_count.MaxCount
         else
         bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
         end
-    elseif Tracker:FindObjectForCode("gold_dust").Active == false then
-        bottle_count.AcquiredCount = bottle_count.AcquiredCount - bottle_count.Decrement
     end
-end
-
-function obtainEmptyBottle()
-    local bottle_count = Tracker:FindObjectForCode("bottles")
-    if Tracker:FindObjectForCode("empty_bottle").Active then
+    if Tracker:FindObjectForCode("empty_bottle").AcquiredCount == 1 then
         if (bottle_count.AcquiredCount + bottle_count.Increment) >= bottle_count.MaxCount then
             bottle_count.AcquiredCount = bottle_count.MaxCount
         else
         bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment
         end
-    elseif Tracker:FindObjectForCode("empty_bottle").Active == false then
-        bottle_count.AcquiredCount = bottle_count.AcquiredCount - bottle_count.Decrement
+    elseif Tracker:FindObjectForCode("empty_bottle").AcquiredCount == 2 then
+        if (bottle_count.AcquiredCount + bottle_count.Increment + bottle_count.Increment) >= bottle_count.MaxCount then
+            bottle_count.AcquiredCount = bottle_count.MaxCount
+        else
+        bottle_count.AcquiredCount = bottle_count.AcquiredCount + bottle_count.Increment + bottle_count.Increment
+        end
     end
 end
 
-function obtainOdolwa()
+function remainCount()
     local remains_count = Tracker:FindObjectForCode("remains_count")
+    remains_count.AcquiredCount = remains_count.MinCount
     if Tracker:FindObjectForCode("odolwa").Active then
         if (remains_count.AcquiredCount + remains_count.Increment) >= remains_count.MaxCount then
             remains_count.AcquiredCount = remains_count.MaxCount
         else
             remains_count.AcquiredCount = remains_count.AcquiredCount + remains_count.Increment
         end
-    elseif Tracker:FindObjectForCode("odolwa").Active == false then
-        remains_count.AcquiredCount = remains_count.AcquiredCount - remains_count.Decrement
     end
-    remainsMoon()
-end
-
-function obtainGoht()
-    local remains_count = Tracker:FindObjectForCode("remains_count")
     if Tracker:FindObjectForCode("goht").Active then
         if (remains_count.AcquiredCount + remains_count.Increment) >= remains_count.MaxCount then
             remains_count.AcquiredCount = remains_count.MaxCount
         else
             remains_count.AcquiredCount = remains_count.AcquiredCount + remains_count.Increment
         end
-    elseif Tracker:FindObjectForCode("goht").Active == false then
-        remains_count.AcquiredCount = remains_count.AcquiredCount - remains_count.Decrement
     end
-    remainsMoon()
-end
-
-function obtainGyorg()
-    local remains_count = Tracker:FindObjectForCode("remains_count")
     if Tracker:FindObjectForCode("gyorg").Active then
         if (remains_count.AcquiredCount + remains_count.Increment) >= remains_count.MaxCount then
             remains_count.AcquiredCount = remains_count.MaxCount
         else
             remains_count.AcquiredCount = remains_count.AcquiredCount + remains_count.Increment
         end
-    elseif Tracker:FindObjectForCode("gyorg").Active == false then
-        remains_count.AcquiredCount = remains_count.AcquiredCount - remains_count.Decrement
     end
-    remainsMoon()
-end
-
-function obtainTwinmold()
-    local remains_count = Tracker:FindObjectForCode("remains_count")
     if Tracker:FindObjectForCode("twinmold").Active then
         if (remains_count.AcquiredCount + remains_count.Increment) >= remains_count.MaxCount then
             remains_count.AcquiredCount = remains_count.MaxCount
         else
             remains_count.AcquiredCount = remains_count.AcquiredCount + remains_count.Increment
         end
-    elseif Tracker:FindObjectForCode("twinmold").Active == false then
-        remains_count.AcquiredCount = remains_count.AcquiredCount - remains_count.Decrement
     end
-    remainsMoon()
-end
-
-function remainsMoon()
-    if Tracker:FindObjectForCode("remains_count").AcquiredCount >= Tracker:FindObjectForCode("moon_remains_required").AcquiredCount then
+    if remains_count.AcquiredCount >= Tracker:FindObjectForCode("moon_remains_required").AcquiredCount then
         Tracker:FindObjectForCode("remains_moon").Active = true
     end
 end
@@ -499,12 +454,12 @@ end
 
 
 ScriptHost:AddWatchForCode("bottlecounter_wft", "boss_odolwa_hosted", clear_wft)
-ScriptHost:AddWatchForCode("bottlecounter_red", "redpotion", obtainRedPotion)
-ScriptHost:AddWatchForCode("bottlecounter_milk", "milk", obtainMilk)
-ScriptHost:AddWatchForCode("bottlecounter_chateau", "chateau", obtainChateau)
-ScriptHost:AddWatchForCode("bottlecounter_gold", "gold_dust", obtainGoldDust)
-ScriptHost:AddWatchForCode("bottlecounter_empty_bottle", "empty_bottle", obtainEmptyBottle)
-ScriptHost:AddWatchForCode("OdolwaObtained", "odolwa", obtainOdolwa)
-ScriptHost:AddWatchForCode("GohtObtained", "goht", obtainGoht)
-ScriptHost:AddWatchForCode("GyorgObtained", "gyorg", obtainGyorg)
-ScriptHost:AddWatchForCode("TwinmoldObtained", "twinmold", obtainTwinmold)
+ScriptHost:AddWatchForCode("bottlecounter_red", "redpotion", bottleCount)
+ScriptHost:AddWatchForCode("bottlecounter_milk", "milk", bottleCount)
+ScriptHost:AddWatchForCode("bottlecounter_chateau", "chateau", bottleCount)
+ScriptHost:AddWatchForCode("bottlecounter_gold", "gold_dust", bottleCount)
+ScriptHost:AddWatchForCode("bottlecounter_empty_bottle", "empty_bottle", bottleCount)
+ScriptHost:AddWatchForCode("OdolwaObtained", "odolwa", remainCount)
+ScriptHost:AddWatchForCode("GohtObtained", "goht", remainCount)
+ScriptHost:AddWatchForCode("GyorgObtained", "gyorg", remainCount)
+ScriptHost:AddWatchForCode("TwinmoldObtained", "twinmold", remainCount)

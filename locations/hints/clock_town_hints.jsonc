@@ -292,8 +292,20 @@
           "name": "Treasure Game (6 AM - 10 PM) Hints",
           "sections": [
             {
+              "name": "East Clock Town Treasure Game Chest (Human) (Hint)",
+              "visibility_rules": ["east_clock_town_treasure_game_chest_human"]
+            },
+            {
+              "name": "East Clock Town Treasure Game Chest (Deku) (Hint)",
+              "visibility_rules": ["east_clock_town_treasure_game_chest_deku"]
+            },
+            {
               "name": "East Clock Town Treasure Game Chest (Goron) (Hint)",
-              "visibility_rules": ["east_clock_town_treasure_game_chest"]
+              "visibility_rules": ["east_clock_town_treasure_game_chest_goron"]
+            },
+            {
+              "name": "East Clock Town Treasure Game Chest (Zora) (Hint)",
+              "visibility_rules": ["east_clock_town_treasure_game_chest_zora"]
             }
           ],
           "map_locations": [

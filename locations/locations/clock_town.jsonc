@@ -332,8 +332,20 @@
         "name": "Treasure Game (6 AM - 10 PM)",
         "sections": [
           {
+            "name": "East Clock Town Treasure Game Chest (Human)",
+            "access_rules": [""]
+          },
+          {
+            "name": "East Clock Town Treasure Game Chest (Deku)",
+            "access_rules": ["deku"]
+          },
+          {
             "name": "East Clock Town Treasure Game Chest (Goron)",
             "access_rules": ["goron"]
+          },
+          {
+            "name": "East Clock Town Treasure Game Chest (Zora)",
+            "access_rules": ["zora"]
           }
         ],
         "map_locations": [

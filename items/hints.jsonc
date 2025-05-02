@@ -115,9 +115,24 @@
     "codes": "east_clock_town_honey_and_darling_all_days"
   },
   {
-    "name": "east_clock_town_treasure_game_chest",
+    "name": "east_clock_town_treasure_game_chest_human",
     "type": "toggle",
-    "codes": "east_clock_town_treasure_game_chest"
+    "codes": "east_clock_town_treasure_game_chest_human"
+  },
+  {
+    "name": "east_clock_town_treasure_game_chest_deku",
+    "type": "toggle",
+    "codes": "east_clock_town_treasure_game_chest_deku"
+  },
+  {
+    "name": "east_clock_town_treasure_game_chest_goron",
+    "type": "toggle",
+    "codes": "east_clock_town_treasure_game_chest_goron"
+  },
+  {
+    "name": "east_clock_town_treasure_game_chest_zora",
+    "type": "toggle",
+    "codes": "east_clock_town_treasure_game_chest_zora"
   },
   {
     "name": "bombers_hideout_chest",

@@ -684,7 +684,7 @@
               "visibility_rules": ["curiosity_blue_rupee_trade"]
             },
             {
-              "name": "Red Rupee Trade (Red potion or full milk) (Hint)",
+              "name": "Red Rupee Trade (Fish, Bug, Fairy, Milk, Potions, Water, Zora Egg) (Hint)",
               "chest_unopened_img": "images/items/red_milk_potion.png",
               "visibility_rules": ["curiosity_red_rupee_trade"]
             },

@@ -842,8 +842,8 @@
             ]
           },
           {
-            "name": "Red Rupee Trade (Red potion or full milk)",
-            "chest_unopened_img": "images/items/red_milk_potion.png",
+            "name": "Red Rupee Trade (Fish, Bug, Fairy, Milk, Potions, Water, Zora Egg)",
+            "chest_unopened_img": "images/items/fish.png",
             "access_rules": [
               "easy_logic, $baby_has_bottle",
               "normal_logic, $has|bottles|1"

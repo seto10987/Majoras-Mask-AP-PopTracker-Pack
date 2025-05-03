@@ -838,11 +838,19 @@
         "sections": [
           {
             "name": "Curiosity Shop Night 3 (Stop Thief)",
-            "access_rules": ["giantswallet, @Clock Town/Bomb Shop/Item 3 (Stop Thief)"]
+            "access_rules": ["giantswallet, @Clock Town/Bomb Shop/Item 3 (Stop Thief)"],
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
           },
           {
             "name": "Curiosity Shop Night 3 Thief Stolen Item",
-            "access_rules": ["adultswallet"]
+            "access_rules": ["adultswallet"],
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
           },
           {
             "name": "Blue Rupee Trade (Half Milk)",
@@ -875,7 +883,8 @@
             "access_rules": [
               "easy_logic, $baby_has_bottle, @Ikana/Graveyard/Day 3 Dampe Big Poe Chest, @Dungeons/Beneath the Well/Rightside Torch Chest, bombs",
               "normal_logic, $has|bottles|1, @Ikana/Graveyard/Day 3 Dampe Big Poe Chest",
-              "normal_logic, $has|bottles|1, @Dungeons/Beneath the Well/Rightside Torch Chest, bombs"
+              "normal_logic, $has|bottles|1, @Dungeons/Beneath the Well/Rightside Torch Chest, bombs",
+              "normal_logic, $has|bottles|1, @Snowhead/Twin Islands/Goron Racetrack Prize"
             ]
           }
         ]

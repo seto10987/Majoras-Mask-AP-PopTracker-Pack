@@ -151,16 +151,6 @@ function baby_can_get_cow_milk()
     return baby_has_bottle() and can_play_eponas() and baby_has_explosives() and can_use_powder_keg() and has("hookshot") and has("gibdo") and baby_can_plant_beans() and can_use_light_arrows() and has("maskofscents") and has("zora")
 end
 
---[[
-function can_purchase()
-    if price > 200 then
-        return has("giantswallet")
-    elseif price > 99 then
-        return has("adultswallet")
-    else
-    end
-end]]
-
 
 -- Region rules
 

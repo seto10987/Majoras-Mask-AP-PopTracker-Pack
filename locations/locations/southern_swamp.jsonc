@@ -138,8 +138,7 @@
             "chest_opened_img": "images/icons/archery_grey.png",
             "access_rules": [
               "easy_logic, $baby_clear_woodfall, redpotion, chateau, bow",
-              "normal_logic, $clear_woodfall, redpotion, bow",
-              "normal_logic, $clear_woodfall, chateau, bow"
+              "normal_logic, $clear_woodfall, $has|bottles|1, bow"
             ]
           },
           {

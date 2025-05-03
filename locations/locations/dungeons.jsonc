@@ -301,7 +301,7 @@
             "access_rules": [
               "easy_logic, bow, $baby_has_explosives",
               "normal_logic, $has_explosives, bow, $has|smallkey_sh|1",
-              "normal_logic, $has_explosives, bow, hookshot"
+              "normal_logic, $has_explosives, hookshot"
             ]
           },
           {
@@ -732,8 +732,8 @@
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_can_bring_to_player, $baby_has_projectiles, $baby_can_plant_beans",
               "normal_logic, $can_bring_to_player, $has_projectiles",
-              "normal_logic, deku,magic",
-              "normal_logic, deku,bow"
+              "normal_logic, deku, magic",
+              "normal_logic, deku, bow"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -781,9 +781,9 @@
             "name": "Swamphouse Monument Room Crawling Wall Token",
             "access_rules": [
               "easy_logic, $baby_can_smack, $baby_can_bring_to_player, $baby_can_plant_beans, $baby_has_projectiles",
-              "normal_logic, $can_smack, $can_bring_to_player",
-              "normal_logic, $can_plant_beans, $has_explosives",
-              "normal_logic, $can_plant_beans, goron"
+              "normal_logic, $can_bring_to_player",
+              "normal_logic, $can_smack, $can_plant_beans, $has_explosives",
+              "normal_logic, $can_smack, $can_plant_beans, goron"
             ],
             "visibility_rules": ["skullsanity_0","skullsanity_1"]
           },
@@ -1252,8 +1252,8 @@
             "name": "Invisible Chest",
             "access_rules": [
               "easy_logic, gibdo, $baby_has_bottle, adultswallet, maskofscents, $can_use_fire_arrows, $can_use_lens",
-              "normal_logic, gibdo, $has|bottles|1, adultswallet, $can_use_lens",
-              "normal_logic, gibdo, $has|bottles|1, maskofscents, $can_use_lens"
+              "normal_logic, gibdo, $has|bottles|1, adultswallet",
+              "normal_logic, gibdo, $has|bottles|1, maskofscents"
             ]
           },
           {

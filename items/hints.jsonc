@@ -1001,6 +1001,16 @@
     "codes": "mountain_village_frog_song"
   },
   {
+    "name": "mountain_village_smithy_upgrade",
+    "type": "toggle",
+    "codes": "mountain_village_smithy_upgrade"
+  },
+  {
+    "name": "mountain_village_smithy_gold_dust_upgrade",
+    "type": "toggle",
+    "codes": "mountain_village_smithy_gold_dust_upgrade"
+  },
+  {
     "name": "twin_islands_underwater_cave_chest",
     "type": "toggle",
     "codes": "twin_islands_underwater_cave_chest"
@@ -1024,6 +1034,11 @@
     "name": "twin_islands_hot_water_grotto_chest",
     "type": "toggle",
     "codes": "twin_islands_hot_water_grotto_chest"
+  },
+  {
+    "name": "goron_racetrack_prize",
+    "type": "toggle",
+    "codes": "goron_racetrack_prize"
   },
   {
     "name": "lens_cave_center_chest",

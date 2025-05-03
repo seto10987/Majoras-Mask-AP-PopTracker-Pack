@@ -20,6 +20,34 @@
         ],
         "sections": [
           {
+            "name": "Invisible Ladder Cave Healing Invisible Goron",
+            "chest_unopened_img": "images/masks/goron.png",
+            "access_rules": ["$can_use_lens, $can_play_healing"]
+          },
+          {
+            "name": "Feeding Freezing Goron",
+            "access_rules": [
+              "easy_logic, $can_play_lullaby, $can_use_fire_arrows",
+              "normal_logic, goron, magic, $can_play_lullaby",
+              "normal_logic, goron, $can_use_fire_arrows"
+            ]
+          },
+          {
+            "name": "Smithy Upgrade",
+            "access_rules": [
+              "easy_logic, adultswallet, $baby_clear_snowhead, $baby_has_bottle, @Mountain Village/Invisible Ladder Cave Healing Invisible Goron, $can_use_fire_arrows",
+              "normal_logic, adultswallet, $can_use_fire_arrows",
+              "normal_logic, adultswallet, @Twin Islands/Hot Water Grotto Chest"
+            ]
+          },
+          {
+            "name": "Smithy Gold Dust Upgrade",
+            "access_rules": [
+              "easy_logic, @Mountain Village/Smithy Upgrade, @Twin Islands/Goron Racetrack Prize",
+              "normal_logic, @Mountain Village/Smithy Upgrade, @Twin Islands/Goron Racetrack Prize, $has|bottles|1"
+            ]
+          },
+          {
             "name": "Spring Waterfall Chest",
             "access_rules": [
               "easy_logic, $baby_clear_snowhead",
@@ -31,19 +59,6 @@
             "access_rules": [
               "easy_logic, $baby_clear_snowhead",
               "normal_logic, $clear_snowhead"
-            ]
-          },
-          {
-            "name": "Invisible Ladder Cave Healing Invisible Goron",
-            "chest_unopened_img": "images/masks/goron.png",
-            "access_rules": ["$can_use_lens, $can_play_healing"]
-          },
-          {
-            "name": "Feeding Freezing Goron",
-            "access_rules": [
-              "easy_logic, $can_play_lullaby, $can_use_fire_arrows",
-              "normal_logic, goron, magic, $can_play_lullaby",
-              "normal_logic, goron, $can_use_fire_arrows"
             ]
           },
           {
@@ -79,20 +94,6 @@
             "ref": "Romani Ranch/Tingle Milk Road/Romani Ranch Map Purchase"
           },
           {
-            "name": "Spring Underwater Cave Chest",
-            "access_rules": [
-              "easy_logic, $baby_clear_snowhead",
-              "normal_logic, $clear_snowhead"
-            ]
-          },
-          {
-            "name": "Spring Underwater Near Ramp Chest",
-            "access_rules": [
-              "easy_logic, $baby_clear_snowhead",
-              "normal_logic, $clear_snowhead"
-            ]
-          },
-          {
             "name": "Ramp Grotto Chest",
             "access_rules": [
               "easy_logic, $baby_has_explosives, goron, hookshot",
@@ -117,6 +118,27 @@
               "normal_logic, @Mountain Village/Invisible Ladder Cave Healing Invisible Goron, goron, $has|bottles|1, $has_explosives",
               "normal_logic, $clear_snowhead",
               "normal_logic, @Dungeons/Beneath the Well/Invisible Chest, $can_play_soaring, $can_play_soaring"
+            ]
+          },
+          {
+            "name": "Spring Underwater Cave Chest",
+            "access_rules": [
+              "easy_logic, $baby_clear_snowhead",
+              "normal_logic, $clear_snowhead"
+            ]
+          },
+          {
+            "name": "Spring Underwater Near Ramp Chest",
+            "access_rules": [
+              "easy_logic, $baby_clear_snowhead",
+              "normal_logic, $clear_snowhead"
+            ]
+          },
+          {
+            "name": "Goron Racetrack Prize",
+            "access_rules": [
+              "easy_logic, $baby_clear_snowhead, powderkeg",
+              "normal_logic, $clear_snowhead, powderkeg"
             ]
           }
         ]
@@ -291,7 +313,7 @@
         "sections": [
           {
             "name": "Snowhead Great Fairy Reward",
-            "visibility_rules": ["shuffle_great_fairy_rewards"],
+            //"visibility_rules": ["shuffle_great_fairy_rewards"],
             "access_rules": [
               "easy_logic, $baby_snowhead_temple, $has|fairy_sh|15",
               "normal_logic, $snowhead_temple, $has|fairy_sh|15"

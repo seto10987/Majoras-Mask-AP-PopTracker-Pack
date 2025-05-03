@@ -357,9 +357,9 @@
           },
           {
             "name": "Woodfall Great Fairy Reward",
-              "chest_unopened_img": "images/equipment/fairy_wf.png",
-            "access_rules": ["$has|fairy_wf|15"],
-            "visibility_rules": ["shuffle_great_fairy_rewards"]
+            "chest_unopened_img": "images/equipment/fairy_wf.png",
+            "access_rules": ["$has|fairy_wf|15"]
+            //"visibility_rules": ["shuffle_great_fairy_rewards"]
           }
         ],
         "map_locations": [

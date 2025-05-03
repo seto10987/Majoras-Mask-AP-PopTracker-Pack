@@ -159,10 +159,10 @@
           {
             "name": "Stone Tower Map Purchase",
             "chest_unopened_img": "images/equipment/rmap_stonetower.png",
-            "visibility_rules": [
-              "shuffle_regional_maps_vanilla",
-              "shuffle_regional_maps_anywhere"
-            ],
+            //"visibility_rules": [
+            //  "shuffle_regional_maps_vanilla",
+            //  "shuffle_regional_maps_anywhere"
+            //],
             "access_rules": [
               "easy_logic, $can_use_ice_arrows, $baby_has_projectiles, $great_bay",
               "normal_logic, $has_projectiles, $great_bay"
@@ -187,7 +187,7 @@
           {
             "name": "Stone Tower Great Fairy Reward",
             "chest_unopened_img": "images/equipment/fairy_st.png",
-            "visibility_rules": ["shuffle_great_fairy_rewards"],
+            //"visibility_rules": ["shuffle_great_fairy_rewards"],
             "access_rules": ["$can_use_ice_arrows, $has|fairy_st|15"]
           }
         ],

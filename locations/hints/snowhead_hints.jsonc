@@ -7,14 +7,6 @@
         "name": "Mountain Village Hints",
         "sections": [
           {
-            "name": "Spring Waterfall Chest (Hint)",
-            "visibility_rules": ["mountain_village_spring_waterfall_chest"]
-          },
-          {
-            "name": "Spring Ramp Grotto (Hint)",
-            "visibility_rules": ["mountain_village_spring_ramp_grotto"]
-          },
-          {
             "name": "Invisible Ladder Cave Healing Invisible Goron (Hint)",
             "chest_unopened_img": "images/masks/goron.png",
             "visibility_rules": ["mountain_village_healing_goron"]
@@ -24,8 +16,24 @@
             "visibility_rules": ["mountain_village_feed_goron"]
           },
           {
+            "name": "Smithy Upgrade (Hint)",
+            "visibility_rules": ["mountain_village_smithy_upgrade"]
+          },
+          {
+            "name": "Smithy Gold Dust Upgrade (Hint)",
+            "visibility_rules": ["mountain_village_smithy_gold_dust_upgrade"]
+          },
+          {
             "name": "Don Gero Mask Frog Song HP (Hint)",
             "visibility_rules": ["mountain_village_frog_song"]
+          },
+          {
+            "name": "Spring Waterfall Chest (Hint)",
+            "visibility_rules": ["mountain_village_spring_waterfall_chest"]
+          },
+          {
+            "name": "Spring Ramp Grotto (Hint)",
+            "visibility_rules": ["mountain_village_spring_ramp_grotto"]
           }
         ],
         "map_locations": [
@@ -46,14 +54,6 @@
             "ref": "Romani Ranch Hints/Tingle Milk Road Hints/Romani Ranch Map Purchase (Hint)"
           },
           {
-            "name": "Spring Underwater Cave Chest (Hint)",
-            "visibility_rules": ["twin_islands_underwater_cave_chest"]
-          },
-          {
-            "name": "Spring Underwater Near Ramp Chest (Hint)",
-            "visibility_rules": ["twin_islands_underwater_chest"]
-          },
-          {
             "name": "Ramp Grotto Chest (Hint)",
             "visibility_rules": ["twin_islands_ramp_grotto_chest"]
           },
@@ -64,6 +64,18 @@
           {
             "name": "Hot Water Grotto Chest (Hint)",
             "visibility_rules": ["twin_islands_hot_water_grotto_chest"]
+          },
+          {
+            "name": "Spring Underwater Cave Chest (Hint)",
+            "visibility_rules": ["twin_islands_underwater_cave_chest"]
+          },
+          {
+            "name": "Spring Underwater Near Ramp Chest (Hint)",
+            "visibility_rules": ["twin_islands_underwater_chest"]
+          },
+          {
+            "name": "Goron Racetrack Prize (Hint)",
+            "visibility_rules": ["goron_racetrack_prize"]
           }
         ],
         "map_locations": [

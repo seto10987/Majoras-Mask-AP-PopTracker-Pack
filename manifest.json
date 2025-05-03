@@ -1,7 +1,7 @@
 ﻿{
     "name": "Majoras Mask AP",
     "game_name": "The Legend of Zelda - Majoras Mask",
-    "package_version": "0.2.2",
+    "package_version": "1.0.0",
     "package_uid": "MM_AP",
     "platform": "Nintendo 64",
     "author": "Seto10987, G4M3R L1F3",
@@ -9,11 +9,7 @@
         "standard": {
             "display_name": "Map Tracker",
             "flags": ["ap"]
-        },
-		"var_z_items_only": {
-			"display_name": "Items Only",
-			"flags": ["ap"]
-		}
+        }
     },
 	"versions_url": "https://raw.githubusercontent.com/seto10987/Majoras-Mask-AP-PopTracker-Pack/versions/versions.json"
 }

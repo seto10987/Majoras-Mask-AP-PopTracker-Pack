@@ -37,7 +37,8 @@
             "access_rules": [
               "easy_logic, adultswallet, $baby_clear_snowhead, $baby_has_bottle, @Mountain Village/Invisible Ladder Cave Healing Invisible Goron, $can_use_fire_arrows",
               "normal_logic, adultswallet, $can_use_fire_arrows",
-              "normal_logic, adultswallet, @Twin Islands/Hot Water Grotto Chest"
+              "normal_logic, adultswallet, @Twin Islands/Hot Water Grotto Chest",
+              "normal_logic, adultswallet, $clear_snowhead"
             ]
           },
           {

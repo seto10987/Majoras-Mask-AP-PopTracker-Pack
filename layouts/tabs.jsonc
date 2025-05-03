@@ -44,6 +44,13 @@
               }
             },
             {
+              "title": "Stone Tower Temple",
+              "content": {
+                "type": "map",
+                "maps": ["stone_tower_temple"]
+              }
+            },
+            {
               "title": "Swamp Spider House",
               "content": {
                 "type": "map",

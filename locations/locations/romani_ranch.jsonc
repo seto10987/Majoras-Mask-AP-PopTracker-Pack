@@ -6,10 +6,10 @@
     "children": [
       {
         "name": "Tingle Milk Road",
-        "visibility_rules": [
-          "shuffle_regional_maps_vanilla",
-          "shuffle_regional_maps_anywhere"
-        ],
+        //"visibility_rules": [
+        //  "shuffle_regional_maps_vanilla",
+        //  "shuffle_regional_maps_anywhere"
+        //],
         "sections": [
           {
             "name": "Romani Ranch Map Purchase",

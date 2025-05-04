@@ -259,14 +259,14 @@
               "normal_logic, $clear_snowhead",
               "normal_logic, goron, $can_use_fire_arrows"
             ]
-          },
-          {
-            "name": "Deku Trade Freestanding HP (Spring)",
-            "visibility_rules": ["shopsanity_advanced"],
-            "access_rules": [
-              "easy_logic, $baby_clear_snowhead, deku, swampdeed",
-              "normal_logic, $clear_snowhead, deku, swampdeed"
-            ]
+          //},
+          //{
+          //  "name": "Deku Trade Freestanding HP (Spring)",
+          //  "visibility_rules": ["shopsanity_advanced"],
+          //  "access_rules": [
+          //    "easy_logic, $baby_clear_snowhead, deku, swampdeed",
+          //    "normal_logic, $clear_snowhead, deku, swampdeed"
+          //  ]
           }
         ]
       },

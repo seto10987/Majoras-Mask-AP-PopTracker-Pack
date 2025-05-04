@@ -318,7 +318,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "initial_stage_idx": 1,
-    "codes": "dmg_mult",
+    "codes": "damage_multiplier",
     "stages": [
       {
         "name": "Half",

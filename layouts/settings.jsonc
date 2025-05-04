@@ -189,7 +189,7 @@
                   {
                     "type": "item",
                     "max_width": 260,
-                    "item": "dmg_mult"
+                    "item": "damage_multiplier"
                   },
                   {
                     "type": "item",

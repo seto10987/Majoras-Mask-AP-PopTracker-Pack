@@ -2,9 +2,14 @@
   "versions": [
     {
       "package_version": "0.9.0",
-      "download_url": "URL to direct download",
-      "sha256": "",
-      "changelog": ["Added locations, items, and maps, overhauled UI, and added icons to locations"]
+      "download_url": "https://github.com/G4M3RL1F3/Majoras-Mask-AP-PopTracker-Pack/releases/download/v0.9.0/Majoras-Mask-AP-PopTracker-Pack.zip",
+      "sha256": "fd63baee31227ed7366b3bf5b91ca406aef8716bff8e89e373a0b76df14d45c3",
+      "changelog": [
+        "Added locations for mountain, Great Bay and Ikana regions",
+        "New and updated maps",
+        "UI overhaul",
+        "New options in pack settings, which update automatically on server connection"
+      ]
     }
   ]
 }

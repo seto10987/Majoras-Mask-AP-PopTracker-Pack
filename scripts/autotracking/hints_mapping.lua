@@ -222,7 +222,8 @@ HINTS_MAPPING = {
     [0x3469420000099] = {"goron_village_scrub_trade"},
     [0x3469420000034] = {"goron_village_powder_keg"},
     [0x3469420054D1E] = {"goron_village_scrub_freestanding_hp"},
-    [0x346942005481E] = {"goron_village_scrub_freestanding_hp_spring"},
+    --[0x346942005481E] = {"goron_village_scrub_freestanding_hp_spring"},
+    --↑ Currently disabled in apworld
     [0x3469420060713] = {"path_snowhead_grotto_chest"},
     [0x3469420055B08] = {"path_snowhead_scarecrow_hp"},
     [0x3469420030002] = {"snowhead_great_fairy_reward"},

@@ -572,8 +572,8 @@
             "chest_unopened_img": "images/equipment/heart_container.png",
             "access_rules": [
               "easy_logic, zora, hookshot, $can_use_ice_arrows, $can_use_fire_arrows, bosskey_gb",
-              "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot, bosskey_gb",
-              "normal_logic, gyorg, boss_warps_with_remains, magic"
+              "normal_logic, hookshot, $can_use_ice_arrows, $can_use_fire_arrows, bosskey_gb",
+              "normal_logic, hookshot, gyorg, boss_warps_with_remains"
             ]
           },
           {
@@ -581,8 +581,8 @@
             "chest_unopened_img": "images/equipment/gyorg.png",
             "access_rules": [
               "easy_logic, zora, hookshot, $can_use_ice_arrows, $can_use_fire_arrows, bosskey_gb",
-              "normal_logic, $can_use_ice_arrows, $can_use_fire_arrows, hookshot, bosskey_gb",
-              "normal_logic, gyorg, boss_warps_with_remains, magic"
+              "normal_logic, hookshot, $can_use_ice_arrows, $can_use_fire_arrows, bosskey_gb",
+              "normal_logic, hookshot, gyorg, boss_warps_with_remains"
             ]
           },
           {
@@ -1498,7 +1498,7 @@
               "normal_logic, @Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, giantmask, sword",
               "normal_logic, twinmold, boss_warps_with_remains, bow",
               "normal_logic, twinmold, boss_warps_with_remains, fiercedeity",
-              "normal_logic, twinmold, boss_warps_with_remains, giantmask, sword"
+              "normal_logic, twinmold, boss_warps_with_remains, giantmask, magic, sword"
             ]
           },
           {
@@ -1511,7 +1511,7 @@
               "normal_logic, @Inverted Stone Tower Temple/Eyegore Chest, bosskey_st, giantmask, sword",
               "normal_logic, twinmold, boss_warps_with_remains, bow",
               "normal_logic, twinmold, boss_warps_with_remains, fiercedeity",
-              "normal_logic, twinmold, boss_warps_with_remains, giantmask, sword"
+              "normal_logic, twinmold, boss_warps_with_remains, giantmask, magic, sword"
             ]
           },
           {
@@ -1533,11 +1533,11 @@
             "name": "Oath to Order",
             "chest_unopened_img": "images/equipment/song_oath_no_text.png",
             "access_rules": [
-              "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, @Inverted Stone Tower/Twinmold's Remains",
-              "normal_logic, $clear_woodfall, boss_warps_with_remains",
-              "normal_logic, $clear_snowhead, boss_warps_with_remains",
-              "normal_logic, $clear_greatbay, boss_warps_with_remains",
-              "normal_logic, @Inverted Stone Tower Temple/Twinmold's Remains"
+              "easy_logic, $baby_clear_woodfall, $baby_clear_snowhead, $baby_clear_greatbay, @Inverted Stone Tower Temple/Twinmold's Remains",
+              "normal_logic, $clear_woodfall",
+              "normal_logic, $clear_snowhead",
+              "normal_logic, $clear_greatbay",
+              "normal_logic, @Dungeons/Inverted Stone Tower Temple/Twinmold's Remains"
             ]
           }
         ]

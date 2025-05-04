@@ -104,6 +104,7 @@
           {
             "name": "Southern Swamp Deku Scrub Purchase Beans",
             "chest_unopened_img": "images/characters/scrub_merchant.png",
+            "visibility_rules": ["scrubsanity"],
             "access_rules": [
               "easy_logic, deku, $can_plant_beans",
               "normal_logic, deku, $can_plant_beans",

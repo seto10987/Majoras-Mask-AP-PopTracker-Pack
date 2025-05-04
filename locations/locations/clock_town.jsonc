@@ -878,12 +878,13 @@
             ]
           },
           {
-            "name": "Gold Rupee Trade (Big Poe)",
-            "chest_unopened_img": "images/items/big_poe.png",
+            "name": "Gold Rupee Trade (Big Poe, Chateau, Gold Dust)",
+            "chest_unopened_img": "images/items/chateau_romani.png",
             "access_rules": [
               "easy_logic, $baby_has_bottle, @Ikana/Graveyard/Day 3 Dampe Big Poe Chest, @Dungeons/Beneath the Well/Rightside Torch Chest, bombs",
               "normal_logic, $has|bottles|1, @Ikana/Graveyard/Day 3 Dampe Big Poe Chest",
               "normal_logic, $has|bottles|1, @Dungeons/Beneath the Well/Rightside Torch Chest, bombs",
+              "normal_logic, $has|bottles|1, romani, adultswallet",
               "normal_logic, $has|bottles|1, @Snowhead/Twin Islands/Goron Racetrack Prize"
             ]
           }

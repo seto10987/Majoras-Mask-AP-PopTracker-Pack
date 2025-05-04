@@ -82,7 +82,7 @@ LOCATION_MAPPING = {
     [0x346942007C402] = {"@Clock Town/Curiosity Shop (10 PM - 6 AM)/Blue Rupee Trade (Half Milk)","@Clock Town Hints/Curiosity Shop (10 PM - 6 AM) Hints/Blue Rupee Trade (Half Milk) (Hint)"},
     [0x346942007C404] = {"@Clock Town/Curiosity Shop (10 PM - 6 AM)/Red Rupee Trade (Fish, Bug, Fairy, Milk, Potions, Water, Zora Egg)","@Clock Town Hints/Curiosity Shop (10 PM - 6 AM) Hints/Red Rupee Trade (Fish, Bug, Fairy, Milk, Potions, Water, Zora Egg) (Hint)"},
     [0x346942007C405] = {"@Clock Town/Curiosity Shop (10 PM - 6 AM)/Purple Rupee Trade (Poe)","@Clock Town Hints/Curiosity Shop (10 PM - 6 AM) Hints/Purple Rupee Trade (Poe) (Hint)"},
-    [0x346942007C407] = {"@Clock Town/Curiosity Shop (10 PM - 6 AM)/Gold Rupee Trade (Big Poe)","@Clock Town Hints/Curiosity Shop (10 PM - 6 AM) Hints/Gold Rupee Trade (Big Poe) (Hint)"},
+    [0x346942007C407] = {"@Clock Town/Curiosity Shop (10 PM - 6 AM)/Gold Rupee Trade (Big Poe, Chateau, Gold Dust)","@Clock Town Hints/Curiosity Shop (10 PM - 6 AM) Hints/Gold Rupee Trade (Big Poe, Chateau, Gold Dust) (Hint)"},
     [0x34694200000B4] = {"@Clock Town/Tingle Clock Town/Clock Town Map Purchase","@Clock Town Hints/Tingle Clock Town Hints/Clock Town Map Purchase (Hint)"},
     [0x3469420080239] = {"@Clock Town/West Clock Town Lottery/Win Any Day","@Clock Town Hints/West Clock Town Lottery Hints/Win Any Day (Hint)"},
 
@@ -233,7 +233,8 @@ LOCATION_MAPPING = {
     [0x3469420000099] = {"@Snowhead/Goron Village/Deku Trade","@Snowhead Hints/Goron Village Hints/Deku Trade (Hint)"},
     [0x3469420054D1E] = {"@Snowhead/Goron Village/Deku Trade Freestanding HP","@Snowhead Hints/Goron Village Hints/Deku Trade Freestanding HP (Hint)"},
     [0x3469420000034] = {"@Snowhead/Goron Village/Powder Keg Goron Reward","@Snowhead Hints/Goron Village Hints/Powder Keg Goron Reward (Hint)"},
-    [0x346942005481E] = {"@Snowhead/Goron Village/Deku Trade Freestanding HP (Spring)","@Snowhead Hints/Goron Village Hints/Deku Trade Freestanding HP (Spring) (Hint)"},
+    --[0x346942005481E] = {"@Snowhead/Goron Village/Deku Trade Freestanding HP (Spring)","@Snowhead Hints/Goron Village Hints/Deku Trade Freestanding HP (Spring) (Hint)"},
+    --↑ Currently disabled in apworld
     [0x3469420060713] = {"@Snowhead/Path to Snowhead/Grotto Chest","Snowhead Hints/Path to Snowhead Hints/Grotto Chest (Hint)"},
     [0x3469420055B08] = {"@Snowhead/Path to Snowhead/Scarecrow Pillar HP","Snowhead Hints/Path to Snowhead Hints/Scarecrow Pillar HP (Hint)"},
     [0x3469420030002] = {"@Snowhead/Snowhead/Snowhead Great Fairy Reward","@Snowhead Hints/Snowhead Hints/Snowhead Great Fairy Reward (Hint)"},

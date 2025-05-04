@@ -706,8 +706,8 @@
               "visibility_rules": ["curiosity_purple_rupee_trade"]
             },
             {
-              "name": "Gold Rupee Trade (Big Poe) (Hint)",
-              "chest_unopened_img": "images/items/big_poe.png",
+              "name": "Gold Rupee Trade (Big Poe, Chateau, Gold Dust) (Hint)",
+              "chest_unopened_img": "images/items/chateau_romani.png",
               "visibility_rules": ["curiosity_gold_rupee_trade"]
             }
           ]

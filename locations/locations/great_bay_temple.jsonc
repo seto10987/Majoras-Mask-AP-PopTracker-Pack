@@ -1,0 +1,328 @@
+[
+  {
+    "name": "Great Bay Temple",
+    "children": [
+      {
+        "name": "Four Torches Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Four Torches Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 373,
+            "y": 966
+          }
+        ]
+      },
+      {
+        "name": "Waterwheel Room Skulltula SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Waterwheel Room Skulltula SF"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 271,
+            "y": 827
+          }
+        ]
+      },
+      {
+        "name": "Waterwheel Room Bubble Under Platform SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Waterwheel Room Bubble Under Platform SF"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 373,
+            "y": 830
+          }
+        ]
+      },
+      {
+        "name": "Blender Room Barrel SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Blender Room Barrel SF"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 272,
+            "y": 475
+          }
+        ]
+      },
+      {
+        "name": "Pot At Bottom Of Blender SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Pot At Bottom Of Blender SF"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 371,
+            "y": 476
+          }
+        ]
+      },
+      {
+        "name": "Red-Green Pipe First Room Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Red-Green Pipe First Room Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 586,
+            "y": 638
+          }
+        ]
+      },
+      {
+        "name": "Red-Green Pipe First Room Pot SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Red-Green Pipe First Room Pot SF"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 652,
+            "y": 666
+          }
+        ]
+      },
+      {
+        "name": "Bio-Baba Hall Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Bio-Baba Hall Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 731,
+            "y": 457
+          }
+        ]
+      },
+      {
+        "name": "Froggy Entrance Room Upper Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Froggy Entrance Room Upper Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 505,
+            "y": 268
+          }
+        ]
+      },
+      {
+        "name": "Froggy Entrance Room Underwater Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Froggy Entrance Room Underwater Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 555,
+            "y": 278
+          }
+        ]
+      },
+      {
+        "name": "Froggy Entrance Room Caged Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Froggy Entrance Room Caged Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 627,
+            "y": 233
+          }
+        ]
+      },
+      {
+        "name": "Froggy Entrance Room Pot SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Froggy Entrance Room Pot SF"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 633,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Behind Locked Door Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Behind Locked Door Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 81,
+            "y": 115
+          }
+        ]
+      },
+      {
+        "name": "Room Behind Waterfall Ceiling Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Room Behind Waterfall Ceiling Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 371,
+            "y": 237
+          }
+        ]
+      },
+      {
+        "name": "Green Pipe Freezable Waterwheel Upper Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Room Behind Waterfall Ceiling Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 891,
+            "y": 234
+          }
+        ]
+      },
+      {
+        "name": "Green Pipe Freezable Waterwheel Lower Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Room Behind Waterfall Ceiling Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 977,
+            "y": 374
+          }
+        ]
+      },
+      {
+        "name": "Seesaw Room Underwater Barrel SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Seesaw Room Underwater Barrel SF"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 794,
+            "y": 533
+          }
+        ]
+      },
+      {
+        "name": "Seesaw Room Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Seesaw Room Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 763,
+            "y": 622
+          }
+        ]
+      },
+      {
+        "name": "Before Boss Room Underneath Platform Bubble SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Before Boss Room Underneath Platform Bubble SF"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 1160,
+            "y": 1172
+          }
+        ]
+      },
+      {
+        "name": "Before Boss Room Exit Tunnel Bubble SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Before Boss Room Exit Tunnel Bubble SF"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 1045,
+            "y": 1095
+          }
+        ]
+      },
+      {
+        "name": "Boss Room",
+        "sections": [
+          {
+            "ref": "Dungeons/Great Bay Temple/Heart Container"
+          },
+          {
+            "ref": "Dungeons/Great Bay Temple/Gyorg's Remains"
+          },
+          {
+            "ref": "Dungeons/Any Boss/Oath to Order"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_bay_temple",
+            "x": 994,
+            "y": 1156
+          }
+        ]
+      }
+    ]
+  }
+]

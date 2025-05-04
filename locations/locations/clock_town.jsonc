@@ -1,0 +1,938 @@
+[
+  {
+    "name": "Clock Town",
+    "chest_unopened_img": "images/icons/chest.png",
+    "chest_opened_img": "images/icons/check_32.png",
+    "children": [
+      {
+        "name": "South Clock Town Clock Tower",
+        "sections": [
+          {
+            "name": "Freestanding HP",
+            "chest_unopened_img": "images/equipment/heart_piece.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 117,
+            "y": 129
+          }
+        ]
+      },
+      {
+        "name": "South Clock Town Business Scrub",
+        "sections": [
+          {
+            "name": "Moon's Tear Trade",
+            "chest_unopened_img": "images/characters/scrub_merchant.png",
+            "access_rules": ["moontear"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 90,
+            "y": 156
+          }
+        ]
+      },
+      {
+        "name": "South Clock Town Final Day Tower Chest (Final Day)",
+        "sections": [
+          {
+            "name": "South Clock Town Final Day Tower Chest",
+            "access_rules": [
+              "easy_logic, hookshot, deku, moontear",
+              "normal_logic, hookshot",
+              "normal_logic, deku, moontear"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 117,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "South Clock Town Corner Chest",
+        "sections": [
+          {
+            "name": "South Clock Town Corner Chest",
+            "access_rules": ["hookshot"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 157,
+            "y": 210
+          }
+        ]
+      },
+      {
+        "name": "Clock Town Postbox",
+        "sections": [
+          {
+            "name": "Interact with Postman's Hat equipped",
+            "chest_unopened_img": "images/icons/postbox.png",
+            "access_rules": ["postman"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 210,
+            "y": 77
+          },
+          {
+            "map": "overworld",
+            "x": 225,
+            "y": 170
+          },
+          {
+            "map": "overworld",
+            "x": 97,
+            "y": 206
+          },
+          {
+            "map": "overworld",
+            "x": 148,
+            "y": 116
+          },
+          {
+            "map": "overworld",
+            "x": 157,
+            "y": 58
+          }
+        ]
+      },
+      {
+        "name": "Clock Town Hide-and-Seek",
+        "sections": [
+          {
+            "name": "Clock Town Hide-and-Seek",
+            "chest_unopened_img": "images/characters/bombers.png",
+            "access_rules": [
+              "easy_logic, $baby_has_projectiles",
+              "normal_logic, $has_projectiles"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 98,
+            "y": 55
+          }
+        ]
+      },
+      {
+        "name": "North Clock Town Tree HP",
+        "sections": [
+          {
+            "name": "North Clock Town Tree HP",
+            "chest_unopened_img": "images/equipment/heart_piece.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 150,
+            "y": 26
+          }
+        ]
+      },
+      {
+        "name": "Deku Playground",
+        "sections": [
+          {
+            "name": "North Clock Town Deku Playground Any Day",
+            "chest_unopened_img": "images/characters/scrub_merchant.png",
+            "access_rules": ["deku"]
+          },
+          {
+            "name": "North Clock Town Deku Playground All Days",
+            "chest_unopened_img": "images/characters/scrub_merchant.png",
+            "access_rules": ["deku"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 62,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Clock Town Great Fairy",
+        "access_rules": ["fairy_ct"],
+        //"visibility_rules": ["shuffle_great_fairy_rewards"],
+        "chest_unopened_img": "images/equipment/fairy_ct.png",
+        "sections": [
+          {
+            "name": "North Clock Town Great Fairy Reward",
+            "access_rules": ["fairy_ct"]
+          },
+          {
+            "name": "North Clock Town Great Fairy Reward (Transformation Mask)",
+            "access_rules": [
+              "easy_logic, fairy_ct, deku, goron, zora",
+              "normal_logic, fairy_ct, deku",
+              "normal_logic, fairy_ct, goron",
+              "normal_logic, fairy_ct, zora"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 46,
+            "y": 55
+          }
+        ]
+      },
+      {
+        "name": "Keaton Quiz",
+        "sections": [
+          {
+            "name": "Keaton Quiz",
+            "access_rules": ["keaton"],
+            "chest_unopened_img": "images/masks/keaton.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 143,
+            "y": 16
+          },
+          {
+            "map": "overworld",
+            "x": 461,
+            "y": 364
+          }
+        ]
+      },
+      {
+        "name": "North Clock Town Save Old Lady",
+        "sections": [
+          {
+            "name": "North Clock Town Save Old Lady (Night 1 - 12 AM)",
+            "chest_unopened_img": "images/characters/bomb_shop_lady.png",
+            "access_rules": [
+              "easy_logic, sword, fairysword",
+              "normal_logic, sword",
+              "normal_logic, fairysword",
+              "normal_logic, zora",
+              "normal_logic, goron"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 145,
+            "y": 70
+          }
+        ]
+      },
+      {
+        "name": "East Clock Town Archery Roof Chest",
+        "sections": [
+          {
+            "name": "Jumping section starts near Bomber's Hideout entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 170,
+            "y": 210
+          }
+        ]
+      },
+      {
+        "name": "Mayor's Residence (10 AM - 10 PM)",
+        "sections": [
+          {
+            "name": "East Clock Town Mayor's Wife",
+            "chest_unopened_img": "images/characters/madame_aroma.png"
+          },
+          {
+            "name": "East Clock Town Couple's Mask on Mayor",
+            "chest_unopened_img": "images/characters/mayor_dotour.png",
+            "access_rules": ["couple"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 214,
+            "y": 41
+          }
+        ]
+      },
+      {
+        "name": "Honey and Darling (6 AM - 10 PM)",
+        "chest_unopened_img": "images/characters/honey_darling.png",
+        "sections": [
+          {
+            "name": "East Clock Town Honey and Darling Any Day",
+            "access_rules": [
+              "easy_logic, bow, bombs, $baby_has_bombchus",
+              "normal_logic, bow",
+              "normal_logic, bombs",
+              "normal_logic, bombchu_bag",
+              "normal_logic, deku, magic"
+            ]
+          },
+          {
+            "name": "East Clock Town Honey and Darling All Days",
+            "access_rules": [
+              "easy_logic, bow, bombs, $baby_has_bombchus",
+              "normal_logic, bow, bombs, bombchu_bag"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 235,
+            "y": 157
+          }
+        ]
+      },
+      {
+        "name": "Town Shooting Gallery (6 AM - 10 PM)",
+        "chest_unopened_img": "images/icons/archery.png",
+        "sections": [
+          {
+            "name": "East Clock Town Shooting Gallery 40-49 Points",
+            "access_rules": ["bow"]
+          },
+          {
+            "name": "East Clock Town Shooting Gallery Perfect 50 Points",
+            "access_rules": ["bow"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 211,
+            "y": 191
+          }
+        ]
+      },
+      {
+        "name": "Treasure Game (6 AM - 10 PM)",
+        "sections": [
+          {
+            "name": "East Clock Town Treasure Game Chest (Human)",
+            "access_rules": [""]
+          },
+          {
+            "name": "East Clock Town Treasure Game Chest (Deku)",
+            "access_rules": ["deku"]
+          },
+          {
+            "name": "East Clock Town Treasure Game Chest (Goron)",
+            "access_rules": ["goron"]
+          },
+          {
+            "name": "East Clock Town Treasure Game Chest (Zora)",
+            "access_rules": ["zora"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 175,
+            "y": 166
+          }
+        ]
+      },
+      {
+        "name": "Bomber's Secret Hideout",
+        "sections": [
+          {
+            "name": "Bomber's Hideout Chest",
+            "access_rules": [
+              "easy_logic, $baby_has_explosives, $baby_has_projectiles",
+              "normal_logic, $has_explosives, $has_projectiles"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 235,
+            "y": 62
+          }
+        ]
+      },
+      {
+        "name": "Stock Pot Inn",
+        "sections": [
+          {
+            "name": "Stock Pot Inn Reservation (Day 1: from 1 PM to 4 PM)",
+            "chest_unopened_img": "images/characters/anju.png"
+          },
+          {
+            "name": "Stock Pot Inn Employees Only Room Chest (Final Night)"
+          },
+          {
+            "name": "Stock Pot Inn Upstairs Middle Room Chest",
+            "access_rules": ["roomkey"]
+          },
+          {
+            "name": "Stock Pot Inn Midnight Meeting (Night 1: 11:30 PM)",
+            "chest_unopened_img": "images/characters/anju.png",
+            "access_rules": [
+              "easy_logic, kafeimask, deku, roomkey",
+              "normal_logic, kafeimask, deku",
+              "normal_logic, kafeimask, roomkey"
+            ]
+          },
+          {
+            "name": "Stock Pot Inn Midnight Toilet Hand",
+            "chest_unopened_img": "images/characters/toilet_hand.png",
+            "access_rules": ["$has_paper"]
+          },
+          {
+            "name": "Stock Pot Inn Granny Story #1",
+            "chest_unopened_img": "images/characters/anjus_grandmother.png",
+            "access_rules": ["allnightmask"]
+          },
+          {
+            "name": "Stock Pot Inn Granny Story #2",
+            "chest_unopened_img": "images/characters/anjus_grandmother.png",
+            "access_rules": ["allnightmask"]
+          },
+          {
+            "name": "Stock Pot Inn Anju and Kafei (Final Night 4:30 AM)",
+            "chest_unopened_img": "images/characters/anju_kafei.png",
+            "access_rules": [
+              "easy_logic, kafei, $can_play_eponas, kafeiletter, pendant, hookshot, garo, gibdo",
+              "normal_logic, kafei, $can_play_eponas, kafeiletter, pendant, hookshot, garo",
+              "normal_logic, kafei, $can_play_eponas, kafeiletter, pendant, hookshot, gibdo"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 185,
+            "y": 115
+          }
+        ]
+      },
+      {
+        "name": "Milk Bar (10 PM - 6 AM)",
+        "sections": [
+          {
+            "name": "Milk Bar Show (Night 1 - 2)",
+            "chest_unopened_img": "images/characters/toto.png",
+            "access_rules": ["romani, deku, goron, zora, ocarina"]
+          },
+          {
+            "name": "Priority Mail to Aroma (Final Night)",
+            "chest_unopened_img": "images/characters/madame_aroma.png",
+            "access_rules": ["romani, kafei, express"]
+          },
+          {
+            "name": "Milk Purchase",
+            "chest_unopened_img": "images/items/milk_bottle.png",
+            "access_rules": ["romani"],
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
+          },
+          {
+            "name": "Chateau Romani Purchase",
+            "chest_unopened_img": "images/items/chateau_romani.png",
+            "access_rules": ["romani, adultswallet"],
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 216,
+            "y": 111
+          }
+        ]
+      },
+
+
+      {
+        "name": "West Clock Town Dancing Sisters",
+        "sections": [
+          {
+            "name": "West Clock Town Dancing Sisters (Night 1 - 2)",
+            "chest_unopened_img": "images/characters/rosa_sisters.png",
+            "access_rules": ["kamaro"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 38,
+            "y": 111
+          }
+        ]
+      },
+      {
+        "name": "Clock Town Bank",
+        "chest_unopened_img": "images/icons/bank.png",
+        "sections": [
+          {
+            "name": "West Clock Town Bank 200 Rupees",
+            "access_rules": ["sword, wallet","normal_logic"]
+          },
+          {
+            "name": "West Clock Town Bank 500 Rupees",
+            "access_rules": [
+              "easy_logic, fiercedeitymask, fairysword, adultswallet",
+              "normal_logic, adultswallet"
+            ]
+          },
+          {
+            "name": "West Clock Town Bank 1000 Rupees",
+            "access_rules": [
+              "easy_logic, fiercedeitymask, fairysword, giantswallet",
+              "normal_logic, giantswallet"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 48,
+            "y": 155
+          }
+        ]
+      },
+      {
+        "name": "West Clock Town Swordsman Expert Course",
+        "chest_unopened_img": "images/equipment/sword1.png",
+        "sections": [
+          {
+            "name": "West Clock Town Swordsman Expert Course",
+            "access_rules": ["sword"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 30,
+            "y": 91
+          }
+        ]
+      },
+      {
+        "name": "Post Office",
+        "sections": [
+          {
+            "name": "West Clock Town Postman Counting (Day 1: 3 PM - Midnight, Day 2: 5 PM - Midnight)",
+            "chest_unopened_img": "images/characters/postman.png",
+            "access_rules": ["bunnyhood"]
+          },
+          {
+            "name": "West Clock Town Priority Mail to Postman (Final Night)",
+            "chest_unopened_img": "images/characters/postman.png",
+            "access_rules": ["express"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 44,
+            "y": 91
+          }
+        ]
+      },
+      {
+        "name": "Laundry Pool Musician",
+        "sections": [
+          {
+            "name": "Laundry Pool Musician (Night 1 - 2)",
+            "chest_unopened_img": "images/characters/guru_guru.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 50,
+            "y": 214
+          }
+        ]
+      },
+      {
+        "name": "Laundry Pool Stray Fairy (Clock Town)",
+        "visibility_rules": ["fairysanity"],
+        "sections": [
+          {
+            "name": "Laundry Pool Stray Fairy (Clock Town)",
+            "chest_unopened_img": "images/equipment/fairy_ct.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 24,
+            "y": 207
+          }
+        ]
+      },
+      {
+        "name": "Curiosity Shop Backroom",
+        "short_name": "Backroom",
+        "sections": [
+          {
+            "name": "Laundry Pool Kafei's Request (Day 2, 4:30 PM)",
+            "chest_unopened_img": "images/characters/kafei.png",
+            "access_rules": ["kafeiletter"]
+          },
+          {
+            "name": "Laundry Pool Curiosity Shop Salesman #1 (Final Day, 1 PM - 9 PM)",
+            "chest_unopened_img": "images/characters/curiosity_shop_man.png",
+            "access_rules": ["kafeiletter"]
+          },
+          {
+            "name": "Laundry Pool Curiosity Shop Salesman #2 (Final Day, 1 PM - 9 PM)",
+            "chest_unopened_img": "images/characters/curiosity_shop_man.png",
+            "access_rules": ["kafeiletter"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 21,
+            "y": 173
+          }
+        ]
+      },
+      {
+        "name": "Clock Tower",
+        "sections": [
+          {
+            "name": "Top of Clock Tower (Ocarina of Time)",
+            "chest_unopened_img": "images/items/ocarina.png",
+            "access_rules": [
+              "easy_logic, $baby_has_projectiles",
+              "normal_logic, $has_projectiles"
+            ]
+          },
+          {
+            "name": "Top of Clock Tower (Song of Time)",
+            "chest_unopened_img": "images/equipment/song_time_no_text.png",
+            "access_rules": [
+              "easy_logic,$baby_has_projectiles",
+              "normal_logic,$has_projectiles"
+            ]
+          },
+          {
+            "name": "Clock Tower Happy Mask Salesman #1",
+            "chest_unopened_img": "images/characters/happy_mask_salesman.png",
+            "access_rules": ["ocarina"]
+          },
+          {
+            "name": "Clock Tower Happy Mask Salesman #2",
+            "chest_unopened_img": "images/characters/happy_mask_salesman.png",
+            "access_rules": ["ocarina"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 117,
+            "y": 95
+          }
+        ]
+      },
+      {
+        "name": "Trading Post",
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 33,
+            "y": 169
+          }
+        ],
+        "sections": [
+          {
+            "name": "Shop Item 1",
+            "chest_unopened_img": "images/icons/trading_post.png",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
+          },
+          {
+            "name": "Shop Item 2",
+            "chest_unopened_img": "images/icons/trading_post.png",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
+          },
+          {
+            "name": "Shop Item 3",
+            "chest_unopened_img": "images/icons/trading_post.png",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
+          },
+          {
+            "name": "Shop Item 4",
+            "chest_unopened_img": "images/icons/trading_post.png",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
+          },
+          {
+            "name": "Shop Item 5",
+            "chest_unopened_img": "images/icons/trading_post.png",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
+          },
+          {
+            "name": "Shop Item 6",
+            "chest_unopened_img": "images/icons/trading_post.png",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
+          },
+          {
+            "name": "Shop Item 7",
+            "chest_unopened_img": "images/icons/trading_post.png",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
+          },
+          {
+            "name": "Shop Item 8",
+            "chest_unopened_img": "images/icons/trading_post.png",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
+          },
+          {
+            "name": "Shop (Night) Item 1",
+            "chest_unopened_img": "images/icons/trading_post_night.png",
+            "visibility_rules": ["shopsanity_advanced"]
+          },
+          {
+            "name": "Shop (Night) Item 2",
+            "chest_unopened_img": "images/icons/trading_post_night.png",
+            "visibility_rules": ["shopsanity_advanced"]
+          },
+          {
+            "name": "Shop (Night) Item 3",
+            "chest_unopened_img": "images/icons/trading_post_night.png",
+            "visibility_rules": ["shopsanity_advanced"]
+          },
+          {
+            "name": "Shop (Night) Item 4",
+            "chest_unopened_img": "images/icons/trading_post_night.png",
+            "visibility_rules": ["shopsanity_advanced"]
+          },
+          {
+            "name": "Shop (Night) Item 5",
+            "chest_unopened_img": "images/icons/trading_post_night.png",
+            "visibility_rules": ["shopsanity_advanced"]
+          },
+          {
+            "name": "Shop (Night) Item 6",
+            "chest_unopened_img": "images/icons/trading_post_night.png",
+            "visibility_rules": ["shopsanity_advanced"]
+          },
+          {
+            "name": "Shop (Night) Item 7",
+            "chest_unopened_img": "images/icons/trading_post_night.png",
+            "visibility_rules": ["shopsanity_advanced"]
+          },
+          {
+            "name": "Shop (Night) Item 8",
+            "chest_unopened_img": "images/icons/trading_post_night.png",
+            "visibility_rules": ["shopsanity_advanced"]
+          }
+        ]
+      },
+      {
+        "name": "Bomb Shop",
+        "chest_unopened_img": "images/icons/bomb_shop_sign.png",
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 21,
+            "y": 148
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item 1",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
+          },
+          {
+            "name": "Item 2",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
+          },
+          {
+            "name": "Item 3",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
+          },
+          {
+            "name": "Item 3 (Stop Thief)",
+            "access_rules": ["@North Clock Town Save Old Lady/North Clock Town Save Old Lady (Night 1 - 12 AM)"],
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
+          },
+          {
+            "name": "Powder Keg Goron",
+            "access_rules": ["goron, powderkeg"],
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Curiosity Shop (10 PM - 6 AM)",
+        "chest_unopened_img": "images/icons/curiosity_shop.png",
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 50,
+            "y": 182
+          }
+        ],
+        "sections": [
+          {
+            "name": "Curiosity Shop Night 3 (Stop Thief)",
+            "access_rules": ["giantswallet, @Clock Town/Bomb Shop/Item 3 (Stop Thief)"],
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
+          },
+          {
+            "name": "Curiosity Shop Night 3 Thief Stolen Item",
+            "access_rules": ["adultswallet"],
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
+          },
+          {
+            "name": "Blue Rupee Trade (Half Milk)",
+            "chest_unopened_img": "images/items/half_milk_bottle.png",
+            "access_rules": [
+              "easy_logic, @Southern Swamp/Southern Swamp Witch Shop/Item 1, $baby_can_get_cow_milk",
+              "normal_logic, maskofscents, $has|bottles|1",
+              "normal_logic, $can_get_cow_milk"
+            ]
+          },
+          {
+            "name": "Red Rupee Trade (Fish, Bug, Fairy, Milk, Potions, Water, Zora Egg)",
+            "chest_unopened_img": "images/items/fish.png",
+            "access_rules": [
+              "easy_logic, $baby_has_bottle",
+              "normal_logic, $has|bottles|1"
+            ]
+          },
+          {
+            "name": "Purple Rupee Trade (Poe)",
+            "chest_unopened_img": "images/items/poe.png",
+            "access_rules": [
+              "easy_logic, $baby_has_bottle, @Dungeons/Inverted Stone Tower Temple/Death Armos Maze Chest",
+              "normal_logic, $has|bottles|1, @Dungeons/Inverted Stone Tower Temple/Death Armos Maze Chest"
+            ]
+          },
+          {
+            "name": "Gold Rupee Trade (Big Poe, Chateau, Gold Dust)",
+            "chest_unopened_img": "images/items/chateau_romani.png",
+            "access_rules": [
+              "easy_logic, $baby_has_bottle, @Ikana/Graveyard/Day 3 Dampe Big Poe Chest, @Dungeons/Beneath the Well/Rightside Torch Chest, bombs",
+              "normal_logic, $has|bottles|1, @Ikana/Graveyard/Day 3 Dampe Big Poe Chest",
+              "normal_logic, $has|bottles|1, @Dungeons/Beneath the Well/Rightside Torch Chest, bombs",
+              "normal_logic, $has|bottles|1, romani, adultswallet",
+              "normal_logic, $has|bottles|1, @Snowhead/Twin Islands/Goron Racetrack Prize"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tingle Clock Town",
+        "visibility_rules": [
+          "shuffle_regional_maps_vanilla",
+          "shuffle_regional_maps_anywhere"
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 121,
+            "y": 33
+          }
+        ],
+        "sections": [
+          {
+            "name": "Clock Town Map Purchase",
+            "chest_unopened_img": "images/equipment/rmap_clocktown.png",
+            "access_rules": [
+              "easy_logic, $baby_has_projectiles, $baby_ikana_canyon, $can_use_ice_arrows",
+              "normal_logic, $has_projectiles"
+            ]
+          },
+          {
+            "ref": "Southern Swamp/Tingle Southern Swamp/Woodfall Map Purchase"
+          }
+        ]
+      },
+      {
+        "name": "West Clock Town Lottery",
+        "chest_unopened_img": "images/icons/lottery.png",
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 55,
+            "y": 129
+          }
+        ],
+        "sections": [
+          {
+            "name": "Win Any Day"
+          }
+        ]
+      }
+    ]
+  }
+]

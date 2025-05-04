@@ -1,6 +1,8 @@
+---@diagnostic disable: lowercase-global
 ScriptHost:LoadScript("scripts/autotracking/hints_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/tables.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
@@ -52,9 +54,9 @@ function onClear(slot_data)
         end
     end
 
-    Tracker:FindObjectForCode("bottle_1").Active = false
-    Tracker:FindObjectForCode("bottle_2").Active = false
-    Tracker:FindObjectForCode("bottle_3").Active = false
+    --Tracker:FindObjectForCode("bottle_1").Active = false
+    --Tracker:FindObjectForCode("bottle_2").Active = false
+    --Tracker:FindObjectForCode("bottle_3").Active = false
 
 	PLAYER_NUMBER = Archipelago.PlayerNumber or -1
 	TEAM_NUMBER = Archipelago.TeamNumber or 0
@@ -62,15 +64,14 @@ function onClear(slot_data)
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
 
-    
+
     if Archipelago.PlayerNumber > -1 then
-    
         HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_NUMBER
         Archipelago:SetNotify({HINTS_ID})
         Archipelago:Get({HINTS_ID})
     end
 
-    -- read YAML settings
+    -- read YAML options
     local function setFromSlotData(slot_data_key, item_code)
         local v = slot_data[slot_data_key]
         if not v then
@@ -91,17 +92,41 @@ function onClear(slot_data)
         elseif obj.Type == 'progressive' then
             obj.CurrentStage = v
             return v
+        elseif obj.Type == 'consumable' then
+            obj.AcquiredCount = v
+            return v
         else
             print(string.format("Unsupported item type '%s' for item '%s'", tostring(obj.Type), item_code))
             return nil
         end
     end
-    
+
+    setFromSlotData("logic_difficulty","logic_difficulty")
+    setFromSlotData("majora_remains_required","majora_remains_required")
+    setFromSlotData("moon_remains_required","moon_remains_required")
+    setFromSlotData("remains_allow_boss_warps","remains_allow_boss_warps")
+    setFromSlotData("camc","camc")
     setFromSlotData("swordless","swordless")
-    setFromSlotData("shuffle_swamphouse_reward","shuffle_swamphouse_reward")
-    setFromSlotData("shuffle_great_fairy_rewards","shuffle_great_fairy_rewards")
+    setFromSlotData("shieldless","shieldless")
+    setFromSlotData("start_with_soaring","start_with_soaring")
+    setFromSlotData("starting_hearts","starting_hearts")
+    setFromSlotData("starting_hearts_are_containers_or_pieces","starting_hearts_are_containers_or_pieces")
+    setFromSlotData("shuffle_regional_maps","shuffle_regional_maps")
+    setFromSlotData("shuffle_boss_remains","shuffle_boss_remains")
+    setFromSlotData("shuffle_spiderhouse_reward","shuffle_spiderhouse_reward")
     setFromSlotData("skullsanity","skullsanity")
+    setFromSlotData("shopsanity","shopsanity")
+    setFromSlotData("scrubsanity","scrubsanity")
+    setFromSlotData("cowsanity","cowsanity")
+    setFromSlotData("shuffle_great_fairy_rewards","shuffle_great_fairy_rewards")
     setFromSlotData("fairysanity","fairysanity")
+    setFromSlotData("start_with_consumables","start_with_consumables")
+    setFromSlotData("permanent_chateau_romani","permanent_chateau_romani")
+    setFromSlotData("start_with_inverted_time","start_with_inverted_time")
+    setFromSlotData("receive_filled_wallets","receive_filled_wallets")
+    setFromSlotData("damage_multiplier","damage_multiplier")
+    setFromSlotData("death_behavior","death_behavior")
+    setFromSlotData("death_link","death_link")
 end
 
 -- called when an item gets collected
@@ -198,7 +223,6 @@ function onNotifyLaunch(key, value)
                     updateHints(hint.location)
                 elseif hint.found then
                     updateHints(hint.location)
-                    
                 end
             end
         end

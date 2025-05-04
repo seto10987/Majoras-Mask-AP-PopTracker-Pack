@@ -1,0 +1,54 @@
+﻿{
+  "tracker_broadcast": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0,2,12",
+    "content": [
+      {
+        "type": "group",
+        "header": "Items",
+        "dock": "top",
+        "content": {
+          "type": "layout",
+          "key": "broadcast_item_grid"
+        }
+      },
+      {
+        "type": "group",
+        "header": "Masks",
+        "dock": "top",
+        "content": {
+          "type": "layout",
+          "key": "broadcast_masks_grid"
+        }
+      },
+      {
+        "type": "group",
+        "header": "Equipment",
+        "dock": "top",
+        "content": {
+          "type": "layout",
+          "key": "broadcast_equipment_grid"
+        }
+      },
+      {
+        "type": "group",
+        "header": "Dungeon Items",
+        "dock": "bottom",
+        "content": {
+          "type": "layout",
+          "key": "broadcast_dungeons_grid"
+        }
+//      },
+//      {
+//        "type": "group",
+//        "header": "Miscellaneous Items",
+//        "dock": "bottom",
+//        "content": {
+//          "type": "layout",
+//          "key": "miscellaneous_grid"
+//        }
+      }
+    ]
+  }
+}

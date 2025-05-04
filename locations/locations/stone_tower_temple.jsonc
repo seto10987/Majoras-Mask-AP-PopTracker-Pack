@@ -1,0 +1,393 @@
+[
+  {
+    "name": "Stone Tower Temple",
+    "children": [
+      {
+        "name": "Entrance Room Eye Switch Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Entrance Room Eye Switch Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 306,
+            "y": 826
+          }
+        ]
+      },
+      {
+        "name": "Entrance Room Lower Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Entrance Room Lower Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 306,
+            "y": 866
+          }
+        ]
+      },
+      {
+        "name": "Armos Room Back Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Armos Room Back Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 58,
+            "y": 1543
+          }
+        ]
+      },
+      {
+        "name": "Armos Room Upper Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Armos Room Upper Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 13,
+            "y": 1397
+          }
+        ]
+      },
+      {
+        "name": "Armos Room Lava Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Armos Room Lava Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 58,
+            "y": 1439
+          }
+        ]
+      },
+      {
+        "name": "Eyegore Room Switch Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Eyegore Room Switch Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 277,
+            "y": 564
+          }
+        ]
+      },
+      {
+        "name": "Eyegore Room Dexi Hand Ledge Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Eyegore Room Dexi Hand Ledge Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 409,
+            "y": 649
+          }
+        ]
+      },
+      {
+        "name": "Eastern Water Room Underwater Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Eastern Water Room Underwater Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 540,
+            "y": 1520
+          }
+        ]
+      },
+      {
+        "name": "Eastern Water Room Sun Block Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Eastern Water Room Sun Block Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 470,
+            "y": 836
+          }
+        ]
+      },
+      {
+        "name": "Mirror Room Sun Block Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Mirror Room Sun Block Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 666,
+            "y": 436
+          }
+        ]
+      },
+      {
+        "name": "Mirror Room Sun Face Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Mirror Room Sun Face Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 554,
+            "y": 414
+          }
+        ]
+      },
+      {
+        "name": "Air Gust Room Side Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Air Gust Room Side Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 480,
+            "y": 156
+          }
+        ]
+      },
+      {
+        "name": "Air Gust Room Goron Switch Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Air Gust Room Goron Switch Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 483,
+            "y": 253
+          }
+        ]
+      },
+      {
+        "name": "Garo Master Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Garo Master Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 305,
+            "y": 253
+          }
+        ]
+      },
+      {
+        "name": "After Garo Upside Down Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/After Garo Upside Down Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 305,
+            "y": 496
+          }
+        ]
+      },
+      {
+        "name": "Eyegore Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Stone Tower Temple/Eyegore Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 305,
+            "y": 590
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Inverted Stone Tower Temple",
+    "children": [
+      {
+        "name": "Entrance Room Sun Face Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Entrance Room Sun Face Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 1103,
+            "y": 848
+          }
+        ]
+      },
+      {
+        "name": "Eastern Air Gust Room Fire Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Fire Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 1337,
+            "y": 1518
+          }
+        ]
+      },
+      {
+        "name": "Eastern Air Gust Room Ice Eye Switch Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Ice Eye Switch Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 1337,
+            "y": 649
+          }
+        ]
+      },
+      {
+        "name": "Eastern Air Gust Room Hall Floor Switch Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Eastern Air Gust Room Hall Floor Switch Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 1337,
+            "y": 759
+          }
+        ]
+      },
+      {
+        "name": "Wizzrobe Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Wizzrobe Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 811,
+            "y": 1396
+          }
+        ]
+      },
+      {
+        "name": "Death Armos Maze Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Death Armos Maze Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 846,
+            "y": 781
+          }
+        ]
+      },
+      {
+        "name": "Gomess Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Gomess Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 1664,
+            "y": 650
+          }
+        ]
+      },
+      {
+        "name": "Eyegore Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Eyegore Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 1103,
+            "y": 692
+          }
+        ]
+      },
+      {
+        "name": "Boss Room",
+        "sections": [
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Heart Container"
+          },
+          {
+            "ref": "Dungeons/Inverted Stone Tower Temple/Twinmold's Remains"
+          },
+          {
+            "ref": "Dungeons/Any Boss/Oath to Order"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "stone_tower_temple",
+            "x": 1099,
+            "y": 255
+          }
+        ]
+      }
+    ]
+  }
+]

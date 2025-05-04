@@ -1,0 +1,26 @@
+{
+  "vertical_collectibles_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "3,1",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "v_alignment": "center",
+        "item_margin": "1,1",
+        "rows": [
+          [
+            "fairy_ct",
+            "fairy_wf",
+            "fairy_sh",
+            "fairy_gb",
+            "fairy_st",
+            "skull_ss",
+            "skull_gb"
+          ]
+        ]
+      }
+    ]
+  }
+}

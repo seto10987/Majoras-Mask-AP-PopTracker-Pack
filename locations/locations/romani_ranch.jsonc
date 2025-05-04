@@ -1,0 +1,169 @@
+[
+  {
+    "name": "Romani Ranch",
+    "chest_unopened_img": "images/icons/chest.png",
+    "chest_opened_img": "images/icons/check_32.png",
+    "children": [
+      {
+        "name": "Tingle Milk Road",
+        "visibility_rules": [
+          "shuffle_regional_maps_vanilla",
+          "shuffle_regional_maps_anywhere"
+        ],
+        "sections": [
+          {
+            "name": "Romani Ranch Map Purchase",
+            "chest_unopened_img": "images/equipment/rmap_romani.png",
+            "access_rules": [
+              "easy_logic, $baby_has_projectiles",
+              "normal_logic, $has_projectiles"
+            ]
+          },
+          {
+            "name": "Great Bay Map Purchase",
+            "chest_unopened_img": "images/equipment/rmap_greatbay.png",
+            "access_rules": [
+              "easy_logic, $baby_has_projectiles",
+              "normal_logic, $has_projectiles"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 450,
+            "y": 371
+          }
+        ]
+      },
+      {
+        "name": "Gorman Track",
+        "sections": [
+          {
+            "name": "Race",
+            "chest_unopened_img": "images/icons/carrot.png",
+            "access_rules": ["$can_play_eponas"]
+          },
+          {
+            "name": "Purchase",
+            "chest_unopened_img": "images/characters/gorman_brothers.png",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 470,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Cucco Shack",
+        "sections": [
+          {
+            "name": "Bremen Mask March Baby Cuccos",
+            "chest_unopened_img": "images/characters/grog.png",
+            "access_rules": ["bremenmask"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 349,
+            "y": 352
+          }
+        ]
+      },
+      {
+        "name": "Mamamu Yan's Doggy Racetrack",
+        "sections": [
+          {
+            "name": "Rooftop Chest",
+            "access_rules": [
+              "easy_logic, hookshot, zora, $baby_can_plant_beans",
+              "normal_logic, hookshot",
+              "normal_logic, $can_plant_beans",
+              "normal_logic, zora"
+            ]
+          },
+          {
+            "name": "Dog Race",
+            "chest_unopened_img": "images/icons/dog.png",
+            "access_rules": [
+              "easy_logic, giantswallet, truth",
+              "normal_logic, truth"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 329,
+            "y": 369
+          }
+        ]
+      },
+      {
+        "name": "Romani Ranch Barn",
+        "sections": [
+          {
+            "name": "Free Cow",
+            "chest_unopened_img": "images/icons/cow.png",
+            "visibility_rules": ["cowsanity"],
+            "access_rules": ["$can_use_powder_keg, $can_play_eponas"]
+          },
+          {
+            "name": "Stables Front Cow",
+            "chest_unopened_img": "images/icons/cow.png",
+            "visibility_rules": ["cowsanity"],
+            "access_rules": ["$can_use_powder_keg, $can_play_eponas"]
+          },
+          {
+            "name": "Stables Back Cow",
+            "chest_unopened_img": "images/icons/cow.png",
+            "visibility_rules": ["cowsanity"],
+            "access_rules": ["$can_use_powder_keg, $can_play_eponas"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 397,
+            "y": 342
+          }
+        ]
+      },
+      {
+        "name": "Romani Ranch Outside",
+        "sections": [
+          {
+            "name": "Romani Game",
+            "access_rules": ["$can_use_powder_keg, bow"],
+            "chest_unopened_img": "images/characters/romani.png"
+          },
+          {
+            "name": "Defended Against Aliens",
+            "access_rules": ["$can_use_powder_keg, bow"],
+            "chest_unopened_img": "images/characters/romani.png"
+          },
+          {
+            "name": "Helping Cremia",
+            "chest_unopened_img": "images/characters/cremia.png",
+            "access_rules": ["$can_use_powder_keg, bow"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 391,
+            "y": 350
+          }
+        ]
+      }
+    ]
+  }
+]

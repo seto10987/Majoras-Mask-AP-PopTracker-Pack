@@ -254,7 +254,8 @@
             "name": "Orange Door Upper Chest",
             "access_rules": [
               "easy_logic, hookshot, $can_use_fire_arrows",
-              "normal_logic, $has|smallkey_sh|1, hookshot, $can_use_fire_arrows"
+              "normal_logic, $has|smallkey_sh|1, $can_use_fire_arrows",
+              "normal_logic, hookshot"
             ]
           },
           {

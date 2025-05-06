@@ -246,7 +246,7 @@
             "access_rules": [
               "easy_logic, fairymask, $baby_has_explosives",
               "normal_logic, $has|smallkey_sh|1, fairymask, $has_explosives",
-              "normal_logic, $has|smallkey_sh|1, hookshot, @Snowhead Temple/Initial Runway Tower Bubble SF"
+              "normal_logic, hookshot, @Snowhead Temple/Initial Runway Tower Bubble SF"
             ]
             //"visibility_rules": ["fairysanity"]
           },

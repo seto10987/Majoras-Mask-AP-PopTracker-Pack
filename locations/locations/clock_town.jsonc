@@ -857,8 +857,8 @@
             "chest_unopened_img": "images/items/half_milk_bottle.png",
             "access_rules": [
               "easy_logic, @Southern Swamp/Southern Swamp Witch Shop/Item 1, $baby_can_get_cow_milk",
-              "normal_logic, maskofscents, $has|bottles|1",
-              "normal_logic, $can_get_cow_milk"
+              "normal_logic, $has|bottles|1, maskofscents",
+              "normal_logic, $has|bottles|1, $can_get_cow_milk"
             ]
           },
           {

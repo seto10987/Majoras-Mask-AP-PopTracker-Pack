@@ -809,7 +809,7 @@
           },
           {
             "name": "Item 3 (Stop Thief)",
-            "access_rules": ["@North Clock Town Save Old Lady/North Clock Town Save Old Lady (Night 1 - 12 AM)"],
+            "access_rules": ["@Clock Town/North Clock Town Save Old Lady/North Clock Town Save Old Lady (Night 1 - 12 AM)"],
             "visibility_rules": [
               "shopsanity_enabled",
               "shopsanity_advanced"
@@ -855,6 +855,7 @@
           {
             "name": "Blue Rupee Trade (Half Milk)",
             "chest_unopened_img": "images/items/half_milk_bottle.png",
+            "visibility_rules": ["shopsanity_advanced"],
             "access_rules": [
               "easy_logic, @Southern Swamp/Southern Swamp Witch Shop/Item 1, $baby_can_get_cow_milk",
               "normal_logic, $has|bottles|1, maskofscents",
@@ -864,6 +865,7 @@
           {
             "name": "Red Rupee Trade (Fish, Bug, Fairy, Milk, Potions, Water, Zora Egg)",
             "chest_unopened_img": "images/items/fish.png",
+            "visibility_rules": ["shopsanity_advanced"],
             "access_rules": [
               "easy_logic, $baby_has_bottle",
               "normal_logic, $has|bottles|1"
@@ -872,6 +874,7 @@
           {
             "name": "Purple Rupee Trade (Poe)",
             "chest_unopened_img": "images/items/poe.png",
+            "visibility_rules": ["shopsanity_advanced"],
             "access_rules": [
               "easy_logic, $baby_has_bottle, @Dungeons/Inverted Stone Tower Temple/Death Armos Maze Chest",
               "normal_logic, $has|bottles|1, @Dungeons/Inverted Stone Tower Temple/Death Armos Maze Chest"
@@ -880,6 +883,7 @@
           {
             "name": "Gold Rupee Trade (Big Poe, Chateau, Gold Dust)",
             "chest_unopened_img": "images/items/chateau_romani.png",
+            "visibility_rules": ["shopsanity_advanced"],
             "access_rules": [
               "easy_logic, $baby_has_bottle, @Ikana/Graveyard/Day 3 Dampe Big Poe Chest, @Dungeons/Beneath the Well/Rightside Torch Chest, bombs",
               "normal_logic, $has|bottles|1, @Ikana/Graveyard/Day 3 Dampe Big Poe Chest",

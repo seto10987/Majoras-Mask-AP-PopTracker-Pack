@@ -1,4 +1,17 @@
 ---@diagnostic disable: redundant-parameter, lowercase-global, undefined-field, need-check-nil
+-- Can reach specific locations (there's probably a better way to do this)
+function canReachHealingInvisibleGoron()
+    return can_use_lens() and can_play_healing()
+end
+
+function canReachIkanaWellInvisibleChest()
+    return has("gibdo") and has("bottles", 1) and (has("adultswallet") or has("maskofscents"))
+end
+
+function canReachHotWaterGrottoChest()
+    return (has_explosives() and can_use_fire_arrows()) or (canReachHealingInvisibleGoron() and has("bottles", 1) and has("goron") and has_explosives) or clear_snowhead() or (canReachIkanaWellInvisibleChest() and can_play_soaring())
+end
+
 -- Songs
 function can_play_healing() -- was "play_healing"
     return has("healing") and has("ocarina")
@@ -66,7 +79,7 @@ function has_paper()
 end
 
 function can_get_cow_milk()
-    return has("bottles", 1) and can_play_eponas() and (has_explosives() or can_use_powder_keg() or has("hookshot") or (has("gibdo") and has("bottles",1) and (can_plant_beans() or can_use_light_arrows()) and (((has("maskofscents") or has("adultswallet")) and has("zora")) or (mountain_village() and can_play_soaring() and ((can_use_lens() and can_play_healing() and has("goron")) or can_use_fire_arrows())))))
+    return has("bottles", 1) and can_play_eponas() and (has_explosives() or can_use_powder_keg() or has("hookshot") or (has("gibdo") and has("bottles",1) and can_plant_beans() and canReachHealingInvisibleGoron() or can_use_light_arrows() and (canReachHotWaterGrottoChest() or (has("goron") and canReachHealingInvisibleGoron()) or canReachIkanaWellInvisibleChest())))
 end
 
 function can_plant_beans() -- was "plant_beans"
@@ -148,7 +161,7 @@ function baby_can_reach_seahorse()
 end
 
 function baby_can_get_cow_milk()
-    return baby_has_bottle() and can_play_eponas() and baby_has_explosives() and can_use_powder_keg() and has("hookshot") and has("gibdo") and baby_can_plant_beans() and can_use_light_arrows() and has("maskofscents") and has("zora")
+    return baby_has_bottle() and can_play_eponas() and baby_has_explosives() and can_use_powder_keg() and has("hookshot") and has("gibdo") and baby_can_plant_beans() and can_use_light_arrows() and canReachHotWaterGrottoChest() and has("goron") and canReachHealingInvisibleGoron() and canReachIkanaWellInvisibleChest()
 end
 
 

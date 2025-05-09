@@ -233,8 +233,7 @@ LOCATION_MAPPING = {
     [0x3469420000099] = {"@Snowhead/Goron Village/Deku Trade","@Snowhead Hints/Goron Village Hints/Deku Trade (Hint)"},
     [0x3469420054D1E] = {"@Snowhead/Goron Village/Deku Trade Freestanding HP","@Snowhead Hints/Goron Village Hints/Deku Trade Freestanding HP (Hint)"},
     [0x3469420000034] = {"@Snowhead/Goron Village/Powder Keg Goron Reward","@Snowhead Hints/Goron Village Hints/Powder Keg Goron Reward (Hint)"},
-    --[0x346942005481E] = {"@Snowhead/Goron Village/Deku Trade Freestanding HP (Spring)","@Snowhead Hints/Goron Village Hints/Deku Trade Freestanding HP (Spring) (Hint)"},
-    --↑ Currently disabled in apworld
+    [0x346942005481E] = {"@Snowhead/Goron Village/Deku Trade Freestanding HP (Spring)","@Snowhead Hints/Goron Village Hints/Deku Trade Freestanding HP (Spring) (Hint)"},
     [0x3469420060713] = {"@Snowhead/Path to Snowhead/Grotto Chest","Snowhead Hints/Path to Snowhead Hints/Grotto Chest (Hint)"},
     [0x3469420055B08] = {"@Snowhead/Path to Snowhead/Scarecrow Pillar HP","Snowhead Hints/Path to Snowhead Hints/Scarecrow Pillar HP (Hint)"},
     [0x3469420030002] = {"@Snowhead/Snowhead/Snowhead Great Fairy Reward","@Snowhead Hints/Snowhead Hints/Snowhead Great Fairy Reward (Hint)"},

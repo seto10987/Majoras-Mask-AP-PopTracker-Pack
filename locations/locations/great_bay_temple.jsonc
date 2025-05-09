@@ -216,7 +216,7 @@
         "name": "Green Pipe Freezable Waterwheel Upper Chest",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Room Behind Waterfall Ceiling Chest"
+            "ref": "Dungeons/Great Bay Temple/Green Pipe Freezable Waterwheel Upper Chest"
           }
         ],
         "map_locations": [
@@ -231,7 +231,7 @@
         "name": "Green Pipe Freezable Waterwheel Lower Chest",
         "sections": [
           {
-            "ref": "Dungeons/Great Bay Temple/Room Behind Waterfall Ceiling Chest"
+            "ref": "Dungeons/Great Bay Temple/Green Pipe Freezable Waterwheel Lower Chest"
           }
         ],
         "map_locations": [

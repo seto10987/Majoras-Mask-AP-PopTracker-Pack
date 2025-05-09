@@ -1,0 +1,241 @@
+[
+  {
+    "name": "Ikana",
+    "chest_unopened_img": "images/icons/chest.png",
+    "chest_opened_img": "images/icons/check_32.png",
+    "children": [
+      {
+        "name": "Road to Ikana Pillar Chest",
+        "sections": [
+          {
+            "name": "Road to Ikana Pillar Chest",
+            "access_rules": ["hookshot"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 620,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Road to Ikana Rock Grotto Chest",
+        "sections": [
+          {
+            "name": "Road to Ikana Rock Grotto Chest",
+            "access_rules": ["goron"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 647,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Road to Ikana Stone Soldier",
+        "sections": [
+          {
+            "name": "Road to Ikana Stone Soldier",
+            "chest_unopened_img": "images/characters/shiro.png",
+            "access_rules": [
+              "easy_logic, $can_play_eponas, $baby_has_bottle, $can_use_lens",
+              "normal_logic, $can_play_eponas, redpotion, $can_use_lens"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 681,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Graveyard",
+        "access_rules": ["$graveyard"],
+        "sections": [
+          {
+            "name": "Bombable Grotto Chest",
+            "access_rules": [
+              "easy_logic, $baby_has_explosives",
+              "normal_logic, $has_explosives"
+            ]
+          },
+          {
+            "name": "Day 1 Bats Chest",
+            "access_rules": [
+              "easy_logic, captainhat, $baby_can_smack_hard, magic",
+              "normal_logic, captainhat, $can_smack"
+            ]
+          },
+          {
+            "name": "Day 1 Iron Knuckle Song",
+            "chest_unopened_img": "images/equipment/song_storms_no_text.png",
+            "access_rules": [
+              "easy_logic, captainhat, $baby_can_smack_hard, $can_use_fire_arrows",
+              "normal_logic, captainhat, $can_smack_hard"
+            ]
+          },
+          {
+            "name": "Day 2 Dampe Bats",
+            "access_rules": [
+              "easy_logic, $baby_has_projectiles, $baby_can_smack, $baby_has_explosives",
+              "normal_logic, $has_projectiles"
+            ]
+          },
+          {
+            "name": "Day 2 Iron Knuckle Chest",
+            "access_rules": [
+              "easy_logic, captainhat, $baby_can_smack_hard, $baby_has_explosives, $can_use_lens",
+              "normal_logic, captainhat, $can_smack_hard, $has_explosives"
+            ]
+          },
+          {
+            "name": "Day 3 Dampe Big Poe Chest",
+            "access_rules": [
+              "easy_logic, captainhat, bow",
+              "normal_logic, captainhat, bow",
+              "normal_logic, captainhat, zora"
+            ]
+          },
+          {
+            "name": "Sonata To Wake Sleeping Skeleton Chest",
+            "access_rules": [
+              "easy_logic, $can_play_sonata, $baby_can_smack_hard, bow",
+              "normal_logic, $can_play_sonata, $can_smack_hard"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 685,
+            "y": 257
+          }
+        ]
+      },
+      {
+        "name": "Ikana Canyon",
+        "access_rules": [
+          "easy_logic, $baby_ikana_canyon",
+          "normal_logic, $ikana_canyon"
+        ],
+        "sections": [
+          {
+            "name": "Grotto Chest",
+            "access_rules": [""]
+          },
+          {
+            "name": "Zora Scrub Trade",
+            "chest_unopened_img": "images/characters/scrub_merchant.png",
+            "access_rules": [
+              "easy_logic, $can_use_ice_arrows, hookshot, gibdo, garo, zora, oceandeed",
+              "normal_logic, zora, oceandeed"
+            ]
+          },
+          {
+            "name": "Deku Scrub Purchase Blue Potion",
+            "chest_unopened_img": "images/characters/scrub_merchant.png",
+            "visibility_rules": ["scrubsanity"],
+            "access_rules": [
+              "easy_logic, zora, $baby_has_bottle, adultswallet",
+              "normal_logic, zora, $has|bottles|1, adultswallet"
+            ]
+          },
+          {
+            "name": "Zora Trade Freestanding HP",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
+            "access_rules": ["deku, zora, oceandeed"]
+          },
+          {
+            "ref": "Clock Town/Tingle Clock Town/Clock Town Map Purchase"
+          },
+          {
+            "name": "Stone Tower Map Purchase",
+            "chest_unopened_img": "images/equipment/rmap_stonetower.png",
+            //"visibility_rules": [
+            //  "shuffle_regional_maps_vanilla",
+            //  "shuffle_regional_maps_anywhere"
+            //],
+            "access_rules": [
+              "easy_logic, $can_use_ice_arrows, $baby_has_projectiles, $great_bay",
+              "normal_logic, $has_projectiles, $great_bay"
+            ]
+          },
+          {
+            "name": "Music Box Mummy",
+            "chest_unopened_img": "images/masks/gibdo.png",
+            "access_rules": [
+              "easy_logic, $can_use_ice_arrows, $can_play_healing, $can_play_storms, $baby_has_explosives, stonemask",
+              "normal_logic, $can_use_ice_arrows, $can_play_healing, $can_play_storms"
+            ]
+          },
+          {
+            "name": "Spirit House",
+            "access_rules": [
+              "easy_logic, $can_use_ice_arrows, $baby_has_projectiles, shield, $baby_can_smack",
+              "normal_logic, $can_use_ice_arrows, bow",
+              "normal_logic, $can_use_ice_arrows, hookshot"
+            ]
+          },
+          {
+            "name": "Stone Tower Great Fairy Reward",
+            "chest_unopened_img": "images/equipment/fairy_st.png",
+            //"visibility_rules": ["shuffle_great_fairy_rewards"],
+            "access_rules": ["$can_use_ice_arrows, $has|fairy_st|15"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 847,
+            "y": 251
+          }
+        ]
+      },
+      {
+        "name": "Inverted Stone Tower",
+        "access_rules": [
+          "easy_logic, $baby_inverted_stone_tower",
+          "normal_logic, $inverted_stone_tower"
+        ],
+        "sections": [
+          {
+            "name": "Outside Left Chest",
+            "access_rules": [
+              "easy_logic, $baby_can_plant_beans",
+              "normal_logic, $can_plant_beans"
+            ]
+          },
+          {
+            "name": "Outside Middle Chest",
+            "access_rules": [
+              "easy_logic, $baby_can_plant_beans",
+              "normal_logic, $can_plant_beans"
+            ]
+          },
+          {
+            "name": "Outside Right Chest",
+            "access_rules": [
+              "easy_logic, $baby_can_plant_beans",
+              "normal_logic, $can_plant_beans"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 946,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  }
+]

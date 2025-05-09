@@ -1,0 +1,243 @@
+[
+  {
+    "name": "Great Bay",
+    "chest_unopened_img": "images/icons/chest.png",
+    "chest_opened_img": "images/icons/check_32.png",
+    "access_rules": ["$great_bay"],
+    "children": [
+      {
+        "name": "Great Bay Coast",
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 236,
+            "y": 323
+          }
+        ],
+        "sections": [
+          {
+            "name": "Healing Zora",
+            "chest_unopened_img": "images/masks/zora.png",
+            "access_rules": ["$can_play_healing"]
+          },
+          {
+            "name": "Behind Fisherman's Hut Grotto Chest",
+            "access_rules": [""]
+          },
+          {
+            "ref": "Romani Ranch/Tingle Milk Road/Great Bay Map Purchase"
+          },
+          {
+            "ref": "Ikana/Ikana Canyon/Stone Tower Map Purchase"
+          },
+          {
+            "name": "Marine Research Lab Zora Egg Delivery Song",
+            "chest_unopened_img": "images/equipment/song_bossa_nova_no_text.png",
+            "access_rules": [
+              "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, $baby_has_hard_projectiles, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest",
+              "normal_logic, $can_reach_seahorse, $has|bottles|3, @Dungeons/Pirates' Fortress/Pirates' Fortress Leader's Room Chest"
+            ]
+          },
+          {
+            "name": "Marine Research Lab Feeding Fish",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
+            "access_rules": [
+              "easy_logic, $baby_has_bottle, zora",
+              "normal_logic, $has|bottles|1"
+            ]
+          },
+          {
+            "name": "Ledge Grotto Left Cow",
+            "chest_unopened_img": "images/icons/cow.png",
+            "visibility_rules": ["cowsanity"],
+            "access_rules": ["hookshot, $can_play_eponas"]
+          },
+          {
+            "name": "Ledge Grotto Right Cow",
+            "chest_unopened_img": "images/icons/cow.png",
+            "visibility_rules": ["cowsanity"],
+            "access_rules": ["hookshot, $can_play_eponas"]
+          },
+          {
+            "name": "Scarecrow Ledge HP",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
+            "access_rules": [
+              "easy_logic, hookshot, $baby_can_plant_beans",
+              "normal_logic, hookshot, $can_plant_beans"
+            ]
+          },
+          {
+            "name": "Great Bay (Cleared) Fisherman Island Game HP",
+            "chest_unopened_img": "images/icons/torch.png",
+            "access_rules": [
+              "easy_logic, $baby_clear_greatbay",
+              "normal_logic, $clear_greatbay"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zora Cape",
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 294,
+            "y": 393
+          }
+        ],
+        "sections": [
+          {
+            "name": "Underwater Like-Like HP",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
+            "access_rules": [
+              "easy_logic, zora, magic, bow",
+              "normal_logic, zora"
+            ]
+          },
+          {
+            "name": "Underwater Chest",
+            "access_rules": ["zora"]
+          },
+          {
+            "name": "Pot Game Silver Rupee",
+            "chest_unopened_img": "images/characters/zora.png",
+            "access_rules": ["zora"]
+          },
+          {
+            "name": "Upper Chest",
+            "access_rules": ["hookshot"]
+          },
+          {
+            "name": "Tree Chest",
+            "access_rules": ["hookshot, deku"]
+          },
+          {
+            "name": "Near Great Fairy Grotto Chest",
+            "access_rules": [
+              "easy_logic, goron, $baby_has_explosives",
+              "normal_logic, goron",
+              "normal_logic, $has_explosives"
+            ]
+          },
+          {
+            "name": "Great Bay Great Fairy Reward",
+            "chest_unopened_img": "images/equipment/fairy_gb.png",
+            //"visibility_rules": ["shuffle_great_fairy_rewards"],
+            "access_rules": ["$has|fairy_gb|15, hookshot"]
+          },
+          {
+            "name": "Beaver Bros. Race Bottle Reward",
+            "access_rules": ["hookshot, zora"]
+          },
+          {
+            "name": "Beaver Bros. Race HP",
+            "access_rules": ["hookshot, zora"]
+          }
+        ]
+      },
+      {
+        "name": "Zora Hall",
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 215,
+            "y": 394
+          }
+        ],
+        "sections": [
+          {
+            "name": "Shop 1",
+            "chest_unopened_img": "images/characters/zora_shop.png",
+            "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
+            "access_rules": ["zora"]
+          },
+          {
+            "name": "Shop 2",
+            "chest_unopened_img": "images/characters/zora_shop.png",
+            "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
+            "access_rules": ["zora"]
+          },
+          {
+            "name": "Shop 3",
+            "chest_unopened_img": "images/characters/zora_shop.png",
+            "visibility_rules": ["shopsanity_enabled", "shopsanity_advanced"],
+            "access_rules": ["zora"]
+          },
+          {
+            "name": "Deku Scrub Purchase Green Potion",
+            "chest_unopened_img": "images/characters/scrub_merchant.png",
+            "visibility_rules": ["scrubsanity"],
+            "access_rules": [
+              "easy_logic, zora, $baby_has_bottle",
+              "normal_logic, zora, $has|bottles|1"
+            ]
+          },
+          {
+            "name": "Goron Scrub Trade",
+            "chest_unopened_img": "images/characters/scrub_merchant.png",
+            "access_rules": ["zora, mountaindeed, goron"]
+          },
+          {
+            "name": "Goron Scrub Trade Freestanding HP",
+            "chest_unopened_img": "images/characters/scrub_merchant.png",
+            "access_rules": ["deku, zora, mountaindeed, goron"]
+          },
+          {
+            "name": "Piano Zora Song",
+            "chest_unopened_img": "images/characters/zora_piano.png",
+            "access_rules": ["zora, ocarina"]
+          },
+          {
+            "name": "Torches Reward",
+            "chest_unopened_img": "images/icons/torch.png",
+            "access_rules": ["$can_use_fire_arrows"]
+          },
+          {
+            "name": "Good Picture of Lulu",
+            "chest_unopened_img": "images/characters/zora.png",
+            "access_rules": ["zora, pictobox"]
+          },
+          {
+            "name": "Bad Picture of Lulu",
+            "chest_unopened_img": "images/characters/zora.png",
+            "access_rules": ["zora, pictobox"]
+          }
+        ]
+      },
+      {
+        "name": "Pinnacle Rock",
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 145,
+            "y": 300
+          }
+        ],
+        "sections": [
+          {
+            "name": "Heart Piece",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
+            "access_rules": [
+              "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle",
+              "normal_logic, $can_reach_seahorse, $has|bottles|1, zora"
+            ]
+          },
+          {
+            "name": "Upper Eel Chest",
+            "access_rules": [
+              "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, zora",
+              "normal_logic, $can_reach_seahorse, $has|bottles|1, zora"
+            ]
+          },
+          {
+            "name": "Lower Eel Chest",
+            "access_rules": [
+              "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, zora",
+              "normal_logic, $can_reach_seahorse, $has|bottles|1, zora"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

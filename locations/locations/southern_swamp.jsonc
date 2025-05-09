@@ -1,0 +1,397 @@
+[
+  {
+    "name": "Southern Swamp",
+    "chest_unopened_img": "images/icons/chest.png",
+    "chest_opened_img": "images/icons/check_32.png",
+    "children": [
+      {
+        "name": "Road to Swamp Tree HP",
+        "sections": [
+          {
+            "name": "Road to Swamp Tree HP",
+              "chest_unopened_img": "images/equipment/heart_piece.png",
+            "access_rules": [
+              "easy_logic, $baby_has_projectiles",
+              "normal_logic, $has_projectiles"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 537,
+            "y": 389
+          }
+        ]
+      },
+
+      {
+        "name": "Road to Swamp Grotto Chest",
+        "sections": [
+          {
+            "name": "Road to Swamp Grotto Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 525,
+            "y": 389
+          }
+        ]
+      },
+      {
+        "name": "Swamp Shooting Gallery",
+        "access_rules": ["bow"],
+        "chest_unopened_img": "images/icons/archery.png",
+        "chest_opened_img": "images/icons/archery_grey.png",
+        "sections": [
+          {
+            "name": "Swamp Shooting Gallery 2120 Points"
+          },
+          {
+            "name": "Swamp Shooting Gallery 2180 Points"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 571,
+            "y": 390
+          }
+        ]
+      },
+      {
+        "name": "Tingle Southern Swamp",
+        //"visibility_rules": [
+        //  "shuffle_regional_maps_vanilla",
+        //  "shuffle_regional_maps_anywhere"
+        //],
+        "sections": [
+          {
+            "name": "Woodfall Map Purchase",
+            "chest_unopened_img": "images/equipment/rmap_woodfall.png",
+            "access_rules": [
+              "easy_logic, $baby_has_projectiles",
+              "normal_logic, $has_projectiles"
+            ]
+          },
+          {
+            "name": "Snowhead Map Purchase",
+            "chest_unopened_img": "images/equipment/rmap_snowhead.png",
+            "access_rules": [
+              "easy_logic, $baby_has_projectiles",
+              "normal_logic, $has_projectiles"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 545,
+            "y": 419
+          }
+        ]
+      },
+      {
+        "name": "Swamp Business Scrub",
+        "sections": [
+          {
+            "name": "Southern Swamp Deku Trade",
+            "chest_unopened_img": "images/characters/scrub_merchant.png",
+            "access_rules": ["landdeed"]
+          },
+          {
+            "name": "Southern Swamp Deku Scrub Purchase Beans",
+            "chest_unopened_img": "images/characters/scrub_merchant.png",
+            "visibility_rules": ["scrubsanity"],
+            "access_rules": [
+              "easy_logic, deku, $can_plant_beans",
+              "normal_logic, deku, $can_plant_beans",
+              "normal_logic, landdeed, moontear, can_plant_beans"
+            ]
+          },
+          {
+            "name": "Southern Swamp Deku Trade Freestanding HP",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
+            "access_rules": ["deku, landdeed"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 565,
+            "y": 438
+          }
+        ]
+      },
+      {
+        "name": "Swamp Tourist Center",
+        "sections": [
+          {
+            "name": "Southern Swamp Tour Witch Gift",
+            "chest_unopened_img": "images/items/pictobox.png",
+            "access_rules": ["redpotion"]
+          },
+          {
+            "name": "Tour Witch Target Shooting",
+            "chest_unopened_img": "images/icons/archery.png",
+            "chest_opened_img": "images/icons/archery_grey.png",
+            "access_rules": [
+              "easy_logic, $baby_clear_woodfall, redpotion, chateau, bow",
+              "normal_logic, $clear_woodfall, $has|bottles|1, bow"
+            ]
+          },
+          {
+            "name": "Tour Guide Winning Picture",
+            "chest_unopened_img": "images/items/pictobox.png",
+            "access_rules": [
+              "easy_logic, $baby_deku_palace, pictobox",
+              "normal_logic, pictobox"
+            ]
+          },
+          {
+            "name": "Tour Guide Good Picture",
+            "chest_unopened_img": "images/items/pictobox.png",
+            "access_rules": [
+              "easy_logic, $baby_deku_palace, pictobox",
+              "normal_logic, pictobox"
+            ]
+          },
+          {
+            "name": "Tour Guide Okay Picture",
+            "chest_unopened_img": "images/items/pictobox.png",
+            "access_rules": [
+              "easy_logic, $baby_deku_palace, pictobox",
+              "normal_logic, pictobox"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 553,
+            "y": 438
+          }
+        ]
+      },
+      {
+        "name": "Southern Swamp Healthy Witch Request",
+        "sections": [
+          {
+            "name": "Southern Swamp Healthy Witch Request",
+            "chest_unopened_img": "images/items/red_potion.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 645,
+            "y": 423
+          }
+        ]
+      },
+      {
+        "name": "Southern Swamp Witch Shop",
+        "sections": [
+          {
+            "name": "Item 1",
+            "chest_unopened_img": "images/items/red_potion.png",
+            "access_rules": ["maskofscents, $has|bottles|1"],
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
+          },
+          {
+            "name": "Item 2",
+            "chest_unopened_img": "images/items/green_potion.png",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
+          },
+          {
+            "name": "Item 3",
+            "chest_unopened_img": "images/items/blue_potion.png",
+            "visibility_rules": [
+              "shopsanity_enabled",
+              "shopsanity_advanced"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 580,
+            "y": 454
+          }
+        ]
+      },
+      {
+        "name": "Southern Swamp Mystery Woods Grotto Chest",
+        "sections": [
+          {
+            "name": "Southern Swamp Mystery Woods Grotto Chest (Day 2)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 650,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Deku Palace Monkey Song",
+        "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
+        "sections": [
+          {
+            "name": "Deku Palace Monkey Song",
+              "chest_unopened_img": "images/equipment/song_sonata_no_text.png",
+            "access_rules": [
+              "easy_logic, ocarina, $baby_can_plant_beans, deku, $baby_has_projectiles",
+              "normal_logic, ocarina, $can_plant_beans, deku"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 497,
+            "y": 555
+          }
+        ]
+      },
+      {
+        "name": "Deku Palace HP",
+        "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
+        "sections": [
+          {
+            "name": "Deku Palace HP",
+              "chest_unopened_img": "images/equipment/heart_piece.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 514,
+            "y": 558
+          }
+        ]
+      },
+      {
+        "name": "Deku Palace Bean Grotto",
+        "access_rules": ["easy_logic, $baby_deku_palace", "normal_logic, $deku_palace"],
+        "sections": [
+          {
+            "name": "Deku Palace Bean Grotto Chest",
+            "access_rules": [
+              "easy_logic, $baby_can_plant_beans, hookshot",
+              "normal_logic, $can_plant_beans",
+              "normal_logic, hookshot"
+            ]
+          },
+          {
+            "name": "Deku Palace Bean Seller",
+            "chest_unopened_img": "images/characters/bean_seller.png",
+            "access_rules": ["deku"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 481,
+            "y": 537
+          }
+        ]
+      },
+      {
+        "name": "Southern Swamp Song Tablet",
+        "access_rules": ["easy_logic, $baby_south_swamp", "normal_logic, $south_swamp"],
+        "sections": [
+          {
+            "name": "Southern Swamp Song Tablet",
+              "chest_unopened_img": "images/equipment/song_soaring_no_text.png",
+            "access_rules": ["deku"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 534,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Southern Swamp Near Swamphouse Grotto Chest",
+        "access_rules": ["easy_logic, $baby_south_swamp", "normal_logic, $south_swamp"],
+        "sections": [
+          {
+            "name": "Southern Swamp Near Swamphouse Grotto Chest",
+            "access_rules": ["deku"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 482,
+            "y": 506
+          }
+        ]
+      },
+      {
+        "name": "Woodfall",
+        "access_rules": ["easy_logic, $baby_woodfall", "normal_logic, $woodfall"],
+        "sections": [
+          {
+            "name": "Woodfall Near Owl Statue Chest"
+          },
+          {
+            "name": "Woodfall After Great Fairy Cave Chest"
+          },
+          {
+            "name": "Woodfall Near Swamp Entrance Chest"
+          },
+          {
+            "name": "Woodfall Great Fairy Reward",
+            "chest_unopened_img": "images/equipment/fairy_wf.png",
+            "access_rules": ["$has|fairy_wf|15"]
+            //"visibility_rules": ["shuffle_great_fairy_rewards"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 542,
+            "y": 466
+          }
+        ]
+      },
+      {
+        "name": "Deku Shrine",
+        "sections": [
+          {
+            "name": "Deku Palace Butler Race",
+            "chest_unopened_img": "images/characters/butler.png",
+            "access_rules": [
+              "easy_logic, $baby_clear_woodfall, $baby_has_bottle",
+              "normal_logic, $clear_woodfall, $has|bottles|1, sword",
+              "normal_logic, $clear_woodfall, $has|bottles|1, fairysword",
+              "normal_logic, $clear_woodfall, $has|bottles|1, fiercedeity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 526,
+            "y": 556
+          }
+        ]
+      }
+    ]      
+  }
+]

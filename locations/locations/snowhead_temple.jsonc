@@ -1,0 +1,358 @@
+[
+  {
+    "name": "Snowhead Temple",
+    "children": [
+      {
+        "name": "Initial Runway Ice Blowers Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Initial Runway Ice Blowers Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 484,
+            "y": 402
+          }
+        ]
+      },
+      {
+        "name": "Initial Runway Under Platform Bubble SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Initial Runway Under Platform Bubble SF"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 582,
+            "y": 247
+          }
+        ]
+      },
+      {
+        "name": "Initial Runway Tower Bubble SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Initial Runway Tower Bubble SF"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 571,
+            "y": 368
+          }
+        ]
+      },
+      {
+        "name": "Light Blue Door Center Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Light Blue Door Center Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 166,
+            "y": 428
+          }
+        ]
+      },
+      {
+        "name": "Light Blue Door Upper Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Light Blue Door Upper Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 270,
+            "y": 512
+          }
+        ]
+      },
+      {
+        "name": "Light Blue Door Near Bombable Stairs Box SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Light Blue Door Near Bombable Stairs Box SF"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 94,
+            "y": 441
+          }
+        ]
+      },
+      {
+        "name": "Orange Door Upper Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Orange Door Upper Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 158,
+            "y": 259
+          }
+        ]
+      },
+      {
+        "name": "Orange Door Behind Block Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Orange Door Behind Block Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 217,
+            "y": 383
+          }
+        ]
+      },
+      {
+        "name": "Green Door Ice Blowers Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Green Door Ice Blowers Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 190,
+            "y": 20
+          }
+        ]
+      },
+      {
+        "name": "Bottom Floor Switch Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Bottom Floor Switch Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 479,
+            "y": 1073
+          }
+        ]
+      },
+      {
+        "name": "Column Room 2F Hidden Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Column Room 2F Hidden Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 947,
+            "y": 153
+          }
+        ]
+      },
+      {
+        "name": "Elevator Room Lower Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Elevator Room Lower Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 1290,
+            "y": 220
+          }
+        ]
+      },
+      {
+        "name": "Elevator Room Invisible Platform Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Elevator Room Invisible Platform Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 1251,
+            "y": 199
+          }
+        ]
+      },
+      {
+        "name": "Elevator Freestanding SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Elevator Freestanding SF"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 1208,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Upstairs 2F Icicle Room Snowball Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Upstairs 2F Icicle Room Snowball Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 812,
+            "y": 364
+          }
+        ]
+      },
+      {
+        "name": "Upstairs 2F Icicle Room Hidden Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Upstairs 2F Icicle Room Hidden Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 872,
+            "y": 498
+          }
+        ]
+      },
+      {
+        "name": "Timed Switch Room Bubble SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Timed Switch Room Bubble SF"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 1011,
+            "y": 473
+          }
+        ]
+      },
+      {
+        "name": "1st Wizzrobe Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/1st Wizzrobe Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 845,
+            "y": 258
+          }
+        ]
+      },
+      {
+        "name": "Snowmen Bubble SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Snowmen Bubble SF"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 785,
+            "y": 818
+          }
+        ]
+      },
+      {
+        "name": "Dinolfos Room First SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Dinolfos Room First SF"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 877,
+            "y": 1093
+          }
+        ]
+      },
+      {
+        "name": "Dinolfos Room Second SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Dinolfos Room Second SF"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 815,
+            "y": 1138
+          }
+        ]
+      },
+      {
+        "name": "2nd Wizzrobe Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/2nd Wizzrobe Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 1163,
+            "y": 1008
+          }
+        ]
+      },
+      {
+        "name": "Goht",
+        "sections": [
+          {
+            "ref": "Dungeons/Snowhead Temple/Heart Container"
+          },
+          {
+            "ref": "Dungeons/Snowhead Temple/Goht's Remains"
+          },
+          {
+            "ref": "Dungeons/Any Boss/Oath to Order"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowhead_temple",
+            "x": 1052,
+            "y": 1004
+          }
+        ]
+      }
+    ]
+  }
+]

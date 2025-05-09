@@ -1,0 +1,349 @@
+[
+  {
+    "name": "Woodfall Temple",
+    "children": [
+      {
+        "name": "Entrance Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Entrance Chest"
+          }
+    
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 826,
+            "y": 1100
+          }
+        ]
+      },
+      {
+        "name": "Wooden Flower Switch Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Wooden Flower Switch Chest"
+          }
+    
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 724,
+            "y": 816
+          }
+        ]
+      },
+      {
+        "name": "Moving Flower Platform Room Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Moving Flower Platform Room Chest"
+          }
+    
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 965,
+            "y": 607
+          }
+        ]
+      },
+      {
+        "name": "Gagwab Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Gagwab Chest"
+          }
+    
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 1149,
+            "y": 734
+          }
+        ]
+      },
+      {
+        "name": "Dinolfos Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Dinolfos Chest"
+          }
+    
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 966,
+            "y": 1018
+          }
+        ]
+      },
+      {
+        "name": "Boss Key Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Boss Key Chest"
+          }
+    
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 966,
+            "y": 351
+          }
+        ]
+      },
+      {
+        "name": "Dragonfly Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Dragonfly Chest"
+          }
+    
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 507,
+            "y": 973
+          }
+        ]
+      },
+      {
+        "name": "Black Boe Room Chest",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Black Boe Room Chest"
+          }
+    
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 69,
+            "y": 291
+          }
+        ]
+      },
+      {
+        "name": "Entrance Freestanding SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Entrance Freestanding SF"
+          }
+    
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 701,
+            "y": 1123
+          }
+        ]
+      },
+      {
+        "name": "Wooden Flower Deku Baba SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Wooden Flower Deku Baba SF"
+          }
+    
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 592,
+            "y": 755
+          }
+        ]
+      },
+      {
+        "name": "Wooden Flower Bubble SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Wooden Flower Bubble SF"
+          }
+    
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 680,
+            "y": 609
+          }
+        ]
+      },
+      {
+        "name": "Wooden Flower Pot SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Wooden Flower Pot SF"
+          }
+    
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 854,
+            "y": 867
+          }
+        ]
+      },
+      {
+        "name": "Moving Flower Platform Room Beehive SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Moving Flower Platform Room Beehive SF"
+          }
+    
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 904,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "Push Block Skulltula SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Push Block Skulltula SF"
+          }
+    
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 442,
+            "y": 601
+          }
+        ]
+      },
+      {
+        "name": "Push Block Bubble SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Push Block Bubble SF"
+          }
+    
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 508,
+            "y": 736
+          }
+        ]
+      },
+      {
+        "name": "Push Block Beehive SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Push Block Beehive SF"
+          }
+    
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 304,
+            "y": 712
+          }
+        ]
+      },
+      {
+        "name": "Final Room Right Upper Platform SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Final Room Right Upper Platform SF"
+          }
+    
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 773,
+            "y": 569
+          }
+        ]
+      },
+      {
+        "name": "Final Room Right Lower Platform SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Final Room Right Lower Platform SF"
+          }
+    
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 835,
+            "y": 540
+          }
+        ]
+      },
+      {
+        "name": "Final Room Left Upper Platform SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Final Room Left Upper Platform SF"
+          }
+    
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 582,
+            "y": 483
+          }
+        ]
+      },
+      {
+        "name": "Final Room Bubble SF",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Final Room Bubble SF"
+          }
+    
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 681,
+            "y": 414
+          }
+        ]
+      },
+      {
+        "name": "Odolwa",
+        "sections": [
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Heart Container"
+          },
+          {
+            "ref": "Dungeons/Woodfall Temple/Woodfall Temple Odolwa's Remains"
+          },
+          {
+            "ref": "Dungeons/Any Boss/Oath to Order"
+          }
+    
+        ],
+        "map_locations": [
+          {
+            "map": "woodfall_temple",
+            "x": 722,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+﻿{
+  "map_tabs": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Overworld",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Termina",
+              "content": {
+                "type": "map",
+                "maps": ["overworld"]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Dungeons",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Woodfall Temple",
+              "content": {
+                "type": "map",
+                "maps": ["woodfall_temple"]
+              }
+            },
+            {
+              "title": "Snowhead Temple",
+              "content": {
+                "type": "map",
+                "maps": ["snowhead_temple"]
+              }
+            },
+            {
+              "title": "Great Bay Temple",
+              "content": {
+                "type": "map",
+                "maps": ["great_bay_temple"]
+              }
+            },
+            {
+              "title": "Stone Tower Temple",
+              "content": {
+                "type": "map",
+                "maps": ["stone_tower_temple"]
+              }
+            },
+            {
+              "title": "Swamp Spider House",
+              "content": {
+                "type": "map",
+                "maps": ["swamp_spider_house"]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

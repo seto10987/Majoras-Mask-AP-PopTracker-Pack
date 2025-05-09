@@ -1,0 +1,388 @@
+//Create items to display them in pack settings. Codes are used in /layouts/settings.jsonc for linking.
+[
+  //Game Options
+  {
+    "name": "Logic Difficulty",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "codes": "logic_difficulty",
+    "stages": [
+      {
+        "name": "Easy Logic",
+        "img": "images/pack_settings/easy.png",
+        "codes": "easy_logic",
+        "inherit_codes": false
+      },
+      {
+        "name": "Normal Logic",
+        "img": "images/pack_settings/normal.png",
+        "codes": "normal_logic",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Remains for Moon",
+    "type": "consumable",
+    "img": "images/pack_settings/remains_for_moon.png",
+    "codes": "moon_remains_required",
+    "min_quantity": 1,
+    "max_quantity": 4,
+    "initial_quantity": 4,
+    "overlay_font_size": 40
+  },
+  {
+    "name": "Remains for Majora",
+    "type": "consumable",
+    "img": "images/pack_settings/remains_for_majora.png",
+    "codes": "majora_remains_required",
+    "min_quantity": 1,
+    "max_quantity": 4,
+    "initial_quantity": 4,
+    "overlay_font_size": 40
+  },
+  {
+    "name": "Boss Warps With Remains",
+    "type": "toggle",
+    "img": "images/pack_settings/boss_warps_with_remains_on.png",
+    "disabled_img": "images/pack_settings/boss_warps_with_remains_off.png",
+    "disabled_img_mods": "none",
+    "codes": "boss_warps_with_remains"
+  },
+
+  //Shuffles
+  {
+    "name": "Swordless",
+    "type": "toggle",
+    "img": "images/pack_settings/shuffles/shuffle_kokiri_sword_on.png",
+    "disabled_img": "images/pack_settings/shuffles/shuffle_kokiri_sword_off.png",
+    "codes": "swordless"
+  },
+  {
+    "name": "Shieldless",
+    "type": "toggle",
+    "img": "images/pack_settings/shuffles/shuffle_hero_shield_on.png",
+    "disabled_img": "images/pack_settings/shuffles/shuffle_hero_shield_off.png",
+    "codes": "shieldless"
+  },
+  {
+    "name": "Shuffle Regional Maps",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "codes": "shuffle_regional_maps",
+    "stages": [
+      {
+        "name": "Vanilla",
+        "img": "images/pack_settings/shuffles/shuffle_regional_maps_vanilla.png",
+        "codes": "shuffle_regional_maps_vanilla",
+        "inherit_codes": false
+      },
+      {
+        "name": "Starting",
+        "img": "images/pack_settings/shuffles/shuffle_regional_maps_starting.png",
+        "codes": "shuffle_regional_maps_starting",
+        "inherit_codes": false
+      },
+      {
+        "name": "Anywhere",
+        "img": "images/pack_settings/shuffles/shuffle_regional_maps_anywhere.png",
+        "codes": "shuffle_regional_maps_anywhere",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Shuffle Boss Remains",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "codes": "shuffle_boss_remains",
+    "stages": [
+      {
+        "name": "Vanilla",
+        "img": "images/pack_settings/shuffles/shuffle_boss_remains_vanilla.png",
+        "codes": "shuffle_boss_remains_vanilla",
+        "inherit_codes": false
+      },
+      {
+        "name": "Anywhere",
+        "img": "images/pack_settings/shuffles/shuffle_boss_remains_anywhere.png",
+        "codes": "shuffle_boss_remains_anywhere",
+        "inherit_codes": false
+      },
+      {
+        "name": "Bosses",
+        "img": "images/pack_settings/shuffles/shuffle_boss_remains_bosses.png",
+        "codes": "shuffle_boss_remains_bosses",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Shuffle Spiderhouse Reward",
+    "type": "toggle",
+    "img": "images/pack_settings/shuffles/shuffle_spiderhouse_reward_on.png",
+    "disabled_img": "images/pack_settings/shuffles/shuffle_spiderhouse_reward_off.png",
+    "codes": "shuffle_spiderhouse_reward"
+  },
+  {
+    "name": "Shuffle Great Fairy Rewards",
+    "type": "toggle",
+    "img": "images/pack_settings/shuffles/shuffle_great_fairy_rewards_on.png",
+    "disabled_img": "images/pack_settings/shuffles/shuffle_great_fairy_rewards_off.png",
+    "codes": "shuffle_great_fairy_rewards"
+  },
+
+  //Sanities
+  {
+    "name": "Skullsanity",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "codes": "skullsanity",
+    "stages": [
+      {
+        "name": "Vanilla",
+        "img": "images/pack_settings/sanities/skullsanity_vanilla.png",
+        "codes": "skullsanity_0",
+        "inherit_codes": false
+      },
+      {
+        "name": "Anything",
+        "img": "images/pack_settings/sanities/skullsanity_anything.png",
+        "codes": "skullsanity_1",
+        "inherit_codes": false
+      },
+      {
+        "name": "Ignore",
+        "img": "images/pack_settings/sanities/skullsanity_ignore.png",
+        "img_mods": "@disabled",
+        "codes": "skullsanity_2",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Shopsanity",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "codes": "shopsanity",
+    "stages": [
+      {
+        "name": "Vanilla",
+        "img": "images/pack_settings/sanities/shopsanity_vanilla.png",
+        "codes": "shopsanity_vanilla",
+        "inherit_codes": false
+      },
+      {
+        "name": "Anything",
+        "img": "images/pack_settings/sanities/shopsanity_enabled.png",
+        "codes": "shopsanity_enabled",
+        "inherit_codes": false
+      },
+      {
+        "name": "Ignore",
+        "img": "images/pack_settings/sanities/shopsanity_advanced.png",
+        "codes": "shopsanity_advanced",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Scrubsanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/scrubsanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/scrubsanity_off.png",
+    "codes": "scrubsanity"
+  },
+  {
+    "name": "Cowsanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/cowsanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/cowsanity_off.png",
+    "codes": "cowsanity"
+  },
+  {
+    "name": "Fairysanity",
+    "type": "toggle",
+    "img": "images/pack_settings/sanities/fairysanity_on.png",
+    "disabled_img": "images/pack_settings/sanities/fairysanity_off.png",
+    "codes": "fairysanity"
+  },
+
+  //Inventory
+  {
+    "name": "Start with Song of Soaring",
+    "type": "toggle",
+    "img": "images/pack_settings/inventory/start_with_soaring_on.png",
+    "disabled_img": "images/pack_settings/inventory/start_with_soaring_off.png",
+    "codes": "start_with_soaring"
+  },
+  {
+    "name": "Starting heart quarters",
+    "type": "consumable",
+    "img": "images/pack_settings/inventory/starting_heart_quarters.png",
+    "allow_disabled": false,
+    "codes": "starting_hearts",
+    "min_quantity": 4,
+    "max_quantity": 12,
+    "initial_quantity": 12,
+    "overlay_font_size": 40
+  },
+  {
+    "name": "Starting hearts are containers or pieces",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "codes": "starting_hearts_containers_or_pieces",
+    "stages": [
+      {
+        "name": "Containers",
+        "img": "images/pack_settings/shuffles/starting_heart_containers_or_pieces_containers.png",
+        "codes": "starting_hearts_containers_or_pieces_containers",
+        "inherit_codes": false
+      },
+      {
+        "name": "Pieces",
+        "img": "images/pack_settings/shuffles/starting_heart_containers_or_pieces_pieces.png",
+        "codes": "starting_hearts_containers_or_pieces_pieces",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Start with consumables",
+    "type": "toggle",
+    "img": "images/pack_settings/inventory/start_with_consumables_on.png",
+    "disabled_img": "images/pack_settings/inventory/start_with_consumables_off.png",
+    "initial_active_state": true,
+    "codes": "start_with_consumables"
+  },
+  {
+    "name": "Permanent Chateau Romani",
+    "type": "toggle",
+    "img": "images/pack_settings/inventory/permanent_chateau_romani_on.png",
+    "disabled_img": "images/pack_settings/inventory/permanent_chateau_romani_off.png",
+    "initial_active_state": true,
+    "codes": "permanent_chateau_romani"
+  },
+  {
+    "name": "Start with inverted time",
+    "type": "toggle",
+    "img": "images/pack_settings/inventory/start_with_inverted_time_on.png",
+    "disabled_img": "images/pack_settings/inventory/start_with_inverted_time_off.png",
+    "disabled_img_mods": "none",
+    "initial_active_state": false,
+    "codes": "start_with_inverted_time"
+  },
+  {
+    "name": "Receive filled wallets",
+    "type": "toggle",
+    "img": "images/pack_settings/inventory/receive_filled_wallets_on.png",
+    "disabled_img": "images/pack_settings/inventory/receive_filled_wallets_off.png",
+    //"disabled_img_mods": "none",
+    "initial_active_state": true,
+    "codes": "receive_filled_wallets"
+  },
+
+  //Miscellaneous
+  {
+    "name": "Chest Appearance Matches Content",
+    "type": "toggle",
+    "img": "images/pack_settings/miscellaneous/camc_on.png",
+    "disabled_img": "images/pack_settings/miscellaneous/camc_off.png",
+    "disabled_img_mods": "none",
+    "initial_active_state": true,
+    "codes": "camc"
+  },
+  {
+    "name": "Magic is a Trap",
+    "type": "toggle",
+    "img": "images/pack_settings/miscellaneous/magic_is_a_trap_on.png",
+    "disabled_img": "images/pack_settings/miscellaneous/magic_is_a_trap_off.png",
+    "disabled_img_mods": "none",
+    "initial_active_state": true,
+    "codes": "magic_is_a_trap"
+  },
+  {
+    "name": "Damage Multiplier",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "codes": "damage_multiplier",
+    "stages": [
+      {
+        "name": "Half",
+        "img": "images/pack_settings/miscellaneous/dmg_mult_half.png",
+        "codes": "dmg_mult_half",
+        "inherit_codes": false
+      },
+      {
+        "name": "Normal",
+        "img": "images/pack_settings/miscellaneous/dmg_mult_normal.png",
+        "codes": "dmg_mult_normal",
+        "inherit_codes": false
+      },
+      {
+        "name": "Double",
+        "img": "images/pack_settings/miscellaneous/dmg_mult_double.png",
+        "codes": "dmg_mult_double",
+        "inherit_codes": false
+      },
+      {
+        "name": "Quadruple",
+        "img": "images/pack_settings/miscellaneous/dmg_mult_quad.png",
+        "codes": "dmg_mult_quad",
+        "inherit_codes": false
+      },
+      {
+        "name": "One-Hit KO",
+        "img": "images/pack_settings/miscellaneous/dmg_mult_ohko.png",
+        "codes": "dmg_mult_ohko",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Death Behavior",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "codes": "death_behavior",
+    "stages": [
+      {
+        "name": "Vanilla",
+        "img": "images/pack_settings/miscellaneous/death_behavior_vanilla.png",
+        "codes": "death_behavior_vanilla",
+        "inherit_codes": false
+      },
+      {
+        "name": "Fast",
+        "img": "images/pack_settings/miscellaneous/death_behavior_fast.png",
+        "codes": "death_behavior_fast",
+        "inherit_codes": false
+      },
+      {
+        "name": "Instant",
+        "img": "images/pack_settings/miscellaneous/death_behavior_instant.png",
+        "codes": "death_behavior_instant",
+        "inherit_codes": false
+      },
+      {
+        "name": "Moon Crash",
+        "img": "images/pack_settings/miscellaneous/death_behavior_moon_crash.png",
+        "codes": "death_behavior_moon_crash",
+        "inherit_codes": false
+      }
+    ]
+  }
+]
